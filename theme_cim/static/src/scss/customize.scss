@@ -1,0 +1,30 @@
+body{
+    background: rgb(6,56,80);
+    background: radial-gradient(circle at center,rgba(51,129,168,1) 0, rgba(6,56,80,1) 100%);
+    font-family:$font-cairo;
+    color:#ffffff;
+}
+
+a{
+    color:#ffffff;
+}
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6{
+     font-family:$font-cairo;
+     font-weight:bold;
+}
+
+.color-blue-4{
+    color:$color-blue-4!important;
+}
+
+.fa.rounded-circle, .fa.rounded-empty-circle, .fa.rounded, .fa.rounded-0, .fa.rounded-leaf, .fa.img-thumbnail, .fa.shadow {
+    width: 26px;
+    height: 26px;
+    line-height: 26px;
+    background-color: #ffffff;
+}
+
+.navbar{
+    font-family:$font-cairo;
+}

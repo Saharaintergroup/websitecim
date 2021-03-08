@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+
+        Hide Copyright
+        <template id="footer_no_copyright" inherit_id="website.layout" name="Footer No Copyright">
+            <xpath expr="//div[hasclass('o_footer_copyright')]" position="before">
+                <t t-set="no_copyright" t-value="True"/>
+            </xpath>
+        </template>
+
+        <!-- Footer templates -->
+        <template id="footer_custom" inherit_id="website.layout" name="Footer Cim" active="True">
+            <xpath expr="//div[@id='footer']" position="replace">
+                <div id="footer" class="oe_structure oe_structure_solo oe_footer_east" t-ignore="true"
+                     t-if="not no_footer">
+                    <section class="s_text_block pt30 pb30" data-snippet="s_text_block" data-name="Text">
+                        <div class="container">
+                            <div class="row justify-content-between">
+                                <div class="col-md-6">
+                                    <div class="o_logo_cim d-flex">
+                                        <img src="/theme_cim/static/src/images/logo.png"/>
+                                        <div class="o_solgon">
+                                            <h4>Public Communications Authority</h4>
+                                            <h6>General Authority For Communication And Informatics</h6>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-auto">
+                                    <div class="menu_footer">
+                                        <a href="/aboutus">About us</a>
+                                        <a href="/contactus">Contact us</a>
+                                    </div>
+                                    <div class="s_share_cim text-right d-flex align-items-center"
+                                         data-name="Social Media">
+                                        <h5 class="s_share_title mr10">Our networking sites :</h5>
+                                        <a href="/website/social/twitter" class="s_share_twitter" target="_blank">
+                                            <i class="fa fa-twitter rounded-circle shadow-sm"/>
+                                        </a>
+                                        <a href="/website/social/facebook" class="s_share_facebook" target="_blank">
+                                            <i class="fa fa-facebook rounded-circle shadow-sm"/>
+                                        </a>
+                                        <a href="/website/social/youtube" class="s_share_youtube" target="_blank">
+                                            <i class="fa fa-youtube rounded-circle shadow-sm"/>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <section class="footer_copyright pt10 pb10">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-auto">
+                                    <div class="menu_copyright d-flex">
+                                        <a href="/dataprivacy">Data privacy</a>
+                                        <a href="/useagreement">Use Agreement</a>
+                                    </div>
+                                </div>
+
+                                <div class="col-md-8 text-center">
+                                    All rights reserved to the Public Authority for Communications and Informatics 2011-
+                                    <span t-esc="datetime.datetime.now().strftime('%Y')"/>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </xpath>
+        </template>
+
+        <template name="footer snippets option" id="footer_snippets_option" inherit_id="website.snippet_options">
+            <xpath expr="//we-select[@data-variable='footer-template']/we-button[@data-customize-website-views='website.footer_custom']"
+                   position="before">
+                <we-button title="Cim Footer"
+                           data-name="footer_custom_cim"
+                           data-customize-website-views="theme_cim.footer_custom"
+                           data-customize-website-variable="'cim'"
+                           data-img="/theme_cim/static/src/img/snippets_options/header_template_cim.svg"/>
+            </xpath>
+        </template>
+
+
+    </data>
+</odoo>

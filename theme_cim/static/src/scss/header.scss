@@ -1,0 +1,101 @@
+.o_header_affixed{
+    background-color:$color-blue-1!important;
+}
+header{
+    color:#ffffff;
+    font-size:15px;
+    &:not(.o_header_affixed){
+        .shadow-sm{
+            box-shadow:none!important;
+        }
+    }
+    &.o_header_affixed.o_header_is_scrolled .header-top {
+        display: none!important;
+    }
+    .navbar {
+        padding-top:0;
+        padding-bottom:0;
+            padding-bottom: 6px;
+        .nav-link{
+            color:#ffffff!important;
+            &:hover{
+                color:#ffffff!important;
+            }
+        }
+    }
+    .nav-right{
+        ul{
+            margin-bottom:0;
+            list-style:none;
+            .nav-item.dropdown{
+                .dropdown-toggle.nav-link{
+                    span{
+                        @media(max-width:767.98px){
+                            display:none;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .time{
+        margin:0 10px;
+    }
+
+    .dropdown{
+        a{
+            color:#ffffff!important;
+            a:hover{
+                color:#ffffff!important;
+            }
+        }
+            &.show{
+                a {
+                   background-color:$color-blue-2;
+                   color:#ffffff!important;
+                }
+            }
+    }
+
+
+    .dropdown-menu{
+        margin:0;
+        background-color:$color-blue-2;
+        font-size:13px;
+        padding: 0;
+        border: 0;
+        border-radius:0;
+        .dropdown-item{
+            @include transition-05;
+            color:#ffffff!important;
+            padding: 8px 10px;
+        }
+        .dropdown-item.active, .dropdown-item:active,.dropdown-item:hover{
+            background-color:$color-blue-5;
+        }
+    }
+}
+
+.header-top{
+    border-bottom:2px solid;
+}
+
+.o_lang_flag{
+    display:none;
+}
+.navbar .o_menu_loading .nav-item{
+    height: auto !important;
+    overflow: visible !important;
+    opacity: 1 !important;
+}
+
+body:not(.o_connected_user){
+    .o_add_language {
+        display:none!important;
+    }
+}
+.navbar-toggler{
+    outline:0;
+    font-size:24px;
+    color:#ffffff;
+}

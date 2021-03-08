@@ -1,0 +1,56 @@
+
+/* FONT */
+$font-cairo:'Cairo', sans-serif;
+
+/* COLOR */
+$color-blue-1:#003048;
+$color-blue-2:#4A93B8;
+$color-blue-3:#3184af;
+$color-blue-4:#3381A8;
+$color-blue-5:#165A7D;
+
+
+
+/* PADDING + MARGING */
+@for $i from 1 through 20 {
+    $val: 10 * $i;
+    .pt#{$val}{
+        padding-top:#{$val}px!important;
+    }
+    .pb#{$val}{
+        padding-bottom:#{$val}px!important;
+    }
+    .pl#{$val}{
+        padding-left:#{$val}px!important;
+    }
+    .pr#{$val}{
+        padding-right:#{$val}px!important;
+    }
+    .mt#{$val}{
+        margin-top:#{$val}px!important;
+    }
+    .mb#{$val}{
+        margin-bottom:#{$val}px!important;
+    }
+    .ml#{$val}{
+        margin-left:#{$val}px!important;
+    }
+    .mr#{$val}{
+        margin-right:#{$val}px!important;
+    }
+}
+
+/*  transition  */
+@mixin transition-03 {
+    -webkit-transition: all 0.3s ease 0s!important;
+    -moz-transition: all 0.3s ease 0s!important;
+    -o-transition: all 0.3s ease 0s!important;
+    transition: all 0.3s ease 0s!important;
+}
+
+@mixin transition-05 {
+    -webkit-transition: all 0.5s ease 0s;
+    -moz-transition: all 0.5s ease 0s;
+    -o-transition: all 0.5s ease 0s;
+    transition: all 0.5s ease 0s;
+}

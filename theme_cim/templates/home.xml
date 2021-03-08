@@ -1,0 +1,316 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<odoo>
+    <data>
+
+        <!-- === Home Page === -->
+        <template id="theme_cim.new_homepage" inherit_id="website.homepage">
+            <xpath expr="//div[@id='wrap']" position="replace">
+                <div id="wrap" class="oe_structure">
+
+                    <section class="o_carousel_news">
+                        <div id="my-carousel" class="carousel slide carousel-fade" data-ride="carousel"
+                             data-interval="false">
+<!--                            <ol class="carousel-indicators">-->
+<!--                                <li data-target="#my-carousel" data-slide-to="0" class="active"></li>-->
+<!--                                <li data-target="#my-carousel" data-slide-to="1"></li>-->
+<!--                                <li data-target="#my-carousel" data-slide-to="2"></li>-->
+<!--                            </ol>-->
+                            <div class="carousel-inner">
+                                <div class="carousel-item active"
+                                     style="background-image: url('/theme_cim/static/src/images/slide.png');">
+                                    <div class="content_item">
+                                        <div class="container">
+                                            <div class="col-xl-7 col-lg-8 col-md-9 col-sm-10 col-11">
+                                                <h1 class="mb20 slideOutUp">News</h1>
+                                                <p>Libya News Newspaper interviews Mr. Amjad
+                                                    Al-Cherabee, Director of Projects Administration, and Mr. Najmi
+                                                    Tate,
+                                                    Director
+                                                    of Strategy, Planning and Follow-up Department
+                                                    In the Public Authority for Communications and Informatics
+                                                </p>
+                                                <a href="#" class="btn btn-primary mt10">Read more</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="carousel-item"
+                                     style="background-image: url('/theme_cim/static/src/images/slide2.jpg');">
+                                    <div class="content_item">
+                                        <div class="container ">
+                                            <div class="col-xl-7 col-lg-8 col-md-9 col-sm-10 col-11">
+                                                <h1 class="mb20 slideOutUp">News</h1>
+                                                <p>Libya News Newspaper interviews Mr. Amjad
+                                                    Al-Cherabee, Director of Projects Administration, and Mr. Najmi
+                                                    Tate,
+                                                    Director
+                                                    of Strategy, Planning and Follow-up Department
+                                                    In the Public Authority for Communications and Informatics
+                                                </p>
+                                                <a href="#" class="btn btn-primary mt10">Read more</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="carousel-item"
+                                     style="background-image: url('/theme_cim/static/src/images/slide.png');">
+                                    <div class="content_item">
+                                        <div class="container">
+                                            <div class="col-xl-7 col-lg-8 col-md-9 col-sm-10 col-11">
+                                                <h1 class="mb20 slideOutUp">News</h1>
+                                                <p>Libya News Newspaper interviews Mr. Amjad
+                                                    Al-Cherabee, Director of Projects Administration, and Mr. Najmi
+                                                    Tate,
+                                                    Director
+                                                    of Strategy, Planning and Follow-up Department
+                                                    In the Public Authority for Communications and Informatics
+                                                </p>
+                                                <a href="#" class="btn btn-primary mt10">Read more</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <a class="carousel-control-prev" href="#my-carousel" role="button" data-slide="prev">
+                                <span class="fa fa-chevron-left"/>
+                                <span class="sr-only">Previous</span>
+                            </a>
+                            <a class="carousel-control-next" href="#my-carousel" role="button" data-slide="next">
+                                <span class="fa fa-chevron-right"/>
+                                <span class="sr-only">Next</span>
+                            </a>
+                        </div>
+                    </section>
+
+                    <div class="acme-news-ticker">
+                        <div class="container">
+                            <div class="acme-news-ticker-box d-flex align-items-center">
+                                <div class="acme-news-ticker-label">News</div>
+                                <ul class="my-news-ticker d-flex align-items-center">
+                                    <li>
+                                        <a href="#">Continuation of the sterilization and prevention campaign in the
+                                            building of the Public Authority for Communications and Information
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Continuation of the sterilization and prevention campaign in the
+                                            building of the Public Authority for Communications and Information
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Continuation of the sterilization and prevention campaign in the
+                                            building of the Public Authority for Communications and Information
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Continuation of the sterilization and prevention campaign in the
+                                            building of the Public Authority for Communications and Information
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Continuation of the sterilization and prevention campaign in the
+                                            building of the Public Authority for Communications and Information
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Continuation of the sterilization and prevention campaign in the
+                                            building of the Public Authority for Communications and Information
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--== Our business ==-->
+                    <section id="o_our_business" class="pt70 pb70">
+                        <div class="container">
+                            <h3 class="mb30 hr_title_horizontal">Our business</h3>
+                            <div class="row">
+                                <div class="col-12 col-sm-6 col-lg-3 mt20 mb10">
+                                    <a href="#"
+                                       class="box_style_1 text-center d-flex align-items-center justify-content-center">
+                                        <div>
+                                            <img src="/theme_cim/static/src/images/business/organization_of_communications.png"
+                                                 class="mb20"/>
+                                            <h5 class="mb10">Organization of communications</h5>
+                                            <p>Le Lorem Ipsum est simplement du faux texte employé dans la composition
+                                                et la
+                                                mise en page avant impression
+                                            </p>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="col-12 col-sm-6 col-lg-3 mt20 mb10">
+                                    <a href="#"
+                                       class="box_style_1 text-center d-flex align-items-center justify-content-center">
+                                        <div>
+                                            <img src="/theme_cim/static/src/images/business/electronic_government.png"
+                                                 class="mb20"/>
+                                            <h5 class="mb10">The electronic government</h5>
+                                            <p>Le Lorem Ipsum est simplement du faux texte employé dans la composition
+                                                et la
+                                                mise en page avant impression
+                                            </p>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="col-12 col-sm-6 col-lg-3 mt20 mb10">
+                                    <a href="#"
+                                       class="box_style_1 text-center d-flex align-items-center justify-content-center">
+                                        <div>
+                                            <img src="/theme_cim/static/src/images/business/sector_development.png"
+                                                 class="mb20"/>
+                                            <h5 class="mb10">Sector development</h5>
+                                            <p>Le Lorem Ipsum est simplement du faux texte employé dans la composition
+                                                et la
+                                                mise en page avant impression
+                                            </p>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="col-12 col-sm-6 col-lg-3 mt20 mb10">
+                                    <a href="#"
+                                       class="box_style_1 text-center d-flex align-items-center justify-content-center">
+                                        <div>
+                                            <img src="/theme_cim/static/src/images/business/cybersecurity.png"
+                                                 class="mb20"/>
+                                            <h5 class="mb10">Cybersecurity</h5>
+                                            <p>Le Lorem Ipsum est simplement du faux texte employé dans la composition
+                                                et la
+                                                mise en page avant impression
+                                            </p>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+
+                    <!--== Statistics ==-->
+                    <section id="o_our_business" class="bg-white pt40 pb40">
+                        <div class="container">
+                            <h3 class="mb20 hr_title_horizontal color-blue-4">Statistics</h3>
+                            <div class="row skill-part">
+                                <div class="col-md-6 col-lg-3 skill-item mt10">
+                                    <div class="first circle pl10 pr10" data-skill-level="92">
+                                        <h6></h6>
+                                        <span class="sk-name">I'm waiting</span>
+                                        <p>Csir Citation Yallamco Laboraas Nessi Yut Alekseob Xia Commodo Consecioat
+                                            Dewasuty Ariri Dollar In Reprihendereat Folyoptate Fillet Ice Essence
+                                            Killlyum Dollar
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 col-lg-3 skill-item mt10">
+                                    <div class="second circle pl10 pr10" data-skill-level="80">
+                                        <h6></h6>
+                                        <span class="sk-name">I'm waiting</span>
+                                        <p>Csir Citation Yallamco Laboraas Nessi Yut Alekseob Xia Commodo Consecioat
+                                            Dewasuty Ariri Dollar In Reprihendereat Folyoptate Fillet Ice Essence
+                                            Killlyum Dollar
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 col-lg-3 skill-item mt10">
+                                    <div class="third circle pl10 pr10" data-skill-level="70">
+                                        <h6></h6>
+                                        <span class="sk-name">I'm waiting</span>
+                                        <p>Csir Citation Yallamco Laboraas Nessi Yut Alekseob Xia Commodo Consecioat
+                                            Dewasuty Ariri Dollar In Reprihendereat Folyoptate Fillet Ice Essence
+                                            Killlyum Dollar
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 col-lg-3 skill-item mt10">
+                                    <div class="fourth circle pl10 pr10" data-skill-level="90">
+                                        <h6></h6>
+                                        <span class="sk-name">I'm waiting</span>
+                                        <p>Csir Citation Yallamco Laboraas Nessi Yut Alekseob Xia Commodo Consecioat
+                                            Dewasuty Ariri Dollar In Reprihendereat Folyoptate Fillet Ice Essence
+                                            Killlyum Dollar
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+
+
+                    <!--== Our services ==-->
+                    <section id="o_our_services" class="pt40 pb40">
+                        <div class="container">
+                            <h3 class="mb30 hr_title_horizontal">Our services</h3>
+                            <div class="row">
+                                <div class="col-12 col-sm-6 col-lg-3 mt20 mb10 pl30 pr30">
+                                    <a href="#"
+                                       class="box_style_1 text-center d-flex align-items-center justify-content-center">
+                                        <h5 class="mb10">Pay bills</h5>
+                                    </a>
+                                </div>
+                                <div class="col-12 col-sm-6 col-lg-3 mt20 mb10 pl30 pr30">
+                                    <a href=""
+                                       class="box_style_1 text-center d-flex align-items-center justify-content-center">
+                                        <h5 class="mb10">Pay bills</h5>
+                                    </a>
+                                </div>
+                                <div class="col-12 col-sm-6 col-lg-3 mt20 mb10 pl30 pr30">
+                                    <a href=""
+                                       class="box_style_1 text-center d-flex align-items-center justify-content-center">
+                                        <h5 class="mb10">Pay bills</h5>
+                                    </a>
+                                </div>
+                                <div class="col-12 col-sm-6 col-lg-3 mt20 mb10 pl30 pr30">
+                                    <a href=""
+                                       class="box_style_1 text-center d-flex align-items-center justify-content-center">
+                                        <h5 class="mb10">Pay bills</h5>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+
+
+                    <section id="o_our_partners" class="bg-white pt40 pb40">
+                        <div class="container">
+                            <h3 class="mb30 hr_title_vertical color-blue-4">Our partners</h3>
+                            <div class="carousel-partners owl-carousel owl-theme">
+                                <div class="item">
+                                    <img src="/theme_cim/static/src/images/partners/logo-1.png" alt=""/>
+                                </div>
+                                <div class="item">
+                                    <img src="/theme_cim/static/src/images/partners/logo-2.png" alt=""/>
+                                </div>
+                                <div class="item">
+                                    <img src="/theme_cim/static/src/images/partners/logo-3.png" alt=""/>
+                                </div>
+                                <div class="item">
+                                    <img src="/theme_cim/static/src/images/partners/logo-4.png" alt=""/>
+                                </div>
+                                <div class="item">
+                                    <img src="/theme_cim/static/src/images/partners/logo-5.png" alt=""/>
+                                </div>
+                                <div class="item">
+                                    <img src="/theme_cim/static/src/images/partners/logo-6.png" alt=""/>
+                                </div>
+                                <div class="item">
+                                    <img src="/theme_cim/static/src/images/partners/logo-7.png" alt=""/>
+                                </div>
+                                <div class="item">
+                                    <img src="/theme_cim/static/src/images/partners/logo-8.png" alt=""/>
+                                </div>
+                                <div class="item">
+                                    <img src="/theme_cim/static/src/images/partners/logo-9.png" alt=""/>
+                                </div>
+                                <div class="item">
+                                    <img src="/theme_cim/static/src/images/partners/logo-10.png" alt=""/>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </xpath>
+        </template>
+
+    </data>
+</odoo>

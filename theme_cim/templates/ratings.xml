@@ -1,0 +1,35 @@
+<?xml version="1.0" ?>
+<odoo>
+    <data>
+        <record id="ratings" model="ir.ui.view">
+            <field name="name">Ratings</field>
+            <field name="type">qweb</field>
+            <field name="key">theme_cim.ratings</field>
+            <field name="arch" type="xml">
+                <t name="Ratings" t-name="theme_cim.ratings">
+                    <t t-call="website.layout">
+                        <div id="wrap">
+                            <div class="container">
+                                <h1>Ratings</h1>
+
+                            </div>
+                            <div class="oe_structure"/>
+                        </div>
+                    </t>
+                </t>
+            </field>
+        </record>
+        <record id="ratings_page" model="website.page">
+            <field name="url">/ratings</field>
+            <field name="website_published">True</field>
+            <field name="view_id" ref="ratings"/>
+        </record>
+        <record id="menu_ratings" model="website.menu">
+            <field name="name">Ratings</field>
+            <field name="url">/ratings</field>
+            <field name="page_id" ref="theme_cim.ratings_page"/>
+            <field name="parent_id" ref="website.main_menu"/>
+            <field name="sequence" type="int">91</field>
+        </record>
+    </data>
+</odoo>

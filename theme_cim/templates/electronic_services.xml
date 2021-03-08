@@ -1,0 +1,49 @@
+<?xml version="1.0" ?>
+<odoo>
+    <data>
+        <record id="electronic_services" model="ir.ui.view">
+            <field name="name">Electronic services</field>
+            <field name="type">qweb</field>
+            <field name="key">theme_cim.electronic_services</field>
+            <field name="arch" type="xml">
+                <t name="Electronic services" t-name="theme_cim.electronic_services">
+                    <t t-call="website.layout">
+                        <div id="wrap">
+                            <div class="container">
+                                <h3 class="mb30 hr_title_horizontal">Electronic services</h3>
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <div class="">
+                                            <h5 class="mb10">Individuals</h5>
+                                            <p>QOfficia Desireiontmolite Anime Hands East Laboratories Xer Station
+                                                Yelamco Laboras Nessi Youtube Xia Commodo Concepciat.
+                                                QOfficia Desireiontmolite Anime Hands East Laboratories Xer Station
+                                                Yelamco Laboras Nessi Youtube Xia Commodo Concepciat.
+                                            </p>
+                                            <a href="#" class="btn btn-light btn-block">Sign in</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="oe_structure"/>
+                        </div>
+                    </t>
+                </t>
+            </field>
+        </record>
+
+        <record id="electronic_services_page" model="website.page">
+            <field name="url">/electronic-services</field>
+            <field name="website_published">True</field>
+            <field name="view_id" ref="electronic_services"/>
+        </record>
+        <record id="menu_electronic_services" model="website.menu">
+            <field name="name">Electronic services</field>
+            <field name="url">/electronic-services</field>
+            <field name="page_id" ref="theme_cim.electronic_services_page"/>
+            <field name="parent_id" ref="website.main_menu"/>
+            <field name="sequence" type="int">30</field>
+        </record>
+
+    </data>
+</odoo>

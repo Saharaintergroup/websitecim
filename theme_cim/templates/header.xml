@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+
+
+        <!-- East Header -->
+        <template id="template_header_cim" inherit_id="website.layout" name="Template Header East" active="True">
+            <xpath expr="//header//nav" position="replace">
+                <div class="header-top pt10 pb10">
+                    <div class="container">
+                        <div class="row justify-content-between">
+                            <div class="col-auto">
+                                <div class="o_logo_cim d-flex">
+                                    <img src="/theme_cim/static/src/images/logo.png"/>
+                                    <div class="o_solgon">
+                                        <h4>Public Communications Authority</h4>
+                                        <h6>General Authority For Communication And Informatics</h6>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-sm-4">
+                                <!-- Button -->
+                                <div class="oe_structure nav-right">
+                                    <ul class="d-flex">
+                                        <!-- Sign In -->
+                                        <t t-call="portal.placeholder_user_sign_in">
+                                            <t t-set="_item_class" t-value="'nav-item ml-auto'"/>
+                                            <t t-set="_link_class" t-value="'nav-link'"/>
+                                        </t>
+                                        <t t-call="portal.user_dropdown">
+                                            <t t-set="_avatar" t-value="false"/>
+                                            <t t-set="_user_name" t-value="true"/>
+                                            <t t-set="_icon" t-value="true"/>
+                                            <t t-set="_item_class" t-value="'nav-item dropdown ml-auto'"/>
+                                            <t t-set="_link_class" t-value="'nav-link'"/>
+                                        </t>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <nav data-name="Navbar" class="navbar navbar-expand-lg o_colored_level o_cc shadow-sm">
+                    <div id="top_menu_container" class="container align-items-center flex-row flex-wrap">
+
+                        <!-- Language Selector -->
+                        <t t-call="website.placeholder_header_language_selector">
+                            <t t-set="_div_classes" t-value="'ml-2'"/>
+                            <t t-set="flags" t-value="false"/>
+                        </t>
+
+                        <span class="time"><t t-esc="datetime.datetime.now().strftime('%H:%M')"/>&amp;nbsp;PM
+                        </span>
+
+                        <!-- Navbar Collapse -->
+                        <div id="top_menu_collapse" class="collapse navbar-collapse order-last order-lg-0">
+                            <t t-call="website.navbar_nav">
+                                <t t-set="_nav_class" t-value="'mx-auto'"/>
+
+                                <!-- Menu -->
+                                <t t-foreach="website.menu_id.child_id" t-as="submenu">
+                                    <t t-call="website.submenu">
+                                        <t t-set="item_class" t-value="'nav-item'"/>
+                                        <t t-set="link_class" t-value="'nav-link'"/>
+                                    </t>
+                                </t>
+
+                            </t>
+                        </div>
+
+                        <!-- Navbar Toggler -->
+                        <t t-call="website.navbar_toggler">
+                            <t t-set="_toggler_class" t-value="'ml-auto'"/>
+                        </t>
+                    </div>
+                </nav>
+            </xpath>
+        </template>
+
+        <template id="snippet_options_add_header" inherit_id="website.snippet_options">
+            <xpath expr="//we-select[@data-variable='header-template']/we-button[@data-customize-website-views='website.template_header_default']"
+                   position="attributes">
+                <attribute name="data-customize-website-variable" add="'default_odoo'" remove="'default'"/>
+            </xpath>
+            <xpath expr="//we-select[@data-variable='header-template']/we-button[@data-customize-website-views='website.template_header_default']"
+                   position="before">
+                <we-button title="Cim"
+                           data-name="header_cim_opt"
+                           data-customize-website-views="theme_cim.template_header_cim"
+                           data-customize-website-variable="'default'"
+                           data-img="/theme_cim/static/src/img/snippets_options/header_template_cim.svg"/>
+            </xpath>
+        </template>
+
+        <template id="language_selector" inherit_id="portal.language_selector" name="Language Selector">
+            <xpath expr="//a[hasclass('js_change_lang')]//span" position="replace">
+                <span t-if="not no_text" class="text-uppercase"
+                      t-esc="lg[1].split('/').pop()"/>
+            </xpath>
+        </template>
+
+        <!-- Navbar -->
+        <template id="navbar_toggler" name="Navbar Toggler" inherit_id="website.navbar_toggler">
+            <xpath expr="//span[hasclass('navbar-toggler-icon')]" position="replace">
+                <i class="fa fa-bars"></i>
+            </xpath>
+        </template>
+
+    </data>
+</odoo>

@@ -1,0 +1,32 @@
+<?xml version="1.0" ?>
+<odoo>
+    <data>
+        <template id="assets_frontend" inherit_id="website.assets_frontend" name="Cim Frontend Assets">
+            <xpath expr="//link[last()]" position="after">
+                <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;600;700;900&amp;display=swap"
+                      rel="stylesheet"/>
+                                <link rel="stylesheet" type="text/css" href="/theme_cim/static/src/css/animate.min.css"/>
+                <!--owl.carousel-->
+                <link rel="stylesheet" type="text/css" href="/theme_cim/static/src/css/owl.theme.green.min.css"/>
+                <link rel="stylesheet" type="text/css" href="/theme_cim/static/src/css/owl.theme.default.min.css"/>
+                <link rel="stylesheet" type="text/css" href="/theme_cim/static/src/css/owl.carousel.min.css"/>
+                <link rel="stylesheet" type="text/scss" href="/theme_cim/static/src/scss/variables.scss"/>
+                <link rel="stylesheet" type="text/scss" href="/theme_cim/static/src/scss/customize.scss"/>
+                <link rel="stylesheet" type="text/scss" href="/theme_cim/static/src/scss/header.scss"/>
+                <link rel="stylesheet" type="text/scss" href="/theme_cim/static/src/scss/footer.scss"/>
+                <link rel="stylesheet" type="text/scss" href="/theme_cim/static/src/scss/styles.scss"/>
+            </xpath>
+
+            <xpath expr="//script[last()]" position="after">
+                <script type="text/javascript" src="/theme_cim/static/src/js/wow.js"/>
+                <script type="text/javascript" src="/theme_cim/static/src/js/owl.carousel.min.js"/>
+                <script type="text/javascript" src="/theme_cim/static/src/js/acmeticker.js"/>
+                <script type="text/javascript" src="/theme_cim/static/src/js/circle-progress.min.js"/>
+                <script type="text/javascript" src="/theme_cim/static/src/js/home.js"/>
+                <!--                            <script type="text/javascript" src="/theme_east/static/src/js/theme_east.js"/>-->
+                <!--                            <script type="text/javascript" src="/theme_east/static/src/js/shop_category.js"/>-->
+                <!--                            <script type="text/javascript" src="/theme_east/static/src/js/cart.js"/>-->
+            </xpath>
+        </template>
+    </data>
+</odoo>
