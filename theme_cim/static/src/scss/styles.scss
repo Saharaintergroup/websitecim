@@ -280,23 +280,160 @@
 
 /***********box_news*************/
 .o_latest_news{
+    @media(min-width:576px){
+        .row{
+            margin-left:-5px;
+            margin-right:-5px;
+            [class*='col-']{
+                padding-left:5px;
+                padding-right:5px;
+            }
+        }
+    }
+    [class*='col-']{
+        overflow: hidden;
+    }
     .row{
-        margin-left:-5px;
-        margin-right:-5px;
-        [class*='col-']{
-            padding-left:5px;
-            padding-right:5px;
+        .box_latest_news{
+            margin-top:5px;
+            margin-bottom:5px;
+            min-height:200px;
+        }
+        .row{
+            .box_latest_news{
+                height:200px;
+                .title_latest_news{
+                    font-size:15px;
+                }
+            }
+        }
+    }
+}
+.box_latest_news{
+    position:relative;
+    height:100%;
+    .cover_latest_news{
+        position:absolute;
+        top:0;
+        left:0;
+        width:100%;
+        height:100%;
+        background-position:center;
+        background-size:110%;
+        background-repeat:no-repeat;
+        @include transition-05;
+        border:2px;
+        box-shadow:0 3 10 rgba(0,0,0,0.1);
+        &:before{
+            content:'';
+            display:block;
+            position:absolute;
+            top:0;
+            bottom:0;
+            left:0;
+            right:0;
+            @include transition-05;
+            opacity:0.7;
+            background-image: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,1));
+            z-index:1;
+        }
+    }
+    .title_latest_news{
+        font-size:17px;
+    }
+    .content_latest_news{
+        @include transition-05;
+        padding:10px;
+        z-index:2;
+        p{
+            font-size:12px;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            display: -webkit-box;
+            -webkit-line-clamp: 3; /* number of lines to show */
+            -webkit-box-orient: vertical;
+        }
+    }
+    &:hover{
+        .cover_latest_news{
+            background-size:130%;
+            &:before{
+                opacity:1;
+            }
+        }
+        .content_latest_news{
+            transform:translateY(-10%);
+        }
+    }
+}
+/********card-cim**************/
+.card.card-cim{
+    background-color:$color-blue-2;
+    box-shadow:0 0 3.5px rgba(0,0,0,0.16);
+    [class*='col-']:first-child{
+        @media(max-width:767.9px){
+            height:200px;
+        }
+    }
+    .card-img{
+        position:absolute;
+        top: 15px;
+        bottom: 15px;
+        left: 30px;
+        right: 0;
+        width:95%;
+        background-size: cover;
+        background-position:center;
+        background-repeat:no-repeat;
+        @media(max-width:767.9px){
+            left:0;
+            margin:auto;
+            width:87%;
+        }
+    }
+    .card-body{
+        background-color:transparent!important;
+        color:#ffffff;
+        .text-muted{
+            color:#ffffff!important;
+        }
+        h5,p{
+            max-width:85%;
+        }
+        .wishlist_most_discussed{
+            position:absolute;
+            top:18px;
+            right:30px;
+            font-size:15px;
+        }
+        a{
+            color:#ffffff;
         }
     }
 
 }
-.box_latest_news{
-    height:100%;
-    min-height:170px;
-    background-position:center;
-    background-size:cover;
-    background-repeat:no-repeat;
-    .title_latest_news{
-        font-size:17px;
+
+/************* pagination *************/
+.pagination{
+    .page-item{
+        &:not(.disabled){
+            .page-link{
+                color:$color-blue-2;
+            }
+        }
+        .page-link{
+            border:0!important;
+            margin-left:5px;
+            margin-right:5px;
+            border-radius: 5px;
+            font-size:16px;
+        }
+        &.active{
+            .page-link {
+                background-color: $color-blue-2;
+                border-color: $color-blue-2;
+                color:#ffffff;
+            }
+        }
     }
 }

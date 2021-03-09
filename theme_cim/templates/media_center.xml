@@ -14,8 +14,9 @@
                                     <h3 class="mb30 hr_title_horizontal">Latest news</h3>
                                     <div class="row">
                                         <div class="col-lg-6">
-                                            <div class="box_latest_news"
-                                                 style="background-image: url('/theme_cim/static/src/images/news/news-1.png');">
+                                            <div class="box_latest_news d-flex align-items-end">
+                                                <div class="cover_latest_news"
+                                                     style="background-image: url('/theme_cim/static/src/images/news/news-1.png');"/>
                                                 <div class="content_latest_news">
                                                     <h6 class="title_latest_news">Libya News Newspaper interviews Mr.
                                                         Amjad
@@ -31,8 +32,9 @@
                                         <div class="col-lg-6">
                                             <div class="row">
                                                 <div class="col-sm-6">
-                                                    <div class="box_latest_news"
-                                                         style="background-image: url('/theme_cim/static/src/images/news/news-2.png');">
+                                                    <div class="box_latest_news d-flex align-items-end">
+                                                        <div class="cover_latest_news"
+                                                             style="background-image: url('/theme_cim/static/src/images/news/news-2.png');"/>
                                                         <div class="content_latest_news">
                                                             <h6 class="title_latest_news">Libya News Newspaper
                                                                 interviews Mr. Amjad
@@ -50,8 +52,9 @@
                                                     </div>
                                                 </div>
                                                 <div class="col-sm-6">
-                                                    <div class="box_latest_news"
-                                                         style="background-image: url('/theme_cim/static/src/images/news/news-2.png');">
+                                                    <div class="box_latest_news d-flex align-items-end">
+                                                        <div class="cover_latest_news"
+                                                             style="background-image: url('/theme_cim/static/src/images/news/news-3.png');"/>
                                                         <div class="content_latest_news">
                                                             <h6 class="title_latest_news">Libya News Newspaper
                                                                 interviews Mr. Amjad
@@ -69,8 +72,9 @@
                                                     </div>
                                                 </div>
                                                 <div class="col-sm-6">
-                                                    <div class="box_latest_news"
-                                                         style="background-image: url('/theme_cim/static/src/images/news/news-2.png');">
+                                                    <div class="box_latest_news d-flex align-items-end">
+                                                        <div class="cover_latest_news"
+                                                             style="background-image: url('/theme_cim/static/src/images/news/news-4.png');"/>
                                                         <div class="content_latest_news">
                                                             <h6 class="title_latest_news">Libya News Newspaper
                                                                 interviews Mr. Amjad
@@ -88,8 +92,9 @@
                                                     </div>
                                                 </div>
                                                 <div class="col-sm-6">
-                                                    <div class="box_latest_news"
-                                                         style="background-image: url('/theme_cim/static/src/images/news/news-2.png');">
+                                                    <div class="box_latest_news d-flex align-items-end">
+                                                        <div class="cover_latest_news"
+                                                             style="background-image: url('/theme_cim/static/src/images/news/news-5.png');"/>
                                                         <div class="content_latest_news">
                                                             <h6 class="title_latest_news">Libya News Newspaper
                                                                 interviews Mr. Amjad
@@ -108,7 +113,191 @@
                                                 </div>
                                             </div>
                                         </div>
+                                    </div>
+                                </div>
+                            </section>
 
+                            <section id="o_most_discussed" class="o_most_discussed pt50 pb50">
+                                <div class="container">
+                                    <h3 class="mb40 hr_title_horizontal">Most discussed</h3>
+                                    <div class="card card-cim mt10 mb20">
+                                        <div class="row">
+                                            <div class="col-md-5">
+                                                <div class="card-img"
+                                                     style="background-image: url('/theme_cim/static/src/images/colleagues.png');"/>
+                                            </div>
+                                            <div class="col-md-7">
+                                                <div class="card-body clearfix">
+                                                    <h5 class="card-title mb-1">Csir Citation Yallamco Laboras Nessi
+                                                        Yut
+                                                    </h5>
+                                                    <p class="card-text">
+                                                        <small class="text-muted">Last updated 3 mins ago</small>
+                                                    </p>
+                                                    <p class="card-text tree-line">Csir Citation Yallamco Laboras Nessi
+                                                        Yut Aleicube X Aia Commodo Consecioat.
+                                                        Ioty Ariri Dollar In Reprihenderit Folyopatty Fillet Ice Ace
+                                                        Killium Dollar Io Vegate
+                                                        Yola Parriatore. Examination Scientist
+                                                    </p>
+                                                    <a href="" class="wishlist_most_discussed">
+                                                        <i class="fa fa-heart-o"/>
+                                                    </a>
+                                                    <a href="" class="float-right">Read more</a>
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="card card-cim mt10 mb20">
+                                        <div class="row">
+                                            <div class="col-md-5">
+                                                <div class="card-img"
+                                                     style="background-image: url('/theme_cim/static/src/images/colleagues.png');"/>
+                                            </div>
+                                            <div class="col-md-7">
+                                                <div class="card-body clearfix">
+                                                    <h5 class="card-title mb-1">Csir Citation Yallamco Laboras Nessi
+                                                        Yut
+                                                    </h5>
+                                                    <p class="card-text">
+                                                        <small class="text-muted">Last updated 3 mins ago</small>
+                                                    </p>
+                                                    <p class="card-text tree-line">Csir Citation Yallamco Laboras Nessi
+                                                        Yut Aleicube X Aia Commodo Consecioat.
+                                                        Ioty Ariri Dollar In Reprihenderit Folyopatty Fillet Ice Ace
+                                                        Killium Dollar Io Vegate
+                                                        Yola Parriatore. Examination Scientist
+                                                    </p>
+                                                    <a href="" class="wishlist_most_discussed">
+                                                        <i class="fa fa-heart-o"/>
+                                                    </a>
+                                                    <a href="" class="float-right">Read more</a>
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="card card-cim mt10 mb20">
+                                        <div class="row">
+                                            <div class="col-md-5">
+                                                <div class="card-img"
+                                                     style="background-image: url('/theme_cim/static/src/images/colleagues.png');"/>
+                                            </div>
+                                            <div class="col-md-7">
+                                                <div class="card-body clearfix">
+                                                    <h5 class="card-title mb-1">Csir Citation Yallamco Laboras Nessi
+                                                        Yut
+                                                    </h5>
+                                                    <p class="card-text">
+                                                        <small class="text-muted">Last updated 3 mins ago</small>
+                                                    </p>
+                                                    <p class="card-text tree-line">Csir Citation Yallamco Laboras Nessi
+                                                        Yut Aleicube X Aia Commodo Consecioat.
+                                                        Ioty Ariri Dollar In Reprihenderit Folyopatty Fillet Ice Ace
+                                                        Killium Dollar Io Vegate
+                                                        Yola Parriatore. Examination Scientist
+                                                    </p>
+                                                    <a href="" class="wishlist_most_discussed">
+                                                        <i class="fa fa-heart-o"/>
+                                                    </a>
+                                                    <a href="" class="float-right">Read more</a>
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="card card-cim mt10 mb20">
+                                        <div class="row">
+                                            <div class="col-md-5">
+                                                <div class="card-img"
+                                                     style="background-image: url('/theme_cim/static/src/images/colleagues.png');"/>
+                                            </div>
+                                            <div class="col-md-7">
+                                                <div class="card-body clearfix">
+                                                    <h5 class="card-title mb-1">Csir Citation Yallamco Laboras Nessi
+                                                        Yut
+                                                    </h5>
+                                                    <p class="card-text">
+                                                        <small class="text-muted">Last updated 3 mins ago</small>
+                                                    </p>
+                                                    <p class="card-text tree-line">Csir Citation Yallamco Laboras Nessi
+                                                        Yut Aleicube X Aia Commodo Consecioat.
+                                                        Ioty Ariri Dollar In Reprihenderit Folyopatty Fillet Ice Ace
+                                                        Killium Dollar Io Vegate
+                                                        Yola Parriatore. Examination Scientist
+                                                    </p>
+                                                    <a href="" class="wishlist_most_discussed">
+                                                        <i class="fa fa-heart-o"/>
+                                                    </a>
+                                                    <a href="" class="float-right">Read more</a>
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="card card-cim mt10 mb20">
+                                        <div class="row">
+                                            <div class="col-md-5">
+                                                <div class="card-img"
+                                                     style="background-image: url('/theme_cim/static/src/images/colleagues.png');"/>
+                                            </div>
+                                            <div class="col-md-7">
+                                                <div class="card-body clearfix">
+                                                    <h5 class="card-title mb-1">Csir Citation Yallamco Laboras Nessi
+                                                        Yut
+                                                    </h5>
+                                                    <p class="card-text">
+                                                        <small class="text-muted">Last updated 3 mins ago</small>
+                                                    </p>
+                                                    <p class="card-text tree-line">Csir Citation Yallamco Laboras Nessi
+                                                        Yut Aleicube X Aia Commodo Consecioat.
+                                                        Ioty Ariri Dollar In Reprihenderit Folyopatty Fillet Ice Ace
+                                                        Killium Dollar Io Vegate
+                                                        Yola Parriatore. Examination Scientist
+                                                    </p>
+                                                    <a href="" class="wishlist_most_discussed">
+                                                        <i class="fa fa-heart-o"/>
+                                                    </a>
+                                                    <a href="" class="float-right">Read more</a>
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="mt40">
+                                        <ul class="justify-content-center pagination m-0 ">
+                                            <li class="page-item disabled">
+                                                <a data-oe-model="ir.ui.view" data-oe-id="439" data-oe-field="arch"
+                                                   data-oe-xpath="/t[1]/ul[1]/li[1]/a[1]" class="page-link post_link">
+                                                    Prev
+                                                </a>
+                                            </li>
+
+                                            <li class="page-item active">
+                                                <a href="#" class="page-link post_link">1</a>
+                                            </li>
+
+                                            <li class="page-item ">
+                                                <a href="#" class="page-link post_link">2</a>
+                                            </li>
+
+                                            <li class="page-item ">
+                                                <a href="#" class="page-link post_link">3</a>
+                                            </li>
+
+                                            <li class="page-item ">
+                                                <a href="#" class="page-link post_link">4</a>
+                                            </li>
+
+                                            <li class="page-item ">
+                                                <a data-oe-model="ir.ui.view" data-oe-id="439" data-oe-field="arch"
+                                                   data-oe-xpath="/t[1]/ul[1]/li[2]/a[1]" href="#"
+                                                   class="page-link post_link">Next
+                                                </a>
+                                            </li>
+                                        </ul>
                                     </div>
                                 </div>
                             </section>
