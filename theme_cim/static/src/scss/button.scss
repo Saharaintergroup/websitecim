@@ -1,0 +1,11 @@
+.btn{
+    @include transition-05;
+}
+.btn-fill-light, .btn-light {
+    color: $color-blue-2;
+    background-color: #ffffff;
+    border-color: #ffffff;
+    &:hover,&:focus{
+        color: $color-blue-2;
+    }
+}

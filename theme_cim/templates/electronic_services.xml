@@ -1,6 +1,126 @@
 <?xml version="1.0" ?>
 <odoo>
     <data>
+        <record id="electronic_gate" model="ir.ui.view">
+            <field name="name">Electronic gate</field>
+            <field name="type">qweb</field>
+            <field name="key">theme_cim.electronic_gate</field>
+            <field name="arch" type="xml">
+                <t name="Electronic gate" t-name="theme_cim.electronic_gate">
+                    <t t-call="website.layout">
+                        <div id="wrap">
+                            <section class="lh28 pt50 pb50">
+                                <div class="container">
+                                    <h3 class="hr_title_horizontal mb30">Common questions</h3>
+                                    <div class="faq-list">
+                                        <div class="faq d-flex mb30 align-items-end">
+                                            <div class="">
+                                            <h4 class="faq-title">Csir Citation Yallamco Laboraas Nessi Yut Alekseob Xia
+                                                Commodo Consecioat. Diwas
+                                            </h4>
+                                            <p>Csir Citation Yallamco Laboraas Nessi Yut Alekseob Xia Commodo
+                                                Consecioat.
+                                                Diwas
+                                                <br/>
+                                                Csir Citation Yallamco Laboraas Nessi Yut Alekseob Xia Commodo
+                                                Consecioat.
+                                                Diwas
+                                            </p>
+                                            </div>
+                                            <a href="#" class="download"><img src="theme_cim/static/src/images/icon/cloud-computing.svg"/>&amp;nbsp;Download</a>
+                                        </div>
+                                        <div class="faq d-flex mb30 align-items-end">
+                                            <div class="">
+                                            <h4 class="faq-title">Csir Citation Yallamco Laboraas Nessi Yut Alekseob Xia
+                                                Commodo Consecioat. Diwas
+                                            </h4>
+                                            <p>Csir Citation Yallamco Laboraas Nessi Yut Alekseob Xia Commodo
+                                                Consecioat.
+                                                Diwas
+                                                <br/>
+                                                Csir Citation Yallamco Laboraas Nessi Yut Alekseob Xia Commodo
+                                                Consecioat.
+                                                Diwas
+                                            </p>
+                                            </div>
+                                            <a href="#" class="download"><img src="theme_cim/static/src/images/icon/cloud-computing.svg"/>&amp;nbsp;Download</a>
+                                        </div>
+                                        <div class="faq d-flex mb30 align-items-end">
+                                            <div class="">
+                                            <h4 class="faq-title">Csir Citation Yallamco Laboraas Nessi Yut Alekseob Xia
+                                                Commodo Consecioat. Diwas
+                                            </h4>
+                                            <p>Csir Citation Yallamco Laboraas Nessi Yut Alekseob Xia Commodo
+                                                Consecioat.
+                                                Diwas
+                                                <br/>
+                                                Csir Citation Yallamco Laboraas Nessi Yut Alekseob Xia Commodo
+                                                Consecioat.
+                                                Diwas
+                                            </p>
+                                            </div>
+                                            <a href="#" class="download"><img src="theme_cim/static/src/images/icon/cloud-computing.svg"/>&amp;nbsp;Download</a>
+                                        </div>
+                                        <div class="faq d-flex mb30 align-items-end">
+                                            <div class="">
+                                            <h4 class="faq-title">Csir Citation Yallamco Laboraas Nessi Yut Alekseob Xia
+                                                Commodo Consecioat. Diwas
+                                            </h4>
+                                            <p>Csir Citation Yallamco Laboraas Nessi Yut Alekseob Xia Commodo
+                                                Consecioat.
+                                                Diwas
+                                                <br/>
+                                                Csir Citation Yallamco Laboraas Nessi Yut Alekseob Xia Commodo
+                                                Consecioat.
+                                                Diwas
+                                            </p>
+                                            </div>
+                                            <a href="#" class="download"><img src="theme_cim/static/src/images/icon/cloud-computing.svg"/>&amp;nbsp;Download</a>
+                                        </div>
+
+                                    </div>
+                                    <div class="mt40">
+                                        <ul class="justify-content-center pagination m-0 ">
+                                            <li class="page-item disabled">
+                                                <a data-oe-model="ir.ui.view" data-oe-id="439" data-oe-field="arch"
+                                                   data-oe-xpath="/t[1]/ul[1]/li[1]/a[1]" class="page-link post_link">
+                                                    Prev
+                                                </a>
+                                            </li>
+
+                                            <li class="page-item active">
+                                                <a href="#" class="page-link post_link">1</a>
+                                            </li>
+
+                                            <li class="page-item ">
+                                                <a href="#" class="page-link post_link">2</a>
+                                            </li>
+
+                                            <li class="page-item ">
+                                                <a href="#" class="page-link post_link">3</a>
+                                            </li>
+
+                                            <li class="page-item ">
+                                                <a href="#" class="page-link post_link">4</a>
+                                            </li>
+
+                                            <li class="page-item ">
+                                                <a data-oe-model="ir.ui.view" data-oe-id="439" data-oe-field="arch"
+                                                   data-oe-xpath="/t[1]/ul[1]/li[2]/a[1]" href="#"
+                                                   class="page-link post_link">Next
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </section>
+                            <div class="oe_structure"/>
+                        </div>
+                    </t>
+                </t>
+            </field>
+        </record>
+
         <record id="electronic_services" model="ir.ui.view">
             <field name="name">Electronic services</field>
             <field name="type">qweb</field>
@@ -9,27 +129,85 @@
                 <t name="Electronic services" t-name="theme_cim.electronic_services">
                     <t t-call="website.layout">
                         <div id="wrap">
-                            <div class="container">
-                                <h3 class="mb30 hr_title_horizontal">Electronic services</h3>
-                                <div class="row">
-                                    <div class="col-md-3">
-                                        <div class="">
-                                            <h5 class="mb10">Individuals</h5>
-                                            <p>QOfficia Desireiontmolite Anime Hands East Laboratories Xer Station
-                                                Yelamco Laboras Nessi Youtube Xia Commodo Concepciat.
-                                                QOfficia Desireiontmolite Anime Hands East Laboratories Xer Station
-                                                Yelamco Laboras Nessi Youtube Xia Commodo Concepciat.
-                                            </p>
-                                            <a href="#" class="btn btn-light btn-block">Sign in</a>
+                            <section class="lh28 pt50 pb50">
+                                <div class="container">
+                                    <h3 class="hr_title_horizontal">Overview</h3>
+                                    <p>QOfficia Desireiontmolite Anime Hands East Laboratories Xer Station Yelamco
+                                        Laboras Nessi Youtube Xia Commodo Concepciat.
+                                        <br/>
+                                        Diwas
+                                        QOfficia Desireiontmolite Anime Hands East Laboratories Xer Station Yelamco
+                                        Laboras Nessi Youtube Xia Commodo Concepciat. Diwas
+                                    </p>
+                                    <div class="row justify-content-center">
+                                        <div class="col-12 col-sm-11 col-lg-10 row">
+                                            <div class="col-lg-4">
+                                                <div class="box-service mt20 text-center h-lg-100"
+                                                     style="background-image: url('theme_cim/static/src/images/individuals.png');">
+                                                    <h5 class="mb30">Individuals</h5>
+                                                    <p>QOfficia Desireiontmolite Anime Hands East Laboratories Xer
+                                                        Station
+                                                        Yelamco Laboras Nessi Youtube Xia Commodo Concepciat.
+                                                        QOfficia Desireiontmolite Anim
+                                                    </p>
+                                                    <a href="#" class="btn btn-light btn-block font-weight-bold mt30">
+                                                        Sign
+                                                        in
+                                                    </a>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-4">
+                                                <div class="box-service mt20 text-center h-lg-100"
+                                                     style="background-image: url('theme_cim/static/src/images/companies.png');">
+                                                    <h5 class="mb30">Companies</h5>
+                                                    <p>QOfficia Desireiontmolite Anime Hands East Laboratories Xer
+                                                        Station
+                                                        Yelamco Laboras Nessi Youtube Xia Commodo Concepciat.
+                                                        QOfficia Desireiontmolite Anime Hands East Laboratories Xer
+                                                        Station
+                                                    </p>
+                                                    <a href="#" class="btn btn-light btn-block font-weight-bold mt30">
+                                                        Sign
+                                                        in
+                                                    </a>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-4">
+                                                <div class="box-service mt20 text-center h-lg-100"
+                                                     style="background-image: url('theme_cim/static/src/images/governmental_entities.png');">
+                                                    <h5 class="mb30">Governmental entities</h5>
+                                                    <p>QOfficia Desireiontmolite Anime Hands East Laboratories Xer
+                                                        Station
+                                                        Yelamco Laboras Nessi Youtube Xia Commodo Concepciat.
+                                                    </p>
+                                                    <a href="#" class="btn btn-light btn-block font-weight-bold mt30">
+                                                        Sign
+                                                        in
+                                                    </a>
+                                                </div>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
-                            </div>
+                            </section>
                             <div class="oe_structure"/>
                         </div>
                     </t>
                 </t>
             </field>
+        </record>
+
+        <record id="electronic_gate_page" model="website.page">
+            <field name="url">/electronic-gate</field>
+            <field name="website_published">True</field>
+            <field name="view_id" ref="electronic_gate"/>
+        </record>
+        <record id="menu_electronic_gate" model="website.menu">
+            <field name="name">Electronic gate</field>
+            <field name="url">/electronic-gate</field>
+            <field name="page_id" ref="theme_cim.electronic_gate_page"/>
+            <field name="parent_id" ref="website.main_menu"/>
+            <field name="sequence" type="int">20</field>
         </record>
 
         <record id="electronic_services_page" model="website.page">

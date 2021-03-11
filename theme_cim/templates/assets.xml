@@ -12,6 +12,7 @@
                 <link rel="stylesheet" type="text/css" href="/theme_cim/static/src/css/owl.carousel.min.css"/>
                 <link rel="stylesheet" type="text/scss" href="/theme_cim/static/src/scss/variables.scss"/>
                 <link rel="stylesheet" type="text/scss" href="/theme_cim/static/src/scss/customize.scss"/>
+                <link rel="stylesheet" type="text/scss" href="/theme_cim/static/src/scss/button.scss"/>
                 <link rel="stylesheet" type="text/scss" href="/theme_cim/static/src/scss/header.scss"/>
                 <link rel="stylesheet" type="text/scss" href="/theme_cim/static/src/scss/footer.scss"/>
                 <link rel="stylesheet" type="text/scss" href="/theme_cim/static/src/scss/styles.scss"/>

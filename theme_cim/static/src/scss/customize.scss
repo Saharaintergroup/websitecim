@@ -35,3 +35,11 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6{
     -webkit-line-clamp: 3;
     -webkit-box-orient: vertical;
 }
+
+.o_cc .dropdown-menu .dropdown-item, .o_cc .dropdown-menu .dropdown-item h6, .o_colored_level .o_cc .dropdown-menu .dropdown-item, .o_colored_level .o_cc .dropdown-menu .dropdown-item h6 {
+    color: #ffffff !important;
+}
+
+.lh28 p{
+    line-height:28px!important;
+}

@@ -437,3 +437,69 @@
         }
     }
 }
+
+
+/*  box-service */
+.box-service{
+    border-radius: 5px;
+    background-size:cover;
+    -webkit-background-size:cover;
+    background-size:center;
+    position:relative;
+    padding:30px 30px 60px;
+    &:before{
+        content:'';
+        display:block;
+        background-color:rgba($color-blue-2,0.9);
+        position:absolute;
+        top:0;
+        left:0;
+        right:0;
+        bottom:0;
+        z-index:1;
+    }
+    *{
+        position:relative;
+        z-index:2;
+    }
+    p{
+        font-size: 14px;
+    }
+    .btn{
+        position:absolute;
+        left:10px;
+        right:10px;
+        bottom:10px;
+        width:auto;
+    }
+}
+
+.faq-list{
+    .faq{
+        padding-left:15px;
+        position:relative;
+        &:before{
+            content:'•';
+            display:inline-block;
+            color:#f9b40e;
+            position:absolute;
+            left:0;
+            top: 2px;
+        }
+        p{
+            color:#c8c8c8;
+        }
+    }
+}
+
+.download{
+    white-space: nowrap;
+    font-size:14px;
+    color:#ffffff!important;
+    text-decoration:none!important;
+    margin-bottom: 1rem;
+    img{
+        width:20px;
+        height:auto;
+    }
+}
