@@ -18,31 +18,36 @@
                         <div class="container">
                             <div class="row justify-content-between">
                                 <div class="col-md-6">
-                                    <div class="o_logo_cim d-flex">
+                                    <div class="o_logo_cim d-flex mb20">
                                         <img src="/theme_cim/static/src/images/logo.png"/>
                                         <div class="o_solgon">
-                                            <h4>Public Communications Authority</h4>
-                                            <h6>General Authority For Communication And Informatics</h6>
+                                            <h4>Public Authority for Communications and Informatics</h4>
+                                            <h6>Digital Society - Distinguished Services - Competitive Environment</h6>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="col-auto">
                                     <div class="menu_footer">
                                         <a href="/aboutus">About us</a>
+                                        <a href="/electronic-service">Electronic service</a>
+                                        <a href="/jobs">Jobs</a>
                                         <a href="/contactus">Contact us</a>
                                     </div>
-                                    <div class="s_share_cim text-right d-flex align-items-center"
+                                    <div class="s_share_cim text-right d-flex align-items-center justify-content-between"
                                          data-name="Social Media">
                                         <h5 class="s_share_title mr10">Our networking sites :</h5>
-                                        <a href="/website/social/twitter" class="s_share_twitter" target="_blank">
-                                            <i class="fa fa-twitter rounded-circle shadow-sm"/>
-                                        </a>
-                                        <a href="/website/social/facebook" class="s_share_facebook" target="_blank">
-                                            <i class="fa fa-facebook rounded-circle shadow-sm"/>
-                                        </a>
-                                        <a href="/website/social/youtube" class="s_share_youtube" target="_blank">
-                                            <i class="fa fa-youtube rounded-circle shadow-sm"/>
-                                        </a>
+                                        <div>
+                                            <a href="/website/social/twitter" class="s_share_twitter" target="_blank">
+                                                <i class="fa fa-twitter rounded-circle shadow-sm"/>
+                                            </a>
+                                            <a href="/website/social/facebook" class="s_share_facebook" target="_blank">
+                                                <i class="fa fa-facebook rounded-circle shadow-sm"/>
+                                            </a>
+                                            <a href="/website/social/youtube" class="s_share_youtube" target="_blank">
+                                                <i class="fa fa-youtube rounded-circle shadow-sm"/>
+                                            </a>
+
+                                        </div>
                                     </div>
                                 </div>
                             </div>

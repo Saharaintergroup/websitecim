@@ -1,5 +1,12 @@
 <?xml version="1.0" ?>
 <odoo>
+    <template id="website_search_box" inherit_id="website.website_search_box">
+        <xpath expr="//button" position="replace">
+            <button type="submit" class="btn btn-primary oe_search_button" aria-label="Search" title="Search">
+                Search
+            </button>
+        </xpath>
+    </template>
     <data>
         <record id="electronic_gate" model="ir.ui.view">
             <field name="name">Electronic gate</field>
@@ -11,71 +18,90 @@
                         <div id="wrap">
                             <section class="lh28 pt50 pb50">
                                 <div class="container">
-                                    <h3 class="hr_title_horizontal mb30">Common questions</h3>
+                                    <!-- 'Search Box' -->
+                                    <form id="o_electronic_gate_search"
+                                          class="form-inline w-100 w-md-auto pt-2 pt-md-0 d-md-flex mb30"
+                                          role="search" method="get">
+                                        <t t-call="website.website_search_box">
+                                            <t t-set="_classes" t-valuef="w-100"/>
+                                        </t>
+                                    </form>
                                     <div class="faq-list">
                                         <div class="faq d-flex mb30 align-items-end">
                                             <div class="">
-                                            <h4 class="faq-title">Csir Citation Yallamco Laboraas Nessi Yut Alekseob Xia
-                                                Commodo Consecioat. Diwas
-                                            </h4>
-                                            <p>Csir Citation Yallamco Laboraas Nessi Yut Alekseob Xia Commodo
-                                                Consecioat.
-                                                Diwas
-                                                <br/>
-                                                Csir Citation Yallamco Laboraas Nessi Yut Alekseob Xia Commodo
-                                                Consecioat.
-                                                Diwas
-                                            </p>
+                                                <h4 class="faq-title">Csir Citation Yallamco Laboraas Nessi Yut Alekseob
+                                                    Xia
+                                                    Commodo Consecioat. Diwas
+                                                </h4>
+                                                <p>Csir Citation Yallamco Laboraas Nessi Yut Alekseob Xia Commodo
+                                                    Consecioat.
+                                                    Diwas
+                                                    <br/>
+                                                    Csir Citation Yallamco Laboraas Nessi Yut Alekseob Xia Commodo
+                                                    Consecioat.
+                                                    Diwas
+                                                </p>
                                             </div>
-                                            <a href="#" class="download"><img src="theme_cim/static/src/images/icon/cloud-computing.svg"/>&amp;nbsp;Download</a>
+                                            <a href="#" class="download"><img
+                                                    src="theme_cim/static/src/images/icon/cloud-computing.svg"/>&amp;nbsp;Download
+                                            </a>
                                         </div>
                                         <div class="faq d-flex mb30 align-items-end">
                                             <div class="">
-                                            <h4 class="faq-title">Csir Citation Yallamco Laboraas Nessi Yut Alekseob Xia
-                                                Commodo Consecioat. Diwas
-                                            </h4>
-                                            <p>Csir Citation Yallamco Laboraas Nessi Yut Alekseob Xia Commodo
-                                                Consecioat.
-                                                Diwas
-                                                <br/>
-                                                Csir Citation Yallamco Laboraas Nessi Yut Alekseob Xia Commodo
-                                                Consecioat.
-                                                Diwas
-                                            </p>
+                                                <h4 class="faq-title">Csir Citation Yallamco Laboraas Nessi Yut Alekseob
+                                                    Xia
+                                                    Commodo Consecioat. Diwas
+                                                </h4>
+                                                <p>Csir Citation Yallamco Laboraas Nessi Yut Alekseob Xia Commodo
+                                                    Consecioat.
+                                                    Diwas
+                                                    <br/>
+                                                    Csir Citation Yallamco Laboraas Nessi Yut Alekseob Xia Commodo
+                                                    Consecioat.
+                                                    Diwas
+                                                </p>
                                             </div>
-                                            <a href="#" class="download"><img src="theme_cim/static/src/images/icon/cloud-computing.svg"/>&amp;nbsp;Download</a>
+                                            <a href="#" class="download"><img
+                                                    src="theme_cim/static/src/images/icon/cloud-computing.svg"/>&amp;nbsp;Download
+                                            </a>
                                         </div>
                                         <div class="faq d-flex mb30 align-items-end">
                                             <div class="">
-                                            <h4 class="faq-title">Csir Citation Yallamco Laboraas Nessi Yut Alekseob Xia
-                                                Commodo Consecioat. Diwas
-                                            </h4>
-                                            <p>Csir Citation Yallamco Laboraas Nessi Yut Alekseob Xia Commodo
-                                                Consecioat.
-                                                Diwas
-                                                <br/>
-                                                Csir Citation Yallamco Laboraas Nessi Yut Alekseob Xia Commodo
-                                                Consecioat.
-                                                Diwas
-                                            </p>
+                                                <h4 class="faq-title">Csir Citation Yallamco Laboraas Nessi Yut Alekseob
+                                                    Xia
+                                                    Commodo Consecioat. Diwas
+                                                </h4>
+                                                <p>Csir Citation Yallamco Laboraas Nessi Yut Alekseob Xia Commodo
+                                                    Consecioat.
+                                                    Diwas
+                                                    <br/>
+                                                    Csir Citation Yallamco Laboraas Nessi Yut Alekseob Xia Commodo
+                                                    Consecioat.
+                                                    Diwas
+                                                </p>
                                             </div>
-                                            <a href="#" class="download"><img src="theme_cim/static/src/images/icon/cloud-computing.svg"/>&amp;nbsp;Download</a>
+                                            <a href="#" class="download"><img
+                                                    src="theme_cim/static/src/images/icon/cloud-computing.svg"/>&amp;nbsp;Download
+                                            </a>
                                         </div>
                                         <div class="faq d-flex mb30 align-items-end">
                                             <div class="">
-                                            <h4 class="faq-title">Csir Citation Yallamco Laboraas Nessi Yut Alekseob Xia
-                                                Commodo Consecioat. Diwas
-                                            </h4>
-                                            <p>Csir Citation Yallamco Laboraas Nessi Yut Alekseob Xia Commodo
-                                                Consecioat.
-                                                Diwas
-                                                <br/>
-                                                Csir Citation Yallamco Laboraas Nessi Yut Alekseob Xia Commodo
-                                                Consecioat.
-                                                Diwas
-                                            </p>
+                                                <h4 class="faq-title">Csir Citation Yallamco Laboraas Nessi Yut Alekseob
+                                                    Xia
+                                                    Commodo Consecioat. Diwas
+                                                </h4>
+                                                <p>Csir Citation Yallamco Laboraas Nessi Yut Alekseob Xia Commodo
+                                                    Consecioat.
+                                                    Diwas
+                                                    <br/>
+                                                    Csir Citation Yallamco Laboraas Nessi Yut Alekseob Xia Commodo
+                                                    Consecioat.
+                                                    Diwas
+                                                </p>
                                             </div>
-                                            <a href="#" class="download"><img src="theme_cim/static/src/images/icon/cloud-computing.svg"/>&amp;nbsp;Download</a>
+                                            <a href="#" class="download"><img
+                                                    src="theme_cim/static/src/images/icon/cloud-computing.svg"/>&amp;nbsp;Download
+                                            </a>
                                         </div>
 
                                     </div>

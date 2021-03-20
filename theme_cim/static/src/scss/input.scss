@@ -1,0 +1,21 @@
+.form-control{
+    border-radius: 6px;
+    color: #B9B9B9;
+}
+.input-group > .form-control:not(:last-child), .input-group > .custom-select:not(:last-child) {
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: #B9B9B9;
+}
+::-moz-placeholder { /* Firefox 19+ */
+  color: #B9B9B9;
+}
+:-ms-input-placeholder { /* IE 10+ */
+  color: #B9B9B9;
+}
+:-moz-placeholder { /* Firefox 18- */
+  color: #B9B9B9;
+}

@@ -4,7 +4,7 @@
 
 
         <!-- East Header -->
-        <template id="template_header_cim" inherit_id="website.layout" name="Template Header East" active="True">
+        <template id="template_header_cim" inherit_id="website.layout" name="Template Header Cim" active="True">
             <xpath expr="//header//nav" position="replace">
                 <div class="header-top pt10 pb10">
                     <div class="container">
@@ -13,8 +13,8 @@
                                 <div class="o_logo_cim d-flex">
                                     <img src="/theme_cim/static/src/images/logo.png"/>
                                     <div class="o_solgon">
-                                        <h4>Public Communications Authority</h4>
-                                        <h6>General Authority For Communication And Informatics</h6>
+                                        <h4>Public Authority for Communications and Informatics</h4>
+                                        <h6>Digital Society - Distinguished Services - Competitive Environment</h6>
                                     </div>
                                 </div>
                             </div>
@@ -96,7 +96,7 @@
         <template id="language_selector" inherit_id="portal.language_selector" name="Language Selector">
             <xpath expr="//a[hasclass('js_change_lang')]//span" position="replace">
                 <span t-if="not no_text" class="text-uppercase"
-                      t-esc="lg[1].split('/').pop()"/>
+                      t-esc="lg[1].split('/').pop().split('_')[0]"/>
             </xpath>
         </template>
 

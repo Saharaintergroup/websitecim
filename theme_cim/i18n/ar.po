@@ -1,0 +1,664 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* theme_cim
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 14.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-03-20 19:05+0000\n"
+"PO-Revision-Date: 2021-03-20 19:05+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: theme_cim
+#: model_terms:ir.ui.view,arch_db:theme_cim.electronic_gate
+#: model_terms:website.page,arch_db:theme_cim.electronic_gate_page
+msgid "&amp;nbsp;Download"
+msgstr "تحميل"
+
+#. module: theme_cim
+#: model_terms:theme.ir.ui.view,arch:theme_cim.template_header_cim
+msgid "&amp;nbsp;PM"
+msgstr ""
+
+#. module: theme_cim
+#: model_terms:ir.ui.view,arch_db:theme_cim.media_center
+#: model_terms:website.page,arch_db:theme_cim.media_center_page
+msgid "<small class=\"text-muted\">Last updated 3 mins ago</small>"
+msgstr "<small class=\"text-muted\">آخر تحديث منذ 3 دقائق</small>"
+
+#. module: theme_cim
+#: model_terms:theme.ir.ui.view,arch:theme_cim.new_homepage
+msgid ""
+"<span class=\"fa fa-chevron-left\"/>\n"
+"                                <span class=\"sr-only\">Previous</span>"
+msgstr ""
+"<span class=\"fa fa-chevron-left\"/>\n"
+"                                <span class=\"sr-only\">السابق</span>"
+
+#. module: theme_cim
+#: model_terms:theme.ir.ui.view,arch:theme_cim.new_homepage
+msgid ""
+"<span class=\"fa fa-chevron-right\"/>\n"
+"                                <span class=\"sr-only\">Next</span>"
+msgstr ""
+"<span class=\"fa fa-chevron-right\"/>\n"
+"                                <span class=\"sr-only\">التالي</span>"
+
+#. module: theme_cim
+#: model_terms:theme.ir.ui.view,arch:theme_cim.contactus_form
+msgid "<span class=\"s_website_form_label_content\">Email To</span>"
+msgstr "<span class=\"s_website_form_label_content\">إرسال رسالة إلى</span>"
+
+#. module: theme_cim
+#: model_terms:theme.ir.ui.view,arch:theme_cim.new_homepage
+msgid "<span class=\"sk-name\">I'm waiting</span>"
+msgstr "<span class=\"sk-name\">في الانتظار</span>"
+
+#. module: theme_cim
+#: model_terms:ir.ui.view,arch_db:theme_cim.advertisements
+#: model_terms:website.page,arch_db:theme_cim.advertisements_page
+msgid ""
+"<span class=\"text-content-empty\">Sorry, there are no ads at the moment\n"
+"                                                </span>"
+msgstr ""
+"<span class=\"text-content-empty\">عذرا ، لا توجد إعلانات في الوقت الحالي\n"
+"                                                </span>"
+
+#. module: theme_cim
+#: model:website.menu,name:theme_cim.menu_aboutus
+#: model_terms:ir.ui.view,arch_db:theme_cim.aboutus
+#: model_terms:theme.ir.ui.view,arch:theme_cim.footer_custom
+#: model_terms:website.page,arch_db:theme_cim.aboutus_page
+msgid "About us"
+msgstr "عن الهيئة"
+
+#. module: theme_cim
+#: model_terms:theme.ir.ui.view,arch:theme_cim.contactus_form
+msgid "Address"
+msgstr "العنوان"
+
+#. module: theme_cim
+#: model:website.menu,name:theme_cim.menu_advertisements
+msgid "Advertisements"
+msgstr "الإعلانات"
+
+#. module: theme_cim
+#: model_terms:theme.ir.ui.view,arch:theme_cim.footer_custom
+msgid ""
+"All rights reserved to the Public Authority for Communications and "
+"Informatics 2011-"
+msgstr ""
+"جميع الحقوق محفوظة للهيئة العامة للاتصالات و "
+"المعلوماتية 2011-"
+
+#. module: theme_cim
+#: model_terms:theme.ir.ui.view,arch:theme_cim.snippet_options_add_header
+msgid "Cim"
+msgstr ""
+
+#. module: theme_cim
+#: model_terms:theme.ir.ui.view,arch:theme_cim.footer_snippets_option
+msgid "Cim Footer"
+msgstr ""
+
+#. module: theme_cim
+#: model:website.menu,name:theme_cim.menu_common_questions
+#: model_terms:ir.ui.view,arch_db:theme_cim.common_questions
+#: model_terms:ir.ui.view,arch_db:theme_cim.contactus_main_ir_ui_view
+#: model_terms:website.page,arch_db:theme_cim.common_questions_page
+#: model_terms:website.page,arch_db:theme_cim.contactus_main
+msgid "Common questions"
+msgstr "الاسئلة الشائعة"
+
+#. module: theme_cim
+#: model_terms:ir.ui.view,arch_db:theme_cim.electronic_services
+#: model_terms:website.page,arch_db:theme_cim.electronic_services_page
+msgid "Companies"
+msgstr "الشركات"
+
+#. module: theme_cim
+#: model:website.menu,name:theme_cim.menu_contact_cim
+#: model_terms:ir.ui.view,arch_db:theme_cim.contactus_main_ir_ui_view
+#: model_terms:theme.ir.ui.view,arch:theme_cim.footer_custom
+#: model_terms:website.page,arch_db:theme_cim.contactus_main
+msgid "Contact us"
+msgstr "تواصل معنا"
+
+#. module: theme_cim
+#: model_terms:theme.ir.ui.view,arch:theme_cim.new_homepage
+msgid ""
+"Continuation of the sterilization and prevention campaign in the\n"
+"                                            building of the Public Authority for Communications and Information"
+msgstr "استمرار حملة التعقيم و الوقاية في مبنى الهيئة العامة للاتصالات و المعلوماتية"
+
+#. module: theme_cim
+#: model_terms:ir.ui.view,arch_db:theme_cim.electronic_gate
+#: model_terms:website.page,arch_db:theme_cim.electronic_gate_page
+msgid ""
+"Csir Citation Yallamco Laboraas Nessi Yut Alekseob\n"
+"                                                    Xia\n"
+"                                                    Commodo Consecioat. Diwas"
+msgstr "كسير سيتاشن يللأمكو لابورأس نيسي يت أليكيوب أكس أيا كوممودو كونسيكيوات"
+
+#. module: theme_cim
+#: model_terms:ir.ui.view,arch_db:theme_cim.common_questions
+#: model_terms:website.page,arch_db:theme_cim.common_questions_page
+msgid ""
+"Csir Citation Yallamco Laboraas Nessi Yut Alekseob Xia\n"
+"                                                Commodo Consecioat. Diwas"
+msgstr "كسير سيتاشن يللأمكو لابورأس نيسي يت أليكيوب أكس أيا كوممودو كونسيكيوات"
+
+#. module: theme_cim
+#: model_terms:ir.ui.view,arch_db:theme_cim.electronic_gate
+#: model_terms:website.page,arch_db:theme_cim.electronic_gate_page
+msgid ""
+"Csir Citation Yallamco Laboraas Nessi Yut Alekseob Xia Commodo\n"
+"                                                    Consecioat.\n"
+"                                                    Diwas\n"
+"                                                    <br/>\n"
+"                                                    Csir Citation Yallamco Laboraas Nessi Yut Alekseob Xia Commodo\n"
+"                                                    Consecioat.\n"
+"                                                    Diwas"
+msgstr ""
+"كسير سيتاشن يللأمكو لابورأس نيسي يت أليكيوب أكس أيا كوممودو\n"
+"                                                    كونسيكيوات.\n"
+"                                                    ديواس\n"
+"                                                    <br/>\n"
+"                                                    كسير سيتاشن يللأمكو لابورأس نيسي يت أليكيوب أكس أيا كوممودو\n"
+"                                                    كونسيكيوات.\n"
+"                                                    ديواس"
+
+#. module: theme_cim
+#: model_terms:ir.ui.view,arch_db:theme_cim.common_questions
+#: model_terms:website.page,arch_db:theme_cim.common_questions_page
+msgid ""
+"Csir Citation Yallamco Laboraas Nessi Yut Alekseob Xia Commodo\n"
+"                                                Consecioat.\n"
+"                                                Diwas\n"
+"                                                <br/>\n"
+"                                                Csir Citation Yallamco Laboraas Nessi Yut Alekseob Xia Commodo\n"
+"                                                Consecioat.\n"
+"                                                Diwas"
+msgstr ""
+"كسير سيتاشن يللأمكو لابورأس نيسي يت أليكيوب أكس أيا كوممودو\n"
+"                                                    كونسيكيوات.\n"
+"                                                    ديواس\n"
+"                                                    <br/>\n"
+"                                                    كسير سيتاشن يللأمكو لابورأس نيسي يت أليكيوب أكس أيا كوممودو\n"
+"                                                    كونسيكيوات.\n"
+"                                                    ديواس"
+
+#. module: theme_cim
+#: model_terms:ir.ui.view,arch_db:theme_cim.common_questions
+#: model_terms:website.page,arch_db:theme_cim.common_questions_page
+msgid ""
+"Csir Citation Yallamco Laboraas Nessi Yut Alekseob Xia Commodo\n"
+"                                                Consecioat.\n"
+"                                                Diwas\n"
+"                                                <br/>\n"
+"                                                Csir Citation Yallamco Laboraas Nessi Yut Alekseob Xia Commodo\n"
+"                                                Consecioat.\n"
+"                                                Diwas\n"
+"                                                <br/>\n"
+"                                                Csir Citation Yallamco Laboraas Nessi Yut Alekseob Xia Commodo\n"
+"                                                Consecioat.\n"
+"                                                Diwas"
+msgstr ""
+"كسير سيتاشن يللأمكو لابورأس نيسي يت أليكيوب أكس أيا كوممودو\n"
+"                                                    كونسيكيوات.\n"
+"                                                    ديواس\n"
+"                                                    <br/>\n"
+"كسير سيتاشن يللأمكو لابورأس نيسي يت أليكيوب أكس أيا كوممودو\n"
+"                                                    كونسيكيوات.\n"
+"                                                    ديواس\n"
+"                                                    <br/>\n"
+"                                                    كسير سيتاشن يللأمكو لابورأس نيسي يت أليكيوب أكس أيا كوممودو\n"
+"                                                    كونسيكيوات.\n"
+"                                                    ديواس"
+
+#. module: theme_cim
+#: model_terms:ir.ui.view,arch_db:theme_cim.common_questions
+#: model_terms:website.page,arch_db:theme_cim.common_questions_page
+msgid ""
+"Csir Citation Yallamco Laboraas Nessi Yut Alekseob Xia Commodo\n"
+"                                                Consecioat.\n"
+"                                                Diwas\n"
+"                                                <br/>\n"
+"                                                Csir Citation Yallamco Laboraas Nessi Yut Alekseob Xia Commodo\n"
+"                                                Consecioat.\n"
+"                                                Diwas\n"
+"                                                <br/>\n"
+"                                                Csir Citation Yallamco Laboraas Nessi Yut Alekseob Xia Commodo\n"
+"                                                Consecioat.\n"
+"                                                Diwas\n"
+"                                                <br/>\n"
+"                                                Csir Citation Yallamco Laboraas Nessi Yut Alekseob Xia Commodo\n"
+"                                                Consecioat.\n"
+"                                                Diwas"
+msgstr ""
+"كسير سيتاشن يللأمكو لابورأس نيسي يت أليكيوب أكس أيا كوممودو\n"
+"                                                    كونسيكيوات.\n"
+"                                                    ديواس\n"
+"                                                    <br/>\n"
+"كسير سيتاشن يللأمكو لابورأس نيسي يت أليكيوب أكس أيا كوممودو\n"
+"                                                    كونسيكيوات.\n"
+"                                                    ديواس\n"
+"                                                    <br/>\n"
+"كسير سيتاشن يللأمكو لابورأس نيسي يت أليكيوب أكس أيا كوممودو\n"
+"                                                    كونسيكيوات.\n"
+"                                                    ديواس\n"
+"                                                    <br/>\n"
+"                                                    كسير سيتاشن يللأمكو لابورأس نيسي يت أليكيوب أكس أيا كوممودو\n"
+"                                                    كونسيكيوات.\n"
+"                                                    ديواس"
+
+
+#. module: theme_cim
+#: model_terms:theme.ir.ui.view,arch:theme_cim.new_homepage
+msgid ""
+"Csir Citation Yallamco Laboraas Nessi Yut Alekseob Xia Commodo Consecioat\n"
+"                                            Dewasuty Ariri Dollar In Reprihendereat Folyoptate Fillet Ice Essence\n"
+"                                            Killlyum Dollar"
+msgstr ""
+" فيجايتنيولا باراياتيور. أيكسسيبتيور ساينت أوككايكات كيوبايداتات نون بروايدينت ,سيونت ان كيولبا\n"
+"ديواسأيوتي أريري دولار إن ريبريهينديرأيت فوليوبتاتي فيلايت أيسسي\n"
+"نيسي يت أليكيوب"
+
+#. module: theme_cim
+#: model_terms:ir.ui.view,arch_db:theme_cim.media_center
+#: model_terms:website.page,arch_db:theme_cim.media_center_page
+msgid ""
+"Csir Citation Yallamco Laboras Nessi\n"
+"                                                        Yut"
+msgstr "صحيفة ليبيا الإخبارية تجري حواراً صحفياً مع"
+"الكرزاب مدير ادارة المشروعات والسيد نجمي تاته مدير ادارة الاستراتيجية والتخطيط"
+
+#. module: theme_cim
+#: model_terms:ir.ui.view,arch_db:theme_cim.media_center
+#: model_terms:website.page,arch_db:theme_cim.media_center_page
+msgid ""
+"Csir Citation Yallamco Laboras Nessi\n"
+"                                                        Yut Aleicube X Aia Commodo Consecioat.\n"
+"                                                        Ioty Ariri Dollar In Reprihenderit Folyopatty Fillet Ice Ace\n"
+"                                                        Killium Dollar Io Vegate\n"
+"                                                        Yola Parriatore. Examination Scientist"
+msgstr "كسير سيتاشن يللأمكو لابورأس نيسي يت أليكيوب أكس أيا كوممودو كونسيكيوات ."
+"أيوتي أريري دولار إن ريبريهينديرأيت فوليوبتاتي فيلايت أيسسي كايلليوم دولار أيو فيجايت"
+"ولا باراياتيور. أيكسسيبتيور ساينت أوككايكات كيوبايداتات نون بروايدينت سيونت ان كيولبا"
+
+#. module: theme_cim
+#: model_terms:theme.ir.ui.view,arch:theme_cim.new_homepage
+msgid "Cybersecurity"
+msgstr "الامن السبراني"
+
+#. module: theme_cim
+#: model_terms:theme.ir.ui.view,arch:theme_cim.footer_custom
+msgid "Data privacy"
+msgstr "خصوصية البيانات"
+
+#. module: theme_cim
+#: model:website.menu,name:theme_cim.menu_electronic_gate
+msgid "Electronic gate"
+msgstr "الخدمات الإلكترونية"
+
+#. module: theme_cim
+#: model_terms:theme.ir.ui.view,arch:theme_cim.footer_custom
+msgid "Electronic service"
+msgstr "الخدمات الإلكترونية"
+
+#. module: theme_cim
+#: model:website.menu,name:theme_cim.menu_electronic_services
+msgid "Electronic services"
+msgstr "الخدمات الإلكترونية"
+
+#. module: theme_cim
+#: model_terms:theme.ir.ui.view,arch:theme_cim.contactus_form
+msgid "Email"
+msgstr "البريد الإلكتروني"
+
+#. module: theme_cim
+#: model_terms:theme.ir.ui.view,arch:theme_cim.footer_custom
+#: model_terms:theme.ir.ui.view,arch:theme_cim.template_header_cim
+msgid "Digital Society - Distinguished Services - Competitive Environment"
+msgstr "مجتمع رقمي - خدمات مميزة - بيئة تنافسية"
+
+#. module: theme_cim
+#: model_terms:ir.ui.view,arch_db:theme_cim.contactus_main_ir_ui_view
+#: model_terms:website.page,arch_db:theme_cim.contactus_main
+msgid "General complaints"
+msgstr "الشكاوى العامة"
+
+#. module: theme_cim
+#: model_terms:ir.ui.view,arch_db:theme_cim.electronic_services
+#: model_terms:website.page,arch_db:theme_cim.electronic_services_page
+msgid "Governmental entities"
+msgstr "الجهات الحكومية"
+
+#. module: theme_cim
+#: model:website.menu,name:theme_cim.menu_indications
+#: model_terms:ir.ui.view,arch_db:theme_cim.indications
+#: model_terms:website.page,arch_db:theme_cim.indications_page
+msgid "Indications"
+msgstr "المؤشرات"
+
+#. module: theme_cim
+#: model_terms:ir.ui.view,arch_db:theme_cim.electronic_services
+#: model_terms:website.page,arch_db:theme_cim.electronic_services_page
+msgid "Individuals"
+msgstr "الافراد"
+
+#. module: theme_cim
+#: model_terms:ir.ui.view,arch_db:theme_cim.advertisements
+#: model_terms:website.page,arch_db:theme_cim.advertisements_page
+msgid "Job name"
+msgstr "اسم الوظيفه"
+
+#. module: theme_cim
+#: model_terms:theme.ir.ui.view,arch:theme_cim.footer_custom
+msgid "Jobs"
+msgstr "وظائف"
+
+#. module: theme_cim
+#: model_terms:ir.ui.view,arch_db:theme_cim.media_center
+#: model_terms:website.page,arch_db:theme_cim.media_center_page
+msgid "Latest news"
+msgstr "اهم الاخبار"
+
+#. module: theme_cim
+#: model_terms:theme.ir.ui.view,arch:theme_cim.new_homepage
+msgid ""
+"Le Lorem Ipsum est simplement du faux texte employé dans la composition\n"
+"                                                et la\n"
+"                                                mise en page avant impression"
+msgstr "هو محاكاة للنص المزيف للتوظيف في التركيب والتركيب في الصفحة انطباع رائع"
+
+#. module: theme_cim
+#: model_terms:ir.ui.view,arch_db:theme_cim.media_center
+#: model_terms:website.page,arch_db:theme_cim.media_center_page
+msgid ""
+"Libya News Newspaper\n"
+"                                                                interviews Mr. Amjad"
+msgstr "صحيفة ليبيا الإخبارية تجري حواراً صحفياً مع كل من السيد امجد"
+
+#. module: theme_cim
+#: model_terms:ir.ui.view,arch_db:theme_cim.media_center
+#: model_terms:website.page,arch_db:theme_cim.media_center_page
+msgid ""
+"Libya News Newspaper interviews Mr.\n"
+"                                                        Amjad"
+msgstr "صحيفة ليبيا الإخبارية تجري حواراً صحفياً مع كل من السيد امجد"
+
+#. module: theme_cim
+#: model_terms:ir.ui.view,arch_db:theme_cim.media_center
+#: model_terms:website.page,arch_db:theme_cim.media_center_page
+msgid ""
+"Libya News Newspaper interviews Mr. Amjad\n"
+"                                                                Al-Cherabee, Director of Projects Administration, and\n"
+"                                                                Mr.\n"
+"                                                                Najmi\n"
+"                                                                Tate, Director of Strategy, Planning and Follow-up\n"
+"                                                                Department\n"
+"                                                                In the Public Authority for Communications and\n"
+"                                                                Informatics"
+msgstr "صحيفة ليبيا الإخبارية تجري حواراً صحفياً مع كل من السيد امجد"
+"الكرزاب مدير ادارة المشروعات والسيد نجمي تاته مدير ادارة الاستراتيجية والتخطيط والمتابعة"
+"بالهيئة العامة للاتصالات والمعلوماتية"
+
+#. module: theme_cim
+#: model_terms:ir.ui.view,arch_db:theme_cim.media_center
+#: model_terms:website.page,arch_db:theme_cim.media_center_page
+msgid ""
+"Libya News Newspaper interviews Mr. Amjad\n"
+"                                                        Al-Cherabee, Director of Projects Administration, and Mr. Najmi\n"
+"                                                        Tate, Director of Strategy, Planning and Follow-up Department\n"
+"                                                        In the Public Authority for Communications and Informatics"
+msgstr "صحيفة ليبيا الإخبارية تجري حواراً صحفياً مع كل من السيد امجد"
+"الكرزاب مدير ادارة المشروعات والسيد نجمي تاته مدير ادارة الاستراتيجية والتخطيط والمتابعة"
+"بالهيئة العامة للاتصالات والمعلوماتية"
+
+#. module: theme_cim
+#: model_terms:theme.ir.ui.view,arch:theme_cim.new_homepage
+msgid ""
+"Libya News Newspaper interviews Mr. Amjad\n"
+"                                                    Al-Cherabee, Director of Projects Administration, and Mr. Najmi\n"
+"                                                    Tate,\n"
+"                                                    Director\n"
+"                                                    of Strategy, Planning and Follow-up Department\n"
+"                                                    In the Public Authority for Communications and Informatics"
+msgstr "صحيفة ليبيا الإخبارية تجري حواراً صحفياً مع كل من السيد امجد"
+"الكرزاب مدير ادارة المشروعات والسيد نجمي تاته مدير ادارة الاستراتيجية والتخطيط والمتابعة"
+"بالهيئة العامة للاتصالات والمعلوماتية"
+
+#. module: theme_cim
+#: model_terms:ir.ui.view,arch_db:theme_cim.advertisements
+#: model_terms:website.page,arch_db:theme_cim.advertisements_page
+msgid "List of available jobs"
+msgstr "قائمة الوظائف المتاحة"
+
+#. module: theme_cim
+#: model_terms:ir.ui.view,arch_db:theme_cim.advertisements
+#: model_terms:website.page,arch_db:theme_cim.advertisements_page
+msgid "List of bids"
+msgstr "قائمة العطاءات"
+
+#. module: theme_cim
+#: model:website.menu,name:theme_cim.menu_media_center
+msgid "Media center"
+msgstr "المركز الإعلامي"
+
+#. module: theme_cim
+#: model_terms:ir.ui.view,arch_db:theme_cim.media_center
+#: model_terms:website.page,arch_db:theme_cim.media_center_page
+msgid "Most discussed"
+msgstr "الموضوعات الاكثر تداولا"
+
+#. module: theme_cim
+#: model_terms:theme.ir.ui.view,arch:theme_cim.contactus_form
+msgid "Name"
+msgstr "الاسم"
+
+#. module: theme_cim
+#: model_terms:theme.ir.ui.view,arch:theme_cim.new_homepage
+msgid "News"
+msgstr "موجز الاخبار"
+
+#. module: theme_cim
+#: model_terms:ir.ui.view,arch_db:theme_cim.common_questions
+#: model_terms:ir.ui.view,arch_db:theme_cim.electronic_gate
+#: model_terms:ir.ui.view,arch_db:theme_cim.media_center
+#: model_terms:website.page,arch_db:theme_cim.common_questions_page
+#: model_terms:website.page,arch_db:theme_cim.electronic_gate_page
+#: model_terms:website.page,arch_db:theme_cim.media_center_page
+msgid "Next"
+msgstr "التالي"
+
+#. module: theme_cim
+#: model_terms:theme.ir.ui.view,arch:theme_cim.new_homepage
+msgid "Organization of communications"
+msgstr "تنظيم الاتصالات"
+
+#. module: theme_cim
+#: model_terms:theme.ir.ui.view,arch:theme_cim.new_homepage
+msgid "Our business"
+msgstr "اعمالنا"
+
+#. module: theme_cim
+#: model_terms:theme.ir.ui.view,arch:theme_cim.footer_custom
+msgid "Our networking sites :"
+msgstr "مواقع التواصل الخاص بنا :"
+
+#. module: theme_cim
+#: model_terms:theme.ir.ui.view,arch:theme_cim.new_homepage
+msgid "Our partners"
+msgstr "الجهات التابعة"
+
+#. module: theme_cim
+#: model_terms:theme.ir.ui.view,arch:theme_cim.new_homepage
+msgid "Our services"
+msgstr "خدماتنا"
+
+#. module: theme_cim
+#: model_terms:ir.ui.view,arch_db:theme_cim.electronic_services
+#: model_terms:website.page,arch_db:theme_cim.electronic_services_page
+msgid "Overview"
+msgstr "نظرة عامة"
+
+#. module: theme_cim
+#: model_terms:theme.ir.ui.view,arch:theme_cim.new_homepage
+msgid "Pay bills"
+msgstr "دفع الفواتير"
+
+#. module: theme_cim
+#: model_terms:ir.ui.view,arch_db:theme_cim.advertisements
+#: model_terms:ir.ui.view,arch_db:theme_cim.media_center
+#: model_terms:website.page,arch_db:theme_cim.advertisements_page
+#: model_terms:website.page,arch_db:theme_cim.media_center_page
+msgid "Politics"
+msgstr "السياسة"
+
+#. module: theme_cim
+#: model_terms:ir.ui.view,arch_db:theme_cim.common_questions
+#: model_terms:ir.ui.view,arch_db:theme_cim.electronic_gate
+#: model_terms:ir.ui.view,arch_db:theme_cim.media_center
+#: model_terms:website.page,arch_db:theme_cim.common_questions_page
+#: model_terms:website.page,arch_db:theme_cim.electronic_gate_page
+#: model_terms:website.page,arch_db:theme_cim.media_center_page
+msgid "Prev"
+msgstr "السابق"
+
+#. module: theme_cim
+#: model_terms:theme.ir.ui.view,arch:theme_cim.footer_custom
+#: model_terms:theme.ir.ui.view,arch:theme_cim.template_header_cim
+msgid "Public Authority for Communications and Informatics"
+msgstr "الهيئة العامة للاتصالات و المعلوماتية"
+
+#. module: theme_cim
+#: model_terms:ir.ui.view,arch_db:theme_cim.advertisements
+#: model_terms:website.page,arch_db:theme_cim.advertisements_page
+msgid "Public announcements"
+msgstr "الإعلانات العامة"
+
+#. module: theme_cim
+#: model_terms:ir.ui.view,arch_db:theme_cim.electronic_services
+#: model_terms:website.page,arch_db:theme_cim.electronic_services_page
+msgid ""
+"QOfficia Desireiontmolite Anime Hands East Laboratories Xer\n"
+"                                                        Station\n"
+"                                                        Yelamco Laboras Nessi Youtube Xia Commodo Concepciat."
+msgstr "كيو أوفيسيا ديسيريونتموليت انيم أيدي ايست لابوريومكسير سيتاشن يللأمكو لابورأس نيسي يت أليكيوب أكس أيا كوممودو كونسيكيوات ."
+
+#. module: theme_cim
+#: model_terms:ir.ui.view,arch_db:theme_cim.electronic_services
+#: model_terms:website.page,arch_db:theme_cim.electronic_services_page
+msgid ""
+"QOfficia Desireiontmolite Anime Hands East Laboratories Xer\n"
+"                                                        Station\n"
+"                                                        Yelamco Laboras Nessi Youtube Xia Commodo Concepciat.\n"
+"                                                        QOfficia Desireiontmolite Anim"
+msgstr "كيو أوفيسيا ديسيريونتموليت انيم أيدي ايست لابوريومكسير سيتاشن يللأمكو لابورأس نيسي يت أليكيوب أكس أيا كوممودو كونسيكيوات .\n"
+"كيو أوفيسيا ديسيريونتموليت انيم أيدي ايست لابوريومكسير سيتاشن يللأمكو لابورأس نيسي يت أليكيوب أكس أيا كوممودو كونسيكيوات . "
+
+#. module: theme_cim
+#: model_terms:ir.ui.view,arch_db:theme_cim.electronic_services
+#: model_terms:website.page,arch_db:theme_cim.electronic_services_page
+msgid ""
+"QOfficia Desireiontmolite Anime Hands East Laboratories Xer\n"
+"                                                        Station\n"
+"                                                        Yelamco Laboras Nessi Youtube Xia Commodo Concepciat.\n"
+"                                                        QOfficia Desireiontmolite Anime Hands East Laboratories Xer\n"
+"                                                        Station"
+msgstr "كيو أوفيسيا ديسيريونتموليت انيم أيدي ايست لابوريومكسير سيتاشن يللأمكو لابورأس نيسي يت أليكيوب أكس أيا كوممودو كونسيكيوات .\n"
+"كيو أوفيسيا ديسيريونتموليت انيم أيدي ايست لابوريومكسير سيتاشن يللأمكو لابورأس نيسي يت أليكيوب أكس أيا كوممودو كونسيكيوات ."
+
+#. module: theme_cim
+#: model_terms:ir.ui.view,arch_db:theme_cim.electronic_services
+#: model_terms:website.page,arch_db:theme_cim.electronic_services_page
+msgid ""
+"QOfficia Desireiontmolite Anime Hands East Laboratories Xer Station Yelamco\n"
+"                                        Laboras Nessi Youtube Xia Commodo Concepciat.\n"
+"                                        <br/>\n"
+"                                        Diwas\n"
+"                                        QOfficia Desireiontmolite Anime Hands East Laboratories Xer Station Yelamco\n"
+"                                        Laboras Nessi Youtube Xia Commodo Concepciat. Diwas"
+msgstr "كيو أوفيسيا ديسيريونتموليت انيم أيدي ايست لابوريومكسير سيتاشن يللأمكو لابورأس نيسي يت أليكيوب أكس أيا كوممودو كونسيكيوات .\n"
+"\n كيو أوفيسيا ديسيريونتموليت انيم أيدي ايست لابوريومكسير سيتاشن يللأمكو لابورأس نيسي يت أليكيوب أكس أيا كوممودو كونسيكيوات ."
+
+#. module: theme_cim
+#: model_terms:ir.ui.view,arch_db:theme_cim.advertisements
+#: model_terms:website.page,arch_db:theme_cim.advertisements_page
+msgid "Qofficia designmolet anime hands east laboratory"
+msgstr "كيو أوفيسيا ديسيريونتموليت انيم أيدي"
+
+#. module: theme_cim
+#: model:website.menu,name:theme_cim.menu_ratings
+#: model_terms:ir.ui.view,arch_db:theme_cim.ratings
+#: model_terms:website.page,arch_db:theme_cim.ratings_page
+msgid "Ratings"
+msgstr "التقييمات"
+
+#. module: theme_cim
+#: model_terms:ir.ui.view,arch_db:theme_cim.media_center
+#: model_terms:theme.ir.ui.view,arch:theme_cim.new_homepage
+#: model_terms:website.page,arch_db:theme_cim.media_center_page
+msgid "Read more"
+msgstr "متابعة القراءة"
+
+#. module: theme_cim
+#: model_terms:theme.ir.ui.view,arch:theme_cim.website_search_box
+msgid "Search"
+msgstr "بحث"
+
+#. module: theme_cim
+#: model_terms:theme.ir.ui.view,arch:theme_cim.new_homepage
+msgid "Sector development"
+msgstr "تطوير القطاع"
+
+#. module: theme_cim
+#: model_terms:ir.ui.view,arch_db:theme_cim.electronic_services
+#: model_terms:website.page,arch_db:theme_cim.electronic_services_page
+msgid ""
+"Sign\n"
+"                                                        in"
+msgstr "تسجيل الدخول"
+
+#. module: theme_cim
+#: model_terms:theme.ir.ui.view,arch:theme_cim.new_homepage
+msgid "Statistics"
+msgstr "الاحصائيات"
+
+#. module: theme_cim
+#: model_terms:theme.ir.ui.view,arch:theme_cim.contactus_form
+msgid "Subject"
+msgstr "الموضوع"
+
+#. module: theme_cim
+#: model_terms:theme.ir.ui.view,arch:theme_cim.contactus_form
+msgid "Submit"
+msgstr "إرسال"
+
+#. module: theme_cim
+#: model_terms:theme.ir.ui.view,arch:theme_cim.new_homepage
+msgid "The electronic government"
+msgstr "الحكومة الالكترونية"
+
+#. module: theme_cim
+#: model_terms:ir.ui.view,arch_db:theme_cim.contactus_main_ir_ui_view
+#: model_terms:website.page,arch_db:theme_cim.contactus_main
+msgid "The proposals"
+msgstr "المقترحات"
+
+#. module: theme_cim
+#: model_terms:theme.ir.ui.view,arch:theme_cim.footer_custom
+msgid "Use Agreement"
+msgstr "اتفاقية الاستخدام"
+
+#. module: theme_cim
+#: model_terms:theme.ir.ui.view,arch:theme_cim.contactus_form
+msgid "Write your message here"
+msgstr "قم بكتابة رسالتك هنا"

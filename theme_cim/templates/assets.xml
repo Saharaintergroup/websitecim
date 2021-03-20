@@ -5,17 +5,20 @@
             <xpath expr="//link[last()]" position="after">
                 <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;600;700;900&amp;display=swap"
                       rel="stylesheet"/>
-                                <link rel="stylesheet" type="text/css" href="/theme_cim/static/src/css/animate.min.css"/>
+                <link rel="stylesheet" type="text/css" href="/theme_cim/static/src/css/animate.min.css"/>
                 <!--owl.carousel-->
                 <link rel="stylesheet" type="text/css" href="/theme_cim/static/src/css/owl.theme.green.min.css"/>
                 <link rel="stylesheet" type="text/css" href="/theme_cim/static/src/css/owl.theme.default.min.css"/>
                 <link rel="stylesheet" type="text/css" href="/theme_cim/static/src/css/owl.carousel.min.css"/>
                 <link rel="stylesheet" type="text/scss" href="/theme_cim/static/src/scss/variables.scss"/>
                 <link rel="stylesheet" type="text/scss" href="/theme_cim/static/src/scss/customize.scss"/>
+                <link rel="stylesheet" type="text/scss" href="/theme_cim/static/src/scss/input.scss"/>
                 <link rel="stylesheet" type="text/scss" href="/theme_cim/static/src/scss/button.scss"/>
                 <link rel="stylesheet" type="text/scss" href="/theme_cim/static/src/scss/header.scss"/>
                 <link rel="stylesheet" type="text/scss" href="/theme_cim/static/src/scss/footer.scss"/>
                 <link rel="stylesheet" type="text/scss" href="/theme_cim/static/src/scss/styles.scss"/>
+                <link rel="stylesheet" type="text/scss" href="/theme_cim/static/src/scss/styles_ar.scss"
+                      t-if="request.env.lang=='ar_AA' or request.env.lang=='ar_SY'"/>
             </xpath>
 
             <xpath expr="//script[last()]" position="after">

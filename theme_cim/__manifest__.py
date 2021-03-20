@@ -7,7 +7,7 @@
     'category': 'Theme',
     'sequence': 1,
     'version': '14.0',
-    'depends': ['base', 'website'],
+    'depends': ['base', 'website','website_form'],
     'data': [
         "templates/assets.xml",
         "templates/header.xml",
@@ -20,7 +20,7 @@
         "templates/media_center.xml",
         "templates/common_questions.xml",
         "templates/ratings.xml",
-        "templates/menu.xml",
+        "templates/contactus.xml",
     ],
     'images': [
         'static/description/cover.png',

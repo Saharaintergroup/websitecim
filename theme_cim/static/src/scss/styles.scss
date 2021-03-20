@@ -191,14 +191,14 @@
             font-weight: 400;
             margin-bottom:0;
             font-weight:400;
-            font-size:22px;
+            font-size:20px;
             @media(max-width:767.98px){
                 font-size:18px;
             }
         }
         h6{
             font-weight:400;
-            font-size:10px;
+            font-size:12px;
             margin-bottom:0;
         }
     }
@@ -312,6 +312,7 @@
 .box_latest_news{
     position:relative;
     height:100%;
+    overflow:hidden;
     .cover_latest_news{
         position:absolute;
         top:0;
@@ -319,7 +320,7 @@
         width:100%;
         height:100%;
         background-position:center;
-        background-size:110%;
+        background-size:cover;
         background-repeat:no-repeat;
         @include transition-05;
         border:2px;
@@ -356,7 +357,7 @@
     }
     &:hover{
         .cover_latest_news{
-            background-size:130%;
+            transform:scale(1.2);
             &:before{
                 opacity:1;
             }
@@ -364,6 +365,11 @@
         .content_latest_news{
             transform:translateY(-10%);
         }
+    }
+    .categ_box{
+        padding-left:10px;
+        font-size:12px;
+        border-left:1px solid;
     }
 }
 /********card-cim**************/
@@ -501,5 +507,38 @@
     img{
         width:20px;
         height:auto;
+    }
+}
+
+.oe_search_box{
+    margin:0 10px;
+    & + .input-group-append{
+        margin:0 10px;
+    }
+}
+
+/**/
+.nav-pills{
+    .nav-link{
+        font-size:18px;
+        font-weight: 600;
+        color: #b9b9b9;
+        &.active{
+            color:#ffffff;
+            background-color:rgba(255,255,255,0.36);
+        }
+    }
+    + .tab-content{
+        min-height:280px;
+    }
+}
+.text-content-empty{
+    font-size:18px;
+    font-weight: 600;
+    color: #b9b9b9;
+}
+.section_advertisements{
+    .box_latest_news{
+        height:280px;
     }
 }

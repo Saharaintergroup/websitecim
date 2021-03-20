@@ -1,5 +1,6 @@
 .btn{
     @include transition-05;
+    font-family:$font-cairo;
 }
 .btn-fill-light, .btn-light {
     color: $color-blue-2;
@@ -7,5 +8,28 @@
     border-color: #ffffff;
     &:hover,&:focus{
         color: $color-blue-2;
+    }
+}
+.btn-fill-primary, .btn-primary {
+    color: #FFFFFF;
+    background-color: $color-primary;
+    border-color: $color-primary;
+}
+.btn-fill-primary:not(:disabled):not(.disabled):active, .btn-primary:not(:disabled):not(.disabled):active, .btn-fill-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.disabled).active, .show > .btn-fill-primary.dropdown-toggle, .show > .dropdown-toggle.btn-primary,
+.btn-fill-primary:hover, .btn-primary:hover {
+    color: #FFFFFF;
+    background-color: $color-primary-hover;
+    border-color: $color-primary-hover;
+}
+.btn-cim-xxxl{
+    display: -ms-flexbox!important;
+    display: flex!important;
+    -ms-flex-pack: center!important;
+    justify-content: center!important;
+    height:200px;
+    text-align:center;
+    > *{
+        -ms-flex-item-align: center!important;
+        align-self: center!important;
     }
 }
