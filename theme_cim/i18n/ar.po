@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 14.0+e\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-03-20 19:05+0000\n"
-"PO-Revision-Date: 2021-03-20 19:05+0000\n"
+"POT-Creation-Date: 2021-03-21 21:32+0000\n"
+"PO-Revision-Date: 2021-03-21 21:32+0000\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -93,9 +93,7 @@ msgstr "الإعلانات"
 msgid ""
 "All rights reserved to the Public Authority for Communications and "
 "Informatics 2011-"
-msgstr ""
-"جميع الحقوق محفوظة للهيئة العامة للاتصالات و "
-"المعلوماتية 2011-"
+msgstr "جميع الحقوق محفوظة للهيئة العامة للاتصالات و المعلوماتية 2011-"
 
 #. module: theme_cim
 #: model_terms:theme.ir.ui.view,arch:theme_cim.snippet_options_add_header
@@ -135,7 +133,8 @@ msgstr "تواصل معنا"
 msgid ""
 "Continuation of the sterilization and prevention campaign in the\n"
 "                                            building of the Public Authority for Communications and Information"
-msgstr "استمرار حملة التعقيم و الوقاية في مبنى الهيئة العامة للاتصالات و المعلوماتية"
+msgstr ""
+"استمرار حملة التعقيم و الوقاية في مبنى الهيئة العامة للاتصالات و المعلوماتية"
 
 #. module: theme_cim
 #: model_terms:ir.ui.view,arch_db:theme_cim.electronic_gate
@@ -144,7 +143,8 @@ msgid ""
 "Csir Citation Yallamco Laboraas Nessi Yut Alekseob\n"
 "                                                    Xia\n"
 "                                                    Commodo Consecioat. Diwas"
-msgstr "كسير سيتاشن يللأمكو لابورأس نيسي يت أليكيوب أكس أيا كوممودو كونسيكيوات"
+msgstr ""
+"كسير سيتاشن يللأمكو لابورأس نيسي يت أليكيوب أكس أيا كوممودو كونسيكيوات"
 
 #. module: theme_cim
 #: model_terms:ir.ui.view,arch_db:theme_cim.common_questions
@@ -152,7 +152,8 @@ msgstr "كسير سيتاشن يللأمكو لابورأس نيسي يت ألي
 msgid ""
 "Csir Citation Yallamco Laboraas Nessi Yut Alekseob Xia\n"
 "                                                Commodo Consecioat. Diwas"
-msgstr "كسير سيتاشن يللأمكو لابورأس نيسي يت أليكيوب أكس أيا كوممودو كونسيكيوات"
+msgstr ""
+"كسير سيتاشن يللأمكو لابورأس نيسي يت أليكيوب أكس أيا كوممودو كونسيكيوات"
 
 #. module: theme_cim
 #: model_terms:ir.ui.view,arch_db:theme_cim.electronic_gate
@@ -258,7 +259,6 @@ msgstr ""
 "                                                    كونسيكيوات.\n"
 "                                                    ديواس"
 
-
 #. module: theme_cim
 #: model_terms:theme.ir.ui.view,arch:theme_cim.new_homepage
 msgid ""
@@ -276,8 +276,9 @@ msgstr ""
 msgid ""
 "Csir Citation Yallamco Laboras Nessi\n"
 "                                                        Yut"
-msgstr "صحيفة ليبيا الإخبارية تجري حواراً صحفياً مع"
-"الكرزاب مدير ادارة المشروعات والسيد نجمي تاته مدير ادارة الاستراتيجية والتخطيط"
+msgstr ""
+"صحيفة ليبيا الإخبارية تجري حواراً صحفياً معالكرزاب مدير ادارة المشروعات "
+"والسيد نجمي تاته مدير ادارة الاستراتيجية والتخطيط"
 
 #. module: theme_cim
 #: model_terms:ir.ui.view,arch_db:theme_cim.media_center
@@ -288,9 +289,11 @@ msgid ""
 "                                                        Ioty Ariri Dollar In Reprihenderit Folyopatty Fillet Ice Ace\n"
 "                                                        Killium Dollar Io Vegate\n"
 "                                                        Yola Parriatore. Examination Scientist"
-msgstr "كسير سيتاشن يللأمكو لابورأس نيسي يت أليكيوب أكس أيا كوممودو كونسيكيوات ."
-"أيوتي أريري دولار إن ريبريهينديرأيت فوليوبتاتي فيلايت أيسسي كايلليوم دولار أيو فيجايت"
-"ولا باراياتيور. أيكسسيبتيور ساينت أوككايكات كيوبايداتات نون بروايدينت سيونت ان كيولبا"
+msgstr ""
+"كسير سيتاشن يللأمكو لابورأس نيسي يت أليكيوب أكس أيا كوممودو كونسيكيوات "
+".أيوتي أريري دولار إن ريبريهينديرأيت فوليوبتاتي فيلايت أيسسي كايلليوم دولار "
+"أيو فيجايتولا باراياتيور. أيكسسيبتيور ساينت أوككايكات كيوبايداتات نون "
+"بروايدينت سيونت ان كيولبا"
 
 #. module: theme_cim
 #: model_terms:theme.ir.ui.view,arch:theme_cim.new_homepage
@@ -301,6 +304,12 @@ msgstr "الامن السبراني"
 #: model_terms:theme.ir.ui.view,arch:theme_cim.footer_custom
 msgid "Data privacy"
 msgstr "خصوصية البيانات"
+
+#. module: theme_cim
+#: model_terms:theme.ir.ui.view,arch:theme_cim.footer_custom
+#: model_terms:theme.ir.ui.view,arch:theme_cim.template_header_cim
+msgid "Digital Society - Distinguished Services - Competitive Environment"
+msgstr "مجتمع رقمي - خدمات مميزة - بيئة تنافسية"
 
 #. module: theme_cim
 #: model:website.menu,name:theme_cim.menu_electronic_gate
@@ -321,12 +330,6 @@ msgstr "الخدمات الإلكترونية"
 #: model_terms:theme.ir.ui.view,arch:theme_cim.contactus_form
 msgid "Email"
 msgstr "البريد الإلكتروني"
-
-#. module: theme_cim
-#: model_terms:theme.ir.ui.view,arch:theme_cim.footer_custom
-#: model_terms:theme.ir.ui.view,arch:theme_cim.template_header_cim
-msgid "Digital Society - Distinguished Services - Competitive Environment"
-msgstr "مجتمع رقمي - خدمات مميزة - بيئة تنافسية"
 
 #. module: theme_cim
 #: model_terms:ir.ui.view,arch_db:theme_cim.contactus_main_ir_ui_view
@@ -376,7 +379,8 @@ msgid ""
 "Le Lorem Ipsum est simplement du faux texte employé dans la composition\n"
 "                                                et la\n"
 "                                                mise en page avant impression"
-msgstr "هو محاكاة للنص المزيف للتوظيف في التركيب والتركيب في الصفحة انطباع رائع"
+msgstr ""
+"هو محاكاة للنص المزيف للتوظيف في التركيب والتركيب في الصفحة انطباع رائع"
 
 #. module: theme_cim
 #: model_terms:ir.ui.view,arch_db:theme_cim.media_center
@@ -406,9 +410,10 @@ msgid ""
 "                                                                Department\n"
 "                                                                In the Public Authority for Communications and\n"
 "                                                                Informatics"
-msgstr "صحيفة ليبيا الإخبارية تجري حواراً صحفياً مع كل من السيد امجد"
-"الكرزاب مدير ادارة المشروعات والسيد نجمي تاته مدير ادارة الاستراتيجية والتخطيط والمتابعة"
-"بالهيئة العامة للاتصالات والمعلوماتية"
+msgstr ""
+"صحيفة ليبيا الإخبارية تجري حواراً صحفياً مع كل من السيد امجدالكرزاب مدير "
+"ادارة المشروعات والسيد نجمي تاته مدير ادارة الاستراتيجية والتخطيط "
+"والمتابعةبالهيئة العامة للاتصالات والمعلوماتية"
 
 #. module: theme_cim
 #: model_terms:ir.ui.view,arch_db:theme_cim.media_center
@@ -418,9 +423,10 @@ msgid ""
 "                                                        Al-Cherabee, Director of Projects Administration, and Mr. Najmi\n"
 "                                                        Tate, Director of Strategy, Planning and Follow-up Department\n"
 "                                                        In the Public Authority for Communications and Informatics"
-msgstr "صحيفة ليبيا الإخبارية تجري حواراً صحفياً مع كل من السيد امجد"
-"الكرزاب مدير ادارة المشروعات والسيد نجمي تاته مدير ادارة الاستراتيجية والتخطيط والمتابعة"
-"بالهيئة العامة للاتصالات والمعلوماتية"
+msgstr ""
+"صحيفة ليبيا الإخبارية تجري حواراً صحفياً مع كل من السيد امجدالكرزاب مدير "
+"ادارة المشروعات والسيد نجمي تاته مدير ادارة الاستراتيجية والتخطيط "
+"والمتابعةبالهيئة العامة للاتصالات والمعلوماتية"
 
 #. module: theme_cim
 #: model_terms:theme.ir.ui.view,arch:theme_cim.new_homepage
@@ -431,9 +437,10 @@ msgid ""
 "                                                    Director\n"
 "                                                    of Strategy, Planning and Follow-up Department\n"
 "                                                    In the Public Authority for Communications and Informatics"
-msgstr "صحيفة ليبيا الإخبارية تجري حواراً صحفياً مع كل من السيد امجد"
-"الكرزاب مدير ادارة المشروعات والسيد نجمي تاته مدير ادارة الاستراتيجية والتخطيط والمتابعة"
-"بالهيئة العامة للاتصالات والمعلوماتية"
+msgstr ""
+"صحيفة ليبيا الإخبارية تجري حواراً صحفياً مع كل من السيد امجدالكرزاب مدير "
+"ادارة المشروعات والسيد نجمي تاته مدير ادارة الاستراتيجية والتخطيط "
+"والمتابعةبالهيئة العامة للاتصالات والمعلوماتية"
 
 #. module: theme_cim
 #: model_terms:ir.ui.view,arch_db:theme_cim.advertisements
@@ -551,7 +558,9 @@ msgid ""
 "QOfficia Desireiontmolite Anime Hands East Laboratories Xer\n"
 "                                                        Station\n"
 "                                                        Yelamco Laboras Nessi Youtube Xia Commodo Concepciat."
-msgstr "كيو أوفيسيا ديسيريونتموليت انيم أيدي ايست لابوريومكسير سيتاشن يللأمكو لابورأس نيسي يت أليكيوب أكس أيا كوممودو كونسيكيوات ."
+msgstr ""
+"كيو أوفيسيا ديسيريونتموليت انيم أيدي ايست لابوريومكسير سيتاشن يللأمكو "
+"لابورأس نيسي يت أليكيوب أكس أيا كوممودو كونسيكيوات ."
 
 #. module: theme_cim
 #: model_terms:ir.ui.view,arch_db:theme_cim.electronic_services
@@ -561,7 +570,8 @@ msgid ""
 "                                                        Station\n"
 "                                                        Yelamco Laboras Nessi Youtube Xia Commodo Concepciat.\n"
 "                                                        QOfficia Desireiontmolite Anim"
-msgstr "كيو أوفيسيا ديسيريونتموليت انيم أيدي ايست لابوريومكسير سيتاشن يللأمكو لابورأس نيسي يت أليكيوب أكس أيا كوممودو كونسيكيوات .\n"
+msgstr ""
+"كيو أوفيسيا ديسيريونتموليت انيم أيدي ايست لابوريومكسير سيتاشن يللأمكو لابورأس نيسي يت أليكيوب أكس أيا كوممودو كونسيكيوات .\n"
 "كيو أوفيسيا ديسيريونتموليت انيم أيدي ايست لابوريومكسير سيتاشن يللأمكو لابورأس نيسي يت أليكيوب أكس أيا كوممودو كونسيكيوات . "
 
 #. module: theme_cim
@@ -573,7 +583,8 @@ msgid ""
 "                                                        Yelamco Laboras Nessi Youtube Xia Commodo Concepciat.\n"
 "                                                        QOfficia Desireiontmolite Anime Hands East Laboratories Xer\n"
 "                                                        Station"
-msgstr "كيو أوفيسيا ديسيريونتموليت انيم أيدي ايست لابوريومكسير سيتاشن يللأمكو لابورأس نيسي يت أليكيوب أكس أيا كوممودو كونسيكيوات .\n"
+msgstr ""
+"كيو أوفيسيا ديسيريونتموليت انيم أيدي ايست لابوريومكسير سيتاشن يللأمكو لابورأس نيسي يت أليكيوب أكس أيا كوممودو كونسيكيوات .\n"
 "كيو أوفيسيا ديسيريونتموليت انيم أيدي ايست لابوريومكسير سيتاشن يللأمكو لابورأس نيسي يت أليكيوب أكس أيا كوممودو كونسيكيوات ."
 
 #. module: theme_cim
@@ -586,8 +597,10 @@ msgid ""
 "                                        Diwas\n"
 "                                        QOfficia Desireiontmolite Anime Hands East Laboratories Xer Station Yelamco\n"
 "                                        Laboras Nessi Youtube Xia Commodo Concepciat. Diwas"
-msgstr "كيو أوفيسيا ديسيريونتموليت انيم أيدي ايست لابوريومكسير سيتاشن يللأمكو لابورأس نيسي يت أليكيوب أكس أيا كوممودو كونسيكيوات .\n"
-"\n كيو أوفيسيا ديسيريونتموليت انيم أيدي ايست لابوريومكسير سيتاشن يللأمكو لابورأس نيسي يت أليكيوب أكس أيا كوممودو كونسيكيوات ."
+msgstr ""
+"كيو أوفيسيا ديسيريونتموليت انيم أيدي ايست لابوريومكسير سيتاشن يللأمكو لابورأس نيسي يت أليكيوب أكس أيا كوممودو كونسيكيوات .\n"
+"\n"
+" كيو أوفيسيا ديسيريونتموليت انيم أيدي ايست لابوريومكسير سيتاشن يللأمكو لابورأس نيسي يت أليكيوب أكس أيا كوممودو كونسيكيوات ."
 
 #. module: theme_cim
 #: model_terms:ir.ui.view,arch_db:theme_cim.advertisements
@@ -610,6 +623,7 @@ msgid "Read more"
 msgstr "متابعة القراءة"
 
 #. module: theme_cim
+#: model_terms:theme.ir.ui.view,arch:theme_cim.template_header_cim
 #: model_terms:theme.ir.ui.view,arch:theme_cim.website_search_box
 msgid "Search"
 msgstr "بحث"
@@ -662,3 +676,8 @@ msgstr "اتفاقية الاستخدام"
 #: model_terms:theme.ir.ui.view,arch:theme_cim.contactus_form
 msgid "Write your message here"
 msgstr "قم بكتابة رسالتك هنا"
+
+#. module: theme_cim
+#: model_terms:theme.ir.ui.view,arch:theme_cim.template_header_cim
+msgid "what are you looking for ?"
+msgstr "ما الذى تبحث عنه ؟"
