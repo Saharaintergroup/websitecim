@@ -48,12 +48,21 @@ header{
                 color:#ffffff!important;
             }
         }
-            &.show{
-                a {
-                   background-color:$color-blue-2;
-                   color:#ffffff!important;
-                }
+        &.show{
+            a {
+               background-color:$color-blue-2;
+               color:#ffffff!important;
             }
+        }
+        &:hover{
+            > a {
+               background-color:$color-blue-2;
+               color:#ffffff!important;
+            }
+            .dropdown-menu{
+                display:block;
+            }
+        }
     }
 
 

@@ -81,7 +81,9 @@
                             <form class="nav-search form-inline my-2 my-lg-0">
                                 <input class="form-control" type="search" placeholder="what are you looking for ?"
                                        aria-label="Search"/>
-                                <button class="btn" type="submit"><i class="fa fa-search"/></button>
+                                <button class="btn" type="submit">
+                                    <i class="fa fa-search"/>
+                                </button>
                             </form>
                         </div>
 
@@ -120,6 +122,17 @@
         <template id="navbar_toggler" name="Navbar Toggler" inherit_id="website.navbar_toggler">
             <xpath expr="//span[hasclass('navbar-toggler-icon')]" position="replace">
                 <i class="fa fa-bars"></i>
+            </xpath>
+        </template>
+
+        <template id="submenu" inherit_id="website.submenu">
+            <xpath expr="//a[@data-toggle='dropdown']" position="replace">
+                <a t-attf-class="#{link_class or ''} dropdown-toggle #{submenu.is_mega_menu and 'o_mega_menu_toggle'}"
+                   data-toggle="dropdown"
+                   t-att-href="submenu.clean_url()"
+                   t-att-target="'_blank' if submenu.new_window else None">
+                    <span t-field="submenu.name"/>
+                </a>
             </xpath>
         </template>
 

@@ -19,7 +19,6 @@
         "templates/advertisements.xml",
         "templates/media_center.xml",
         "templates/common_questions.xml",
-        "templates/ratings.xml",
         "templates/contactus.xml",
     ],
     'images': [

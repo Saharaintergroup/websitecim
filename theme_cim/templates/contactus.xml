@@ -1,93 +1,142 @@
 <?xml version="1.0" ?>
 <odoo>
     <template id="contactus" inherit_id="website.contactus">
-        <xpath expr="//div[hasclass('oe_structure')]" position="replace"/>
+        <xpath expr="//div[hasclass('oe_structure')]" position="replace">
+            <div class="container">
+                <h3 class="hr_title_horizontal mt50">Contact us</h3>
+            </div>
+        </xpath>
         <xpath expr="//section[hasclass('s_text_block')]" position="replace"/>
-    </template>
-
-    <template id="contactus_form" inherit_id="website_form.contactus_form" customize_show="True">
-        <xpath expr="//div[@id='contactus_section']" position="replace">
-            <div id="contactus_section">
-                <section class="s_website_form" data-vcss="001" data-snippet="s_website_form">
-                    <div class="container">
-                        <form id="contactus_form" action="/website_form/" method="post" enctype="multipart/form-data"
-                              class="o_mark_required" data-mark="*" data-model_name="mail.mail"
-                              data-success-mode="redirect" data-success-page="/contactus-thank-you">
-                            <div class="s_website_form_rows row s_col_no_bgcolor">
-                                <div class="form-group col-12 s_website_form_field s_website_form_custom s_website_form_required"
-                                     data-type="char" data-name="Field">
-                                    <div class="row s_col_no_resize s_col_no_bgcolor">
-                                        <div class="col-sm">
-                                            <input id="contact1" type="text" class="form-control s_website_form_input"
-                                                   name="Name" placeholder="Name" required=""/>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="form-group col-12 s_website_form_field s_website_form_custom"
-                                     data-type="char" data-name="Field">
-                                    <div class="row s_col_no_resize s_col_no_bgcolor">
-                                        <div class="col-sm">
-                                            <input id="contact2" type="text" class="form-control s_website_form_input"
-                                                   name="Address" placeholder="Address"/>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="form-group col-12 s_website_form_field s_website_form_required"
-                                     data-type="email" data-name="Field">
-                                    <div class="row s_col_no_resize s_col_no_bgcolor">
-                                        <div class="col-sm">
-                                            <input id="contact3" type="email" class="form-control s_website_form_input"
-                                                   name="email_from" placeholder="Email" required=""/>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="form-group col-12 s_website_form_field s_website_form_required"
-                                     data-type="char" data-name="Field">
-                                    <div class="row s_col_no_resize s_col_no_bgcolor">
-                                        <div class="col-sm">
-                                            <input id="contact5" type="text" class="form-control s_website_form_input"
-                                                   name="subject" placeholder="Subject" required=""/>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="form-group col-12 s_website_form_field s_website_form_custom s_website_form_required"
-                                     data-type="text" data-name="Field">
-                                    <div class="row s_col_no_resize s_col_no_bgcolor">
-                                        <div class="col-sm">
-                                            <textarea id="contact6" class="form-control s_website_form_input" rows="4"
-                                                      name="Description" placeholder="Write your message here"
-                                                      required=""></textarea>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="form-group col-12 s_website_form_field s_website_form_dnone">
-                                    <div class="row s_col_no_resize s_col_no_bgcolor">
-                                        <label class="col-form-label col-sm-auto s_website_form_label"
-                                               style="width: 200px" for="contact7">
-                                            <span class="s_website_form_label_content">Email To</span>
-                                        </label>
-                                        <div class="col-sm">
-                                            <input id="contact7" type="hidden" class="form-control s_website_form_input"
-                                                   name="email_to"/>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="form-group col-12 s_website_form_submit" data-name="Submit Button">
-                                    <a href="#" role="button" class="btn btn-primary btn-lg d-block s_website_form_send">
-                                        Submit
-                                    </a>
-                                    <span id="s_website_form_result"></span>
-                                </div>
-                            </div>
-                        </form>
-                    </div>
-                </section>
+        <xpath expr="//div[@class='col-lg-7 col-xl-6 mr-lg-auto']" position="attributes">
+            <attribute name="class">col-lg-6 mr-lg-auto</attribute>
+        </xpath>
+        <xpath expr="//div[@class='col-lg-4 mt-4 mt-lg-0']" position="replace">
+            <div class="col-lg-5 mt-4 mt-lg-0">
+                <t t-call="theme_cim.information_contact"/>
             </div>
         </xpath>
     </template>
 
+    <template id="information_contact">
+        <div class="information_contact">
+            <div class="d-flex justify-content-between">
+                <label class="pl-1 pr-1">Address</label>
+                <span class="pl-1 pr-1">Libya - Tripoli - Zawia Street</span>
+            </div>
+            <div class="d-flex justify-content-between">
+                <label class="pl-1 pr-1">Phone</label>
+                <span class="pl-1 pr-1">+218 21 361 9811/15</span>
+            </div>
+            <div class="d-flex justify-content-between">
+                <label class="pl-1 pr-1">Fax</label>
+                <span class="pl-1 pr-1">+218 21 362 2452</span>
+            </div>
+            <div class="d-flex justify-content-between">
+                <label class="pl-1 pr-1">Our sites</label>
+                <span class="s_share_cim pl-1 pr-1">
+                    <a href="/website/social/twitter" class="s_share_twitter" target="_blank">
+                        <i class="fa fa-twitter rounded-circle shadow-sm"/>
+                    </a>
+                    <a href="/website/social/facebook" class="s_share_facebook" target="_blank">
+                        <i class="fa fa-facebook rounded-circle shadow-sm"/>
+                    </a>
+                    <a href="/website/social/youtube" class="s_share_youtube" target="_blank">
+                        <i class="fa fa-youtube rounded-circle shadow-sm"/>
+                    </a>
+                </span>
+            </div>
+        </div>
+    </template>
 
+    <template id="website_form">
+        <div id="contactus_section">
+            <section class="s_website_form" data-vcss="001" data-snippet="s_website_form">
+                <div class="container">
+                    <form id="contactus_form" action="/website_form/" method="post" enctype="multipart/form-data"
+                          class="o_mark_required" data-mark="*" data-model_name="mail.mail"
+                          data-success-mode="redirect" data-success-page="/contactus-thank-you">
+                        <div class="s_website_form_rows row s_col_no_bgcolor">
+                            <div class="form-group col-12 s_website_form_field s_website_form_custom s_website_form_required"
+                                 data-type="char" data-name="Field">
+                                <div class="row s_col_no_resize s_col_no_bgcolor">
+                                    <div class="col-sm">
+                                        <input id="contact1" type="text" class="form-control s_website_form_input"
+                                               name="Name" placeholder="Name" required=""/>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-group col-12 s_website_form_field s_website_form_custom"
+                                 data-type="char" data-name="Field">
+                                <div class="row s_col_no_resize s_col_no_bgcolor">
+                                    <div class="col-sm">
+                                        <input id="contact2" type="text" class="form-control s_website_form_input"
+                                               name="Address" placeholder="Address"/>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-group col-12 s_website_form_field s_website_form_required"
+                                 data-type="email" data-name="Field">
+                                <div class="row s_col_no_resize s_col_no_bgcolor">
+                                    <div class="col-sm">
+                                        <input id="contact3" type="email" class="form-control s_website_form_input"
+                                               name="email_from" placeholder="Email" required=""/>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="form-group col-12 s_website_form_field s_website_form_required d-none"
+                                 data-type="char" data-name="Field">
+                                <div class="row s_col_no_resize s_col_no_bgcolor">
+                                    <div class="col-sm">
+                                        <input id="contact5" type="text" class="form-control s_website_form_input"
+                                               name="subject" placeholder="Subject" required=""
+                                               value="Contact website"/>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-group col-12 s_website_form_field s_website_form_custom s_website_form_required"
+                                 data-type="text" data-name="Field">
+                                <div class="row s_col_no_resize s_col_no_bgcolor">
+                                    <div class="col-sm">
+                                        <textarea id="contact6" class="form-control s_website_form_input" rows="4"
+                                                  name="Description" placeholder="Write your message here"
+                                                  required=""></textarea>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-group col-12 s_website_form_field s_website_form_dnone">
+                                <div class="row s_col_no_resize s_col_no_bgcolor">
+                                    <label class="col-form-label col-sm-auto s_website_form_label"
+                                           style="width: 200px" for="contact7">
+                                        <span class="s_website_form_label_content">Email To</span>
+                                    </label>
+                                    <div class="col-sm">
+                                        <input id="contact7" type="hidden" class="form-control s_website_form_input"
+                                               name="email_to"/>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-group col-12 s_website_form_submit" data-name="Submit Button">
+                                <a href="#" role="button"
+                                   class="btn btn-secondary btn-lg d-block s_website_form_send">
+                                    Submit
+                                </a>
+                                <span id="s_website_form_result"></span>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </section>
+        </div>
+    </template>
+
+    <template id="contactus_form" inherit_id="website_form.contactus_form" customize_show="True">
+        <xpath expr="//div[@id='contactus_section']" position="replace">
+            <t t-call="theme_cim.website_form"/>
+        </xpath>
+    </template>
+
+    <!--contactus main-->
     <record id="contactus_main" model="website.page">
         <field name="name">Contact us</field>
         <field name="type">qweb</field>
@@ -103,25 +152,38 @@
                             <div class="container">
                                 <h3 class="hr_title_horizontal mb30">Contact us</h3>
                                 <div class="row justify-content-center">
-                                    <div class="col-12 col-sm-11 col-md-10 col-lg-9 col-xl-8">
+                                    <div class="col-12 col-sm-11 col-md-10">
                                         <div class="row row-10">
                                             <div class="col-12 col-sm-6">
-                                                <a href="#" class="btn btn-primary btn-cim-xxxl mb10 mt10">
+                                                <a href="/ask-president" class="btn btn-primary btn-cim-xxxl mb10 mt10">
+                                                    <h3>Ask the president</h3>
+                                                </a>
+                                            </div>
+                                            <div class="col-12 col-sm-6">
+                                                <a href="/common-questions"
+                                                   class="btn btn-primary btn-cim-xxxl mb10 mt10">
                                                     <h3>Common questions</h3>
                                                 </a>
                                             </div>
                                             <div class="col-12 col-sm-6">
-                                                <a href="#" class="btn btn-primary btn-cim-xxxl mb10 mt10">
+                                                <a href="/proposals" class="btn btn-primary btn-cim-xxxl mb10 mt10">
                                                     <h3>The proposals</h3>
                                                 </a>
                                             </div>
                                             <div class="col-12 col-sm-6">
-                                                <a href="#" class="btn btn-primary btn-cim-xxxl mb10 mt10">
+                                                <a href="/contact-branches"
+                                                   class="btn btn-primary btn-cim-xxxl mb10 mt10">
+                                                    <h3>Contact branches</h3>
+                                                </a>
+                                            </div>
+                                            <div class="col-12 col-sm-6">
+                                                <a href="/general-complaints"
+                                                   class="btn btn-primary btn-cim-xxxl mb10 mt10">
                                                     <h3>General complaints</h3>
                                                 </a>
                                             </div>
                                             <div class="col-12 col-sm-6">
-                                                <a href="#" class="btn btn-primary btn-cim-xxxl mb10 mt10">
+                                                <a href="/contactus" class="btn btn-primary btn-cim-xxxl mb10 mt10">
                                                     <h3>Contact us</h3>
                                                 </a>
                                             </div>
@@ -137,6 +199,138 @@
         </field>
     </record>
 
+    <!--ask president-->
+    <record id="ask_president" model="website.page">
+        <field name="name">Ask the president</field>
+        <field name="type">qweb</field>
+        <field name="url">/ask-president</field>
+        <field name="website_indexed" eval="False"/>
+        <field name="is_published">True</field>
+        <field name="key">theme_cim.ask_president</field>
+        <field name="arch" type="xml">
+            <t name="Ask the president" t-name="theme_cim.ask_president">
+                <t t-call="website.layout">
+                    <div id="wrap">
+                        <section class="pt50 pb50">
+                            <div class="container">
+                                <h3 class="hr_title_horizontal mb30">Ask the president</h3>
+                                <div class="mt-4 mb-5">
+                                    <div class="row">
+                                        <div class="col-lg-6 mr-lg-auto">
+                                            <t t-call="theme_cim.website_form"/>
+                                        </div>
+                                        <div class="col-lg-5 mt-4 mt-lg-0">
+                                            <t t-call="theme_cim.information_contact"/>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+                </t>
+            </t>
+        </field>
+    </record>
+
+    <!--proposals-->
+    <record id="proposals" model="website.page">
+        <field name="name">Proposals</field>
+        <field name="type">qweb</field>
+        <field name="url">/proposals</field>
+        <field name="website_indexed" eval="False"/>
+        <field name="is_published">True</field>
+        <field name="key">theme_cim.proposals</field>
+        <field name="arch" type="xml">
+            <t name="Proposals" t-name="theme_cim.proposals">
+                <t t-call="website.layout">
+                    <div id="wrap">
+                        <section class="pt50 pb50">
+                            <div class="container">
+                                <h3 class="hr_title_horizontal mb30">Proposals</h3>
+                                <div class="mt-4 mb-5">
+                                    <div class="row">
+                                        <div class="col-lg-6 mr-lg-auto">
+                                            <t t-call="theme_cim.website_form"/>
+                                        </div>
+                                        <div class="col-lg-5 mt-4 mt-lg-0">
+                                            <t t-call="theme_cim.information_contact"/>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+                </t>
+            </t>
+        </field>
+    </record>
+
+    <!--Contact branches-->
+    <record id="contact_branches" model="website.page">
+        <field name="name">Contact branches</field>
+        <field name="type">qweb</field>
+        <field name="url">/contact-branches</field>
+        <field name="website_indexed" eval="False"/>
+        <field name="is_published">True</field>
+        <field name="key">theme_cim.contact_branches</field>
+        <field name="arch" type="xml">
+            <t name="Contact branches" t-name="theme_cim.contact_branches">
+                <t t-call="website.layout">
+                    <div id="wrap">
+                        <section class="pt50 pb50">
+                            <div class="container">
+                                <h3 class="hr_title_horizontal mb30">Contact branches</h3>
+                                <div class="mt-4 mb-5">
+                                    <div class="row">
+                                        <div class="col-lg-6 mr-lg-auto">
+                                            <t t-call="theme_cim.website_form"/>
+                                        </div>
+                                        <div class="col-lg-5 mt-4 mt-lg-0">
+                                            <t t-call="theme_cim.information_contact"/>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+                </t>
+            </t>
+        </field>
+    </record>
+
+    <!--General complaints-->
+    <record id="general_complaints" model="website.page">
+        <field name="name">General complaints</field>
+        <field name="type">qweb</field>
+        <field name="url">/general-complaints</field>
+        <field name="website_indexed" eval="False"/>
+        <field name="is_published">True</field>
+        <field name="key">theme_cim.general_complaints</field>
+        <field name="arch" type="xml">
+            <t name="General complaints" t-name="theme_cim.general_complaints">
+                <t t-call="website.layout">
+                    <div id="wrap">
+                        <section class="pt50 pb50">
+                            <div class="container">
+                                <h3 class="hr_title_horizontal mb30">General complaints</h3>
+                                <div class="mt-4 mb-5">
+                                    <div class="row">
+                                        <div class="col-lg-6 mr-lg-auto">
+                                            <t t-call="theme_cim.website_form"/>
+                                        </div>
+                                        <div class="col-lg-5 mt-4 mt-lg-0">
+                                            <t t-call="theme_cim.information_contact"/>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+                </t>
+            </t>
+        </field>
+    </record>
+
     <!--Contact us-->
     <record id="menu_contact_cim" model="website.menu">
         <field name="name">Contact us</field>
@@ -144,5 +338,37 @@
         <field name="page_id" ref="theme_cim.contactus_main"/>
         <field name="parent_id" ref="website.main_menu"/>
         <field name="sequence" type="int">91</field>
+    </record>
+    <!--ask president-->
+    <record id="menu_ask_president" model="website.menu">
+        <field name="name">Ask the president</field>
+        <field name="url">/ask-president</field>
+        <field name="page_id" ref="theme_cim.ask_president"/>
+        <field name="parent_id" ref="website.main_menu"/>
+        <field name="sequence" type="int">92</field>
+    </record>
+    <!--proposals-->
+    <record id="menu_proposals" model="website.menu">
+        <field name="name">Proposals</field>
+        <field name="url">/proposals</field>
+        <field name="page_id" ref="theme_cim.proposals"/>
+        <field name="parent_id" ref="website.main_menu"/>
+        <field name="sequence" type="int">93</field>
+    </record>
+    <!--Contact branches-->
+    <record id="menu_contact_branches" model="website.menu">
+        <field name="name">Contact branches</field>
+        <field name="url">/contact-branches</field>
+        <field name="page_id" ref="theme_cim.contact_branches"/>
+        <field name="parent_id" ref="website.main_menu"/>
+        <field name="sequence" type="int">94</field>
+    </record>
+    <!--General complaints-->
+    <record id="menu_general_complaints" model="website.menu">
+        <field name="name">General complaints</field>
+        <field name="url">/general-complaints</field>
+        <field name="page_id" ref="theme_cim.general_complaints"/>
+        <field name="parent_id" ref="website.main_menu"/>
+        <field name="sequence" type="int">95</field>
     </record>
 </odoo>

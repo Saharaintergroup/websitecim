@@ -30,7 +30,6 @@
                                     <div class="menu_footer">
                                         <a href="/aboutus">About us</a>
                                         <a href="/electronic-service">Electronic service</a>
-                                        <a href="/jobs">Jobs</a>
                                         <a href="/contactus">Contact us</a>
                                     </div>
                                     <div class="s_share_cim text-right d-flex align-items-center justify-content-between"
@@ -64,7 +63,7 @@
                                 </div>
 
                                 <div class="col-md-8 text-center">
-                                    All rights reserved to the Public Authority for Communications and Informatics 2011-
+                                    All rights reserved to the Public Authority for Communications and Informatics
                                     <span t-esc="datetime.datetime.now().strftime('%Y')"/>
                                 </div>
                             </div>

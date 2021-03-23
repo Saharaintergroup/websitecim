@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 14.0+e\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-03-21 21:32+0000\n"
-"PO-Revision-Date: 2021-03-21 21:32+0000\n"
+"POT-Creation-Date: 2021-03-23 22:45+0000\n"
+"PO-Revision-Date: 2021-03-23 22:45+0000\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -51,9 +51,24 @@ msgstr ""
 "                                <span class=\"sr-only\">التالي</span>"
 
 #. module: theme_cim
-#: model_terms:theme.ir.ui.view,arch:theme_cim.contactus_form
+#: model_terms:theme.ir.ui.view,arch:theme_cim.information_contact
+msgid "<span class=\"pl-1 pr-1\">+218 21 361 9811/15</span>"
+msgstr ""
+
+#. module: theme_cim
+#: model_terms:theme.ir.ui.view,arch:theme_cim.information_contact
+msgid "<span class=\"pl-1 pr-1\">+218 21 362 2452</span>"
+msgstr ""
+
+#. module: theme_cim
+#: model_terms:theme.ir.ui.view,arch:theme_cim.information_contact
+msgid "<span class=\"pl-1 pr-1\">Libya - Tripoli - Zawia Street</span>"
+msgstr "<span class=\"pl-1 pr-1\">ليبيا ـ طرابلس ـ شارع الزاوية</span>"
+
+#. module: theme_cim
+#: model_terms:theme.ir.ui.view,arch:theme_cim.website_form
 msgid "<span class=\"s_website_form_label_content\">Email To</span>"
-msgstr "<span class=\"s_website_form_label_content\">إرسال رسالة إلى</span>"
+msgstr "<span class=\"s_website_form_label_content\">Envoyer à</span>"
 
 #. module: theme_cim
 #: model_terms:theme.ir.ui.view,arch:theme_cim.new_homepage
@@ -79,7 +94,8 @@ msgid "About us"
 msgstr "عن الهيئة"
 
 #. module: theme_cim
-#: model_terms:theme.ir.ui.view,arch:theme_cim.contactus_form
+#: model_terms:theme.ir.ui.view,arch:theme_cim.information_contact
+#: model_terms:theme.ir.ui.view,arch:theme_cim.website_form
 msgid "Address"
 msgstr "العنوان"
 
@@ -92,8 +108,17 @@ msgstr "الإعلانات"
 #: model_terms:theme.ir.ui.view,arch:theme_cim.footer_custom
 msgid ""
 "All rights reserved to the Public Authority for Communications and "
-"Informatics 2011-"
+"Informatics"
 msgstr "جميع الحقوق محفوظة للهيئة العامة للاتصالات و المعلوماتية 2011-"
+
+#. module: theme_cim
+#: model:website.menu,name:theme_cim.menu_ask_president
+#: model_terms:ir.ui.view,arch_db:theme_cim.ask_president_ir_ui_view
+#: model_terms:ir.ui.view,arch_db:theme_cim.contactus_main_ir_ui_view
+#: model_terms:website.page,arch_db:theme_cim.ask_president
+#: model_terms:website.page,arch_db:theme_cim.contactus_main
+msgid "Ask the president"
+msgstr "اسال الرئيس"
 
 #. module: theme_cim
 #: model_terms:theme.ir.ui.view,arch:theme_cim.snippet_options_add_header
@@ -121,8 +146,18 @@ msgid "Companies"
 msgstr "الشركات"
 
 #. module: theme_cim
+#: model:website.menu,name:theme_cim.menu_contact_branches
+#: model_terms:ir.ui.view,arch_db:theme_cim.contact_branches_ir_ui_view
+#: model_terms:ir.ui.view,arch_db:theme_cim.contactus_main_ir_ui_view
+#: model_terms:website.page,arch_db:theme_cim.contact_branches
+#: model_terms:website.page,arch_db:theme_cim.contactus_main
+msgid "Contact branches"
+msgstr "أتصل بالفروع"
+
+#. module: theme_cim
 #: model:website.menu,name:theme_cim.menu_contact_cim
 #: model_terms:ir.ui.view,arch_db:theme_cim.contactus_main_ir_ui_view
+#: model_terms:theme.ir.ui.view,arch:theme_cim.contactus
 #: model_terms:theme.ir.ui.view,arch:theme_cim.footer_custom
 #: model_terms:website.page,arch_db:theme_cim.contactus_main
 msgid "Contact us"
@@ -327,13 +362,21 @@ msgid "Electronic services"
 msgstr "الخدمات الإلكترونية"
 
 #. module: theme_cim
-#: model_terms:theme.ir.ui.view,arch:theme_cim.contactus_form
+#: model_terms:theme.ir.ui.view,arch:theme_cim.website_form
 msgid "Email"
-msgstr "البريد الإلكتروني"
+msgstr "البريد الالكتروني"
 
 #. module: theme_cim
+#: model_terms:theme.ir.ui.view,arch:theme_cim.information_contact
+msgid "Fax"
+msgstr "فاكس"
+
+#. module: theme_cim
+#: model:website.menu,name:theme_cim.menu_general_complaints
 #: model_terms:ir.ui.view,arch_db:theme_cim.contactus_main_ir_ui_view
+#: model_terms:ir.ui.view,arch_db:theme_cim.general_complaints_ir_ui_view
 #: model_terms:website.page,arch_db:theme_cim.contactus_main
+#: model_terms:website.page,arch_db:theme_cim.general_complaints
 msgid "General complaints"
 msgstr "الشكاوى العامة"
 
@@ -361,11 +404,6 @@ msgstr "الافراد"
 #: model_terms:website.page,arch_db:theme_cim.advertisements_page
 msgid "Job name"
 msgstr "اسم الوظيفه"
-
-#. module: theme_cim
-#: model_terms:theme.ir.ui.view,arch:theme_cim.footer_custom
-msgid "Jobs"
-msgstr "وظائف"
 
 #. module: theme_cim
 #: model_terms:ir.ui.view,arch_db:theme_cim.media_center
@@ -466,7 +504,7 @@ msgid "Most discussed"
 msgstr "الموضوعات الاكثر تداولا"
 
 #. module: theme_cim
-#: model_terms:theme.ir.ui.view,arch:theme_cim.contactus_form
+#: model_terms:theme.ir.ui.view,arch:theme_cim.website_form
 msgid "Name"
 msgstr "الاسم"
 
@@ -511,6 +549,11 @@ msgid "Our services"
 msgstr "خدماتنا"
 
 #. module: theme_cim
+#: model_terms:theme.ir.ui.view,arch:theme_cim.information_contact
+msgid "Our sites"
+msgstr "مواقعنا"
+
+#. module: theme_cim
 #: model_terms:ir.ui.view,arch_db:theme_cim.electronic_services
 #: model_terms:website.page,arch_db:theme_cim.electronic_services_page
 msgid "Overview"
@@ -520,6 +563,11 @@ msgstr "نظرة عامة"
 #: model_terms:theme.ir.ui.view,arch:theme_cim.new_homepage
 msgid "Pay bills"
 msgstr "دفع الفواتير"
+
+#. module: theme_cim
+#: model_terms:theme.ir.ui.view,arch:theme_cim.information_contact
+msgid "Phone"
+msgstr "هاتف"
 
 #. module: theme_cim
 #: model_terms:ir.ui.view,arch_db:theme_cim.advertisements
@@ -538,6 +586,13 @@ msgstr "السياسة"
 #: model_terms:website.page,arch_db:theme_cim.media_center_page
 msgid "Prev"
 msgstr "السابق"
+
+#. module: theme_cim
+#: model:website.menu,name:theme_cim.menu_proposals
+#: model_terms:ir.ui.view,arch_db:theme_cim.proposals_ir_ui_view
+#: model_terms:website.page,arch_db:theme_cim.proposals
+msgid "Proposals"
+msgstr "المقترحات"
 
 #. module: theme_cim
 #: model_terms:theme.ir.ui.view,arch:theme_cim.footer_custom
@@ -609,13 +664,6 @@ msgid "Qofficia designmolet anime hands east laboratory"
 msgstr "كيو أوفيسيا ديسيريونتموليت انيم أيدي"
 
 #. module: theme_cim
-#: model:website.menu,name:theme_cim.menu_ratings
-#: model_terms:ir.ui.view,arch_db:theme_cim.ratings
-#: model_terms:website.page,arch_db:theme_cim.ratings_page
-msgid "Ratings"
-msgstr "التقييمات"
-
-#. module: theme_cim
 #: model_terms:ir.ui.view,arch_db:theme_cim.media_center
 #: model_terms:theme.ir.ui.view,arch:theme_cim.new_homepage
 #: model_terms:website.page,arch_db:theme_cim.media_center_page
@@ -647,14 +695,14 @@ msgid "Statistics"
 msgstr "الاحصائيات"
 
 #. module: theme_cim
-#: model_terms:theme.ir.ui.view,arch:theme_cim.contactus_form
+#: model_terms:theme.ir.ui.view,arch:theme_cim.website_form
 msgid "Subject"
 msgstr "الموضوع"
 
 #. module: theme_cim
-#: model_terms:theme.ir.ui.view,arch:theme_cim.contactus_form
+#: model_terms:theme.ir.ui.view,arch:theme_cim.website_form
 msgid "Submit"
-msgstr "إرسال"
+msgstr "ارسال"
 
 #. module: theme_cim
 #: model_terms:theme.ir.ui.view,arch:theme_cim.new_homepage
@@ -673,7 +721,7 @@ msgid "Use Agreement"
 msgstr "اتفاقية الاستخدام"
 
 #. module: theme_cim
-#: model_terms:theme.ir.ui.view,arch:theme_cim.contactus_form
+#: model_terms:theme.ir.ui.view,arch:theme_cim.website_form
 msgid "Write your message here"
 msgstr "قم بكتابة رسالتك هنا"
 

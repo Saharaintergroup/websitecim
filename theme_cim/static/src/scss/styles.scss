@@ -542,3 +542,18 @@
         height:280px;
     }
 }
+
+.information_contact{
+    font-size:18px;
+    background-color:$color-secondary;
+    height:100%;
+    padding:8%;
+    border-radius:5px;
+    > div{
+        padding:18px 0;
+    }
+    .fa{
+        color:$color-secondary;
+        font-size:14px;
+    }
+}

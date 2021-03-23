@@ -33,3 +33,17 @@
         align-self: center!important;
     }
 }
+
+.btn-fill-secondary, .btn-secondary {
+    color: #FFFFFF;
+    background-color: $color-secondary;
+    border-color: $color-secondary;
+}
+.btn-fill-secondary:focus, .btn-secondary:focus, .btn-fill-secondary.focus, .focus.btn-secondary {
+    box-shadow: 0 0 0 0.2rem rgba($color-secondary,0.5);
+}
+.btn-fill-secondary:hover, .btn-secondary:hover {
+    color: #FFFFFF;
+    background-color: $color-secondary-hover;
+    border-color: $color-secondary-hover;
+}
