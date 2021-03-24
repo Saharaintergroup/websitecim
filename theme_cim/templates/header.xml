@@ -96,20 +96,20 @@
             </xpath>
         </template>
 
-        <template id="snippet_options_add_header" inherit_id="website.snippet_options">
-            <xpath expr="//we-select[@data-variable='header-template']/we-button[@data-customize-website-views='website.template_header_default']"
-                   position="attributes">
-                <attribute name="data-customize-website-variable" add="'default_odoo'" remove="'default'"/>
-            </xpath>
-            <xpath expr="//we-select[@data-variable='header-template']/we-button[@data-customize-website-views='website.template_header_default']"
-                   position="before">
-                <we-button title="Cim"
-                           data-name="header_cim_opt"
-                           data-customize-website-views="theme_cim.template_header_cim"
-                           data-customize-website-variable="'default'"
-                           data-img="/theme_cim/static/src/img/snippets_options/header_template_cim.svg"/>
-            </xpath>
-        </template>
+<!--        <template id="snippet_options_add_header" inherit_id="website.snippet_options">-->
+<!--            <xpath expr="//we-select[@data-variable='header-template']/we-button[@data-customize-website-views='website.template_header_default']"-->
+<!--                   position="attributes">-->
+<!--                <attribute name="data-customize-website-variable" add="'default_odoo'" remove="'default'"/>-->
+<!--            </xpath>-->
+<!--            <xpath expr="//we-select[@data-variable='header-template']/we-button[@data-customize-website-views='website.template_header_default']"-->
+<!--                   position="before">-->
+<!--                <we-button title="Cim"-->
+<!--                           data-name="header_cim_opt"-->
+<!--                           data-customize-website-views="theme_cim.template_header_cim"-->
+<!--                           data-customize-website-variable="'default'"-->
+<!--                           data-img="/theme_cim/static/src/img/snippets_options/header_template_cim.svg"/>-->
+<!--            </xpath>-->
+<!--        </template>-->
 
         <template id="language_selector" inherit_id="portal.language_selector" name="Language Selector">
             <xpath expr="//a[hasclass('js_change_lang')]//span" position="replace">
