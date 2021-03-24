@@ -37,7 +37,7 @@
                                     </ul>
 
                                     <!-- Language Selector -->
-                                    <div class="d-flex">
+                                    <div class="d-flex align-items-center">
                                         <span class="ml-auto time"><t
                                                 t-esc="datetime.datetime.now().strftime('%H:%M')"/>&amp;nbsp;PM
                                         </span>
@@ -128,7 +128,6 @@
         <template id="submenu" inherit_id="website.submenu">
             <xpath expr="//a[@data-toggle='dropdown']" position="replace">
                 <a t-attf-class="#{link_class or ''} dropdown-toggle #{submenu.is_mega_menu and 'o_mega_menu_toggle'}"
-                   data-toggle="dropdown"
                    t-att-href="submenu.clean_url()"
                    t-att-target="'_blank' if submenu.new_window else None">
                     <span t-field="submenu.name"/>

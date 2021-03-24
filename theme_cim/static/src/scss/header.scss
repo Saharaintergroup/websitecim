@@ -20,6 +20,16 @@ header{
             &:hover{
                 color:#ffffff!important;
             }
+            &.active{
+                background-color:rgba(255,255,255,0.3);
+                border-radius:3px;
+            }
+        }
+        .nav-item.dropdown.active{
+            > .nav-link{
+                background-color:rgba(255,255,255,0.3);
+                border-radius:3px;
+            }
         }
     }
     .nav-right{
@@ -50,13 +60,11 @@ header{
         }
         &.show{
             a {
-               background-color:$color-blue-2;
                color:#ffffff!important;
             }
         }
         &:hover{
             > a {
-               background-color:$color-blue-2;
                color:#ffffff!important;
             }
             .dropdown-menu{
@@ -69,10 +77,10 @@ header{
     .dropdown-menu{
         margin:0;
         background-color:$color-blue-2;
-        font-size:13px;
+        font-size:14px;
         padding: 0;
         border: 0;
-        border-radius:0;
+        border-radius:2px;
         .dropdown-item{
             @include transition-05;
             color:#ffffff!important;
@@ -80,6 +88,17 @@ header{
         }
         .dropdown-item.active, .dropdown-item:active,.dropdown-item:hover{
             background-color:$color-blue-5;
+        }
+        &:before{
+            content:'';
+            display:block;
+            border-top:0;
+            border-right:6px solid transparent;
+            border-left:6px solid transparent;
+            border-bottom:6px solid $color-blue-2;
+            position:absolute;
+            bottom:100%;
+            left:10%;
         }
     }
 }

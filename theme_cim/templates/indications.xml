@@ -1,34 +1,77 @@
 <?xml version="1.0" ?>
 <odoo>
     <data>
-        <record id="indications" model="ir.ui.view">
-            <field name="name">Indications</field>
+        <record id="local_indicators" model="website.page">
+            <field name="name">Local indicators</field>
             <field name="type">qweb</field>
-            <field name="key">theme_cim.indications</field>
+            <field name="url">/local-indicators</field>
+            <field name="is_published">True</field>
+            <field name="key">theme_cim.local_indicators</field>
             <field name="arch" type="xml">
-                <t name="Indications" t-name="theme_cim.indications">
+                <t name="Local indicators" t-name="theme_cim.local_indicators">
                     <t t-call="website.layout">
                         <div id="wrap">
-                            <div class="container">
-                                <h1>Indications</h1>
-                            </div>
+                            <section class="pt50 pb50">
+                                <div class="container">
+                                    <h3 class="hr_title_horizontal mb30">Local indicators</h3>
+                                    <div class="d-flex justify-content-center align-items-center" style="min-height:200px;">
+                                        <span class="text-content-empty">Sorry, there are no local indicators at the moment</span>
+                                    </div>
+                                </div>
+                            </section>
                             <div class="oe_structure"/>
                         </div>
                     </t>
                 </t>
             </field>
         </record>
-        <record id="indications_page" model="website.page">
-            <field name="url">/indications</field>
-            <field name="website_published">True</field>
-            <field name="view_id" ref="indications"/>
+
+        <record id="international_indicators" model="website.page">
+            <field name="name">International indicators</field>
+            <field name="type">qweb</field>
+            <field name="url">/international-indicators</field>
+            <field name="is_published">True</field>
+            <field name="key">theme_cim.international_indicators</field>
+            <field name="arch" type="xml">
+                <t name="International indicators" t-name="theme_cim.international_indicators">
+                    <t t-call="website.layout">
+                        <div id="wrap">
+                            <section class="pt50 pb50">
+                                <div class="container">
+                                    <h3 class="hr_title_horizontal mb30">International indicators</h3>
+                                    <div class="d-flex justify-content-center align-items-center" style="min-height:200px;">
+                                        <span class="text-content-empty">Sorry, there are no international indicators at the moment</span>
+                                    </div>
+                                </div>
+                            </section>
+                            <div class="oe_structure"/>
+                        </div>
+                    </t>
+                </t>
+            </field>
         </record>
+
         <record id="menu_indications" model="website.menu">
             <field name="name">Indications</field>
-            <field name="url">/indications</field>
-            <field name="page_id" ref="theme_cim.indications_page"/>
+            <field name="url">/local-indicators</field>
             <field name="parent_id" ref="website.main_menu"/>
             <field name="sequence" type="int">40</field>
+        </record>
+        <!--Local indicators-->
+        <record id="menu_local_indicators" model="website.menu">
+            <field name="name">Local indicators</field>
+            <field name="url">/local-indicators</field>
+            <field name="page_id" ref="theme_cim.local_indicators"/>
+            <field name="parent_id" ref="website.main_menu"/>
+            <field name="sequence" type="int">41</field>
+        </record>
+        <!--International indicators-->
+        <record id="menu_international_indicators" model="website.menu">
+            <field name="name">International indicators</field>
+            <field name="url">/international-indicators</field>
+            <field name="page_id" ref="theme_cim.international_indicators"/>
+            <field name="parent_id" ref="website.main_menu"/>
+            <field name="sequence" type="int">42</field>
         </record>
     </data>
 </odoo>
