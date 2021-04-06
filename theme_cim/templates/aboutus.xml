@@ -1,34 +1,430 @@
 <?xml version="1.0" ?>
 <odoo>
-    <data>
-        <record id="aboutus" model="ir.ui.view">
-            <field name="name">About us</field>
-            <field name="type">qweb</field>
-            <field name="key">theme_cim.aboutus</field>
-            <field name="arch" type="xml">
-                <t name="About us" t-name="theme_cim.aboutus">
-                    <t t-call="website.layout">
-                        <div id="wrap">
+    <!--Who are we-->
+    <record id="whoarewe_page" model="website.page">
+        <field name="name">Who are we</field>
+        <field name="type">qweb</field>
+        <field name="url">/who-are-we</field>
+        <field name="website_indexed" eval="False"/>
+        <field name="is_published">True</field>
+        <field name="key">theme_cim.whoarewe_page</field>
+        <field name="arch" type="xml">
+            <t name="Who are we" t-name="theme_cim.whoarewe_page">
+                <t t-call="website.layout">
+                    <div id="wrap">
+                        <section class="pt50 pb50">
                             <div class="container">
-                                <h1>About us</h1>
+                                <h3 class="hr_title_horizontal mb30">Who are we</h3>
+                                <div class="faq-list">
+                                    <div class="faq d-flex mb20 align-items-end">
+                                        <div>
+                                            <h5 class="faq-title">About us</h5>
+                                            <p>The Public Communications Authority is concerned with communications and
+                                                information technology affairs and represents the highest authority
+                                                responsible for the telecommunications sector in Libya. It is
+                                                headquartered in the city of
+                                                Tripoli (the headquarters of the General Post and Telecommunications
+                                                Company) was able to achieve many achievements linking the various
+                                                regions of Libya after the infrastructure was exposed
+                                                For communications cut and sabotage during the months of the revolution,
+                                                in addition to restoring communications, post and internet services and
+                                                completing some important strategic projects in pursuit of
+                                                To contribute to the reunification and reconstruction of Libya, and this
+                                                body is chaired by a president assigned by the Prime Minister, Engineer
+                                                Sami Al-Fantazi.
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="faq d-flex mb20 align-items-end">
+                                        <div>
+                                            <h5 class="faq-title">Vision</h5>
+                                            <p>Competitive quality telecommunications, information technology and mail
+                                                sectors that accelerate social and economic development, improve quality
+                                                of
+                                                life and support an economy
+                                                Knowledge throughout Libya
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="faq d-flex mb20 align-items-end">
+                                        <div>
+                                            <h5 class="faq-title">The message</h5>
+                                            <p>Enhancing the legal, regulatory and institutional environment for a
+                                                competitive market that encourages innovation and provides services and
+                                                products
+                                                Support and enhance the capacity and competitiveness of the
+                                                telecommunications, information technology and postal sectors locally,
+                                                regionally and internationally, and to attract foreign and domestic
+                                                investment.
+                                                And enhancing the endeavor towards maximizing the utilization of
+                                                information
+                                                technology resources and enhancing their concepts and uses to contribute
+                                                to
+                                                achieving social inclusiveness and bridging the gap
+                                                Digital
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="faq d-flex mb20 align-items-end">
+                                        <div>
+                                            <h5 class="faq-title">The primary mission</h5>
+                                            <p>Improving the quality of services</p>
+                                            <p>Designing the strategic plan for the communications and information
+                                                technology sector
+                                            </p>
+                                            <p>Solve and fix faults and immediate problems related to the infrastructure
+                                                of
+                                                the communications and information technology sector
+                                            </p>
+                                            <p>Raise the quality of communication and information technology services
+                                                for
+                                                the final consumer
+                                            </p>
+                                            <p>Setting detailed work plans and mechanisms to develop the Libyan
+                                                communications and information technology sector
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="faq d-flex mb20 align-items-end">
+                                        <div>
+                                            <h5 class="faq-title">The tasks are the decision of the statute</h5>
+                                            <p>Improving the quality of services</p>
+                                            <p>Designing the strategic plan for the communications and information
+                                                technology sector
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="faq d-flex mb20 align-items-end">
+                                        <div>
+                                            <h5 class="faq-title">Primary law</h5>
+                                            <p>Improving the quality of services</p>
+                                            <p>Designing the strategic plan for the communications and information
+                                                technology sector
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="faq d-flex mb20 align-items-end">
+                                        <div>
+                                            <h5 class="faq-title">What we do</h5>
+                                            <p>Taking all legal measures against the violations committed in this
+                                                field
+                                            </p>
+                                            <p>Proposing draft laws and regulations related to the telecommunications,
+                                                informatics and post sector
+                                            </p>
+                                            <p>Establishing the national frequency spectrum plan and managing and
+                                                allocating frequency usage
+                                            </p>
+                                            <p>Issuing and determining fees for all types of licenses and granting
+                                                approvals related to the activity
+                                            </p>
+                                        </div>
+                                    </div>
+
+                                </div>
+
                             </div>
-                            <div class="oe_structure"/>
-                        </div>
-                    </t>
+                        </section>
+                        <div class="oe_structure"/>
+                    </div>
                 </t>
-            </field>
-        </record>
-        <record id="aboutus_page" model="website.page">
-            <field name="url">/aboutus</field>
-            <field name="website_published">True</field>
-            <field name="view_id" ref="aboutus"/>
-        </record>
-        <record id="menu_aboutus" model="website.menu">
-            <field name="name">About us</field>
-            <field name="url">/aboutus</field>
-            <field name="page_id" ref="theme_cim.aboutus_page"/>
-            <field name="parent_id" ref="website.main_menu"/>
-            <field name="sequence" type="int">20</field>
-        </record>
-    </data>
+            </t>
+        </field>
+    </record>
+    <!--Organizational Structure-->
+    <record id="organizational_structure_page" model="website.page">
+        <field name="name">Organizational Structure</field>
+        <field name="type">qweb</field>
+        <field name="url">/organizational-structure</field>
+        <field name="website_indexed" eval="False"/>
+        <field name="is_published">True</field>
+        <field name="key">theme_cim.organizational_structure_page</field>
+        <field name="arch" type="xml">
+            <t name="Organizational Structure" t-name="theme_cim.organizational_structure_page">
+                <t t-call="website.layout">
+                    <div id="wrap">
+                        <section class="pt50 pb50">
+                            <div class="container">
+                                <h3 class="hr_title_horizontal mb30">Organizational Structure</h3>
+                                <div class="faq-list">
+                                    <div class="faq d-flex mb30 align-items-end">
+                                        <div>
+                                            <h5 class="faq-title mb10">The main branch</h5>
+                                            <p>The Public Communications Authority is concerned with communications and
+                                                information technology affairs and represents the highest authority
+                                                responsible for the telecommunications sector in Libya. It is
+                                                headquartered in the city of
+                                                Tripoli (the headquarters of the General Post and Telecommunications
+                                                Company) was able to achieve many achievements linking the various
+                                                regions of Libya after the infrastructure was exposed
+                                                For communications cut and sabotage during the months of the revolution,
+                                                in addition to restoring communications, post and internet services and
+                                                completing some important strategic projects in pursuit of
+                                                To contribute to the reunification and reconstruction of Libya, and this
+                                                body is chaired by a president assigned by the Prime Minister, Engineer
+                                                Sami Al-Fantazi.
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="faq d-flex mb30 align-items-end">
+                                        <div>
+                                            <h5 class="faq-title mb10">Southern branch</h5>
+                                            <p>The Public Communications Authority is concerned with communications and
+                                                information technology affairs and represents the highest authority
+                                                responsible for the telecommunications sector in Libya. It is
+                                                headquartered in the city of
+                                                Tripoli (the headquarters of the General Post and Telecommunications
+                                                Company) was able to achieve many achievements linking the various
+                                                regions of Libya after the infrastructure was exposed
+                                                For communications cut and sabotage during the months of the revolution,
+                                                in addition to restoring communications, post and internet services and
+                                                completing some important strategic projects in pursuit of
+                                                To contribute to the reunification and reconstruction of Libya, and this
+                                                body is chaired by a president assigned by the Prime Minister, Engineer
+                                                Sami Al-Fantazi.
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="faq d-flex mb30 align-items-end">
+                                        <div>
+                                            <h5 class="faq-title mb10">Eastern branch</h5>
+                                            <p>The Public Communications Authority is concerned with communications and
+                                                information technology affairs and represents the highest authority
+                                                responsible for the telecommunications sector in Libya. It is
+                                                headquartered in the city of
+                                                Tripoli (the headquarters of the General Post and Telecommunications
+                                                Company) was able to achieve many achievements linking the various
+                                                regions of Libya after the infrastructure was exposed
+                                                For communications cut and sabotage during the months of the revolution,
+                                                in addition to restoring communications, post and internet services and
+                                                completing some important strategic projects in pursuit of
+                                                To contribute to the reunification and reconstruction of Libya, and this
+                                                body is chaired by a president assigned by the Prime Minister, Engineer
+                                                Sami Al-Fantazi.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                        <div class="oe_structure"/>
+                    </div>
+                </t>
+            </t>
+        </field>
+    </record>
+    <!--Executive crew-->
+    <record id="executive_crew_page" model="website.page">
+        <field name="name">Executive crew</field>
+        <field name="url">/executive-crew</field>
+        <field name="type">qweb</field>
+        <field name="website_indexed" eval="False"/>
+        <field name="is_published">True</field>
+        <field name="key">theme_cim.executive_crew_page</field>
+        <field name="arch" type="xml">
+            <t name="Executive crew" t-name="theme_cim.executive_crew_page">
+                <t t-call="website.layout">
+                    <div id="wrap">
+                        <section class="pt50 pb50">
+                            <div class="container">
+                                <h3 class="hr_title_horizontal mb30">Executive crew</h3>
+                            </div>
+                        </section>
+                        <div class="oe_structure"/>
+                    </div>
+                </t>
+            </t>
+        </field>
+    </record>
+    <!--Strategy-->
+    <record id="strategy_page" model="website.page">
+        <field name="name">Strategy</field>
+        <field name="url">/strategy</field>
+        <field name="type">qweb</field>
+        <field name="website_indexed" eval="False"/>
+        <field name="is_published">True</field>
+        <field name="key">theme_cim.strategy_page</field>
+        <field name="arch" type="xml">
+            <t name="Strategy" t-name="theme_cim.strategy_page">
+                <t t-call="website.layout">
+                    <div id="wrap">
+                        <section class="pt50 pb50">
+                            <div class="container">
+                                <h3 class="hr_title_horizontal mb30">Strategy</h3>
+                                <div class="faq-list">
+                                    <div class="faq d-flex mb30 align-items-end">
+                                        <div>
+                                            <h5 class="faq-title mb10">Establish a high-level communications
+                                                infrastructure
+                                            </h5>
+                                            <p>The experiences gained at the international level have shown the
+                                                necessity to provide a high-level infrastructure for communications and
+                                                information technology for the development of various economic
+                                                activities
+                                                In modern societies, it is no secret that adopting the principle of
+                                                competitiveness guarantees the continuity of the infrastructure and the
+                                                continuous improvement of services to meet the needs of individuals and
+                                                companies. And in
+                                                In this regard, the Ministry looks forward to the future with its
+                                                efforts to focus on providing the latest technologies in order to
+                                                support economic and social development of all kinds.
+                                                Their levels
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="faq d-flex mb30 align-items-end">
+                                        <div>
+                                            <h5 class="faq-title mb10">Post sector reform</h5>
+                                            <p>The Libyan government realizes that a strong, world-class postal service
+                                                operating within a competitive postal market can act as a valuable tool
+                                                in achieving development goals.
+                                                National, as effective postal services can reduce the value of financial
+                                                and other corporate transactions, which means enhancing the principle of
+                                                competitiveness at the national level
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="faq d-flex mb30 align-items-end">
+                                        <div>
+                                            <h5 class="faq-title mb10">Upgrading the regulatory framework for
+                                                communication networks
+                                            </h5>
+                                            <p>Libya recognizes the importance of integration with the International
+                                                Telecommunication and Information Technology Framework as a means to
+                                                achieve its desired goals in the Libyan ICT sector
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                        <div class="oe_structure"/>
+                    </div>
+                </t>
+            </t>
+        </field>
+    </record>
+    <!--Programs and projects-->
+    <record id="programs_and_projects_page" model="website.page">
+        <field name="name">Programs and projects</field>
+        <field name="url">/programs-and-projects</field>
+        <field name="type">qweb</field>
+        <field name="website_indexed" eval="False"/>
+        <field name="is_published">True</field>
+        <field name="key">theme_cim.programs_and_projects_page</field>
+        <field name="arch" type="xml">
+            <t name="Programs and projects" t-name="theme_cim.programs_and_projects_page">
+                <t t-call="website.layout">
+                    <div id="wrap">
+                        <section class="pt50 pb50">
+                            <div class="container">
+                                <h3 class="hr_title_horizontal mb30">Programs and projects</h3>
+                                <div class="d-flex justify-content-center align-items-center" style="min-height:200px;">
+                                    <span class="text-content-empty">Sorry, there are no programs and projects at the
+                                        moment
+                                    </span>
+                                </div>
+                            </div>
+                        </section>
+                        <div class="oe_structure"/>
+                    </div>
+                </t>
+            </t>
+        </field>
+    </record>
+    <!--International Relations-->
+    <record id="international_relations_page" model="website.page">
+        <field name="name">International Relations</field>
+        <field name="url">/international-relations</field>
+        <field name="type">qweb</field>
+        <field name="website_indexed" eval="False"/>
+        <field name="is_published">True</field>
+        <field name="key">theme_cim.international_relations_page</field>
+        <field name="arch" type="xml">
+            <t name="International Relations" t-name="theme_cim.international_relations_page">
+                <t t-call="website.layout">
+                    <div id="wrap">
+                        <section class="pt50 pb50">
+                            <div class="container">
+                                <h3 class="hr_title_horizontal mb30">International Relations</h3>
+                                <p>The International Relations Office of the Public Authority for Communications and
+                                    Informatics plays a very important role in stimulating and stimulating joint
+                                    cooperation with the parties
+                                    Concerned in this field at all national, regional and international levels. Indeed,
+                                    achieving the desired cooperation at the international level cannot be facilitated
+                                    by
+                                    Without the required cooperation between all parties entrusted with the
+                                    responsibility of making decisions, and this must also be through a wide range of
+                                    initiatives in each of the
+                                    The fields of political planning and practical application. From this standpoint,
+                                    the Communications and Informatics Public Authority seeks to adopt a constructive
+                                    method of cooperation with many
+                                    Concerned parties at all national, regional and international levels, as well as in
+                                    many countries, institutions and organizations around the world.
+                                </p>
+                            </div>
+                        </section>
+                        <div class="oe_structure"/>
+                    </div>
+                </t>
+            </t>
+        </field>
+    </record>
+
+    <!--=============MENU================-->
+    <!--About us-->
+    <record id="menu_aboutus" model="website.menu">
+        <field name="name">About us</field>
+        <field name="url">#</field>
+        <field name="parent_id" ref="website.main_menu"/>
+        <field name="sequence" type="int">20</field>
+    </record>
+    <!--who are we-->
+    <record id="menu_whoarewe" model="website.menu">
+        <field name="name">Who are we</field>
+        <field name="url">/who-are-we</field>
+        <field name="page_id" ref="theme_cim.whoarewe_page"/>
+        <field name="parent_id" ref="website.main_menu"/>
+        <field name="sequence" type="int">21</field>
+    </record>
+    <!--Organizational Structure-->
+    <record id="menu_organizational_structure" model="website.menu">
+        <field name="name">Organizational Structure</field>
+        <field name="url">/organizational-structure</field>
+        <field name="page_id" ref="theme_cim.organizational_structure_page"/>
+        <field name="parent_id" ref="website.main_menu"/>
+        <field name="sequence" type="int">22</field>
+    </record>
+    <!--Executive crew-->
+    <record id="menu_executive_crew" model="website.menu">
+        <field name="name">Executive crew</field>
+        <field name="url">/executive-crew</field>
+        <field name="page_id" ref="theme_cim.executive_crew_page"/>
+        <field name="parent_id" ref="website.main_menu"/>
+        <field name="sequence" type="int">23</field>
+    </record>
+    <!--strategy-->
+    <record id="menu_strategy" model="website.menu">
+        <field name="name">Strategy</field>
+        <field name="url">/strategy</field>
+        <field name="page_id" ref="theme_cim.strategy_page"/>
+        <field name="parent_id" ref="website.main_menu"/>
+        <field name="sequence" type="int">24</field>
+    </record>
+    <!--Programs and projects-->
+    <record id="menu_programs_and_projects" model="website.menu">
+        <field name="name">Programs and projects</field>
+        <field name="url">/programs-and-projects</field>
+        <field name="page_id" ref="theme_cim.programs_and_projects_page"/>
+        <field name="parent_id" ref="website.main_menu"/>
+        <field name="sequence" type="int">25</field>
+    </record>
+    <!--International Relations-->
+    <record id="menu_international_relations" model="website.menu">
+        <field name="name">International Relations</field>
+        <field name="url">/international-relations</field>
+        <field name="page_id" ref="theme_cim.international_relations_page"/>
+        <field name="parent_id" ref="website.main_menu"/>
+        <field name="sequence" type="int">26</field>
+    </record>
 </odoo>

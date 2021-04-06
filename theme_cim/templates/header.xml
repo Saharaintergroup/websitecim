@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <odoo>
     <data>
-
-
-        <!-- East Header -->
+        <!-- Cim Header -->
         <template id="template_header_cim" inherit_id="website.layout" name="Template Header Cim" active="True">
             <xpath expr="//header//nav" position="replace">
                 <div class="header-top pt10 pb10">

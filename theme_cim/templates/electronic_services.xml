@@ -8,144 +8,144 @@
         </xpath>
     </template>
     <data>
-        <record id="electronic_gate" model="ir.ui.view">
-            <field name="name">Electronic gate</field>
-            <field name="type">qweb</field>
-            <field name="key">theme_cim.electronic_gate</field>
-            <field name="arch" type="xml">
-                <t name="Electronic gate" t-name="theme_cim.electronic_gate">
-                    <t t-call="website.layout">
-                        <div id="wrap">
-                            <section class="lh28 pt50 pb50">
-                                <div class="container">
-                                    <!-- 'Search Box' -->
-                                    <form id="o_electronic_gate_search"
-                                          class="form-inline w-100 w-md-auto pt-2 pt-md-0 d-md-flex mb30"
-                                          role="search" method="get">
-                                        <t t-call="website.website_search_box">
-                                            <t t-set="_classes" t-valuef="w-100"/>
-                                        </t>
-                                    </form>
-                                    <div class="faq-list">
-                                        <div class="faq d-flex mb30 align-items-end">
-                                            <div class="">
-                                                <h4 class="faq-title">Csir Citation Yallamco Laboraas Nessi Yut Alekseob
-                                                    Xia
-                                                    Commodo Consecioat. Diwas
-                                                </h4>
-                                                <p>Csir Citation Yallamco Laboraas Nessi Yut Alekseob Xia Commodo
-                                                    Consecioat.
-                                                    Diwas
-                                                    <br/>
-                                                    Csir Citation Yallamco Laboraas Nessi Yut Alekseob Xia Commodo
-                                                    Consecioat.
-                                                    Diwas
-                                                </p>
-                                            </div>
-                                            <a href="#" class="download"><img
-                                                    src="theme_cim/static/src/images/icon/cloud-computing.svg"/>&amp;nbsp;Download
-                                            </a>
-                                        </div>
-                                        <div class="faq d-flex mb30 align-items-end">
-                                            <div class="">
-                                                <h4 class="faq-title">Csir Citation Yallamco Laboraas Nessi Yut Alekseob
-                                                    Xia
-                                                    Commodo Consecioat. Diwas
-                                                </h4>
-                                                <p>Csir Citation Yallamco Laboraas Nessi Yut Alekseob Xia Commodo
-                                                    Consecioat.
-                                                    Diwas
-                                                    <br/>
-                                                    Csir Citation Yallamco Laboraas Nessi Yut Alekseob Xia Commodo
-                                                    Consecioat.
-                                                    Diwas
-                                                </p>
-                                            </div>
-                                            <a href="#" class="download"><img
-                                                    src="theme_cim/static/src/images/icon/cloud-computing.svg"/>&amp;nbsp;Download
-                                            </a>
-                                        </div>
-                                        <div class="faq d-flex mb30 align-items-end">
-                                            <div class="">
-                                                <h4 class="faq-title">Csir Citation Yallamco Laboraas Nessi Yut Alekseob
-                                                    Xia
-                                                    Commodo Consecioat. Diwas
-                                                </h4>
-                                                <p>Csir Citation Yallamco Laboraas Nessi Yut Alekseob Xia Commodo
-                                                    Consecioat.
-                                                    Diwas
-                                                    <br/>
-                                                    Csir Citation Yallamco Laboraas Nessi Yut Alekseob Xia Commodo
-                                                    Consecioat.
-                                                    Diwas
-                                                </p>
-                                            </div>
-                                            <a href="#" class="download"><img
-                                                    src="theme_cim/static/src/images/icon/cloud-computing.svg"/>&amp;nbsp;Download
-                                            </a>
-                                        </div>
-                                        <div class="faq d-flex mb30 align-items-end">
-                                            <div class="">
-                                                <h4 class="faq-title">Csir Citation Yallamco Laboraas Nessi Yut Alekseob
-                                                    Xia
-                                                    Commodo Consecioat. Diwas
-                                                </h4>
-                                                <p>Csir Citation Yallamco Laboraas Nessi Yut Alekseob Xia Commodo
-                                                    Consecioat.
-                                                    Diwas
-                                                    <br/>
-                                                    Csir Citation Yallamco Laboraas Nessi Yut Alekseob Xia Commodo
-                                                    Consecioat.
-                                                    Diwas
-                                                </p>
-                                            </div>
-                                            <a href="#" class="download"><img
-                                                    src="theme_cim/static/src/images/icon/cloud-computing.svg"/>&amp;nbsp;Download
-                                            </a>
-                                        </div>
+<!--        <record id="electronic_gate" model="ir.ui.view">-->
+<!--            <field name="name">Electronic gate</field>-->
+<!--            <field name="type">qweb</field>-->
+<!--            <field name="key">theme_cim.electronic_gate</field>-->
+<!--            <field name="arch" type="xml">-->
+<!--                <t name="Electronic gate" t-name="theme_cim.electronic_gate">-->
+<!--                    <t t-call="website.layout">-->
+<!--                        <div id="wrap">-->
+<!--                            <section class="lh28 pt50 pb50">-->
+<!--                                <div class="container">-->
+<!--                                    &lt;!&ndash; 'Search Box' &ndash;&gt;-->
+<!--                                    <form id="o_electronic_gate_search"-->
+<!--                                          class="form-inline w-100 w-md-auto pt-2 pt-md-0 d-md-flex mb30"-->
+<!--                                          role="search" method="get">-->
+<!--                                        <t t-call="website.website_search_box">-->
+<!--                                            <t t-set="_classes" t-valuef="w-100"/>-->
+<!--                                        </t>-->
+<!--                                    </form>-->
+<!--                                    <div class="faq-list">-->
+<!--                                        <div class="faq d-flex mb30 align-items-end">-->
+<!--                                            <div class="">-->
+<!--                                                <h4 class="faq-title">Csir Citation Yallamco Laboraas Nessi Yut Alekseob-->
+<!--                                                    Xia-->
+<!--                                                    Commodo Consecioat. Diwas-->
+<!--                                                </h4>-->
+<!--                                                <p>Csir Citation Yallamco Laboraas Nessi Yut Alekseob Xia Commodo-->
+<!--                                                    Consecioat.-->
+<!--                                                    Diwas-->
+<!--                                                    <br/>-->
+<!--                                                    Csir Citation Yallamco Laboraas Nessi Yut Alekseob Xia Commodo-->
+<!--                                                    Consecioat.-->
+<!--                                                    Diwas-->
+<!--                                                </p>-->
+<!--                                            </div>-->
+<!--                                            <a href="#" class="download"><img-->
+<!--                                                    src="theme_cim/static/src/images/icon/cloud-computing.svg"/>&amp;nbsp;Download-->
+<!--                                            </a>-->
+<!--                                        </div>-->
+<!--                                        <div class="faq d-flex mb30 align-items-end">-->
+<!--                                            <div class="">-->
+<!--                                                <h4 class="faq-title">Csir Citation Yallamco Laboraas Nessi Yut Alekseob-->
+<!--                                                    Xia-->
+<!--                                                    Commodo Consecioat. Diwas-->
+<!--                                                </h4>-->
+<!--                                                <p>Csir Citation Yallamco Laboraas Nessi Yut Alekseob Xia Commodo-->
+<!--                                                    Consecioat.-->
+<!--                                                    Diwas-->
+<!--                                                    <br/>-->
+<!--                                                    Csir Citation Yallamco Laboraas Nessi Yut Alekseob Xia Commodo-->
+<!--                                                    Consecioat.-->
+<!--                                                    Diwas-->
+<!--                                                </p>-->
+<!--                                            </div>-->
+<!--                                            <a href="#" class="download"><img-->
+<!--                                                    src="theme_cim/static/src/images/icon/cloud-computing.svg"/>&amp;nbsp;Download-->
+<!--                                            </a>-->
+<!--                                        </div>-->
+<!--                                        <div class="faq d-flex mb30 align-items-end">-->
+<!--                                            <div class="">-->
+<!--                                                <h4 class="faq-title">Csir Citation Yallamco Laboraas Nessi Yut Alekseob-->
+<!--                                                    Xia-->
+<!--                                                    Commodo Consecioat. Diwas-->
+<!--                                                </h4>-->
+<!--                                                <p>Csir Citation Yallamco Laboraas Nessi Yut Alekseob Xia Commodo-->
+<!--                                                    Consecioat.-->
+<!--                                                    Diwas-->
+<!--                                                    <br/>-->
+<!--                                                    Csir Citation Yallamco Laboraas Nessi Yut Alekseob Xia Commodo-->
+<!--                                                    Consecioat.-->
+<!--                                                    Diwas-->
+<!--                                                </p>-->
+<!--                                            </div>-->
+<!--                                            <a href="#" class="download"><img-->
+<!--                                                    src="theme_cim/static/src/images/icon/cloud-computing.svg"/>&amp;nbsp;Download-->
+<!--                                            </a>-->
+<!--                                        </div>-->
+<!--                                        <div class="faq d-flex mb30 align-items-end">-->
+<!--                                            <div class="">-->
+<!--                                                <h4 class="faq-title">Csir Citation Yallamco Laboraas Nessi Yut Alekseob-->
+<!--                                                    Xia-->
+<!--                                                    Commodo Consecioat. Diwas-->
+<!--                                                </h4>-->
+<!--                                                <p>Csir Citation Yallamco Laboraas Nessi Yut Alekseob Xia Commodo-->
+<!--                                                    Consecioat.-->
+<!--                                                    Diwas-->
+<!--                                                    <br/>-->
+<!--                                                    Csir Citation Yallamco Laboraas Nessi Yut Alekseob Xia Commodo-->
+<!--                                                    Consecioat.-->
+<!--                                                    Diwas-->
+<!--                                                </p>-->
+<!--                                            </div>-->
+<!--                                            <a href="#" class="download"><img-->
+<!--                                                    src="theme_cim/static/src/images/icon/cloud-computing.svg"/>&amp;nbsp;Download-->
+<!--                                            </a>-->
+<!--                                        </div>-->
 
-                                    </div>
-                                    <div class="mt40">
-                                        <ul class="justify-content-center pagination m-0 ">
-                                            <li class="page-item disabled">
-                                                <a data-oe-model="ir.ui.view" data-oe-id="439" data-oe-field="arch"
-                                                   data-oe-xpath="/t[1]/ul[1]/li[1]/a[1]" class="page-link post_link">
-                                                    Prev
-                                                </a>
-                                            </li>
+<!--                                    </div>-->
+<!--                                    <div class="mt40">-->
+<!--                                        <ul class="justify-content-center pagination m-0 ">-->
+<!--                                            <li class="page-item disabled">-->
+<!--                                                <a data-oe-model="ir.ui.view" data-oe-id="439" data-oe-field="arch"-->
+<!--                                                   data-oe-xpath="/t[1]/ul[1]/li[1]/a[1]" class="page-link post_link">-->
+<!--                                                    Prev-->
+<!--                                                </a>-->
+<!--                                            </li>-->
 
-                                            <li class="page-item active">
-                                                <a href="#" class="page-link post_link">1</a>
-                                            </li>
+<!--                                            <li class="page-item active">-->
+<!--                                                <a href="#" class="page-link post_link">1</a>-->
+<!--                                            </li>-->
 
-                                            <li class="page-item ">
-                                                <a href="#" class="page-link post_link">2</a>
-                                            </li>
+<!--                                            <li class="page-item ">-->
+<!--                                                <a href="#" class="page-link post_link">2</a>-->
+<!--                                            </li>-->
 
-                                            <li class="page-item ">
-                                                <a href="#" class="page-link post_link">3</a>
-                                            </li>
+<!--                                            <li class="page-item ">-->
+<!--                                                <a href="#" class="page-link post_link">3</a>-->
+<!--                                            </li>-->
 
-                                            <li class="page-item ">
-                                                <a href="#" class="page-link post_link">4</a>
-                                            </li>
+<!--                                            <li class="page-item ">-->
+<!--                                                <a href="#" class="page-link post_link">4</a>-->
+<!--                                            </li>-->
 
-                                            <li class="page-item ">
-                                                <a data-oe-model="ir.ui.view" data-oe-id="439" data-oe-field="arch"
-                                                   data-oe-xpath="/t[1]/ul[1]/li[2]/a[1]" href="#"
-                                                   class="page-link post_link">Next
-                                                </a>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </section>
-                            <div class="oe_structure"/>
-                        </div>
-                    </t>
-                </t>
-            </field>
-        </record>
+<!--                                            <li class="page-item ">-->
+<!--                                                <a data-oe-model="ir.ui.view" data-oe-id="439" data-oe-field="arch"-->
+<!--                                                   data-oe-xpath="/t[1]/ul[1]/li[2]/a[1]" href="#"-->
+<!--                                                   class="page-link post_link">Next-->
+<!--                                                </a>-->
+<!--                                            </li>-->
+<!--                                        </ul>-->
+<!--                                    </div>-->
+<!--                                </div>-->
+<!--                            </section>-->
+<!--                            <div class="oe_structure"/>-->
+<!--                        </div>-->
+<!--                    </t>-->
+<!--                </t>-->
+<!--            </field>-->
+<!--        </record>-->
 
         <record id="electronic_services" model="ir.ui.view">
             <field name="name">Electronic services</field>
@@ -223,18 +223,18 @@
             </field>
         </record>
 
-        <record id="electronic_gate_page" model="website.page">
-            <field name="url">/electronic-gate</field>
-            <field name="website_published">True</field>
-            <field name="view_id" ref="electronic_gate"/>
-        </record>
-        <record id="menu_electronic_gate" model="website.menu">
-            <field name="name">Electronic gate</field>
-            <field name="url">/electronic-gate</field>
-            <field name="page_id" ref="theme_cim.electronic_gate_page"/>
-            <field name="parent_id" ref="website.main_menu"/>
-            <field name="sequence" type="int">20</field>
-        </record>
+<!--        <record id="electronic_gate_page" model="website.page">-->
+<!--            <field name="url">/electronic-gate</field>-->
+<!--            <field name="website_published">True</field>-->
+<!--            <field name="view_id" ref="electronic_gate"/>-->
+<!--        </record>-->
+<!--        <record id="menu_electronic_gate" model="website.menu">-->
+<!--            <field name="name">Electronic gate</field>-->
+<!--            <field name="url">/electronic-gate</field>-->
+<!--            <field name="page_id" ref="theme_cim.electronic_gate_page"/>-->
+<!--            <field name="parent_id" ref="website.main_menu"/>-->
+<!--            <field name="sequence" type="int">20</field>-->
+<!--        </record>-->
 
         <record id="electronic_services_page" model="website.page">
             <field name="url">/electronic-services</field>

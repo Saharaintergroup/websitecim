@@ -155,35 +155,35 @@
                                     <div class="col-12 col-sm-11 col-md-10">
                                         <div class="row row-10">
                                             <div class="col-12 col-sm-6">
-                                                <a href="/ask-president" class="btn btn-primary btn-cim-xxxl mb10 mt10">
+                                                <a href="/ask-president" class="btn btn-primary btn-cim-xxxl border-radius-12 mb10 mt10">
                                                     <h3>Ask the president</h3>
                                                 </a>
                                             </div>
                                             <div class="col-12 col-sm-6">
                                                 <a href="/common-questions"
-                                                   class="btn btn-primary btn-cim-xxxl mb10 mt10">
+                                                   class="btn btn-primary btn-cim-xxxl border-radius-12 mb10 mt10">
                                                     <h3>Common questions</h3>
                                                 </a>
                                             </div>
                                             <div class="col-12 col-sm-6">
-                                                <a href="/proposals" class="btn btn-primary btn-cim-xxxl mb10 mt10">
+                                                <a href="/proposals" class="btn btn-primary btn-cim-xxxl border-radius-12 mb10 mt10">
                                                     <h3>The proposals</h3>
                                                 </a>
                                             </div>
                                             <div class="col-12 col-sm-6">
                                                 <a href="/contact-branches"
-                                                   class="btn btn-primary btn-cim-xxxl mb10 mt10">
+                                                   class="btn btn-primary btn-cim-xxxl border-radius-12 mb10 mt10">
                                                     <h3>Contact branches</h3>
                                                 </a>
                                             </div>
                                             <div class="col-12 col-sm-6">
                                                 <a href="/general-complaints"
-                                                   class="btn btn-primary btn-cim-xxxl mb10 mt10">
+                                                   class="btn btn-primary btn-cim-xxxl border-radius-12 mb10 mt10">
                                                     <h3>General complaints</h3>
                                                 </a>
                                             </div>
                                             <div class="col-12 col-sm-6">
-                                                <a href="/contactus" class="btn btn-primary btn-cim-xxxl mb10 mt10">
+                                                <a href="/contactus" class="btn btn-primary btn-cim-xxxl border-radius-12 mb10 mt10">
                                                     <h3>Contact us</h3>
                                                 </a>
                                             </div>
