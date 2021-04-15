@@ -85,7 +85,7 @@ msgstr ""
 msgid ""
 "<span class=\"text-content-empty\">Sorry, there are no international "
 "indicators at the moment</span>"
-msgstr ""
+msgstr "عفوا لا توجد مؤشرات دولية في الوقت الحالى"
 
 #. module: theme_cim
 #: model_terms:ir.ui.view,arch_db:theme_cim.local_indicators_ir_ui_view
@@ -93,7 +93,7 @@ msgstr ""
 msgid ""
 "<span class=\"text-content-empty\">Sorry, there are no local indicators at "
 "the moment</span>"
-msgstr ""
+msgstr "عفوا لا توجد مؤشرات محلية في الوقت الحالى"
 
 #. module: theme_cim
 #: model_terms:ir.ui.view,arch_db:theme_cim.programs_and_projects_page_ir_ui_view
@@ -188,7 +188,7 @@ msgstr "أتصل بالفروع"
 #: model_terms:theme.ir.ui.view,arch:theme_cim.footer_custom
 #: model_terms:website.page,arch_db:theme_cim.contactus_main
 msgid "Contact us"
-msgstr "تواصل معنا"
+msgstr "إتصل بنا"
 
 #. module: theme_cim
 #: model_terms:theme.ir.ui.view,arch:theme_cim.new_homepage
@@ -469,7 +469,7 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:theme_cim.international_indicators_ir_ui_view
 #: model_terms:website.page,arch_db:theme_cim.international_indicators
 msgid "International indicators"
-msgstr ""
+msgstr "المؤشرات الدولية"
 
 #. module: theme_cim
 #: model_terms:ir.ui.view,arch_db:theme_cim.whoarewe_page_ir_ui_view
@@ -948,7 +948,7 @@ msgstr ""
 
 #. module: theme_cim
 #: model_terms:theme.ir.ui.view,arch:theme_cim.new_homepage
-msgid "The electronic government"
+msgid "Electronic government"
 msgstr "الحكومة الالكترونية"
 
 #. module: theme_cim

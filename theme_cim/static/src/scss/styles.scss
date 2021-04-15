@@ -503,13 +503,25 @@
     font-size:14px;
     color:#ffffff!important;
     text-decoration:none!important;
-    margin-bottom: 1rem;
+    font-weight:600;
     img{
         width:20px;
         height:auto;
     }
 }
-
+.icon-file{
+    background-color:$color-blue-3;
+    width:37px;
+    height:37px;
+    border-radius:5px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    img{
+        fill:white;
+        width:50%;
+    }
+}
 .oe_search_box{
     margin:0 10px;
     & + .input-group-append{

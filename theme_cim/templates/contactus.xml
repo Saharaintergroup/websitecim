@@ -155,7 +155,8 @@
                                     <div class="col-12 col-sm-11 col-md-10">
                                         <div class="row row-10">
                                             <div class="col-12 col-sm-6">
-                                                <a href="/ask-president" class="btn btn-primary btn-cim-xxxl border-radius-12 mb10 mt10">
+                                                <a href="/ask-president"
+                                                   class="btn btn-primary btn-cim-xxxl border-radius-12 mb10 mt10">
                                                     <h3>Ask the president</h3>
                                                 </a>
                                             </div>
@@ -166,7 +167,8 @@
                                                 </a>
                                             </div>
                                             <div class="col-12 col-sm-6">
-                                                <a href="/proposals" class="btn btn-primary btn-cim-xxxl border-radius-12 mb10 mt10">
+                                                <a href="/proposals"
+                                                   class="btn btn-primary btn-cim-xxxl border-radius-12 mb10 mt10">
                                                     <h3>The proposals</h3>
                                                 </a>
                                             </div>
@@ -183,7 +185,8 @@
                                                 </a>
                                             </div>
                                             <div class="col-12 col-sm-6">
-                                                <a href="/contactus" class="btn btn-primary btn-cim-xxxl border-radius-12 mb10 mt10">
+                                                <a href="/contactus"
+                                                   class="btn btn-primary btn-cim-xxxl border-radius-12 mb10 mt10">
                                                     <h3>Contact us</h3>
                                                 </a>
                                             </div>
@@ -226,6 +229,116 @@
                                 </div>
                             </div>
                         </section>
+                    </div>
+                </t>
+            </t>
+        </field>
+    </record>
+
+    <!--Common questions-->
+    <record id="common_questions" model="website.page">
+        <field name="name">Common questions</field>
+        <field name="type">qweb</field>
+        <field name="key">theme_cim.common_questions</field>
+        <field name="arch" type="xml">
+            <t name="Common questions" t-name="theme_cim.common_questions">
+                <t t-call="website.layout">
+                    <div id="wrap">
+                        <section class="common_questions lh28 pt50 pb50">
+                            <div class="container">
+                                <h3 class="hr_title_horizontal mb30">Common questions</h3>
+                                <div class="faq-list">
+                                    <div class="faq mb30">
+                                        <h4 class="faq-title">Csir Citation Yallamco Laboraas Nessi Yut Alekseob Xia
+                                            Commodo Consecioat. Diwas
+                                        </h4>
+                                        <p>Csir Citation Yallamco Laboraas Nessi Yut Alekseob Xia Commodo
+                                            Consecioat.
+                                            Diwas
+                                            <br/>
+                                            Csir Citation Yallamco Laboraas Nessi Yut Alekseob Xia Commodo
+                                            Consecioat.
+                                            Diwas
+                                        </p>
+                                    </div>
+                                    <div class="faq mb30">
+                                        <h4 class="faq-title">Csir Citation Yallamco Laboraas Nessi Yut Alekseob Xia
+                                            Commodo Consecioat. Diwas
+                                        </h4>
+                                        <p>Csir Citation Yallamco Laboraas Nessi Yut Alekseob Xia Commodo
+                                            Consecioat.
+                                            Diwas
+                                            <br/>
+                                            Csir Citation Yallamco Laboraas Nessi Yut Alekseob Xia Commodo
+                                            Consecioat.
+                                            Diwas
+                                            <br/>
+                                            Csir Citation Yallamco Laboraas Nessi Yut Alekseob Xia Commodo
+                                            Consecioat.
+                                            Diwas
+                                            <br/>
+                                            Csir Citation Yallamco Laboraas Nessi Yut Alekseob Xia Commodo
+                                            Consecioat.
+                                            Diwas
+                                        </p>
+                                    </div>
+                                    <div class="faq mb30">
+                                        <h4 class="faq-title">Csir Citation Yallamco Laboraas Nessi Yut Alekseob Xia
+                                            Commodo Consecioat. Diwas
+                                        </h4>
+                                        <p>Csir Citation Yallamco Laboraas Nessi Yut Alekseob Xia Commodo
+                                            Consecioat.
+                                            Diwas
+                                            <br/>
+                                            Csir Citation Yallamco Laboraas Nessi Yut Alekseob Xia Commodo
+                                            Consecioat.
+                                            Diwas
+                                            <br/>
+                                            Csir Citation Yallamco Laboraas Nessi Yut Alekseob Xia Commodo
+                                            Consecioat.
+                                            Diwas
+                                        </p>
+                                    </div>
+                                </div>
+
+
+                                <div class="mt40">
+                                    <ul class="justify-content-center pagination m-0 ">
+                                        <li class="page-item disabled">
+                                            <a data-oe-model="ir.ui.view" data-oe-id="439" data-oe-field="arch"
+                                               data-oe-xpath="/t[1]/ul[1]/li[1]/a[1]" class="page-link post_link">
+                                                Prev
+                                            </a>
+                                        </li>
+
+                                        <li class="page-item active">
+                                            <a href="#" class="page-link post_link">1</a>
+                                        </li>
+
+                                        <li class="page-item ">
+                                            <a href="#" class="page-link post_link">2</a>
+                                        </li>
+
+                                        <li class="page-item ">
+                                            <a href="#" class="page-link post_link">3</a>
+                                        </li>
+
+                                        <li class="page-item ">
+                                            <a href="#" class="page-link post_link">4</a>
+                                        </li>
+
+                                        <li class="page-item ">
+                                            <a data-oe-model="ir.ui.view" data-oe-id="439" data-oe-field="arch"
+                                               data-oe-xpath="/t[1]/ul[1]/li[2]/a[1]" href="#"
+                                               class="page-link post_link">Next
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+
+                            </div>
+                        </section>
+                        <div class="oe_structure"/>
                     </div>
                 </t>
             </t>
@@ -347,13 +460,21 @@
         <field name="parent_id" ref="website.main_menu"/>
         <field name="sequence" type="int">92</field>
     </record>
+    <!--common questions-->
+    <record id="menu_common_questions" model="website.menu">
+        <field name="name">Common questions</field>
+        <field name="url">/common-questions</field>
+        <field name="page_id" ref="theme_cim.common_questions"/>
+        <field name="parent_id" ref="website.main_menu"/>
+        <field name="sequence" type="int">93</field>
+    </record>
     <!--proposals-->
     <record id="menu_proposals" model="website.menu">
         <field name="name">Proposals</field>
         <field name="url">/proposals</field>
         <field name="page_id" ref="theme_cim.proposals"/>
         <field name="parent_id" ref="website.main_menu"/>
-        <field name="sequence" type="int">93</field>
+        <field name="sequence" type="int">94</field>
     </record>
     <!--Contact branches-->
     <record id="menu_contact_branches" model="website.menu">
@@ -361,7 +482,7 @@
         <field name="url">/contact-branches</field>
         <field name="page_id" ref="theme_cim.contact_branches"/>
         <field name="parent_id" ref="website.main_menu"/>
-        <field name="sequence" type="int">94</field>
+        <field name="sequence" type="int">95</field>
     </record>
     <!--General complaints-->
     <record id="menu_general_complaints" model="website.menu">
@@ -369,6 +490,6 @@
         <field name="url">/general-complaints</field>
         <field name="page_id" ref="theme_cim.general_complaints"/>
         <field name="parent_id" ref="website.main_menu"/>
-        <field name="sequence" type="int">95</field>
+        <field name="sequence" type="int">96</field>
     </record>
 </odoo>

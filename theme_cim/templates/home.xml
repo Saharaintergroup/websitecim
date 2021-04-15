@@ -142,12 +142,12 @@
                                     </a>
                                 </div>
                                 <div class="col-12 col-sm-6 col-lg-3 mt20 mb10">
-                                    <a href="#"
+                                    <a href="/electronic-government"
                                        class="box_style_1 text-center d-flex align-items-center justify-content-center">
                                         <div>
                                             <img src="/theme_cim/static/src/images/business/electronic_government.png"
                                                  class="mb20"/>
-                                            <h5 class="mb10">The electronic government</h5>
+                                            <h5 class="mb10">Electronic government</h5>
                                             <p>Le Lorem Ipsum est simplement du faux texte employé dans la composition
                                                 et la
                                                 mise en page avant impression
