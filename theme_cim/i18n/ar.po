@@ -6,14 +6,20 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 14.0+e\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-03-29 21:40+0000\n"
-"PO-Revision-Date: 2021-03-29 21:40+0000\n"
+"POT-Creation-Date: 2021-04-15 23:14+0000\n"
+"PO-Revision-Date: 2021-04-15 23:14+0000\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: \n"
+
+#. module: theme_cim
+#: model_terms:ir.ui.view,arch_db:theme_cim.electronic_government_page_ir_ui_view
+#: model_terms:website.page,arch_db:theme_cim.electronic_government_page
+msgid "&amp;nbsp;Download"
+msgstr "&amp;nbsp;تحميل"
 
 #. module: theme_cim
 #: model_terms:theme.ir.ui.view,arch:theme_cim.template_header_cim
@@ -146,9 +152,9 @@ msgstr ""
 
 #. module: theme_cim
 #: model:website.menu,name:theme_cim.menu_common_questions
-#: model_terms:ir.ui.view,arch_db:theme_cim.common_questions
+#: model_terms:ir.ui.view,arch_db:theme_cim.common_questions_ir_ui_view
 #: model_terms:ir.ui.view,arch_db:theme_cim.contactus_main_ir_ui_view
-#: model_terms:website.page,arch_db:theme_cim.common_questions_page
+#: model_terms:website.page,arch_db:theme_cim.common_questions
 #: model_terms:website.page,arch_db:theme_cim.contactus_main
 msgid "Common questions"
 msgstr "الاسئلة الشائعة"
@@ -169,8 +175,8 @@ msgid ""
 "                                                life and support an economy\n"
 "                                                Knowledge throughout Libya"
 msgstr ""
-"قطاعات إتصالات وتقنية معلومات وبريد ذات جودة تنافسية تسّرع التطور الإجتماعي والإقتصادي وتحسن نوعية الحياة وتدعم إقتصاد"
- "المعرفة في كافة أنحاء ليبيا"
+"قطاعات إتصالات وتقنية معلومات وبريد ذات جودة تنافسية تسّرع التطور الإجتماعي "
+"والإقتصادي وتحسن نوعية الحياة وتدعم إقتصادالمعرفة في كافة أنحاء ليبيا"
 
 #. module: theme_cim
 #: model:website.menu,name:theme_cim.menu_contact_branches
@@ -199,97 +205,63 @@ msgstr ""
 "استمرار حملة التعقيم و الوقاية في مبنى الهيئة العامة للاتصالات و المعلوماتية"
 
 #. module: theme_cim
-#: model_terms:ir.ui.view,arch_db:theme_cim.common_questions
-#: model_terms:website.page,arch_db:theme_cim.common_questions_page
+#: model_terms:ir.ui.view,arch_db:theme_cim.common_questions_ir_ui_view
+#: model_terms:website.page,arch_db:theme_cim.common_questions
 msgid ""
 "Csir Citation Yallamco Laboraas Nessi Yut Alekseob Xia\n"
-"                                                Commodo Consecioat. Diwas"
-msgstr ""
-"كسير سيتاشن يللأمكو لابورأس نيسي يت أليكيوب أكس أيا كوممودو كونسيكيوات"
+"                                            Commodo Consecioat. Diwas"
+msgstr "كسير سيتاشن يللأمكو لابورأس نيسي يت أليكيوب أكس أيا كوممودو كونسيكيوات"
 
 #. module: theme_cim
-#: model_terms:ir.ui.view,arch_db:theme_cim.common_questions
-#: model_terms:website.page,arch_db:theme_cim.common_questions_page
+#: model_terms:ir.ui.view,arch_db:theme_cim.common_questions_ir_ui_view
+#: model_terms:website.page,arch_db:theme_cim.common_questions
 msgid ""
 "Csir Citation Yallamco Laboraas Nessi Yut Alekseob Xia Commodo\n"
-"                                                Consecioat.\n"
-"                                                Diwas\n"
-"                                                <br/>\n"
-"                                                Csir Citation Yallamco Laboraas Nessi Yut Alekseob Xia Commodo\n"
-"                                                Consecioat.\n"
-"                                                Diwas"
-msgstr ""
-"كسير سيتاشن يللأمكو لابورأس نيسي يت أليكيوب أكس أيا كوممودو\n"
-"                                                    كونسيكيوات.\n"
-"                                                    ديواس\n"
-"                                                    <br/>\n"
-"                                                    كسير سيتاشن يللأمكو لابورأس نيسي يت أليكيوب أكس أيا كوممودو\n"
-"                                                    كونسيكيوات.\n"
-"                                                    ديواس"
+"                                            Consecioat.\n"
+"                                            Diwas\n"
+"                                            <br/>\n"
+"                                            Csir Citation Yallamco Laboraas Nessi Yut Alekseob Xia Commodo\n"
+"                                            Consecioat.\n"
+"                                            Diwas"
+msgstr "كسير سيتاشن يللأمكو لابورأس نيسي يت أليكيوب أكس أيا كوممودو كونسيكيوات<br/>كسير سيتاشن يللأمكو لابورأس نيسي يت أليكيوب أكس أيا كوممودو كونسيكيوات"
 
 #. module: theme_cim
-#: model_terms:ir.ui.view,arch_db:theme_cim.common_questions
-#: model_terms:website.page,arch_db:theme_cim.common_questions_page
+#: model_terms:ir.ui.view,arch_db:theme_cim.common_questions_ir_ui_view
+#: model_terms:website.page,arch_db:theme_cim.common_questions
 msgid ""
 "Csir Citation Yallamco Laboraas Nessi Yut Alekseob Xia Commodo\n"
-"                                                Consecioat.\n"
-"                                                Diwas\n"
-"                                                <br/>\n"
-"                                                Csir Citation Yallamco Laboraas Nessi Yut Alekseob Xia Commodo\n"
-"                                                Consecioat.\n"
-"                                                Diwas\n"
-"                                                <br/>\n"
-"                                                Csir Citation Yallamco Laboraas Nessi Yut Alekseob Xia Commodo\n"
-"                                                Consecioat.\n"
-"                                                Diwas"
-msgstr ""
-"كسير سيتاشن يللأمكو لابورأس نيسي يت أليكيوب أكس أيا كوممودو\n"
-"                                                    كونسيكيوات.\n"
-"                                                    ديواس\n"
-"                                                    <br/>\n"
-"كسير سيتاشن يللأمكو لابورأس نيسي يت أليكيوب أكس أيا كوممودو\n"
-"                                                    كونسيكيوات.\n"
-"                                                    ديواس\n"
-"                                                    <br/>\n"
-"                                                    كسير سيتاشن يللأمكو لابورأس نيسي يت أليكيوب أكس أيا كوممودو\n"
-"                                                    كونسيكيوات.\n"
-"                                                    ديواس"
+"                                            Consecioat.\n"
+"                                            Diwas\n"
+"                                            <br/>\n"
+"                                            Csir Citation Yallamco Laboraas Nessi Yut Alekseob Xia Commodo\n"
+"                                            Consecioat.\n"
+"                                            Diwas\n"
+"                                            <br/>\n"
+"                                            Csir Citation Yallamco Laboraas Nessi Yut Alekseob Xia Commodo\n"
+"                                            Consecioat.\n"
+"                                            Diwas"
+msgstr "كسير سيتاشن يللأمكو لابورأس نيسي يت أليكيوب أكس أيا كوممودو كونسيكيوات<br/>كسير سيتاشن يللأمكو لابورأس نيسي يت أليكيوب أكس أيا كوممودو كونسيكيوات<br/>كسير سيتاشن يللأمكو لابورأس نيسي يت أليكيوب أكس أيا كوممودو كونسيكيوات"
 
 #. module: theme_cim
-#: model_terms:ir.ui.view,arch_db:theme_cim.common_questions
-#: model_terms:website.page,arch_db:theme_cim.common_questions_page
+#: model_terms:ir.ui.view,arch_db:theme_cim.common_questions_ir_ui_view
+#: model_terms:website.page,arch_db:theme_cim.common_questions
 msgid ""
 "Csir Citation Yallamco Laboraas Nessi Yut Alekseob Xia Commodo\n"
-"                                                Consecioat.\n"
-"                                                Diwas\n"
-"                                                <br/>\n"
-"                                                Csir Citation Yallamco Laboraas Nessi Yut Alekseob Xia Commodo\n"
-"                                                Consecioat.\n"
-"                                                Diwas\n"
-"                                                <br/>\n"
-"                                                Csir Citation Yallamco Laboraas Nessi Yut Alekseob Xia Commodo\n"
-"                                                Consecioat.\n"
-"                                                Diwas\n"
-"                                                <br/>\n"
-"                                                Csir Citation Yallamco Laboraas Nessi Yut Alekseob Xia Commodo\n"
-"                                                Consecioat.\n"
-"                                                Diwas"
+"                                            Consecioat.\n"
+"                                            Diwas\n"
+"                                            <br/>\n"
+"                                            Csir Citation Yallamco Laboraas Nessi Yut Alekseob Xia Commodo\n"
+"                                            Consecioat.\n"
+"                                            Diwas\n"
+"                                            <br/>\n"
+"                                            Csir Citation Yallamco Laboraas Nessi Yut Alekseob Xia Commodo\n"
+"                                            Consecioat.\n"
+"                                            Diwas\n"
+"                                            <br/>\n"
+"                                            Csir Citation Yallamco Laboraas Nessi Yut Alekseob Xia Commodo\n"
+"                                            Consecioat.\n"
+"                                            Diwas"
 msgstr ""
-"كسير سيتاشن يللأمكو لابورأس نيسي يت أليكيوب أكس أيا كوممودو\n"
-"                                                    كونسيكيوات.\n"
-"                                                    ديواس\n"
-"                                                    <br/>\n"
-"كسير سيتاشن يللأمكو لابورأس نيسي يت أليكيوب أكس أيا كوممودو\n"
-"                                                    كونسيكيوات.\n"
-"                                                    ديواس\n"
-"                                                    <br/>\n"
-"كسير سيتاشن يللأمكو لابورأس نيسي يت أليكيوب أكس أيا كوممودو\n"
-"                                                    كونسيكيوات.\n"
-"                                                    ديواس\n"
-"                                                    <br/>\n"
-"                                                    كسير سيتاشن يللأمكو لابورأس نيسي يت أليكيوب أكس أيا كوممودو\n"
-"                                                    كونسيكيوات.\n"
-"                                                    ديواس"
 
 #. module: theme_cim
 #: model_terms:theme.ir.ui.view,arch:theme_cim.new_homepage
@@ -343,8 +315,7 @@ msgstr "خصوصية البيانات"
 msgid ""
 "Designing the strategic plan for the communications and information\n"
 "                                                technology sector"
-msgstr ""
-"تصميم الخطة الإستراتيجية لقطاع الإتصالات وتقنية المعلومات"
+msgstr "تصميم الخطة الإستراتيجية لقطاع الإتصالات وتقنية المعلومات"
 
 #. module: theme_cim
 #: model_terms:theme.ir.ui.view,arch:theme_cim.footer_custom
@@ -356,7 +327,18 @@ msgstr "مجتمع رقمي - خدمات مميزة - بيئة تنافسية"
 #: model_terms:ir.ui.view,arch_db:theme_cim.organizational_structure_page_ir_ui_view
 #: model_terms:website.page,arch_db:theme_cim.organizational_structure_page
 msgid "Eastern branch"
-msgstr ""
+msgstr "الفرع الشرقي"
+
+#. module: theme_cim
+#: model_terms:ir.ui.view,arch_db:theme_cim.electronic_government_page_ir_ui_view
+#: model_terms:website.page,arch_db:theme_cim.electronic_government_page
+msgid "Electronic Government"
+msgstr "الحكومة الإلكترونية"
+
+#. module: theme_cim
+#: model_terms:theme.ir.ui.view,arch:theme_cim.new_homepage
+msgid "Electronic government"
+msgstr "الحكومة الالكترونية"
 
 #. module: theme_cim
 #: model_terms:theme.ir.ui.view,arch:theme_cim.footer_custom
@@ -391,10 +373,12 @@ msgid ""
 "                                                achieving social inclusiveness and bridging the gap\n"
 "                                                Digital"
 msgstr ""
-"تعزيز البيئة القانونية والتنظيمية والمؤسسية لسوق منافس يشجع الابتكار ويقدم الخدمات والمنتجات"
-"دعم وتعزيز قدرة وتنافسية قطاعات الاتصالات وتقنية المعلومات والبريد محلياً واقليمياً ودولياً واستقطاب الاستثمار الأجنبي والمحلي.السعي نحو الاستخدام"
- "وتعزيز السعي نحو تعظيم الاستفادة من موارد تقنية المعلومات وتعزيز مفاهيمها واستخداماتها للمساهمة في تحقيق الشمولية الاجتماعية وردم الفجوة"
-"الرقمية"
+"تعزيز البيئة القانونية والتنظيمية والمؤسسية لسوق منافس يشجع الابتكار ويقدم "
+"الخدمات والمنتجاتدعم وتعزيز قدرة وتنافسية قطاعات الاتصالات وتقنية المعلومات "
+"والبريد محلياً واقليمياً ودولياً واستقطاب الاستثمار الأجنبي والمحلي.السعي "
+"نحو الاستخداموتعزيز السعي نحو تعظيم الاستفادة من موارد تقنية المعلومات "
+"وتعزيز مفاهيمها واستخداماتها للمساهمة في تحقيق الشمولية الاجتماعية وردم "
+"الفجوةالرقمية"
 
 #. module: theme_cim
 #: model_terms:ir.ui.view,arch_db:theme_cim.strategy_page_ir_ui_view
@@ -410,8 +394,7 @@ msgstr "إقامة بنية أساسية عالية المستوى للاتصا�
 msgid ""
 "Establishing the national frequency spectrum plan and managing and\n"
 "                                                allocating frequency usage"
-msgstr ""
-"وضع المخطط الوطني للطيف الترددي وإدارة وتخصيص استعمال الترددات"
+msgstr "وضع المخطط الوطني للطيف الترددي وإدارة وتخصيص استعمال الترددات"
 
 #. module: theme_cim
 #: model:website.menu,name:theme_cim.menu_executive_crew
@@ -462,7 +445,7 @@ msgstr "الافراد"
 #: model_terms:ir.ui.view,arch_db:theme_cim.international_relations_page_ir_ui_view
 #: model_terms:website.page,arch_db:theme_cim.international_relations_page
 msgid "International Relations"
-msgstr ""
+msgstr "العلاقات الدولية"
 
 #. module: theme_cim
 #: model:website.menu,name:theme_cim.menu_international_indicators
@@ -477,8 +460,7 @@ msgstr "المؤشرات الدولية"
 msgid ""
 "Issuing and determining fees for all types of licenses and granting\n"
 "                                                approvals related to the activity"
-msgstr ""
-"إصدار وتحديد رسوم جميع أنواع التراخيص ومنح الموافقات المتعلقة بالنشاط"
+msgstr "إصدار وتحديد رسوم جميع أنواع التراخيص ومنح الموافقات المتعلقة بالنشاط"
 
 #. module: theme_cim
 #: model_terms:ir.ui.view,arch_db:theme_cim.advertisements
@@ -568,7 +550,9 @@ msgid ""
 "Libya recognizes the importance of integration with the International\n"
 "                                                Telecommunication and Information Technology Framework as a means to\n"
 "                                                achieve its desired goals in the Libyan ICT sector"
-msgstr "تدرك ليبيا أهمية التكامل مع الإطار الدولي للاتصالات وتقنية المعلومات كوسيلة لتحقيق أهدافها المنشودة في قطاع  الاتصالات وتقنية المعلومات الليبي"
+msgstr ""
+"تدرك ليبيا أهمية التكامل مع الإطار الدولي للاتصالات وتقنية المعلومات كوسيلة "
+"لتحقيق أهدافها المنشودة في قطاع  الاتصالات وتقنية المعلومات الليبي"
 
 #. module: theme_cim
 #: model_terms:ir.ui.view,arch_db:theme_cim.advertisements
@@ -611,9 +595,9 @@ msgid "News"
 msgstr "موجز الاخبار"
 
 #. module: theme_cim
-#: model_terms:ir.ui.view,arch_db:theme_cim.common_questions
+#: model_terms:ir.ui.view,arch_db:theme_cim.common_questions_ir_ui_view
 #: model_terms:ir.ui.view,arch_db:theme_cim.media_center
-#: model_terms:website.page,arch_db:theme_cim.common_questions_page
+#: model_terms:website.page,arch_db:theme_cim.common_questions
 #: model_terms:website.page,arch_db:theme_cim.media_center_page
 msgid "Next"
 msgstr "التالي"
@@ -686,9 +670,9 @@ msgid "Post sector reform"
 msgstr "إصلاح قطاع البريد"
 
 #. module: theme_cim
-#: model_terms:ir.ui.view,arch_db:theme_cim.common_questions
+#: model_terms:ir.ui.view,arch_db:theme_cim.common_questions_ir_ui_view
 #: model_terms:ir.ui.view,arch_db:theme_cim.media_center
-#: model_terms:website.page,arch_db:theme_cim.common_questions_page
+#: model_terms:website.page,arch_db:theme_cim.common_questions
 #: model_terms:website.page,arch_db:theme_cim.media_center_page
 msgid "Prev"
 msgstr "السابق"
@@ -719,7 +703,9 @@ msgstr "المقترحات"
 msgid ""
 "Proposing draft laws and regulations related to the telecommunications,\n"
 "                                                informatics and post sector"
-msgstr "اقتراح مشروعات القوانين واللوائح المتعلقة بقطاع الاتصالات والمعلوماتية والبريد"
+msgstr ""
+"اقتراح مشروعات القوانين واللوائح المتعلقة بقطاع الاتصالات والمعلوماتية "
+"والبريد"
 
 #. module: theme_cim
 #: model_terms:theme.ir.ui.view,arch:theme_cim.footer_custom
@@ -823,7 +809,8 @@ msgstr "تطوير القطاع"
 msgid ""
 "Setting detailed work plans and mechanisms to develop the Libyan\n"
 "                                                communications and information technology sector"
-msgstr "وضع خطط وآليات عمل تفصيلية لتطويرقطاع الإتصالات وتقنية المعلومات الليبي"
+msgstr ""
+"وضع خطط وآليات عمل تفصيلية لتطويرقطاع الإتصالات وتقنية المعلومات الليبي"
 
 #. module: theme_cim
 #: model_terms:ir.ui.view,arch_db:theme_cim.electronic_services
@@ -840,7 +827,9 @@ msgid ""
 "Solve and fix faults and immediate problems related to the infrastructure\n"
 "                                                of\n"
 "                                                the communications and information technology sector"
-msgstr "حل وإصلاح الأعطال والمشاكل الآنية الخاصة بالبنية التحتية لقطاع الإتصالات وتقنية المعلومات"
+msgstr ""
+"حل وإصلاح الأعطال والمشاكل الآنية الخاصة بالبنية التحتية لقطاع الإتصالات "
+"وتقنية المعلومات"
 
 #. module: theme_cim
 #: model_terms:ir.ui.view,arch_db:theme_cim.organizational_structure_page_ir_ui_view
@@ -897,11 +886,16 @@ msgid ""
 "                                    Concerned parties at all national, regional and international levels, as well as in\n"
 "                                    many countries, institutions and organizations around the world."
 msgstr ""
-"يقوم مكتب العلاقات الدولية بالهيئة العامة الإتصالات و المعلوماتية بدور على درجة كبيرة من الأهمية في حفز وتنشيط التعاون المشترك مع الأطراف
-"المعنية في هذا المجال على جميع المستويات الوطنية والإقليمية والدولية والواقع أن تحقق التعاون المنشود على المستوى الدولي لا يمكن أن يتيسر من"
-"دون توفر التعاون المطلوب بين كافة الجهات المنوط بها مسؤولية اتخاذ القرار، ولابد أن يكون ذلك أيضاً عن طريق مجموعة واسعة من المبادرات في كل من"
-"مجالي التخطيط السياسي والتطبيق العملي. ومن هذا المنطلق تسعى الهيئة العامة الإتصالات و المعلوماتية انتهاج أسلوب التعاون البناء مع العديد من"
-"الأطراف المعنية على كافة المستويات الوطنية والإقليمية والدولية وكذلك في العديد من الدول والمؤسسات والمنظمات في جميع أنحاء العالم."
+"يقوم مكتب العلاقات الدولية بالهيئة العامة الإتصالات و المعلوماتية بدور على "
+"درجة كبيرة من الأهمية في حفز وتنشيط التعاون المشترك مع الأطراالمعنية في هذا "
+"المجال على جميع المستويات الوطنية والإقليمية والدولية والواقع أن تحقق "
+"التعاون المنشود على المستوى الدولي لا يمكن أن يتيسر مندون توفر التعاون "
+"المطلوب بين كافة الجهات المنوط بها مسؤولية اتخاذ القرار، ولابد أن يكون ذلك "
+"أيضاً عن طريق مجموعة واسعة من المبادرات في كل منمجالي التخطيط السياسي "
+"والتطبيق العملي. ومن هذا المنطلق تسعى الهيئة العامة الإتصالات و المعلوماتية "
+"انتهاج أسلوب التعاون البناء مع العديد منالأطراف المعنية على كافة المستويات "
+"الوطنية والإقليمية والدولية وكذلك في العديد من الدول والمؤسسات والمنظمات في "
+"جميع أنحاء العالم."
 
 #. module: theme_cim
 #: model_terms:ir.ui.view,arch_db:theme_cim.strategy_page_ir_ui_view
@@ -914,8 +908,10 @@ msgid ""
 "                                                and other corporate transactions, which means enhancing the principle of\n"
 "                                                competitiveness at the national level"
 msgstr ""
-"تدرك الحكومة الليبية أن الخدمة البريدية القوية ذات الأداء العالمي التي تعمل داخل سوق بريدي تنافسي يمكنها العمل كأداة قيمة في تحقيق أهداف التنمية"
-"الوطنية، إذ يمكن للخدمات البريدية الفعالة خفض قيمة المعاملات المالية وغيرها من معاملات الشركات مما يعني تعزيز مبدأ التنافسية على المستوى الوطن"
+"تدرك الحكومة الليبية أن الخدمة البريدية القوية ذات الأداء العالمي التي تعمل "
+"داخل سوق بريدي تنافسي يمكنها العمل كأداة قيمة في تحقيق أهداف التنميةالوطنية،"
+" إذ يمكن للخدمات البريدية الفعالة خفض قيمة المعاملات المالية وغيرها من "
+"معاملات الشركات مما يعني تعزيز مبدأ التنافسية على المستوى الوطن"
 
 #. module: theme_cim
 #: model_terms:ir.ui.view,arch_db:theme_cim.organizational_structure_page_ir_ui_view
@@ -947,9 +943,124 @@ msgstr ""
 "رئيس الوزراء, المهندس سامي الفنطازي."
 
 #. module: theme_cim
-#: model_terms:theme.ir.ui.view,arch:theme_cim.new_homepage
-msgid "Electronic government"
-msgstr "الحكومة الالكترونية"
+#: model_terms:ir.ui.view,arch_db:theme_cim.electronic_government_page_ir_ui_view
+#: model_terms:website.page,arch_db:theme_cim.electronic_government_page
+msgid ""
+"The Public Communications Authority is concerned with communications and\n"
+"                                            information\n"
+"                                            technology affairs and represents the highest authority responsible for\n"
+"                                            the\n"
+"                                            telecommunications sector in Libya.\n"
+"                                            Its main headquarters is located in the city of Tripoli (the\n"
+"                                            headquarters of\n"
+"                                            the\n"
+"                                            General Post and Telecommunications Company). It was able to achieve\n"
+"                                            many\n"
+"                                            Among the achievements linking the various regions of Libya after the\n"
+"                                            communication\n"
+"                                            infrastructure was cut and vandalized during the months of the\n"
+"                                            revolution\n"
+"                                            Restoring telecommunications, post and internet services and completing\n"
+"                                            some\n"
+"                                            important strategic projects in an effort to contribute to the\n"
+"                                            reunification\n"
+"                                            And Emaar Libya, and this body is headed by a president assigned by the\n"
+"                                            President of\n"
+"                                            the Public Communications Authority, which deals with communications and\n"
+"                                            information\n"
+"                                            technology affairs\n"
+"                                            It is the highest authority responsible for the telecommunications\n"
+"                                            sector in\n"
+"                                            Libya.\n"
+"                                            Its headquarters is located in Tripoli (the headquarters of the General\n"
+"                                            Postal\n"
+"                                            Company\n"
+"                                            And telecommunications). It was able to achieve many achievements by\n"
+"                                            connecting the\n"
+"                                            various regions of Libya, after the infrastructure was damaged\n"
+"                                            For communications cut and sabotage during the months of the revolution,\n"
+"                                            in\n"
+"                                            addition\n"
+"                                            to restoring communications, post and internet services and completing\n"
+"                                            some\n"
+"                                            projects\n"
+"                                            The important strategy in an effort to contribute to the reunification\n"
+"                                            and\n"
+"                                            reconstruction of Libya. This body is headed by a president assigned by\n"
+"                                            the\n"
+"                                            president"
+msgstr " الهيئة العامة الإتصالات  تعنى بشؤون الاتصالات وتقنية المعلومات وتمثل أعلى سلطة مسؤولة عن قطاع الاتصالات في ليبيا."
+"يقع مقرها الرئيسي في مدينة طرابلس (مقر الشركة العامة للبريد والاتصالات السلكية واللاسلكية).استطاعت تحقيق العديد"
+"من الإنجازات بربط مختلف ناطق ليبيا بعدما تعرضت البنية التحتية للإتصالات من قطع وتخريب أثناء شهور الثورة وبالإضافة إلى"
+"إعادة خدمات الإتصالات والبريد والإنترنت واستكمال بعض المشاريع الإستراتيجية المهمة سعياً للمساهمة في لم الشمل"
+"وإعمار ليبيا ويترأس هذه الهيئة  رئيسا بتكليف من رئيس  الهيئة العامة الإتصالات  تعنى بشؤون الاتصالات وتقنية المعلومات"
+"وتمثل أعلى سلطة مسؤولة عن قطاع الاتصالات في ليبيا. يقع مقرها الرئيسي في مدينة طرابلس (مقر الشركة العامة للبريد"
+"والاتصالات السلكية واللاسلكية).استطاعت تحقيق العديد من الإنجازات بربط مختلف ناطق ليبيا بعدما تعرضت البنية التحتية"
+"للإتصالات من قطع وتخريب أثناء شهور الثورة وبالإضافة إلى إعادة خدمات الإتصالات والبريد والإنترنت واستكمال بعض المشاريع"
+"الإستراتيجية المهمة سعياً للمساهمة في لم الشمل وإعمار ليبيا ويترأس هذه الهيئة  رئيسا بتكليف من رئيس "
+
+#. module: theme_cim
+#: model_terms:ir.ui.view,arch_db:theme_cim.electronic_government_page_ir_ui_view
+#: model_terms:website.page,arch_db:theme_cim.electronic_government_page
+msgid ""
+"The Public Communications Authority is concerned with communications and\n"
+"                                            information\n"
+"                                            technology affairs and represents the highest authority responsible for the\n"
+"                                            telecommunications sector in Libya.\n"
+"                                            Its main headquarters is located in the city of Tripoli (the headquarters of\n"
+"                                            the\n"
+"                                            General Post and Telecommunications Company). It was able to achieve many\n"
+"                                            Among the achievements linking the various regions of Libya after the\n"
+"                                            communication\n"
+"                                            infrastructure was cut and vandalized during the months of the revolution\n"
+"                                            Restoring telecommunications, post and internet services and completing some\n"
+"                                            important strategic projects in an effort to contribute to the reunification\n"
+"                                            And Emaar Libya, and this body is headed by a president assigned by the\n"
+"                                            President of\n"
+"                                            the Public Communications Authority, which deals with communications and\n"
+"                                            information\n"
+"                                            technology affairs\n"
+"                                            It is the highest authority responsible for the telecommunications sector in\n"
+"                                            Libya.\n"
+"                                            Its headquarters is located in Tripoli (the headquarters of the General\n"
+"                                            Postal\n"
+"                                            Company\n"
+"                                            And telecommunications). It was able to achieve many achievements by\n"
+"                                            connecting the\n"
+"                                            various regions of Libya, after the infrastructure was damaged\n"
+"                                            For communications cut and sabotage during the months of the revolution, in\n"
+"                                            addition\n"
+"                                            to restoring communications, post and internet services and completing some\n"
+"                                            projects\n"
+"                                            The important strategy in an effort to contribute to the reunification and\n"
+"                                            reconstruction of Libya. This body is headed by a president assigned by the\n"
+"                                            president"
+msgstr " الهيئة العامة الإتصالات  تعنى بشؤون الاتصالات وتقنية المعلومات وتمثل أعلى سلطة مسؤولة عن قطاع الاتصالات في ليبيا."
+"يقع مقرها الرئيسي في مدينة طرابلس (مقر الشركة العامة للبريد والاتصالات السلكية واللاسلكية).استطاعت تحقيق العديد"
+"من الإنجازات بربط مختلف ناطق ليبيا بعدما تعرضت البنية التحتية للإتصالات من قطع وتخريب أثناء شهور الثورة وبالإضافة إلى"
+"إعادة خدمات الإتصالات والبريد والإنترنت واستكمال بعض المشاريع الإستراتيجية المهمة سعياً للمساهمة في لم الشمل"
+"وإعمار ليبيا ويترأس هذه الهيئة  رئيسا بتكليف من رئيس  الهيئة العامة الإتصالات  تعنى بشؤون الاتصالات وتقنية المعلومات"
+"وتمثل أعلى سلطة مسؤولة عن قطاع الاتصالات في ليبيا. يقع مقرها الرئيسي في مدينة طرابلس (مقر الشركة العامة للبريد"
+"والاتصالات السلكية واللاسلكية).استطاعت تحقيق العديد من الإنجازات بربط مختلف ناطق ليبيا بعدما تعرضت البنية التحتية"
+"للإتصالات من قطع وتخريب أثناء شهور الثورة وبالإضافة إلى إعادة خدمات الإتصالات والبريد والإنترنت واستكمال بعض المشاريع"
+"الإستراتيجية المهمة سعياً للمساهمة في لم الشمل وإعمار ليبيا ويترأس هذه الهيئة  رئيسا بتكليف من رئيس "
+
+#. module: theme_cim
+#: model_terms:ir.ui.view,arch_db:theme_cim.electronic_government_page_ir_ui_view
+#: model_terms:website.page,arch_db:theme_cim.electronic_government_page
+msgid ""
+"The Public Communications Authority is concerned with the\n"
+"                                            affairs of communications\n"
+"                                            and information technology and represents"
+msgstr "الهيئة العامة الإتصالات  تعنى بشؤون الاتصالات وتقنية المعلومات وتمثل"
+
+#. module: theme_cim
+#: model_terms:ir.ui.view,arch_db:theme_cim.electronic_government_page_ir_ui_view
+#: model_terms:website.page,arch_db:theme_cim.electronic_government_page
+msgid ""
+"The Public Communications Authority is concerned with the\n"
+"                                            affairs of communications and information technology"
+msgstr " الهيئة العامة الإتصالات  تعنى بشؤون الاتصالات وتقنية المعلومات وتمثل أعلى سلطة مسؤولة عن قطاع"
 
 #. module: theme_cim
 #: model_terms:ir.ui.view,arch_db:theme_cim.strategy_page_ir_ui_view
@@ -1036,6 +1147,12 @@ msgstr "ماذا نفعل"
 #: model_terms:website.page,arch_db:theme_cim.whoarewe_page
 msgid "Who are we"
 msgstr "من نحن "
+
+#. module: theme_cim
+#: model_terms:ir.ui.view,arch_db:theme_cim.electronic_government_page_ir_ui_view
+#: model_terms:website.page,arch_db:theme_cim.electronic_government_page
+msgid "Work related files"
+msgstr "الملفات المرتبطة بالعمل"
 
 #. module: theme_cim
 #: model_terms:theme.ir.ui.view,arch:theme_cim.website_form
