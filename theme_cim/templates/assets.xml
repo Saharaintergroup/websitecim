@@ -26,8 +26,6 @@
                 <script type="text/javascript" src="/theme_cim/static/src/js/acmeticker.js"/>
                 <script type="text/javascript" src="/theme_cim/static/src/js/circle-progress.min.js"/>
                 <script type="text/javascript" src="/theme_cim/static/src/js/home.js"/>
-                <script src="https://kit.fontawesome.com/d83ce94b70.js" crossorigin="anonymous"></script>
-
             </xpath>
         </template>
     </data>

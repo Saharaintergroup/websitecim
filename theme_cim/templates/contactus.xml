@@ -239,6 +239,9 @@
     <record id="common_questions" model="website.page">
         <field name="name">Common questions</field>
         <field name="type">qweb</field>
+        <field name="url">/common-questions</field>
+        <field name="website_indexed" eval="False"/>
+        <field name="is_published">True</field>
         <field name="key">theme_cim.common_questions</field>
         <field name="arch" type="xml">
             <t name="Common questions" t-name="theme_cim.common_questions">
