@@ -569,3 +569,29 @@
         font-size:14px;
     }
 }
+
+.s_image_gallery_electronic_government{
+    padding:0 10px 0;
+    ul.carousel-indicators > *{
+        width:11px!important;
+        height:11px!important;
+        flex: 0 0 11px!important;
+    }
+    &.s_image_gallery[data-vcss="001"].o_slideshow .carousel .carousel-item.active,
+    &.s_image_gallery[data-vcss="001"].o_slideshow .carousel .carousel-item-next,
+    &.s_image_gallery[data-vcss="001"].o_slideshow .carousel .carousel-item-prev,
+    &.s_image_gallery[data-vcss="001"].o_slideshow .carousel .carousel-control-next,
+    &.s_image_gallery[data-vcss="001"].o_slideshow .carousel .carousel-control-prev{
+            padding-bottom: 45px;
+    }
+    &:before{
+        content:"";
+        display:block;
+        background-color:rgba(0,0,0,.31);
+        position: absolute;
+        left: 0;
+        width: 100%;
+        height: 80%;
+        bottom: 0;
+    }
+}

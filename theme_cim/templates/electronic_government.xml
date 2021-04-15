@@ -57,9 +57,51 @@
                                         </p>
                                     </div>
                                     <div class="col-md-4">
-                                        <img class="d-block w-100"
-                                             src="/theme_cim/static/src/images/electronic_government.png"
-                                             alt="First slide"/>
+                                        <section
+                                                class="s_image_gallery_electronic_government s_image_gallery s_image_gallery_show_indicators s_image_gallery_indicators_rounded pt24 o_colored_level o_fake_not_editable o_slideshow"
+                                                data-vcss="001" data-columns="3"
+                                                style="overflow: hidden; " data-snippet="s_image_gallery"
+                                                data-name="Image Gallery" contenteditable="false" indicators="false">
+                                                <div id="slideshow_1618523206964" class="carousel slide"
+                                                     data-ride="carousel" data-interval="0" style="margin: 0 12px;">
+                                                    <div class="carousel-inner" style="padding: 0;">
+                                                        <div class="carousel-item active">
+                                                            <img class="img img-fluid d-block o_we_selected_image"
+                                                                 src="/theme_cim/static/src/images/electronic_government.png"
+                                                                 style="" alt="" data-name="Image"
+                                                                 contenteditable="true" data-index="0"/>
+                                                        </div>
+                                                        <div class="carousel-item undefined">
+                                                            <img class="img img-fluid d-block o_we_selected_image"
+                                                                 src="/theme_cim/static/src/images/electronic_government.png"
+                                                                 style="" alt="" data-name="Image"
+                                                                 contenteditable="true" data-index="1"/>
+                                                        </div>
+                                                        <div class="carousel-item undefined">
+                                                            <img class="img img-fluid d-block o_we_selected_image"
+                                                                 src="/theme_cim/static/src/images/electronic_government.png"
+                                                                 style="" alt="" data-name="Image"
+                                                                 contenteditable="true" data-index="2"/>
+                                                        </div>
+                                                    </div>
+                                                    <ul class="carousel-indicators">
+                                                        <li data-target="#slideshow_1618523206964" data-slide-to="0"
+                                                            class="active"></li>
+                                                        <li data-target="#slideshow_1618523206964" data-slide-to="1"></li>
+                                                        <li data-target="#slideshow_1618523206964" data-slide-to="2"></li>
+                                                    </ul>
+<!--                                                    <a class="carousel-control-prev" href="#slideshow_1618523206964"-->
+<!--                                                       data-slide="prev" aria-label="Previous" title="Previous">-->
+<!--                                                        <span class="fa fa-chevron-left fa-2x text-white"></span>-->
+<!--                                                        <span class="sr-only">Previous</span>-->
+<!--                                                    </a>-->
+<!--                                                    <a class="carousel-control-next" href="#slideshow_1618523206964"-->
+<!--                                                       data-slide="next" aria-label="Next" title="Next">-->
+<!--                                                        <span class="fa fa-chevron-right fa-2x text-white"></span>-->
+<!--                                                        <span class="sr-only">Next</span>-->
+<!--                                                    </a>-->
+                                                </div>
+                                        </section>
                                     </div>
                                 </div>
                                 <div class="row mb40">
@@ -187,7 +229,7 @@
                                     <div class="row align-items-center mb10 mt10">
                                         <div class="col-1">
                                             <div class="icon-file">
-                                                <img src="/theme_cim/static/src/images/icon/file-pdf-solid.svg"/>
+                                                <img src="/theme_cim/static/src/images/icon/file-image-solid.svg"/>
                                             </div>
                                         </div>
                                         <div class="col-9">The Public Communications Authority is concerned with the
@@ -202,7 +244,7 @@
                                     <div class="row align-items-center mb10 mt10">
                                         <div class="col-1">
                                             <div class="icon-file">
-                                                <img src="/theme_cim/static/src/images/icon/file-pdf-solid.svg"/>
+                                                <img src="/theme_cim/static/src/images/icon/file-word-solid.svg"/>
                                             </div>
                                         </div>
                                         <div class="col-9">The Public Communications Authority is concerned with the
