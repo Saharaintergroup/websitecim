@@ -21,6 +21,7 @@
         # "templates/common_questions.xml",
         "templates/contactus.xml",
         "templates/electronic_government.xml",
+        "templates/cybersecurity.xml",
     ],
     'images': [
         'static/description/cover.png',

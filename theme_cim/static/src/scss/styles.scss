@@ -594,4 +594,10 @@
         height: 80%;
         bottom: 0;
     }
+    &.s_image_gallery[data-vcss="001"].o_slideshow .carousel ul.carousel-indicators li{
+        border: 2px solid #ffffff;
+        &.active{
+            background-color:$color-blue-3;
+        }
+    }
 }
