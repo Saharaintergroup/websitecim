@@ -22,6 +22,7 @@
         "templates/electronic_government.xml",
         "templates/cybersecurity.xml",
         "templates/sector_development.xml",
+        "templates/organization_of_communications.xml",
     ],
     'images': [
         'static/description/cover.png',

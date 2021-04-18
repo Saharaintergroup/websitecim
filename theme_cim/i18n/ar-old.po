@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 14.0+e\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-04-18 02:20+0000\n"
-"PO-Revision-Date: 2021-04-18 02:20+0000\n"
+"POT-Creation-Date: 2021-04-18 15:20+0000\n"
+"PO-Revision-Date: 2021-04-18 15:20+0000\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -18,8 +18,10 @@ msgstr ""
 #. module: theme_cim
 #: model_terms:ir.ui.view,arch_db:theme_cim.cybersecurity_page_ir_ui_view
 #: model_terms:ir.ui.view,arch_db:theme_cim.electronic_government_page_ir_ui_view
+#: model_terms:ir.ui.view,arch_db:theme_cim.sector_development_page_ir_ui_view
 #: model_terms:website.page,arch_db:theme_cim.cybersecurity_page
 #: model_terms:website.page,arch_db:theme_cim.electronic_government_page
+#: model_terms:website.page,arch_db:theme_cim.sector_development_page
 msgid "&amp;nbsp;Download"
 msgstr "&amp;nbsp;تحميل"
 
@@ -485,6 +487,23 @@ msgid "International indicators"
 msgstr "المؤشرات الدولية"
 
 #. module: theme_cim
+#: model_terms:ir.ui.view,arch_db:theme_cim.sector_development_page_ir_ui_view
+#: model_terms:website.page,arch_db:theme_cim.sector_development_page
+msgid ""
+"Ioti Ariri Dollar in Reprihenderit Folyopatty Fillet Ice Essence\n"
+"                                                    Killlyum Dollar Io Vegite Aeasy Killium Dollar Io Vegite"
+msgstr "أيوتي أريري دولار إن ريبريهينديرأيت فوليوبتاتي فيلايت أيسسي كايلليوم دولار أيو فيجايتأيسي كايلليوم دولار أيو فيجايت"
+
+#. module: theme_cim
+#: model_terms:ir.ui.view,arch_db:theme_cim.sector_development_page_ir_ui_view
+#: model_terms:website.page,arch_db:theme_cim.sector_development_page
+msgid ""
+"Ioty Ariri Dollar In Reprihenderit Folyoptate Fillioptate Ace Kylium\n"
+"                                                    Dollar Aio Vegate Aioti Ariri Dollar In A ReprehinderAti FolioPatty\n"
+"                                                    Fillette Ace Killium Acei Fillium Dollar Aio Vegate"
+msgstr "أيوتي أريري دولار إن ريبريهينديرأيت فوليوبتاتي فيلايت أيسسي كايلليوم دولار أيو فيجايتأيوتي أريري دولار إن ريبريهينديرأيت فوليوبتاتي فيلايت أيسسي كايلليوم دولار أيو فيجايت"
+
+#. module: theme_cim
 #: model_terms:ir.ui.view,arch_db:theme_cim.whoarewe_page_ir_ui_view
 #: model_terms:website.page,arch_db:theme_cim.whoarewe_page
 msgid ""
@@ -829,7 +848,9 @@ msgid "Search"
 msgstr "بحث"
 
 #. module: theme_cim
+#: model_terms:ir.ui.view,arch_db:theme_cim.sector_development_page_ir_ui_view
 #: model_terms:theme.ir.ui.view,arch:theme_cim.new_homepage
+#: model_terms:website.page,arch_db:theme_cim.sector_development_page
 msgid "Sector development"
 msgstr "تطوير القطاع"
 
@@ -954,12 +975,14 @@ msgstr "الهيئة العامة الإتصالات  تعنى بشؤون الا
 
 #. module: theme_cim
 #: model_terms:ir.ui.view,arch_db:theme_cim.cybersecurity_page_ir_ui_view
+#: model_terms:ir.ui.view,arch_db:theme_cim.sector_development_page_ir_ui_view
 #: model_terms:website.page,arch_db:theme_cim.cybersecurity_page
+#: model_terms:website.page,arch_db:theme_cim.sector_development_page
 msgid ""
 "The Public Communications Authority is concerned\n"
 "                                                    with the\n"
 "                                                    affairs of communications and information technology"
-msgstr "Zسيتاشن يللأمكو لابورأس نيسي يت أليكيوب أكس أيا كوممودو كونسيكيوات"
+msgstr "سيتاشن يللأمكو لابورأس نيسي يت أليكيوب أكس أيا كوممودو كونسيكيوات"
 
 #. module: theme_cim
 #: model_terms:ir.ui.view,arch_db:theme_cim.cybersecurity_page_ir_ui_view
@@ -991,12 +1014,25 @@ msgid ""
 "                                                                Post and Telecommunications Company)\n"
 "                                                                Many achievements"
 msgstr ""
- "الهيئة العامة الإتصالات  تعنى بشؤون الاتصالات وتقنية المعلومات وتمثل أعلى سلطة مسؤولة عن قطاع الاتصالات في ليبيا. يقع مقرها الرئيسي في مدينة طرابلس (مقر الشركة العامة"
-"السلكية واللاسلكية).استطاعت تحقيق العديد من الإنجازات بربط مختلف ناطق ليبيا بعدما تعرضت البنية التحتية للإتصالات من قطع وتخريب أثناء شهور الثورة وبالإضافة إلى إعادة خدمات ا"
-"والإنترنت واستكمال بعض المشاريع الإستراتيجية المهمة سعياً للمساهمة في لم الشمل وإعمار ليبيا ويترأس هذه الهيئة  رئيسا بتكليف من رئيس  الهيئة العامة الإتصالات  تعنى بشؤون ا"
-"المعلومات وتمثل أعلى سلطة مسؤولة عن قطاع الاتصالات في ليبيا. يقع مقرها الرئيسي في مدينة طرابلس (مقر الشركة العامة للبريد والاتصالات السلكية واللاسلكية).استطاعت تحقيق"
-"العديد من الإنجازات"
+"الهيئة العامة الإتصالات  تعنى بشؤون الاتصالات وتقنية المعلومات وتمثل أعلى "
+"سلطة مسؤولة عن قطاع الاتصالات في ليبيا. يقع مقرها الرئيسي في مدينة طرابلس "
+"(مقر الشركة العامةالسلكية واللاسلكية).استطاعت تحقيق العديد من الإنجازات بربط"
+" مختلف ناطق ليبيا بعدما تعرضت البنية التحتية للإتصالات من قطع وتخريب أثناء "
+"شهور الثورة وبالإضافة إلى إعادة خدمات اوالإنترنت واستكمال بعض المشاريع "
+"الإستراتيجية المهمة سعياً للمساهمة في لم الشمل وإعمار ليبيا ويترأس هذه "
+"الهيئة  رئيسا بتكليف من رئيس  الهيئة العامة الإتصالات  تعنى بشؤون االمعلومات"
+" وتمثل أعلى سلطة مسؤولة عن قطاع الاتصالات في ليبيا. يقع مقرها الرئيسي في "
+"مدينة طرابلس (مقر الشركة العامة للبريد والاتصالات السلكية "
+"واللاسلكية).استطاعت تحقيقالعديد من الإنجازات"
 
+#. module: theme_cim
+#: model_terms:ir.ui.view,arch_db:theme_cim.sector_development_page_ir_ui_view
+#: model_terms:website.page,arch_db:theme_cim.sector_development_page
+msgid ""
+"The Public Communications Authority is concerned with\n"
+"                                            communications and information technology affairs and represents the highest\n"
+"                                            authority"
+msgstr "الهيئة العامة الإتصالات  تعنى بشؤون الاتصالات وتقنية المعلومات وتمثل أعلى سلطة "
 
 #. module: theme_cim
 #: model_terms:ir.ui.view,arch_db:theme_cim.cybersecurity_page_ir_ui_view
@@ -1179,7 +1215,51 @@ msgid ""
 "                                            reconstruction of Libya.\n"
 "                                            This body is chaired by a president assigned by a president"
 msgstr ""
- "الهيئة العامة الإتصالات  تعنى بشؤون الاتصالات وتقنية المعلومات وتمثل أعلى سلطة مسؤولة عن قطاع الاتصالات في ليبيا. يقع مقرها الرئيسي في مدينة طرابلس (مقر الشركة"
+"الهيئة العامة الإتصالات  تعنى بشؤون الاتصالات وتقنية المعلومات وتمثل أعلى "
+"سلطة مسؤولة عن قطاع الاتصالات في ليبيا. يقع مقرها الرئيسي في مدينة طرابلس "
+"(مقر الشركةالعامة للبريد والاتصالات السلكية واللاسلكية).استطاعت تحقيق العديد"
+" من الإنجازات بربط مختلف ناطق ليبيا بعدما تعرضت البنية التحتية للإتصالات من "
+"قطع وتخريب أثناء شهور الثورةوبالإضافة إلى إعادة خدمات الإتصالات والبريد "
+"والإنترنت واستكمال بعض المشاريع الإستراتيجية المهمة سعياً للمساهمة في لم "
+"الشمل وإعمار ليبيا ويترأس هذه الهيئة  رئيسابتكليف من رئيس  الهيئة العامة "
+"الإتصالات  تعنى بشؤون الاتصالات وتقنية المعلومات وتمثل أعلى سلطة مسؤولة عن "
+"قطاع الاتصالات في ليبيا. يقع مقرها الرئيسي في مدينةطرابلس (مقر الشركة العامة"
+" للبريد والاتصالات السلكية واللاسلكية).استطاعت تحقيق العديد من الإنجازات "
+"بربط مختلف ناطق ليبيا بعدما تعرضت البنية التحتية للإتصالات من قطعوتخريب "
+"أثناء شهور الثورة وبالإضافة إلى إعادة خدمات الإتصالات والبريد والإنترنت "
+"واستكمال بعض المشاريع الإستراتيجية المهمة سعياً للمساهمة في لم الشمل وإعمار "
+"ليبياويترأس هذه الهيئة  رئيسا بتكليف من رئيس"
+
+#. module: theme_cim
+#: model_terms:ir.ui.view,arch_db:theme_cim.sector_development_page_ir_ui_view
+#: model_terms:website.page,arch_db:theme_cim.sector_development_page
+msgid ""
+"The Public Communications Authority is concerned with communications and\n"
+"                                            information technology affairs and represents the highest authority\n"
+"                                            responsible for the telecommunications sector in Libya. Its headquarters is\n"
+"                                            located in the city of Tripoli (the company's headquarters\n"
+"                                            General Post and Telecommunications). It was able to achieve many\n"
+"                                            achievements by linking the various regions of Libya after the\n"
+"                                            communications infrastructure was cut and vandalized during the months of\n"
+"                                            the revolution.\n"
+"                                            In addition to restoring communications, post and internet services, and\n"
+"                                            completing some important strategic projects in an effort to contribute to\n"
+"                                            the reunification and reconstruction of Libya, this body is chaired by the\n"
+"                                            president.\n"
+"                                            Commissioned by the President of the General Communications Authority, it\n"
+"                                            deals with communications and information technology affairs and represents\n"
+"                                            the highest authority responsible for the telecommunications sector in\n"
+"                                            Libya. It is headquartered in the city of\n"
+"                                            Tripoli (the headquarters of the General Post and Telecommunications\n"
+"                                            Company) was able to achieve many achievements by linking the various\n"
+"                                            regions of Libya after the communication infrastructure was severed.\n"
+"                                            And sabotage during the months of the revolution, in addition to restoring\n"
+"                                            communications, post and internet services, and completing some important\n"
+"                                            strategic projects in an effort to contribute to the reunification and\n"
+"                                            reconstruction of Libya.\n"
+"                                            This body is chaired by a president assigned by a president"
+msgstr ""
+" الهيئة العامة الإتصالات  تعنى بشؤون الاتصالات وتقنية المعلومات وتمثل أعلى سلطة مسؤولة عن قطاع الاتصالات في ليبيا. يقع مقرها الرئيسي في مدينة طرابلس (مقر الشركة"
 "العامة للبريد والاتصالات السلكية واللاسلكية).استطاعت تحقيق العديد من الإنجازات بربط مختلف ناطق ليبيا بعدما تعرضت البنية التحتية للإتصالات من قطع وتخريب أثناء شهور الثورة"
 "وبالإضافة إلى إعادة خدمات الإتصالات والبريد والإنترنت واستكمال بعض المشاريع الإستراتيجية المهمة سعياً للمساهمة في لم الشمل وإعمار ليبيا ويترأس هذه الهيئة  رئيسا"
 "بتكليف من رئيس  الهيئة العامة الإتصالات  تعنى بشؤون الاتصالات وتقنية المعلومات وتمثل أعلى سلطة مسؤولة عن قطاع الاتصالات في ليبيا. يقع مقرها الرئيسي في مدينة"
@@ -1293,8 +1373,10 @@ msgstr "من نحن "
 #. module: theme_cim
 #: model_terms:ir.ui.view,arch_db:theme_cim.cybersecurity_page_ir_ui_view
 #: model_terms:ir.ui.view,arch_db:theme_cim.electronic_government_page_ir_ui_view
+#: model_terms:ir.ui.view,arch_db:theme_cim.sector_development_page_ir_ui_view
 #: model_terms:website.page,arch_db:theme_cim.cybersecurity_page
 #: model_terms:website.page,arch_db:theme_cim.electronic_government_page
+#: model_terms:website.page,arch_db:theme_cim.sector_development_page
 msgid "Work related files"
 msgstr "الملفات المرتبطة بالعمل"
 
