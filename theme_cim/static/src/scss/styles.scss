@@ -601,3 +601,35 @@
         }
     }
 }
+
+.s_image_gallery_cybersecurity{
+    position:relative;
+    &.s_image_gallery_cybersecurity ul.carousel-indicators {
+        bottom:70px!important;
+        margin-bottom:0;
+        & > *{
+            width:11px!important;
+            height:11px!important;
+            flex: 0 0 11px!important;
+        }
+    }
+    &.s_image_gallery[data-vcss="001"].o_slideshow .carousel ul.carousel-indicators li{
+        border: 2px solid #ffffff;
+        &.active{
+            background-color:$color-blue-3;
+        }
+    }
+    .carousel-item {
+        .img{
+            background-size:cover;
+            background-position:center;
+        }
+    }
+    &.s_image_gallery[data-vcss="001"].o_slideshow .carousel .carousel-item.active,
+    &.s_image_gallery[data-vcss="001"].o_slideshow .carousel .carousel-item-next,
+    &.s_image_gallery[data-vcss="001"].o_slideshow .carousel .carousel-item-prev,
+    &.s_image_gallery[data-vcss="001"].o_slideshow .carousel .carousel-control-next,
+    &.s_image_gallery[data-vcss="001"].o_slideshow .carousel .carousel-control-prev{
+            padding-bottom: 0px;
+    }
+}

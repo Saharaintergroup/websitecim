@@ -16,32 +16,328 @@
                         <section class="pt50 pb50">
                             <div class="container">
                                 <h3 class="hr_title_horizontal mb30">Cybersecurity</h3>
+
+                                <div
+                                        class="s_image_gallery_cybersecurity s_image_gallery s_image_gallery_show_indicators s_image_gallery_indicators_rounded pt24 o_colored_level o_fake_not_editable o_slideshow mb50"
+                                        data-vcss="001" data-columns="3"
+                                        style="overflow: hidden; " data-snippet="s_image_gallery"
+                                        data-name="Image Gallery" contenteditable="false" indicators="false">
+                                    <div id="slideshow_1618523206964" class="carousel slide"
+                                         data-ride="carousel" data-interval="0">
+                                        <div class="carousel-inner" style="padding: 0;">
+                                            <div class="carousel-item active">
+                                                <div class="img img-fluid d-block o_we_selected_image text-center pt70 pb140"
+                                                     style="background-image:url('/theme_cim/static/src/images/cybersecurity.png');"
+                                                     alt="" data-name="Image"
+                                                     contenteditable="true" data-index="0">
+                                                    <div class="row justify-content-center">
+                                                        <div class="col-10">
+                                                            <h5 class="mb20">The Public Communications Authority is
+                                                                concerned with
+                                                                communications and information technology affairs
+                                                            </h5>
+                                                            <p>The Public Communications Authority is concerned with
+                                                                communications and information technology affairs and
+                                                                represents
+                                                                the highest authority responsible for the
+                                                                telecommunications
+                                                                sector in Libya. Its headquarters is located in the city
+                                                                of
+                                                                Tripoli (the headquarters of the General Company
+                                                                It was able to achieve many achievements by linking the
+                                                                various
+                                                                regions of Libya after the
+                                                                And the Internet and the completion of some important
+                                                                strategic
+                                                                projects in an effort to contribute to the reunification
+                                                                and
+                                                                reconstruction of Libya.
+                                                                Information and represents the highest authority
+                                                                responsible
+                                                                for
+                                                                the telecommunications sector in Libya. Its headquarters
+                                                                is
+                                                                located in the city of Tripoli (the headquarters of the
+                                                                General
+                                                                Post and Telecommunications Company)
+                                                                Many achievements
+                                                            </p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="carousel-item">
+                                                <div class="img img-fluid d-block o_we_selected_image text-center pt70 pb140"
+                                                     style="background-image:url('/theme_cim/static/src/images/cybersecurity.png');"
+                                                     alt="" data-name="Image"
+                                                     contenteditable="true" data-index="1">
+                                                    <div class="row justify-content-center">
+                                                        <div class="col-10">
+                                                            <h5 class="mb20">The Public Communications Authority is
+                                                                concerned with
+                                                                communications and information technology affairs
+                                                            </h5>
+                                                            <p>The Public Communications Authority is concerned with
+                                                                communications and information technology affairs and
+                                                                represents
+                                                                the highest authority responsible for the
+                                                                telecommunications
+                                                                sector in Libya. Its headquarters is located in the city
+                                                                of
+                                                                Tripoli (the headquarters of the General Company
+                                                                It was able to achieve many achievements by linking the
+                                                                various
+                                                                regions of Libya after the
+                                                                And the Internet and the completion of some important
+                                                                strategic
+                                                                projects in an effort to contribute to the reunification
+                                                                and
+                                                                reconstruction of Libya.
+                                                                Information and represents the highest authority
+                                                                responsible
+                                                                for
+                                                                the telecommunications sector in Libya. Its headquarters
+                                                                is
+                                                                located in the city of Tripoli (the headquarters of the
+                                                                General
+                                                                Post and Telecommunications Company)
+                                                                Many achievements
+                                                            </p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="carousel-item">
+                                                <div class="img img-fluid d-block o_we_selected_image text-center pt70 pb140"
+                                                     style="background-image:url('/theme_cim/static/src/images/cybersecurity.png');"
+                                                     alt="" data-name="Image"
+                                                     contenteditable="true" data-index="2">
+                                                    <div class="row justify-content-center">
+                                                        <div class="col-10">
+                                                            <h5 class="mb20">The Public Communications Authority is
+                                                                concerned with
+                                                                communications and information technology affairs
+                                                            </h5>
+                                                            <p>The Public Communications Authority is concerned with
+                                                                communications and information technology affairs and
+                                                                represents
+                                                                the highest authority responsible for the
+                                                                telecommunications
+                                                                sector in Libya. Its headquarters is located in the city
+                                                                of
+                                                                Tripoli (the headquarters of the General Company
+                                                                It was able to achieve many achievements by linking the
+                                                                various
+                                                                regions of Libya after the
+                                                                And the Internet and the completion of some important
+                                                                strategic
+                                                                projects in an effort to contribute to the reunification
+                                                                and
+                                                                reconstruction of Libya.
+                                                                Information and represents the highest authority
+                                                                responsible
+                                                                for
+                                                                the telecommunications sector in Libya. Its headquarters
+                                                                is
+                                                                located in the city of Tripoli (the headquarters of the
+                                                                General
+                                                                Post and Telecommunications Company)
+                                                                Many achievements
+                                                            </p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <ul class="carousel-indicators">
+                                            <li data-target="#slideshow_1618523206964" data-slide-to="0"
+                                                class="active"></li>
+                                            <li data-target="#slideshow_1618523206964" data-slide-to="1"></li>
+                                            <li data-target="#slideshow_1618523206964" data-slide-to="2"></li>
+                                        </ul>
+                                        <!--                                                    <a class="carousel-control-prev" href="#slideshow_1618523206964"-->
+                                        <!--                                                       data-slide="prev" aria-label="Previous" title="Previous">-->
+                                        <!--                                                        <span class="fa fa-chevron-left fa-2x text-white"></span>-->
+                                        <!--                                                        <span class="sr-only">Previous</span>-->
+                                        <!--                                                    </a>-->
+                                        <!--                                                    <a class="carousel-control-next" href="#slideshow_1618523206964"-->
+                                        <!--                                                       data-slide="next" aria-label="Next" title="Next">-->
+                                        <!--                                                        <span class="fa fa-chevron-right fa-2x text-white"></span>-->
+                                        <!--                                                        <span class="sr-only">Next</span>-->
+                                        <!--                                                    </a>-->
+                                    </div>
+                                </div>
+
                                 <div class="row justify-content-between mb40">
-                                    <div class="col-md-7">
-                                        <h5 class="mb20">The Public Communications Authority is concerned with communications and technology affairs
+                                    <div class="col-md-10">
+                                        <h5 class="mb20">The Public Communications Authority is concerned with
+                                            communications and technology affairs
                                         </h5>
-                                        <p>The Public Communications Authority is concerned with communications and information technology affairs and represents the highest authority responsible for the telecommunications sector in Libya. Its head office is located in the city of Tripoli (the company's headquarters
-General Post and Telecommunications). It was able to achieve many achievements by linking the various regions of Libya after the communications infrastructure was cut and vandalized during the months of the revolution.
-In addition to restoring communications, postal and internet services, and completing some important strategic projects in an effort to contribute to the reunification and reconstruction of Libya, this body is chaired by the president.
-Commissioned by the President of the General Communications Authority, it deals with communications and information technology affairs and represents the highest authority responsible for the telecommunications sector in Libya. It is headquartered in the city of
-Tripoli (the headquarters of the General Post and Telecommunications Company) was able to achieve many achievements by linking the various regions of Libya after the communication infrastructure was severed.
-And sabotage during the months of the revolution, in addition to restoring communications, post and internet services, and completing some important strategic projects in an effort to contribute to the reunification and reconstruction of Libya.
-This body is chaired by a president assigned by a president
+                                        <p>The Public Communications Authority is concerned with communications and
+                                            information technology affairs and represents the highest authority
+                                            responsible for the telecommunications sector in Libya. Its head office is
+                                            located in the city of Tripoli (the company's headquarters
+                                            General Post and Telecommunications). It was able to achieve many
+                                            achievements by linking the various regions of Libya after the
+                                            communications infrastructure was cut and vandalized during the months of
+                                            the revolution.
+                                            In addition to restoring communications, postal and internet services, and
+                                            completing some important strategic projects in an effort to contribute to
+                                            the reunification and reconstruction of Libya, this body is chaired by the
+                                            president.
+                                            Commissioned by the President of the General Communications Authority, it
+                                            deals with communications and information technology affairs and represents
+                                            the highest authority responsible for the telecommunications sector in
+                                            Libya. It is headquartered in the city of
+                                            Tripoli (the headquarters of the General Post and Telecommunications
+                                            Company) was able to achieve many achievements by linking the various
+                                            regions of Libya after the communication infrastructure was severed.
+                                            And sabotage during the months of the revolution, in addition to restoring
+                                            communications, post and internet services, and completing some important
+                                            strategic projects in an effort to contribute to the reunification and
+                                            reconstruction of Libya.
+                                            This body is chaired by a president assigned by a president
                                         </p>
                                     </div>
                                 </div>
                                 <div class="row justify-content-between mb40">
-                                    <div class="col-md-7">
-                                        <h5 class="mb20">The Public Communications Authority is concerned with communications and technology affairs
+                                    <div class="col-md-10">
+                                        <h5 class="mb20">The Public Communications Authority is concerned with
+                                            communications and technology affairs
                                         </h5>
-                                        <p>The Public Communications Authority is concerned with communications and information technology affairs and represents the highest authority responsible for the telecommunications sector in Libya. Its head office is located in the city of Tripoli (the company's headquarters
-General Post and Telecommunications). It was able to achieve many achievements by linking the various regions of Libya after the communications infrastructure was cut and vandalized during the months of the revolution.
-In addition to restoring communications, postal and internet services, and completing some important strategic projects in an effort to contribute to the reunification and reconstruction of Libya, this body is chaired by the president.
-Commissioned by the President of the General Communications Authority, it deals with communications and information technology affairs and represents the highest authority responsible for the telecommunications sector in Libya. It is headquartered in the city of
-Tripoli (the headquarters of the General Post and Telecommunications Company) was able to achieve many achievements by linking the various regions of Libya after the communication infrastructure was severed.
-And sabotage during the months of the revolution, in addition to restoring communications, post and internet services, and completing some important strategic projects in an effort to contribute to the reunification and reconstruction of Libya.
-This body is chaired by a president assigned by a president
+                                        <p>The Public Communications Authority is concerned with communications and
+                                            information technology affairs and represents the highest authority
+                                            responsible for the telecommunications sector in Libya. Its head office is
+                                            located in the city of Tripoli (the company's headquarters
+                                            General Post and Telecommunications). It was able to achieve many
+                                            achievements by linking the various regions of Libya after the
+                                            communications infrastructure was cut and vandalized during the months of
+                                            the revolution.
+                                            In addition to restoring communications, postal and internet services, and
+                                            completing some important strategic projects in an effort to contribute to
+                                            the reunification and reconstruction of Libya, this body is chaired by the
+                                            president.
+                                            Commissioned by the President of the General Communications Authority, it
+                                            deals with communications and information technology affairs and represents
+                                            the highest authority responsible for the telecommunications sector in
+                                            Libya. It is headquartered in the city of
+                                            Tripoli (the headquarters of the General Post and Telecommunications
+                                            Company) was able to achieve many achievements by linking the various
+                                            regions of Libya after the communication infrastructure was severed.
+                                            And sabotage during the months of the revolution, in addition to restoring
+                                            communications, post and internet services, and completing some important
+                                            strategic projects in an effort to contribute to the reunification and
+                                            reconstruction of Libya.
+                                            This body is chaired by a president assigned by a president
                                         </p>
+                                    </div>
+                                </div>
+
+                                <div class="faq-list">
+                                    <h3 class="hr_title_horizontal mb30">Work related files</h3>
+                                    <div class="faq">
+                                        <div class="row justify-content-between align-items-end mb30 mt30">
+                                            <div class="col-10">
+                                                <h5 class="faq-title">The Public Communications Authority is concerned
+                                                    with the
+                                                    affairs of communications and information technology
+                                                </h5>
+                                                <div class="row">
+                                                    <div class="col-auto">
+                                                        <span>20/3/2021</span>
+                                                    </div>
+                                                    <div class="col-auto">
+                                                        <span>Broken</span>
+                                                    </div>
+                                                    <div class="col-auto">
+                                                        <span>Yelmco Laboras</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-auto">
+                                                <a href="#" class="download"><img
+                                                        src="theme_cim/static/src/images/icon/cloud-computing.svg"/>&amp;nbsp;Download
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="faq">
+                                        <div class="row justify-content-between align-items-end mb30 mt30">
+                                            <div class="col-10">
+                                                <h5 class="faq-title">The Public Communications Authority is concerned
+                                                    with the
+                                                    affairs of communications and information technology
+                                                </h5>
+                                                <div class="row">
+                                                    <div class="col-auto">
+                                                        <span>20/3/2021</span>
+                                                    </div>
+                                                    <div class="col-auto">
+                                                        <span>Broken</span>
+                                                    </div>
+                                                    <div class="col-auto">
+                                                        <span>Yelmco Laboras</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-auto">
+                                                <a href="#" class="download"><img
+                                                        src="theme_cim/static/src/images/icon/cloud-computing.svg"/>&amp;nbsp;Download
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="faq">
+                                        <div class="row justify-content-between align-items-end mb30 mt30">
+                                            <div class="col-10">
+                                                <h5 class="faq-title">The Public Communications Authority is concerned
+                                                    with the
+                                                    affairs of communications and information technology
+                                                </h5>
+                                                <div class="row">
+                                                    <div class="col-auto">
+                                                        <span>20/3/2021</span>
+                                                    </div>
+                                                    <div class="col-auto">
+                                                        <span>Broken</span>
+                                                    </div>
+                                                    <div class="col-auto">
+                                                        <span>Yelmco Laboras</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-auto">
+                                                <a href="#" class="download"><img
+                                                        src="theme_cim/static/src/images/icon/cloud-computing.svg"/>&amp;nbsp;Download
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="faq">
+                                        <div class="row justify-content-between align-items-end mb30 mt30">
+                                            <div class="col-10">
+                                                <h5 class="faq-title">The Public Communications Authority is concerned
+                                                    with the
+                                                    affairs of communications and information technology
+                                                </h5>
+                                                <div class="row">
+                                                    <div class="col-auto">
+                                                        <span>20/3/2021</span>
+                                                    </div>
+                                                    <div class="col-auto">
+                                                        <span>Broken</span>
+                                                    </div>
+                                                    <div class="col-auto">
+                                                        <span>Yelmco Laboras</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-auto">
+                                                <a href="#" class="download"><img
+                                                        src="theme_cim/static/src/images/icon/cloud-computing.svg"/>&amp;nbsp;Download
+                                                </a>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
