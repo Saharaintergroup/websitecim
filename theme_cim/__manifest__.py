@@ -18,10 +18,10 @@
         "templates/indications.xml",
         "templates/advertisements.xml",
         "templates/media_center.xml",
-        # "templates/common_questions.xml",
         "templates/contactus.xml",
         "templates/electronic_government.xml",
         "templates/cybersecurity.xml",
+        "templates/sector_development.xml",
     ],
     'images': [
         'static/description/cover.png',
