@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 14.0+e\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-04-18 16:30+0000\n"
-"PO-Revision-Date: 2021-04-18 16:30+0000\n"
+"POT-Creation-Date: 2021-04-18 22:25+0000\n"
+"PO-Revision-Date: 2021-04-18 22:25+0000\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -57,17 +57,23 @@ msgstr ""
 "                                <span class=\"sr-only\">التالي</span>"
 
 #. module: theme_cim
+#: model_terms:ir.ui.view,arch_db:theme_cim.contact_branches_ir_ui_view
 #: model_terms:theme.ir.ui.view,arch:theme_cim.information_contact
+#: model_terms:website.page,arch_db:theme_cim.contact_branches
 msgid "<span class=\"pl-1 pr-1\">+218 21 361 9811/15</span>"
 msgstr ""
 
 #. module: theme_cim
+#: model_terms:ir.ui.view,arch_db:theme_cim.contact_branches_ir_ui_view
 #: model_terms:theme.ir.ui.view,arch:theme_cim.information_contact
+#: model_terms:website.page,arch_db:theme_cim.contact_branches
 msgid "<span class=\"pl-1 pr-1\">+218 21 362 2452</span>"
 msgstr ""
 
 #. module: theme_cim
+#: model_terms:ir.ui.view,arch_db:theme_cim.contact_branches_ir_ui_view
 #: model_terms:theme.ir.ui.view,arch:theme_cim.information_contact
+#: model_terms:website.page,arch_db:theme_cim.contact_branches
 msgid "<span class=\"pl-1 pr-1\">Libya - Tripoli - Zawia Street</span>"
 msgstr "<span class=\"pl-1 pr-1\">ليبيا ـ طرابلس ـ شارع الزاوية</span>"
 
@@ -143,8 +149,10 @@ msgid "About us"
 msgstr "عن الهيئة"
 
 #. module: theme_cim
+#: model_terms:ir.ui.view,arch_db:theme_cim.contact_branches_ir_ui_view
 #: model_terms:theme.ir.ui.view,arch:theme_cim.information_contact
 #: model_terms:theme.ir.ui.view,arch:theme_cim.website_form
+#: model_terms:website.page,arch_db:theme_cim.contact_branches
 msgid "Address"
 msgstr "العنوان"
 
@@ -358,7 +366,9 @@ msgid "Digital Society - Distinguished Services - Competitive Environment"
 msgstr "مجتمع رقمي - خدمات مميزة - بيئة تنافسية"
 
 #. module: theme_cim
+#: model_terms:ir.ui.view,arch_db:theme_cim.contact_branches_ir_ui_view
 #: model_terms:ir.ui.view,arch_db:theme_cim.organizational_structure_page_ir_ui_view
+#: model_terms:website.page,arch_db:theme_cim.contact_branches
 #: model_terms:website.page,arch_db:theme_cim.organizational_structure_page
 msgid "Eastern branch"
 msgstr "الفرع الشرقي"
@@ -438,7 +448,9 @@ msgid "Executive crew"
 msgstr "الطاقم التنفيذي"
 
 #. module: theme_cim
+#: model_terms:ir.ui.view,arch_db:theme_cim.contact_branches_ir_ui_view
 #: model_terms:theme.ir.ui.view,arch:theme_cim.information_contact
+#: model_terms:website.page,arch_db:theme_cim.contact_branches
 msgid "Fax"
 msgstr "فاكس"
 
@@ -634,6 +646,12 @@ msgid "Local indicators"
 msgstr "المؤشرات المحلية"
 
 #. module: theme_cim
+#: model_terms:ir.ui.view,arch_db:theme_cim.contact_branches_ir_ui_view
+#: model_terms:website.page,arch_db:theme_cim.contact_branches
+msgid "Main branch"
+msgstr "الفرع الرئيسي"
+
+#. module: theme_cim
 #: model:website.menu,name:theme_cim.menu_media_center
 msgid "Media center"
 msgstr "المركز الإعلامي"
@@ -713,7 +731,9 @@ msgid "Pay bills"
 msgstr "دفع الفواتير"
 
 #. module: theme_cim
+#: model_terms:ir.ui.view,arch_db:theme_cim.contact_branches_ir_ui_view
 #: model_terms:theme.ir.ui.view,arch:theme_cim.information_contact
+#: model_terms:website.page,arch_db:theme_cim.contact_branches
 msgid "Phone"
 msgstr "هاتف"
 
@@ -896,7 +916,9 @@ msgstr ""
 "وتقنية المعلومات"
 
 #. module: theme_cim
+#: model_terms:ir.ui.view,arch_db:theme_cim.contact_branches_ir_ui_view
 #: model_terms:ir.ui.view,arch_db:theme_cim.organizational_structure_page_ir_ui_view
+#: model_terms:website.page,arch_db:theme_cim.contact_branches
 #: model_terms:website.page,arch_db:theme_cim.organizational_structure_page
 msgid "Southern branch"
 msgstr "الفرع الجنوبي"
