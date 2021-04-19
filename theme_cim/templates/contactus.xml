@@ -398,7 +398,7 @@
                                 <h3 class="hr_title_horizontal mb30">Contact branches</h3>
                                 <div class="row pl10 pr10">
                                     <div class="col-md-4">
-                                        <div class="box-info-contact mt20">
+                                        <a href="/main-branch" class="box-info-contact d-block mt20">
                                             <h2 class="text-center">Main branch</h2>
                                             <div class="d-flex justify-content-between mt50">
                                                 <label class="pl-1 pr-1">Address</label>
@@ -412,10 +412,10 @@
                                                 <label class="pl-1 pr-1">Fax</label>
                                                 <span class="pl-1 pr-1">+218 21 362 2452</span>
                                             </div>
-                                        </div>
+                                        </a>
                                     </div>
                                     <div class="col-md-4">
-                                        <div class="box-info-contact mt20">
+                                        <a href="/eastern-branch" class="box-info-contact d-block mt20">
                                             <h2 class="text-center">Eastern branch</h2>
                                             <div class="d-flex justify-content-between mt50">
                                                 <label class="pl-1 pr-1">Address</label>
@@ -429,10 +429,10 @@
                                                 <label class="pl-1 pr-1">Fax</label>
                                                 <span class="pl-1 pr-1">+218 21 362 2452</span>
                                             </div>
-                                        </div>
+                                        </a>
                                     </div>
                                     <div class="col-md-4">
-                                        <div class="box-info-contact mt20">
+                                        <a href="/southern-branch" class="box-info-contact d-block mt20">
                                             <h2 class="text-center">Southern branch</h2>
                                             <div class="d-flex justify-content-between mt50">
                                                 <label class="pl-1 pr-1">Address</label>
@@ -446,6 +446,37 @@
                                                 <label class="pl-1 pr-1">Fax</label>
                                                 <span class="pl-1 pr-1">+218 21 362 2452</span>
                                             </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+                </t>
+            </t>
+        </field>
+    </record>
+    <record id="southern_branch" model="website.page">
+        <field name="name">Southern branch</field>
+        <field name="type">qweb</field>
+        <field name="url">/southern-branch</field>
+        <field name="website_indexed" eval="False"/>
+        <field name="is_published">True</field>
+        <field name="key">theme_cim.southern_branch</field>
+        <field name="arch" type="xml">
+            <t name="Southern branch" t-name="theme_cim.southern_branch">
+                <t t-call="website.layout">
+                    <div id="wrap">
+                        <section class="pt50 pb50">
+                            <div class="container">
+                                <h3 class="hr_title_horizontal mb30">Southern branch</h3>
+                                <div class="mt-4 mb-5">
+                                    <div class="row">
+                                        <div class="col-lg-6 mr-lg-auto">
+                                            <t t-call="theme_cim.website_form"/>
+                                        </div>
+                                        <div class="col-lg-5 mt-4 mt-lg-0">
+                                            <t t-call="theme_cim.information_contact"/>
                                         </div>
                                     </div>
                                 </div>
@@ -456,37 +487,68 @@
             </t>
         </field>
     </record>
-    <!--    <record id="contact_branches" model="website.page">-->
-    <!--        <field name="name">Contact branches</field>-->
-    <!--        <field name="type">qweb</field>-->
-    <!--        <field name="url">/contact-branches</field>-->
-    <!--        <field name="website_indexed" eval="False"/>-->
-    <!--        <field name="is_published">True</field>-->
-    <!--        <field name="key">theme_cim.contact_branches</field>-->
-    <!--        <field name="arch" type="xml">-->
-    <!--            <t name="Contact branches" t-name="theme_cim.contact_branches">-->
-    <!--                <t t-call="website.layout">-->
-    <!--                    <div id="wrap">-->
-    <!--                        <section class="pt50 pb50">-->
-    <!--                            <div class="container">-->
-    <!--                                <h3 class="hr_title_horizontal mb30">Contact branches</h3>-->
-    <!--                                <div class="mt-4 mb-5">-->
-    <!--                                    <div class="row">-->
-    <!--                                        <div class="col-lg-6 mr-lg-auto">-->
-    <!--                                            <t t-call="theme_cim.website_form"/>-->
-    <!--                                        </div>-->
-    <!--                                        <div class="col-lg-5 mt-4 mt-lg-0">-->
-    <!--                                            <t t-call="theme_cim.information_contact"/>-->
-    <!--                                        </div>-->
-    <!--                                    </div>-->
-    <!--                                </div>-->
-    <!--                            </div>-->
-    <!--                        </section>-->
-    <!--                    </div>-->
-    <!--                </t>-->
-    <!--            </t>-->
-    <!--        </field>-->
-    <!--    </record>-->
+    <record id="eastern_branch" model="website.page">
+        <field name="name">Eastern branch</field>
+        <field name="type">qweb</field>
+        <field name="url">/eastern-branch</field>
+        <field name="website_indexed" eval="False"/>
+        <field name="is_published">True</field>
+        <field name="key">theme_cim.eastern_branch</field>
+        <field name="arch" type="xml">
+            <t name="Eastern branch" t-name="theme_cim.eastern_branch">
+                <t t-call="website.layout">
+                    <div id="wrap">
+                        <section class="pt50 pb50">
+                            <div class="container">
+                                <h3 class="hr_title_horizontal mb30">Eastern branch</h3>
+                                <div class="mt-4 mb-5">
+                                    <div class="row">
+                                        <div class="col-lg-6 mr-lg-auto">
+                                            <t t-call="theme_cim.website_form"/>
+                                        </div>
+                                        <div class="col-lg-5 mt-4 mt-lg-0">
+                                            <t t-call="theme_cim.information_contact"/>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+                </t>
+            </t>
+        </field>
+    </record>
+    <record id="main_branch" model="website.page">
+        <field name="name">Main branch</field>
+        <field name="type">qweb</field>
+        <field name="url">/main-branch</field>
+        <field name="website_indexed" eval="False"/>
+        <field name="is_published">True</field>
+        <field name="key">theme_cim.main_branch</field>
+        <field name="arch" type="xml">
+            <t name="Main branch" t-name="theme_cim.main_branch">
+                <t t-call="website.layout">
+                    <div id="wrap">
+                        <section class="pt50 pb50">
+                            <div class="container">
+                                <h3 class="hr_title_horizontal mb30">Main branch</h3>
+                                <div class="mt-4 mb-5">
+                                    <div class="row">
+                                        <div class="col-lg-6 mr-lg-auto">
+                                            <t t-call="theme_cim.website_form"/>
+                                        </div>
+                                        <div class="col-lg-5 mt-4 mt-lg-0">
+                                            <t t-call="theme_cim.information_contact"/>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+                </t>
+            </t>
+        </field>
+    </record>
 
     <!--General complaints-->
     <record id="general_complaints" model="website.page">
