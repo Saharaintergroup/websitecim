@@ -228,6 +228,63 @@
                         <section class="pt50 pb50">
                             <div class="container">
                                 <h3 class="hr_title_horizontal mb30">Executive crew</h3>
+                                <div class="box_team d-flex align-items-center mt10 mb50">
+                                    <img src="/theme_cim/static/src/images/teams/team1.png" class="photo_team"/>
+                                    <div>
+                                        <h4 class="mb20">Engineer Sami Al-Fintaz</h4>
+                                        <p class="mb0">President of the Public Authority for Communications and
+                                            Informatics
+                                        </p>
+                                    </div>
+                                </div>
+                                <h4 class="mb20">Project management team</h4>
+                                <div class="carousel-team owl-carousel owl-theme">
+                                    <div class="item">
+                                        <div class="box_team d-flex align-items-center mt10 mb30">
+                                            <img src="/theme_cim/static/src/images/teams/team1.png" class="photo_team"/>
+                                            <div>
+                                                <h5 class="mb20">Engineer Sami Al-Fintaz</h5>
+                                                <p class="text-12 mb0">President of the Public Authority for Communications and
+                                                    Informatics
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="item">
+                                        <div class="box_team d-flex align-items-center mt10 mb30">
+                                            <img src="/theme_cim/static/src/images/teams/team1.png" class="photo_team"/>
+                                            <div>
+                                                <h5 class="mb20">Engineer Sami Al-Fintaz</h5>
+                                                <p class="text-12 mb0">President of the Public Authority for Communications and
+                                                    Informatics
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="item">
+                                        <div class="box_team d-flex align-items-center mt10 mb30">
+                                            <img src="/theme_cim/static/src/images/teams/team1.png" class="photo_team"/>
+                                            <div>
+                                                <h5 class="mb20">Engineer Sami Al-Fintaz</h5>
+                                                <p class="text-12 mb0">President of the Public Authority for Communications and
+                                                    Informatics
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="item">
+                                        <div class="box_team d-flex align-items-center mt10 mb30">
+                                            <img src="/theme_cim/static/src/images/teams/team1.png" class="photo_team"/>
+                                            <div>
+                                                <h5 class="mb20">Engineer Sami Al-Fintaz</h5>
+                                                <p class="text-12 mb0">President of the Public Authority for Communications and
+                                                    Informatics
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
                             </div>
                         </section>
                         <div class="oe_structure"/>

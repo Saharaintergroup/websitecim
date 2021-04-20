@@ -66,7 +66,7 @@
                         <div id="top_menu_collapse" class="collapse navbar-collapse order-last order-lg-0">
                             <t t-call="website.navbar_nav">
                                 <t t-set="_nav_class" t-value="'mx-auto'"/>
-
+                                <t t-set="breadcrumbs_searchbar" t-value="True"/>
                                 <!-- Menu -->
                                 <t t-foreach="website.menu_id.child_id" t-as="submenu">
                                     <t t-call="website.submenu">

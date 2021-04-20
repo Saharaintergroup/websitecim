@@ -26,6 +26,7 @@
                 <script type="text/javascript" src="/theme_cim/static/src/js/acmeticker.js"/>
                 <script type="text/javascript" src="/theme_cim/static/src/js/circle-progress.min.js"/>
                 <script type="text/javascript" src="/theme_cim/static/src/js/home.js"/>
+                <script type="text/javascript" src="/theme_cim/static/src/js/team.js"/>
             </xpath>
         </template>
     </data>
