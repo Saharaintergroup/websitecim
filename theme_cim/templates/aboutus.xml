@@ -239,7 +239,6 @@
                                 <div class="carousel-team owl-carousel owl-theme">
                                     <div class="item" t-foreach="teams" t-as="team">
                                         <div class="box_team d-flex align-items-center mt10 mb30">
-                                            <t t-esc="team.image"/>
                                             <img t-att-src="image_data_uri(team.image)" class="photo_team"  t-if="team.image"/>
                                             <div>
                                                 <h5 class="mb20" t-esc="team.name"/>
