@@ -1,0 +1,3 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_website_slider_home_public,website.slider.home.public,theme_cim.model_website_slider_home,,1,0,0,0
+access_website_slider_home_designer,website.slider.home.designer,theme_cim.model_website_slider_home,website.group_website_designer,1,1,1,1

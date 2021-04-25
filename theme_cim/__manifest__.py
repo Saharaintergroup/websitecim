@@ -7,8 +7,9 @@
     'category': 'Theme',
     'sequence': 1,
     'version': '14.0',
-    'depends': ['base', 'website','website_form'],
+    'depends': ['base', 'website', 'website_form'],
     'data': [
+        "security/ir.model.access.csv",
         "templates/assets.xml",
         "templates/header.xml",
         "templates/footer.xml",
@@ -23,6 +24,8 @@
         "templates/cybersecurity.xml",
         "templates/sector_development.xml",
         "templates/organization_of_communications.xml",
+        # views
+        "views/website_slider_home_views.xml",
     ],
     'images': [
         'static/description/cover.png',

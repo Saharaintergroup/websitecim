@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <record id="view_slider_news_form" model="ir.ui.view">
+            <field name="name">website.slider.home.form</field>
+            <field name="model">website.slider.home</field>
+            <field name="priority" eval="1"/>
+            <field name="arch" type="xml">
+                <form string="Slider Home">
+                    <sheet>
+                        <field name="image" widget='image' class="oe_avatar"/>
+                        <div class="oe_title">
+                            <h1>
+                                <field name="name" default_focus="1" placeholder="Name"/>
+                            </h1>
+                        </div>
+                        <group>
+                             <field name="description"/>
+                             <field name="url"/>
+                        </group>
+                    </sheet>
+                </form>
+            </field>
+        </record>
+        <record id="website_slider_news_action" model="ir.actions.act_window">
+            <field name="name">Slider news</field>
+            <field name="type">ir.actions.act_window</field>
+            <field name="res_model">website.slider.home</field>
+            <field name="view_mode">tree,form</field>
+<!--            <field name="view_id" ref="view_slider_news_form"/>-->
+            <field name="help" type="html">
+                <p class="o_view_nocontent_smiling_face">
+                    Slider news for home page.
+                </p>
+            </field>
+        </record>
+        <menuitem id="website_website_menu"
+                  name="Website"
+                  sequence="90"
+                  parent="website.menu_website_configuration"/>
+        <menuitem id="menu_home_menu" name="Home"
+                  sequence="1"
+                  parent="website_website_menu"/>
+        <menuitem id="menu_slider_news_menu" name="Slider News"
+                  sequence="1"
+                  parent="menu_home_menu"
+                  action="website_slider_news_action"/>
+    </data>
+</odoo>

@@ -9,67 +9,41 @@
 
                     <section class="o_carousel_news">
                         <div id="my-carousel" class="carousel slide carousel-fade" data-ride="carousel"
-                             data-interval="false">
-<!--                            <ol class="carousel-indicators">-->
-<!--                                <li data-target="#my-carousel" data-slide-to="0" class="active"></li>-->
-<!--                                <li data-target="#my-carousel" data-slide-to="1"></li>-->
-<!--                                <li data-target="#my-carousel" data-slide-to="2"></li>-->
-<!--                            </ol>-->
+                             data-interval="4000">
+
                             <div class="carousel-inner">
-                                <div class="carousel-item active"
-                                     style="background-image: url('/theme_cim/static/src/images/slide.png');">
-                                    <div class="content_item">
-                                        <div class="container">
-                                            <div class="col-xl-7 col-lg-8 col-md-9 col-sm-10 col-11">
-                                                <h1 class="mb20 slideOutUp">News</h1>
-                                                <p>Libya News Newspaper interviews Mr. Amjad
-                                                    Al-Cherabee, Director of Projects Administration, and Mr. Najmi
-                                                    Tate,
-                                                    Director
-                                                    of Strategy, Planning and Follow-up Department
-                                                    In the Public Authority for Communications and Informatics
-                                                </p>
-                                                <a href="#" class="btn btn-primary mt10">Read more</a>
+                                <t t-set="index" t-value="true"/>
+                                <t t-foreach="slider" t-as="item">
+                                    <t t-if="index">
+                                        <div class="carousel-item active"
+                                             t-attf-style="background-image:url(data:image/jpg;base64,{{ item.image }})">
+                                            <div class="content_item">
+                                                <div class="container">
+                                                    <div class="col-xl-7 col-lg-8 col-md-9 col-sm-10 col-11">
+                                                        <h1 class="mb20 slideOutUp" t-esc="item.name"/>
+                                                        <p t-esc="item.description"/>
+                                                        <a t-att-href="item.url" class="btn btn-primary mt10">Read more</a>
+                                                    </div>
+                                                </div>
                                             </div>
                                         </div>
-                                    </div>
-                                </div>
-                                <div class="carousel-item"
-                                     style="background-image: url('/theme_cim/static/src/images/slide2.jpg');">
-                                    <div class="content_item">
-                                        <div class="container ">
-                                            <div class="col-xl-7 col-lg-8 col-md-9 col-sm-10 col-11">
-                                                <h1 class="mb20 slideOutUp">News</h1>
-                                                <p>Libya News Newspaper interviews Mr. Amjad
-                                                    Al-Cherabee, Director of Projects Administration, and Mr. Najmi
-                                                    Tate,
-                                                    Director
-                                                    of Strategy, Planning and Follow-up Department
-                                                    In the Public Authority for Communications and Informatics
-                                                </p>
-                                                <a href="#" class="btn btn-primary mt10">Read more</a>
+                                    </t>
+                                    <t t-else="">
+                                        <div class="carousel-item"
+                                             t-attf-style="background-image:url(data:image/jpg;base64,{{ item.image }})">
+                                            <div class="content_item">
+                                                <div class="container">
+                                                    <div class="col-xl-7 col-lg-8 col-md-9 col-sm-10 col-11">
+                                                        <h1 class="mb20 slideOutUp" t-esc="item.name"/>
+                                                        <p t-esc="item.description"/>
+                                                        <a t-att-href="item.url" class="btn btn-primary mt10">Read more</a>
+                                                    </div>
+                                                </div>
                                             </div>
                                         </div>
-                                    </div>
-                                </div>
-                                <div class="carousel-item"
-                                     style="background-image: url('/theme_cim/static/src/images/slide.png');">
-                                    <div class="content_item">
-                                        <div class="container">
-                                            <div class="col-xl-7 col-lg-8 col-md-9 col-sm-10 col-11">
-                                                <h1 class="mb20 slideOutUp">News</h1>
-                                                <p>Libya News Newspaper interviews Mr. Amjad
-                                                    Al-Cherabee, Director of Projects Administration, and Mr. Najmi
-                                                    Tate,
-                                                    Director
-                                                    of Strategy, Planning and Follow-up Department
-                                                    In the Public Authority for Communications and Informatics
-                                                </p>
-                                                <a href="#" class="btn btn-primary mt10">Read more</a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
+                                    </t>
+                                    <t t-set="index" t-value="false"/>
+                                </t>
                             </div>
                             <a class="carousel-control-prev" href="#my-carousel" role="button" data-slide="prev">
                                 <span class="fa fa-chevron-left"/>
@@ -81,7 +55,6 @@
                             </a>
                         </div>
                     </section>
-
                     <div class="acme-news-ticker">
                         <div class="container">
                             <div class="acme-news-ticker-box d-flex align-items-center">
