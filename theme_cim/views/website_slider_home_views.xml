@@ -27,7 +27,6 @@
             <field name="type">ir.actions.act_window</field>
             <field name="res_model">website.slider.home</field>
             <field name="view_mode">tree,form</field>
-<!--            <field name="view_id" ref="view_slider_news_form"/>-->
             <field name="help" type="html">
                 <p class="o_view_nocontent_smiling_face">
                     Slider news for home page.

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <record id="view_teams_tree" model="ir.ui.view">
+            <field name="name">teams.tree</field>
+            <field name="model">teams.teams</field>
+            <field name="arch" type="xml">
+                <tree>
+                    <field name="name"/>
+                    <field name="description"/>
+                </tree>
+            </field>
+        </record>
+        <record id="view_teams_form" model="ir.ui.view">
+            <field name="name">teams.form</field>
+            <field name="model">teams.teams</field>
+            <field name="priority" eval="1"/>
+            <field name="arch" type="xml">
+                <form string="Teams">
+                    <sheet>
+                        <field name="image" widget='image' class="oe_avatar"/>
+                        <div class="oe_title">
+                            <h1>
+                                <field name="name"/>
+                            </h1>
+                            <div name="options">
+                                <div>
+                                    <field name="is_president"/>
+                                    <label for="is_president"/>
+                                </div>
+                            </div>
+                        </div>
+                        <group>
+                            <field name="description"/>
+                        </group>
+                    </sheet>
+                </form>
+            </field>
+        </record>
+        <record id="teams_action" model="ir.actions.act_window">
+            <field name="name">Teams</field>
+            <field name="type">ir.actions.act_window</field>
+            <field name="res_model">teams.teams</field>
+            <field name="view_mode">tree,form</field>
+            <field name="help" type="html">
+                <p class="o_view_nocontent_smiling_face">
+                    Executive crew.
+                </p>
+            </field>
+        </record>
+
+        <menuitem id="menu_aboutus_menu" name="About us"
+                  sequence="2"
+                  parent="website_website_menu"/>
+        <menuitem id="menu_teams_menu" name="Teams"
+                  sequence="1"
+                  parent="menu_aboutus_menu"
+                  action="teams_action"/>
+    </data>
+</odoo>

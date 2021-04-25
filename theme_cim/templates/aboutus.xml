@@ -228,62 +228,25 @@
                         <section class="pt50 pb50">
                             <div class="container">
                                 <h3 class="hr_title_horizontal mb30">Executive crew</h3>
-                                <div class="box_team d-flex align-items-center mt10 mb50">
-                                    <img src="/theme_cim/static/src/images/teams/team1.png" class="photo_team"/>
+                                <div class="box_team d-flex align-items-center mt10 mb50"  t-foreach="president" t-as="p">
+                                    <img t-att-src="image_data_uri(p.image)" class="photo_team" t-if="p.image"/>
                                     <div>
-                                        <h4 class="mb20">Engineer Sami Al-Fintaz</h4>
-                                        <p class="mb0">President of the Public Authority for Communications and
-                                            Informatics
-                                        </p>
+                                        <h4 class="mb20" t-esc="p.name"/>
+                                        <p class="mb0" t-esc="p.description"/>
                                     </div>
                                 </div>
                                 <h4 class="mb20">Project management team</h4>
                                 <div class="carousel-team owl-carousel owl-theme">
-                                    <div class="item">
+                                    <div class="item" t-foreach="teams" t-as="team">
                                         <div class="box_team d-flex align-items-center mt10 mb30">
-                                            <img src="/theme_cim/static/src/images/teams/team1.png" class="photo_team"/>
+                                            <t t-esc="team.image"/>
+                                            <img t-att-src="image_data_uri(team.image)" class="photo_team"  t-if="team.image"/>
                                             <div>
-                                                <h5 class="mb20">Engineer Sami Al-Fintaz</h5>
-                                                <p class="text-12 mb0">President of the Public Authority for Communications and
-                                                    Informatics
-                                                </p>
+                                                <h5 class="mb20" t-esc="team.name"/>
+                                                <p class="text-12 mb0" t-esc="team.description"/>
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="item">
-                                        <div class="box_team d-flex align-items-center mt10 mb30">
-                                            <img src="/theme_cim/static/src/images/teams/team1.png" class="photo_team"/>
-                                            <div>
-                                                <h5 class="mb20">Engineer Sami Al-Fintaz</h5>
-                                                <p class="text-12 mb0">President of the Public Authority for Communications and
-                                                    Informatics
-                                                </p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="item">
-                                        <div class="box_team d-flex align-items-center mt10 mb30">
-                                            <img src="/theme_cim/static/src/images/teams/team1.png" class="photo_team"/>
-                                            <div>
-                                                <h5 class="mb20">Engineer Sami Al-Fintaz</h5>
-                                                <p class="text-12 mb0">President of the Public Authority for Communications and
-                                                    Informatics
-                                                </p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="item">
-                                        <div class="box_team d-flex align-items-center mt10 mb30">
-                                            <img src="/theme_cim/static/src/images/teams/team1.png" class="photo_team"/>
-                                            <div>
-                                                <h5 class="mb20">Engineer Sami Al-Fintaz</h5>
-                                                <p class="text-12 mb0">President of the Public Authority for Communications and
-                                                    Informatics
-                                                </p>
-                                            </div>
-                                        </div>
-                                    </div>
-
                                 </div>
                             </div>
                         </section>
