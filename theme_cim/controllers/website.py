@@ -7,5 +7,6 @@ class Website(Website):
     @http.route(auth='public')
     def index(self, **kw):
         super(Website, self).index(**kw)
-        data = {'slider': request.env['website.slider.home'].search([]), 'news': request.env['news.news'].search([])}
+        data = {'slider': request.env['website.slider.home'].search([]), 'news': request.env['news.news'].search([]),
+                'partners_logo': request.env['partners.logo'].search([])}
         return http.request.render('theme_cim.new_homepage', data)

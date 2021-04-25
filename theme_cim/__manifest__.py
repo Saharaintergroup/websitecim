@@ -27,6 +27,7 @@
         # views
         "views/website_slider_home_views.xml",
         "views/news_views.xml",
+        "views/partners_logo.xml",
     ],
     'images': [
         'static/description/cover.png',

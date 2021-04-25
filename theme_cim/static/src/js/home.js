@@ -88,7 +88,7 @@ odoo.define('theme_cim.home', function(require) {
         console.log('2 lang==>',lang);
         $('.carousel-partners').owlCarousel({
             rtl:(lang === "ar_SY") ? true : false,
-            loop: true,
+            loop: false,
             nav: false,
             dots: false,
             margin: 10,
