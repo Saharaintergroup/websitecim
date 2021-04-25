@@ -22,7 +22,9 @@
                                                     <div class="col-xl-7 col-lg-8 col-md-9 col-sm-10 col-11">
                                                         <h1 class="mb20 slideOutUp" t-esc="item.name"/>
                                                         <p t-esc="item.description"/>
-                                                        <a t-att-href="item.url" class="btn btn-primary mt10">Read more</a>
+                                                        <a t-att-href="item.url" class="btn btn-primary mt10">Read
+                                                            more
+                                                        </a>
                                                     </div>
                                                 </div>
                                             </div>
@@ -36,7 +38,9 @@
                                                     <div class="col-xl-7 col-lg-8 col-md-9 col-sm-10 col-11">
                                                         <h1 class="mb20 slideOutUp" t-esc="item.name"/>
                                                         <p t-esc="item.description"/>
-                                                        <a t-att-href="item.url" class="btn btn-primary mt10">Read more</a>
+                                                        <a t-att-href="item.url" class="btn btn-primary mt10">Read
+                                                            more
+                                                        </a>
                                                     </div>
                                                 </div>
                                             </div>
@@ -60,36 +64,10 @@
                             <div class="acme-news-ticker-box d-flex align-items-center">
                                 <div class="acme-news-ticker-label">News</div>
                                 <ul class="my-news-ticker d-flex align-items-center">
-                                    <li>
-                                        <a href="#">Continuation of the sterilization and prevention campaign in the
-                                            building of the Public Authority for Communications and Information
-                                        </a>
+                                    <li t-foreach="news" t-as="item">
+                                        <a href="#" t-esc="item.description"/>
                                     </li>
-                                    <li>
-                                        <a href="#">Continuation of the sterilization and prevention campaign in the
-                                            building of the Public Authority for Communications and Information
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="#">Continuation of the sterilization and prevention campaign in the
-                                            building of the Public Authority for Communications and Information
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="#">Continuation of the sterilization and prevention campaign in the
-                                            building of the Public Authority for Communications and Information
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="#">Continuation of the sterilization and prevention campaign in the
-                                            building of the Public Authority for Communications and Information
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="#">Continuation of the sterilization and prevention campaign in the
-                                            building of the Public Authority for Communications and Information
-                                        </a>
-                                    </li>
+
                                 </ul>
                             </div>
                         </div>
