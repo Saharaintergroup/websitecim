@@ -17,7 +17,7 @@
         "templates/aboutus.xml",
         "templates/electronic_services.xml",
         "templates/indications.xml",
-        "templates/advertisements.xml",
+        "templates/announcements.xml",
         "templates/media_center.xml",
         "templates/contactus.xml",
         "templates/electronic_government.xml",

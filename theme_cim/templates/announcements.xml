@@ -1,0 +1,210 @@
+<?xml version="1.0" ?>
+<odoo>
+    <data>
+        <record id="public_announcements_page" model="website.page">
+            <field name="name">Public announcements</field>
+            <field name="type">qweb</field>
+            <field name="url">/public-announcements</field>
+            <field name="website_indexed" eval="False"/>
+            <field name="is_published">True</field>
+            <field name="key">theme_cim.public_announcements_page</field>
+            <field name="arch" type="xml">
+                <t name="Public announcements" t-name="theme_cim.public_announcements_page">
+                    <t t-call="website.layout">
+                        <div id="wrap">
+                            <section class="section_announcements pt50 pb50">
+                                <div class="container">
+                                    <h3 class="hr_title_horizontal mb30">Public announcements</h3>
+                                    <div class="row">
+                                        <div class="col-md-4">
+                                            <div class="box_latest_news d-flex align-items-end mt20">
+                                                <div class="cover_latest_news"
+                                                     style="background-image: url('/theme_cim/static/src/images/news/news-5.png');"/>
+                                                <div class="content_latest_news">
+                                                    <div class="categ_box mb20">Politics</div>
+                                                    <h6 class="title_latest_news">Job name</h6>
+                                                    <p>Qofficia designmolet anime hands east laboratory</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4">
+                                            <div class="box_latest_news d-flex align-items-end mt20">
+                                                <div class="cover_latest_news"
+                                                     style="background-image: url('/theme_cim/static/src/images/news/news-5.png');"/>
+                                                <div class="content_latest_news">
+                                                    <div class="categ_box mb20">Politics</div>
+                                                    <h6 class="title_latest_news">Job name</h6>
+                                                    <p>Qofficia designmolet anime hands east laboratory</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4">
+                                            <div class="box_latest_news d-flex align-items-end mt20">
+                                                <div class="cover_latest_news"
+                                                     style="background-image: url('/theme_cim/static/src/images/news/news-5.png');"/>
+                                                <div class="content_latest_news">
+                                                    <div class="categ_box mb20">Politics</div>
+                                                    <h6 class="title_latest_news">Job name</h6>
+                                                    <p>Qofficia designmolet anime hands east laboratory</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </section>
+                            <div class="oe_structure"/>
+                        </div>
+                    </t>
+                </t>
+            </field>
+        </record>
+
+        <record id="available_jobs_page" model="website.page">
+            <field name="name">List of available jobs</field>
+            <field name="type">qweb</field>
+            <field name="url">/available-jobs</field>
+            <field name="website_indexed" eval="False"/>
+            <field name="is_published">True</field>
+            <field name="key">theme_cim.available_jobs_page</field>
+            <field name="arch" type="xml">
+                <t name="List of available jobs" t-name="theme_cim.available_jobs_page">
+                    <t t-call="website.layout">
+                        <div id="wrap">
+                            <section class="section_announcements pt50 pb50">
+                                <div class="container">
+                                    <h3 class="hr_title_horizontal mb30">List of available jobs</h3>
+                                    <div class="row">
+                                        <div class="col-md-4">
+                                            <div class="box_latest_news d-flex align-items-end mt20">
+                                                <div class="cover_latest_news"
+                                                     style="background-image: url('/theme_cim/static/src/images/news/news-5.png');"/>
+                                                <div class="content_latest_news">
+                                                    <div class="categ_box mb20">Politics</div>
+                                                    <h6 class="title_latest_news">Job name</h6>
+                                                    <p>Qofficia designmolet anime hands east laboratory</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4">
+                                            <div class="box_latest_news d-flex align-items-end mt20">
+                                                <div class="cover_latest_news"
+                                                     style="background-image: url('/theme_cim/static/src/images/news/news-5.png');"/>
+                                                <div class="content_latest_news">
+                                                    <div class="categ_box mb20">Politics</div>
+                                                    <h6 class="title_latest_news">Job name</h6>
+                                                    <p>Qofficia designmolet anime hands east laboratory</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4">
+                                            <div class="box_latest_news d-flex align-items-end mt20">
+                                                <div class="cover_latest_news"
+                                                     style="background-image: url('/theme_cim/static/src/images/news/news-5.png');"/>
+                                                <div class="content_latest_news">
+                                                    <div class="categ_box mb20">Politics</div>
+                                                    <h6 class="title_latest_news">Job name</h6>
+                                                    <p>Qofficia designmolet anime hands east laboratory</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </section>
+                            <div class="oe_structure"/>
+                        </div>
+                    </t>
+                </t>
+            </field>
+        </record>
+
+        <record id="bids_page" model="website.page">
+            <field name="name">List of bids</field>
+            <field name="type">qweb</field>
+            <field name="url">/bids</field>
+            <field name="website_indexed" eval="False"/>
+            <field name="is_published">True</field>
+            <field name="key">theme_cim.bids_page</field>
+            <field name="arch" type="xml">
+                <t name="List of bids" t-name="theme_cim.bids_page">
+                    <t t-call="website.layout">
+                        <div id="wrap">
+                            <section class="section_announcements pt50 pb50">
+                                <div class="container">
+                                    <h3 class="hr_title_horizontal mb30">List of bids</h3>
+                                    <div class="row">
+                                        <div class="col-md-4">
+                                            <div class="box_latest_news d-flex align-items-end mt20">
+                                                <div class="cover_latest_news"
+                                                     style="background-image: url('/theme_cim/static/src/images/news/news-5.png');"/>
+                                                <div class="content_latest_news">
+                                                    <div class="categ_box mb20">Politics</div>
+                                                    <h6 class="title_latest_news">Job name</h6>
+                                                    <p>Qofficia designmolet anime hands east laboratory</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4">
+                                            <div class="box_latest_news d-flex align-items-end mt20">
+                                                <div class="cover_latest_news"
+                                                     style="background-image: url('/theme_cim/static/src/images/news/news-5.png');"/>
+                                                <div class="content_latest_news">
+                                                    <div class="categ_box mb20">Politics</div>
+                                                    <h6 class="title_latest_news">Job name</h6>
+                                                    <p>Qofficia designmolet anime hands east laboratory</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4">
+                                            <div class="box_latest_news d-flex align-items-end mt20">
+                                                <div class="cover_latest_news"
+                                                     style="background-image: url('/theme_cim/static/src/images/news/news-5.png');"/>
+                                                <div class="content_latest_news">
+                                                    <div class="categ_box mb20">Politics</div>
+                                                    <h6 class="title_latest_news">Job name</h6>
+                                                    <p>Qofficia designmolet anime hands east laboratory</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </section>
+                            <div class="oe_structure"/>
+                        </div>
+                    </t>
+                </t>
+            </field>
+        </record>
+        <!--=============MENU================-->
+        <!--Announcements-->
+        <record id="menu_announcements" model="website.menu">
+            <field name="name">Announcements</field>
+            <field name="url">#</field>
+            <field name="parent_id" ref="website.main_menu"/>
+            <field name="sequence" type="int">50</field>
+        </record>
+        <!--Public announcements-->
+        <record id="menu_public_announcements" model="website.menu">
+            <field name="name">Public announcements</field>
+            <field name="url">/public-announcements</field>
+            <field name="page_id" ref="theme_cim.public_announcements_page"/>
+            <field name="parent_id" ref="website.main_menu"/>
+            <field name="sequence" type="int">51</field>
+        </record>
+        <!--Available jobs-->
+        <record id="menu_available_jobs" model="website.menu">
+            <field name="name">List of available jobs</field>
+            <field name="url">/available-jobs</field>
+            <field name="page_id" ref="theme_cim.available_jobs_page"/>
+            <field name="parent_id" ref="website.main_menu"/>
+            <field name="sequence" type="int">52</field>
+        </record>
+        <!--Bids-->
+        <record id="menu_bids" model="website.menu">
+            <field name="name">List of bids</field>
+            <field name="url">/bids</field>
+            <field name="page_id" ref="theme_cim.bids_page"/>
+            <field name="parent_id" ref="website.main_menu"/>
+            <field name="sequence" type="int">53</field>
+        </record>
+    </data>
+</odoo>
