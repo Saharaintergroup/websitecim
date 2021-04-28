@@ -48,13 +48,5 @@
                 </p>
             </field>
         </record>
-
-        <menuitem id="menu_aboutus_menu" name="About us"
-                  sequence="2"
-                  parent="website_website_menu"/>
-        <menuitem id="menu_teams_menu" name="Teams"
-                  sequence="1"
-                  parent="menu_aboutus_menu"
-                  action="teams_action"/>
     </data>
 </odoo>

@@ -31,9 +31,6 @@
             </field>
         </record>
 
-        <menuitem id="menu_partners_logo_menu" name="Partners Logo"
-                  sequence="3"
-                  parent="menu_home_menu"
-                  action="partners_logo_action"/>
+
     </data>
 </odoo>

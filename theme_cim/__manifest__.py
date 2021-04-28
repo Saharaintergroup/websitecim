@@ -25,10 +25,14 @@
         "templates/sector_development.xml",
         "templates/organization_of_communications.xml",
         # views
-        "views/website_slider_home_views.xml",
-        "views/news_views.xml",
+
+        "views/slider_home_views.xml",
+        "views/ticker_news_views.xml",
         "views/partners_logo_views.xml",
         "views/teams_views.xml",
+
+        "views/menu.xml",
+
     ],
     'images': [
         'static/description/cover.png',

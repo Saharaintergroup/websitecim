@@ -13,7 +13,7 @@
 
                             <div class="carousel-inner">
                                 <t t-set="index" t-value="true"/>
-                                <t t-foreach="slider" t-as="item">
+                                <t t-foreach="slider_home" t-as="item">
                                     <t t-if="index">
                                         <div class="carousel-item active"
                                              t-attf-style="background-image:url(data:image/jpg;base64,{{ item.image }})">
@@ -64,7 +64,7 @@
                             <div class="acme-news-ticker-box d-flex align-items-center">
                                 <div class="acme-news-ticker-label">News</div>
                                 <ul class="my-news-ticker d-flex align-items-center">
-                                    <li t-foreach="news" t-as="item">
+                                    <li t-foreach="ticker_news" t-as="item">
                                         <a href="#" t-esc="item.description"/>
                                     </li>
 

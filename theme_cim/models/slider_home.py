@@ -5,8 +5,8 @@ from odoo.exceptions import UserError, ValidationError
 
 
 class WebsiteSliderHome(models.Model):
-    _name = "website.slider.home"
-    _description = "Website Slider Home"
+    _name = "slider.home"
+    _description = "Slider In Home Page"
 
     name = fields.Char(string='Title', required=True, translate=True)
     description = fields.Text(string='Description', required=True, translate=True)
