@@ -6,7 +6,7 @@
     'description': 'Cim website theme',
     'category': 'Theme',
     'sequence': 1,
-    'version': '14.0',
+    'version': '1.0',
     'depends': ['base', 'website', 'website_form'],
     'data': [
         "security/ir.model.access.csv",
