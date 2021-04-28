@@ -35,5 +35,26 @@
                   sequence="1"
                   parent="menu_aboutus_menu"
                   action="teams_action"/>
+
+        <!--================================-->
+        <!--==Announcements==-->
+        <menuitem id="menu_announcements_menu" name="Announcements"
+                  sequence="3"
+                  parent="menu_cim_root"/>
+        <!--Public announcements-->
+        <menuitem id="menu_public_announcements_menu" name="Public announcements"
+                  sequence="1"
+                  parent="menu_announcements_menu"
+                  action="public_announcements_action"/>
+        <!--Available jobs-->
+        <menuitem id="menu_available_jobs_menu" name="Available jobs"
+                  sequence="2"
+                  parent="menu_announcements_menu"
+                  action="available_jobs_action"/>
+        <!--Bids-->
+        <menuitem id="menu_bids_menu" name="Bids"
+                  sequence="3"
+                  parent="menu_announcements_menu"
+                  action="bids_action"/>
     </data>
 </odoo>

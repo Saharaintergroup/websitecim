@@ -30,6 +30,7 @@
         "views/ticker_news_views.xml",
         "views/partners_logo_views.xml",
         "views/teams_views.xml",
+        "views/announcements.xml",
 
         "views/menu.xml",
 
