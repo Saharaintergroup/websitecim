@@ -33,3 +33,19 @@ class Website(Website):
         public_announcements = public_announcements[offset: offset+9]
         data = {'public_announcements': public_announcements, 'pager': pager, }
         return http.request.render('theme_cim.public_announcements_page', data)
+
+    @http.route(['/bids', '/bids/page/<int:page>'], type='http', auth="public",
+                website=True)
+    def bids(self, page=0, **kw):
+        bids = request.env['bids'].sudo().search([])
+        total = bids.sudo().search_count([])
+        pager = request.website.pager(
+            url='/bids',
+            total=total,
+            page=page,
+            step=9,
+        )
+        offset = pager['offset']
+        bids = bids[offset: offset+9]
+        data = {'bids': bids, 'pager': pager, }
+        return http.request.render('theme_cim.bids_page', data)
