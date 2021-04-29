@@ -7,7 +7,8 @@ class Website(Website):
     @http.route(auth='public')
     def index(self, **kw):
         super(Website, self).index(**kw)
-        data = {'slider_home': request.env['slider.home'].search([]), 'ticker_news': request.env['ticker.news'].search([]),
+        data = {'slider_home': request.env['slider.home'].search([]),
+                'ticker_news': request.env['ticker.news'].search([]),
                 'partners_logo': request.env['partners.logo'].search([])}
         return http.request.render('theme_cim.new_homepage', data)
 
@@ -16,3 +17,19 @@ class Website(Website):
         data = {'teams': request.env['teams.teams'].search([('is_president', '=', False)]),
                 'president': request.env['teams.teams'].search([('is_president', '=', True)])}
         return http.request.render('theme_cim.executive_crew_page', data)
+
+    @http.route(['/public-announcements', '/public-announcements/page/<int:page>'], type='http', auth="public",
+                website=True)
+    def public_announcements(self, page=0, **kw):
+        public_announcements = request.env['public.announcements'].sudo().search([])
+        total = public_announcements.sudo().search_count([])
+        pager = request.website.pager(
+            url='/public-announcements',
+            total=total,
+            page=page,
+            step=9,
+        )
+        offset = pager['offset']
+        public_announcements = public_announcements[offset: offset+9]
+        data = {'public_announcements': public_announcements, 'pager': pager, }
+        return http.request.render('theme_cim.public_announcements_page', data)

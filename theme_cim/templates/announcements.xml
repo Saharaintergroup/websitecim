@@ -16,40 +16,20 @@
                                 <div class="container">
                                     <h3 class="hr_title_horizontal mb30">Public announcements</h3>
                                     <div class="row">
-                                        <div class="col-md-4">
+                                        <div class="col-md-4" t-foreach="public_announcements" t-as="announce">
                                             <div class="box_latest_news d-flex align-items-end mt20">
                                                 <div class="cover_latest_news"
                                                      style="background-image: url('/theme_cim/static/src/images/news/news-5.png');"/>
                                                 <div class="content_latest_news">
-                                                    <div class="categ_box mb20">Politics</div>
-                                                    <h6 class="title_latest_news">Job name</h6>
-                                                    <p>Qofficia designmolet anime hands east laboratory</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col-md-4">
-                                            <div class="box_latest_news d-flex align-items-end mt20">
-                                                <div class="cover_latest_news"
-                                                     style="background-image: url('/theme_cim/static/src/images/news/news-5.png');"/>
-                                                <div class="content_latest_news">
-                                                    <div class="categ_box mb20">Politics</div>
-                                                    <h6 class="title_latest_news">Job name</h6>
-                                                    <p>Qofficia designmolet anime hands east laboratory</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col-md-4">
-                                            <div class="box_latest_news d-flex align-items-end mt20">
-                                                <div class="cover_latest_news"
-                                                     style="background-image: url('/theme_cim/static/src/images/news/news-5.png');"/>
-                                                <div class="content_latest_news">
-                                                    <div class="categ_box mb20">Politics</div>
-                                                    <h6 class="title_latest_news">Job name</h6>
-                                                    <p>Qofficia designmolet anime hands east laboratory</p>
+                                                    <h6 class="title_latest_news" t-esc="announce.name"/>
+                                                    <p t-esc="announce.description"/>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
+                                    <t t-call="website.pager">
+                                            <t t-set="_classes">mt40 justify-content-center</t>
+                                    </t>
                                 </div>
                             </section>
                             <div class="oe_structure"/>
