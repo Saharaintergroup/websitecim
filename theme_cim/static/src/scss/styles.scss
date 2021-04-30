@@ -374,8 +374,17 @@
     }
     .categ_box{
         padding-left:10px;
-        font-size:12px;
-        border-left:1px solid;
+        font-size:14px;
+        font-weight:400;
+        border-left:3px solid #F9B40E;
+    }
+    .date_box{
+        font-size:14px;
+        font-weight:400;
+        .fa{
+            padding-right:8px;
+            font-size:16px;
+        }
     }
 }
 /********card-cim**************/
