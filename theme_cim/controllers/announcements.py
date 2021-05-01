@@ -47,5 +47,6 @@ class Announcements(http.Controller):
     ], type='http', auth="public", website=True, sitemap=True)
     def bids_post(self, bids, enable_editor=None, **post):
         print('---------------test-----------------------------')
-        data = bids.read()[0]
-        return http.request.render('theme_cim.bids_post_page', data)
+        attachment_data = request.env['ir.attachment'].sudo().search([('res_model', '=', 'bids'), ('res_id', 'in', bids.ids)])
+        return http.request.render('theme_cim.bids_post_page',
+                                   {'record': bids, 'attachment_data': attachment_data})

@@ -123,23 +123,21 @@
                                                 <div class="cover_latest_news"
                                                      t-attf-style="background-image:url(data:image/jpg;base64,{{ item.image }})"/>
                                                 <div class="content_latest_news">
-                                                    <div class="row justify-content-between align-items-center mb20">
-                                                        <div class="col-auto">
-                                                            <div class="categ_box" t-esc="item.reference"
-                                                                 t-if="item.reference"/>
-                                                        </div>
-                                                        <div class="col-auto">
-                                                            <div class="date_box" t-if="item.bid_date">
-                                                                <i class="fa fa-clock-o"/>
-                                                                <span t-esc="item.bid_date"/>
+                                                    <a t-attf-href="/bids/#{item.id}">
+                                                        <div class="row justify-content-between align-items-center mb20">
+                                                            <div class="col-auto">
+                                                                <div class="categ_box" t-esc="item.reference"
+                                                                     t-if="item.reference"/>
+                                                            </div>
+                                                            <div class="col-auto">
+                                                                <div class="date_box" t-if="item.bid_date">
+                                                                    <i class="fa fa-clock-o"/>
+                                                                    <span t-esc="item.bid_date"/>
+                                                                </div>
                                                             </div>
                                                         </div>
-                                                    </div>
-                                                    <h6 class="title_latest_news" t-esc="item.name"/>
-                                                    <p t-esc="item.description"/>
-                                                    <a t-attf-href="/bids/#{item.id}" class="btn btn-primary">
-                                                        Read more
-                                                        <i class="fa fa-chevron-right ml-2"/>
+                                                        <h6 class="title_latest_news" t-esc="item.name"/>
+                                                        <p t-esc="item.description"/>
                                                     </a>
                                                 </div>
                                             </div>
@@ -174,123 +172,61 @@
                         <div id="wrap">
                             <section class="pt50 pb50">
                                 <div class="container">
-                                    <h3 class="hr_title_horizontal mb30" t-esc="name"/>
+                                    <h3 class="hr_title_horizontal mb30" t-esc="record.name"/>
                                     <div class="row justify-content-between mb40">
                                         <div class="col-md-10">
-                                            <div t-esc="description"/>
+                                            <div t-esc="record.description" class="mb40"/>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="row justify-content-between align-items-center mb20">
+                                                <div class="col-auto" t-if="record.bid_date">
+                                                    <div class="date_box mb20">
+                                                        <i class="fa fa-clock-o"/>Date of submission :
+                                                        <span t-esc="record.bid_date"/>
+                                                    </div>
+                                                </div>
+                                                <div class="col-auto" t-if="record.expiration_date">
+                                                    <div class="date_box mb20">
+                                                        <i class="fa fa-clock-o"/>Expiry date :
+                                                        <span t-esc="record.expiration_date"/>
+                                                    </div>
+                                                </div>
+                                                <div class="w-100"></div>
+                                                <div class="col-auto" t-if="record.reference">
+                                                    <div class="categ_box mb20">Bid No. :
+                                                        <t t-esc="record.reference"/>
+                                                    </div>
+                                                </div>
+                                            </div>
                                         </div>
                                     </div>
 
                                     <div class="faq-list">
                                         <h3 class="hr_title_horizontal mb30">Work related files</h3>
-                                        <div class="faq">
+                                        <div class="faq" t-foreach="attachment_data" t-as="attachment">
                                             <div class="row justify-content-between align-items-end mb30 mt30">
                                                 <div class="col-10">
-                                                    <h5 class="faq-title">The Public Communications Authority is
-                                                        concerned
-                                                        with the
-                                                        affairs of communications and information technology
-                                                    </h5>
+                                                    <h5 class="faq-title" t-esc="attachment.name"/>
                                                     <div class="row">
                                                         <div class="col-auto">
-                                                            <span>20/3/2021</span>
+                                                            <span t-esc="attachment.create_date.strftime('%d/%m/%Y')"/>
                                                         </div>
-                                                        <div class="col-auto">
-                                                            <span>Broken</span>
-                                                        </div>
-                                                        <div class="col-auto">
-                                                            <span>Yelmco Laboras</span>
-                                                        </div>
+<!--                                                        <div class="col-auto">-->
+<!--                                                            <span>Broken</span>-->
+<!--                                                        </div>-->
+<!--                                                        <div class="col-auto">-->
+<!--                                                            <span>Yelmco Laboras</span>-->
+<!--                                                        </div>-->
                                                     </div>
                                                 </div>
                                                 <div class="col-auto">
-                                                    <a href="#" class="download"><img
+                                                    <a t-att-href="attachment.local_url" class="download" t-att-download="attachment.name"><img
                                                             src="/theme_cim/static/src/images/icon/cloud-computing.svg"/>&amp;nbsp;Download
                                                     </a>
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="faq">
-                                            <div class="row justify-content-between align-items-end mb30 mt30">
-                                                <div class="col-10">
-                                                    <h5 class="faq-title">The Public Communications Authority is
-                                                        concerned
-                                                        with the
-                                                        affairs of communications and information technology
-                                                    </h5>
-                                                    <div class="row">
-                                                        <div class="col-auto">
-                                                            <span>20/3/2021</span>
-                                                        </div>
-                                                        <div class="col-auto">
-                                                            <span>Broken</span>
-                                                        </div>
-                                                        <div class="col-auto">
-                                                            <span>Yelmco Laboras</span>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="col-auto">
-                                                    <a href="#" class="download"><img
-                                                            src="/theme_cim/static/src/images/icon/cloud-computing.svg"/>&amp;nbsp;Download
-                                                    </a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="faq">
-                                            <div class="row justify-content-between align-items-end mb30 mt30">
-                                                <div class="col-10">
-                                                    <h5 class="faq-title">The Public Communications Authority is
-                                                        concerned
-                                                        with the
-                                                        affairs of communications and information technology
-                                                    </h5>
-                                                    <div class="row">
-                                                        <div class="col-auto">
-                                                            <span>20/3/2021</span>
-                                                        </div>
-                                                        <div class="col-auto">
-                                                            <span>Broken</span>
-                                                        </div>
-                                                        <div class="col-auto">
-                                                            <span>Yelmco Laboras</span>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="col-auto">
-                                                    <a href="#" class="download"><img
-                                                            src="/theme_cim/static/src/images/icon/cloud-computing.svg"/>&amp;nbsp;Download
-                                                    </a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="faq">
-                                            <div class="row justify-content-between align-items-end mb30 mt30">
-                                                <div class="col-10">
-                                                    <h5 class="faq-title">The Public Communications Authority is
-                                                        concerned
-                                                        with the
-                                                        affairs of communications and information technology
-                                                    </h5>
-                                                    <div class="row">
-                                                        <div class="col-auto">
-                                                            <span>20/3/2021</span>
-                                                        </div>
-                                                        <div class="col-auto">
-                                                            <span>Broken</span>
-                                                        </div>
-                                                        <div class="col-auto">
-                                                            <span>Yelmco Laboras</span>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="col-auto">
-                                                    <a href="#" class="download"><img
-                                                            src="/theme_cim/static/src/images/icon/cloud-computing.svg"/>&amp;nbsp;Download
-                                                    </a>
-                                                </div>
-                                            </div>
-                                        </div>
+
                                     </div>
                                 </div>
                             </section>
