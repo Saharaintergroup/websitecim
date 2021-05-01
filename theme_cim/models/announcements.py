@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 from odoo import api, fields, models, _, tools
-
+from odoo.exceptions import ValidationError
 
 class PublicAnnouncements(models.Model):
     _name = "public.announcements"
@@ -57,3 +57,9 @@ class Bids(models.Model):
         res['domain'] = [('res_model', '=', 'bids'), ('res_id', 'in', self.ids)]
         res['context'] = {'default_res_model': 'bids', 'default_res_id': self.id}
         return res
+
+    @api.constrains('expiration_date', 'bid_date')
+    def date_constrains(self):
+        for rec in self:
+            if rec.expiration_date < rec.bid_date:
+                raise ValidationError(_('Sorry, Expiration Date Must be greater Than Bid Date...'))
