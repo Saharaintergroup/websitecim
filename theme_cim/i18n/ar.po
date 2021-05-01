@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 14.0+e\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-04-18 22:25+0000\n"
-"PO-Revision-Date: 2021-04-18 22:25+0000\n"
+"POT-Creation-Date: 2021-05-01 10:41+0000\n"
+"PO-Revision-Date: 2021-05-01 10:41+0000\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -16,10 +16,12 @@ msgstr ""
 "Plural-Forms: \n"
 
 #. module: theme_cim
+#: model_terms:ir.ui.view,arch_db:theme_cim.bids_post_page_ir_ui_view
 #: model_terms:ir.ui.view,arch_db:theme_cim.cybersecurity_page_ir_ui_view
 #: model_terms:ir.ui.view,arch_db:theme_cim.electronic_government_page_ir_ui_view
 #: model_terms:ir.ui.view,arch_db:theme_cim.organization_of_communications_page_ir_ui_view
 #: model_terms:ir.ui.view,arch_db:theme_cim.sector_development_page_ir_ui_view
+#: model_terms:website.page,arch_db:theme_cim.bids_post_page
 #: model_terms:website.page,arch_db:theme_cim.cybersecurity_page
 #: model_terms:website.page,arch_db:theme_cim.electronic_government_page
 #: model_terms:website.page,arch_db:theme_cim.organization_of_communications_page
@@ -31,6 +33,18 @@ msgstr "&amp;nbsp;تحميل"
 #: model_terms:theme.ir.ui.view,arch:theme_cim.template_header_cim
 msgid "&amp;nbsp;PM"
 msgstr ""
+
+#. module: theme_cim
+#: model_terms:ir.ui.view,arch_db:theme_cim.bids_post_page_ir_ui_view
+#: model_terms:website.page,arch_db:theme_cim.bids_post_page
+msgid "<i class=\"fa fa-clock-o\"/>Date of submission :"
+msgstr "<i class=\"fa fa-clock-o\"/>تاريخ التقديم :"
+
+#. module: theme_cim
+#: model_terms:ir.ui.view,arch_db:theme_cim.bids_post_page_ir_ui_view
+#: model_terms:website.page,arch_db:theme_cim.bids_post_page
+msgid "<i class=\"fa fa-clock-o\"/>Expiry date :"
+msgstr "<i class=\"fa fa-clock-o\"/>تاريخ الانتهاء :"
 
 #. module: theme_cim
 #: model_terms:ir.ui.view,arch_db:theme_cim.media_center
@@ -88,14 +102,16 @@ msgid "<span class=\"sk-name\">I'm waiting</span>"
 msgstr "<span class=\"sk-name\">في الانتظار</span>"
 
 #. module: theme_cim
-#: model_terms:ir.ui.view,arch_db:theme_cim.advertisements
-#: model_terms:website.page,arch_db:theme_cim.advertisements_page
+#: model_terms:ir.ui.view,arch_db:theme_cim.bids_page_ir_ui_view
+#: model_terms:website.page,arch_db:theme_cim.bids_page
 msgid ""
-"<span class=\"text-content-empty\">Sorry, there are no ads at the moment\n"
-"                                                </span>"
+"<span class=\"text-content-empty\">Sorry, there are no bids at the\n"
+"                                            moment\n"
+"                                        </span>"
 msgstr ""
-"<span class=\"text-content-empty\">عذرا ، لا توجد إعلانات في الوقت الحالي\n"
-"                                                </span>"
+"<span class=\"text-content-empty\">معذرة ، لا توجد عطاءات في\n"
+"                                            الوقت الحاضر\n"
+"                                        </span>"
 
 #. module: theme_cim
 #: model_terms:ir.ui.view,arch_db:theme_cim.international_indicators_ir_ui_view
@@ -103,7 +119,8 @@ msgstr ""
 msgid ""
 "<span class=\"text-content-empty\">Sorry, there are no international "
 "indicators at the moment</span>"
-msgstr "عفوا لا توجد مؤشرات دولية في الوقت الحالى"
+msgstr ""
+"<span class=\"text-content-empty\">عفوا لا توجد مؤشرات دولية في الوقت الحالى</span>"
 
 #. module: theme_cim
 #: model_terms:ir.ui.view,arch_db:theme_cim.local_indicators_ir_ui_view
@@ -111,7 +128,8 @@ msgstr "عفوا لا توجد مؤشرات دولية في الوقت الحا�
 msgid ""
 "<span class=\"text-content-empty\">Sorry, there are no local indicators at "
 "the moment</span>"
-msgstr "عفوا لا توجد مؤشرات محلية في الوقت الحالى"
+msgstr ""
+"<span class=\"text-content-empty\">عفوا لا توجد مؤشرات محلية في الوقت الحالى</span>"
 
 #. module: theme_cim
 #: model_terms:ir.ui.view,arch_db:theme_cim.programs_and_projects_page_ir_ui_view
@@ -120,6 +138,18 @@ msgid ""
 "<span class=\"text-content-empty\">Sorry, there are no programs and projects at the\n"
 "                                        moment\n"
 "                                    </span>"
+msgstr ""
+"<span class=\"text-content-empty\">عذرا ، لا توجد برامج ومشاريع في\n"
+"                                        الوقت الحاضر\n"
+"                                    </span>"
+
+#. module: theme_cim
+#: model_terms:ir.ui.view,arch_db:theme_cim.public_announcements_page_ir_ui_view
+#: model_terms:website.page,arch_db:theme_cim.public_announcements_page
+msgid ""
+"<span class=\"text-content-empty\">عذرا ، لا توجد إعلانات العامة في\n"
+"                                            الوقت الحاضر\n"
+"                                        </span>"
 msgstr ""
 
 #. module: theme_cim
@@ -141,6 +171,7 @@ msgid "<span>Yelmco Laboras</span>"
 msgstr "<span>يللأمكو لابورأس</span>"
 
 #. module: theme_cim
+#: model:ir.ui.menu,name:theme_cim.menu_aboutus_menu
 #: model:website.menu,name:theme_cim.menu_aboutus
 #: model_terms:ir.ui.view,arch_db:theme_cim.whoarewe_page_ir_ui_view
 #: model_terms:theme.ir.ui.view,arch:theme_cim.footer_custom
@@ -157,16 +188,17 @@ msgid "Address"
 msgstr "العنوان"
 
 #. module: theme_cim
-#: model:website.menu,name:theme_cim.menu_advertisements
-msgid "Advertisements"
-msgstr "الإعلانات"
-
-#. module: theme_cim
 #: model_terms:theme.ir.ui.view,arch:theme_cim.footer_custom
 msgid ""
 "All rights reserved to the Public Authority for Communications and "
 "Informatics"
 msgstr "جميع الحقوق محفوظة للهيئة العامة للاتصالات و المعلوماتية 2011-"
+
+#. module: theme_cim
+#: model:ir.ui.menu,name:theme_cim.menu_announcements_menu
+#: model:website.menu,name:theme_cim.menu_announcements
+msgid "Announcements"
+msgstr "الإعلانات"
 
 #. module: theme_cim
 #: model:website.menu,name:theme_cim.menu_ask_president
@@ -176,6 +208,48 @@ msgstr "جميع الحقوق محفوظة للهيئة العامة للاتص�
 #: model_terms:website.page,arch_db:theme_cim.contactus_main
 msgid "Ask the president"
 msgstr "اسال الرئيس"
+
+#. module: theme_cim
+#: model:ir.actions.act_window,name:theme_cim.available_jobs_action
+#: model:ir.model,name:theme_cim.model_available_jobs
+#: model:ir.ui.menu,name:theme_cim.menu_available_jobs_menu
+#: model_terms:ir.ui.view,arch_db:theme_cim.view_available_jobs_form
+msgid "Available jobs"
+msgstr "الوظائف المتاحة"
+
+#. module: theme_cim
+#: model:ir.model.fields,field_description:theme_cim.field_slider_home__image
+msgid "Background Image"
+msgstr "الصورة الخلفية"
+
+#. module: theme_cim
+#: model:ir.model.fields,field_description:theme_cim.field_bids__bid_date
+msgid "Bid Date"
+msgstr "تاريخ العطاء"
+
+#. module: theme_cim
+#: model_terms:ir.ui.view,arch_db:theme_cim.bids_post_page_ir_ui_view
+#: model_terms:website.page,arch_db:theme_cim.bids_post_page
+msgid "Bid No. :"
+msgstr "رقم العطاء :"
+
+#. module: theme_cim
+#: model:ir.actions.act_window,name:theme_cim.bids_action
+#: model:ir.model,name:theme_cim.model_bids
+#: model:ir.ui.menu,name:theme_cim.menu_bids_menu
+#: model_terms:ir.ui.view,arch_db:theme_cim.view_bids_form
+msgid "Bids"
+msgstr "العطاءات"
+
+#. module: theme_cim
+#: model:ir.model.fields,field_description:theme_cim.field_slider_home__url
+msgid "Button url"
+msgstr "رابط زر"
+
+#. module: theme_cim
+#: model:ir.ui.menu,name:theme_cim.menu_cim_root
+msgid "CIM"
+msgstr ""
 
 #. module: theme_cim
 #: model_terms:theme.ir.ui.view,arch:theme_cim.footer_snippets_option
@@ -196,6 +270,11 @@ msgstr "الاسئلة الشائعة"
 #: model_terms:website.page,arch_db:theme_cim.electronic_services_page
 msgid "Companies"
 msgstr "الشركات"
+
+#. module: theme_cim
+#: model:ir.model.fields,field_description:theme_cim.field_bids__company_id
+msgid "Company"
+msgstr "الشركة"
 
 #. module: theme_cim
 #: model_terms:ir.ui.view,arch_db:theme_cim.whoarewe_page_ir_ui_view
@@ -229,12 +308,41 @@ msgid "Contact us"
 msgstr "إتصل بنا"
 
 #. module: theme_cim
-#: model_terms:theme.ir.ui.view,arch:theme_cim.new_homepage
-msgid ""
-"Continuation of the sterilization and prevention campaign in the\n"
-"                                            building of the Public Authority for Communications and Information"
-msgstr ""
-"استمرار حملة التعقيم و الوقاية في مبنى الهيئة العامة للاتصالات و المعلوماتية"
+#: model_terms:ir.actions.act_window,help:theme_cim.bids_action
+msgid "Create new bids."
+msgstr "إنشاء عطاءات جديدة."
+
+#. module: theme_cim
+#: model_terms:ir.actions.act_window,help:theme_cim.available_jobs_action
+msgid "Create new jobs."
+msgstr "خلق وظائف جديدة."
+
+#. module: theme_cim
+#: model_terms:ir.actions.act_window,help:theme_cim.public_announcements_action
+msgid "Create new public announcements."
+msgstr "إنشاء إعلانات عامة جديدة."
+
+#. module: theme_cim
+#: model:ir.model.fields,field_description:theme_cim.field_available_jobs__create_uid
+#: model:ir.model.fields,field_description:theme_cim.field_bids__create_uid
+#: model:ir.model.fields,field_description:theme_cim.field_partners_logo__create_uid
+#: model:ir.model.fields,field_description:theme_cim.field_public_announcements__create_uid
+#: model:ir.model.fields,field_description:theme_cim.field_slider_home__create_uid
+#: model:ir.model.fields,field_description:theme_cim.field_teams_teams__create_uid
+#: model:ir.model.fields,field_description:theme_cim.field_ticker_news__create_uid
+msgid "Created by"
+msgstr "أنشئ بواسطة"
+
+#. module: theme_cim
+#: model:ir.model.fields,field_description:theme_cim.field_available_jobs__create_date
+#: model:ir.model.fields,field_description:theme_cim.field_bids__create_date
+#: model:ir.model.fields,field_description:theme_cim.field_partners_logo__create_date
+#: model:ir.model.fields,field_description:theme_cim.field_public_announcements__create_date
+#: model:ir.model.fields,field_description:theme_cim.field_slider_home__create_date
+#: model:ir.model.fields,field_description:theme_cim.field_teams_teams__create_date
+#: model:ir.model.fields,field_description:theme_cim.field_ticker_news__create_date
+msgid "Created on"
+msgstr "أنشئ في"
 
 #. module: theme_cim
 #: model_terms:ir.ui.view,arch_db:theme_cim.common_questions_ir_ui_view
@@ -352,6 +460,16 @@ msgid "Data privacy"
 msgstr "خصوصية البيانات"
 
 #. module: theme_cim
+#: model:ir.model.fields,field_description:theme_cim.field_available_jobs__description
+#: model:ir.model.fields,field_description:theme_cim.field_bids__description
+#: model:ir.model.fields,field_description:theme_cim.field_public_announcements__description
+#: model:ir.model.fields,field_description:theme_cim.field_slider_home__description
+#: model:ir.model.fields,field_description:theme_cim.field_teams_teams__description
+#: model:ir.model.fields,field_description:theme_cim.field_ticker_news__description
+msgid "Description"
+msgstr "الوصف"
+
+#. module: theme_cim
 #: model_terms:ir.ui.view,arch_db:theme_cim.whoarewe_page_ir_ui_view
 #: model_terms:website.page,arch_db:theme_cim.whoarewe_page
 msgid ""
@@ -366,9 +484,27 @@ msgid "Digital Society - Distinguished Services - Competitive Environment"
 msgstr "مجتمع رقمي - خدمات مميزة - بيئة تنافسية"
 
 #. module: theme_cim
+#: model:ir.model.fields,field_description:theme_cim.field_available_jobs__display_name
+#: model:ir.model.fields,field_description:theme_cim.field_bids__display_name
+#: model:ir.model.fields,field_description:theme_cim.field_partners_logo__display_name
+#: model:ir.model.fields,field_description:theme_cim.field_public_announcements__display_name
+#: model:ir.model.fields,field_description:theme_cim.field_slider_home__display_name
+#: model:ir.model.fields,field_description:theme_cim.field_teams_teams__display_name
+#: model:ir.model.fields,field_description:theme_cim.field_ticker_news__display_name
+msgid "Display Name"
+msgstr "الاسم المعروض"
+
+#. module: theme_cim
+#: model_terms:ir.ui.view,arch_db:theme_cim.view_bids_form
+msgid "Documents"
+msgstr "المستندات"
+
+#. module: theme_cim
 #: model_terms:ir.ui.view,arch_db:theme_cim.contact_branches_ir_ui_view
+#: model_terms:ir.ui.view,arch_db:theme_cim.eastern_branch_ir_ui_view
 #: model_terms:ir.ui.view,arch_db:theme_cim.organizational_structure_page_ir_ui_view
 #: model_terms:website.page,arch_db:theme_cim.contact_branches
+#: model_terms:website.page,arch_db:theme_cim.eastern_branch
 #: model_terms:website.page,arch_db:theme_cim.organizational_structure_page
 msgid "Eastern branch"
 msgstr "الفرع الشرقي"
@@ -448,6 +584,16 @@ msgid "Executive crew"
 msgstr "الطاقم التنفيذي"
 
 #. module: theme_cim
+#: model_terms:ir.actions.act_window,help:theme_cim.teams_action
+msgid "Executive crew."
+msgstr "الطاقم التنفيذي."
+
+#. module: theme_cim
+#: model:ir.model.fields,field_description:theme_cim.field_bids__expiration_date
+msgid "Expiration Date"
+msgstr "تاريخ الانتهاء"
+
+#. module: theme_cim
 #: model_terms:ir.ui.view,arch_db:theme_cim.contact_branches_ir_ui_view
 #: model_terms:theme.ir.ui.view,arch:theme_cim.information_contact
 #: model_terms:website.page,arch_db:theme_cim.contact_branches
@@ -470,10 +616,26 @@ msgid "Governmental entities"
 msgstr "الجهات الحكومية"
 
 #. module: theme_cim
+#: model:ir.ui.menu,name:theme_cim.menu_home_menu
+msgid "Home"
+msgstr "الرئيسيه"
+
+#. module: theme_cim
+#: model:ir.model.fields,field_description:theme_cim.field_available_jobs__id
+#: model:ir.model.fields,field_description:theme_cim.field_bids__id
+#: model:ir.model.fields,field_description:theme_cim.field_partners_logo__id
+#: model:ir.model.fields,field_description:theme_cim.field_public_announcements__id
+#: model:ir.model.fields,field_description:theme_cim.field_slider_home__id
+#: model:ir.model.fields,field_description:theme_cim.field_teams_teams__id
+#: model:ir.model.fields,field_description:theme_cim.field_ticker_news__id
+msgid "ID"
+msgstr ""
+
+#. module: theme_cim
 #: model_terms:ir.ui.view,arch_db:theme_cim.whoarewe_page_ir_ui_view
 #: model_terms:website.page,arch_db:theme_cim.whoarewe_page
 msgid "Improving the quality of services"
-msgstr "تطوير جودة الخدمات"
+msgstr "تطوير جودة الخدمات"
 
 #. module: theme_cim
 #: model:website.menu,name:theme_cim.menu_indications
@@ -527,6 +689,11 @@ msgstr ""
 "كايلليوم دولار أيو فيجايت"
 
 #. module: theme_cim
+#: model:ir.model.fields,field_description:theme_cim.field_teams_teams__is_president
+msgid "Is President"
+msgstr "الرئيس"
+
+#. module: theme_cim
 #: model_terms:ir.ui.view,arch_db:theme_cim.whoarewe_page_ir_ui_view
 #: model_terms:website.page,arch_db:theme_cim.whoarewe_page
 msgid ""
@@ -535,10 +702,43 @@ msgid ""
 msgstr "إصدار وتحديد رسوم جميع أنواع التراخيص ومنح الموافقات المتعلقة بالنشاط"
 
 #. module: theme_cim
-#: model_terms:ir.ui.view,arch_db:theme_cim.advertisements
-#: model_terms:website.page,arch_db:theme_cim.advertisements_page
+#: model_terms:ir.ui.view,arch_db:theme_cim.available_jobs_page_ir_ui_view
+#: model_terms:website.page,arch_db:theme_cim.available_jobs_page
 msgid "Job name"
-msgstr "اسم الوظيفه"
+msgstr "اسم العمل"
+
+#. module: theme_cim
+#: model:ir.model.fields,field_description:theme_cim.field_available_jobs____last_update
+#: model:ir.model.fields,field_description:theme_cim.field_bids____last_update
+#: model:ir.model.fields,field_description:theme_cim.field_partners_logo____last_update
+#: model:ir.model.fields,field_description:theme_cim.field_public_announcements____last_update
+#: model:ir.model.fields,field_description:theme_cim.field_slider_home____last_update
+#: model:ir.model.fields,field_description:theme_cim.field_teams_teams____last_update
+#: model:ir.model.fields,field_description:theme_cim.field_ticker_news____last_update
+msgid "Last Modified on"
+msgstr "آخر تعديل في"
+
+#. module: theme_cim
+#: model:ir.model.fields,field_description:theme_cim.field_available_jobs__write_uid
+#: model:ir.model.fields,field_description:theme_cim.field_bids__write_uid
+#: model:ir.model.fields,field_description:theme_cim.field_partners_logo__write_uid
+#: model:ir.model.fields,field_description:theme_cim.field_public_announcements__write_uid
+#: model:ir.model.fields,field_description:theme_cim.field_slider_home__write_uid
+#: model:ir.model.fields,field_description:theme_cim.field_teams_teams__write_uid
+#: model:ir.model.fields,field_description:theme_cim.field_ticker_news__write_uid
+msgid "Last Updated by"
+msgstr "آخر تحديث بواسطة"
+
+#. module: theme_cim
+#: model:ir.model.fields,field_description:theme_cim.field_available_jobs__write_date
+#: model:ir.model.fields,field_description:theme_cim.field_bids__write_date
+#: model:ir.model.fields,field_description:theme_cim.field_partners_logo__write_date
+#: model:ir.model.fields,field_description:theme_cim.field_public_announcements__write_date
+#: model:ir.model.fields,field_description:theme_cim.field_slider_home__write_date
+#: model:ir.model.fields,field_description:theme_cim.field_teams_teams__write_date
+#: model:ir.model.fields,field_description:theme_cim.field_ticker_news__write_date
+msgid "Last Updated on"
+msgstr "آخر تحديث في"
 
 #. module: theme_cim
 #: model_terms:ir.ui.view,arch_db:theme_cim.media_center
@@ -602,20 +802,6 @@ msgstr ""
 "والمتابعةبالهيئة العامة للاتصالات والمعلوماتية"
 
 #. module: theme_cim
-#: model_terms:theme.ir.ui.view,arch:theme_cim.new_homepage
-msgid ""
-"Libya News Newspaper interviews Mr. Amjad\n"
-"                                                    Al-Cherabee, Director of Projects Administration, and Mr. Najmi\n"
-"                                                    Tate,\n"
-"                                                    Director\n"
-"                                                    of Strategy, Planning and Follow-up Department\n"
-"                                                    In the Public Authority for Communications and Informatics"
-msgstr ""
-"صحيفة ليبيا الإخبارية تجري حواراً صحفياً مع كل من السيد امجدالكرزاب مدير "
-"ادارة المشروعات والسيد نجمي تاته مدير ادارة الاستراتيجية والتخطيط "
-"والمتابعةبالهيئة العامة للاتصالات والمعلوماتية"
-
-#. module: theme_cim
 #: model_terms:ir.ui.view,arch_db:theme_cim.strategy_page_ir_ui_view
 #: model_terms:website.page,arch_db:theme_cim.strategy_page
 msgid ""
@@ -627,16 +813,23 @@ msgstr ""
 "لتحقيق أهدافها المنشودة في قطاع  الاتصالات وتقنية المعلومات الليبي"
 
 #. module: theme_cim
-#: model_terms:ir.ui.view,arch_db:theme_cim.advertisements
-#: model_terms:website.page,arch_db:theme_cim.advertisements_page
+#: model:website.menu,name:theme_cim.menu_available_jobs
+#: model_terms:ir.ui.view,arch_db:theme_cim.available_jobs_page_ir_ui_view
+#: model_terms:website.page,arch_db:theme_cim.available_jobs_page
 msgid "List of available jobs"
 msgstr "قائمة الوظائف المتاحة"
 
 #. module: theme_cim
-#: model_terms:ir.ui.view,arch_db:theme_cim.advertisements
-#: model_terms:website.page,arch_db:theme_cim.advertisements_page
+#: model:website.menu,name:theme_cim.menu_bids
+#: model_terms:ir.ui.view,arch_db:theme_cim.bids_page_ir_ui_view
+#: model_terms:website.page,arch_db:theme_cim.bids_page
 msgid "List of bids"
 msgstr "قائمة العطاءات"
+
+#. module: theme_cim
+#: model_terms:ir.actions.act_window,help:theme_cim.partners_logo_action
+msgid "List of partners with their logo."
+msgstr ""
 
 #. module: theme_cim
 #: model:website.menu,name:theme_cim.menu_local_indicators
@@ -646,8 +839,20 @@ msgid "Local indicators"
 msgstr "المؤشرات المحلية"
 
 #. module: theme_cim
+#: model:ir.model.fields,field_description:theme_cim.field_partners_logo__image
+msgid "Logo"
+msgstr ""
+
+#. module: theme_cim
+#: model:ir.model,name:theme_cim.model_partners_logo
+msgid "Logo of Partners"
+msgstr "شعار الشركاء"
+
+#. module: theme_cim
 #: model_terms:ir.ui.view,arch_db:theme_cim.contact_branches_ir_ui_view
+#: model_terms:ir.ui.view,arch_db:theme_cim.main_branch_ir_ui_view
 #: model_terms:website.page,arch_db:theme_cim.contact_branches
+#: model_terms:website.page,arch_db:theme_cim.main_branch
 msgid "Main branch"
 msgstr "الفرع الرئيسي"
 
@@ -663,6 +868,10 @@ msgid "Most discussed"
 msgstr "الموضوعات الاكثر تداولا"
 
 #. module: theme_cim
+#: model:ir.model.fields,field_description:theme_cim.field_partners_logo__name
+#: model:ir.model.fields,field_description:theme_cim.field_teams_teams__name
+#: model_terms:ir.ui.view,arch_db:theme_cim.view_partners_logo_form
+#: model_terms:ir.ui.view,arch_db:theme_cim.view_slider_home_form
 #: model_terms:theme.ir.ui.view,arch:theme_cim.website_form
 msgid "Name"
 msgstr "الاسم"
@@ -679,6 +888,16 @@ msgstr "موجز الاخبار"
 #: model_terms:website.page,arch_db:theme_cim.media_center_page
 msgid "Next"
 msgstr "التالي"
+
+#. module: theme_cim
+#: model:ir.model.fields,field_description:theme_cim.field_ticker_news__name
+msgid "Number"
+msgstr "الرقم"
+
+#. module: theme_cim
+#: model:ir.model.fields,field_description:theme_cim.field_bids__attachment_number
+msgid "Number of Attachments"
+msgstr ""
 
 #. module: theme_cim
 #: model_terms:ir.ui.view,arch_db:theme_cim.organization_of_communications_page_ir_ui_view
@@ -726,6 +945,17 @@ msgid "Overview"
 msgstr "نظرة عامة"
 
 #. module: theme_cim
+#: model:ir.ui.menu,name:theme_cim.menu_partners_logo_menu
+msgid "Partners Logo"
+msgstr "شعار الشركاء"
+
+#. module: theme_cim
+#: model:ir.actions.act_window,name:theme_cim.partners_logo_action
+#: model_terms:ir.ui.view,arch_db:theme_cim.view_partners_logo_form
+msgid "Partners logo"
+msgstr "شعار الشركاء"
+
+#. module: theme_cim
 #: model_terms:theme.ir.ui.view,arch:theme_cim.new_homepage
 msgid "Pay bills"
 msgstr "دفع الفواتير"
@@ -738,9 +968,17 @@ msgid "Phone"
 msgstr "هاتف"
 
 #. module: theme_cim
-#: model_terms:ir.ui.view,arch_db:theme_cim.advertisements
+#: model:ir.model.fields,field_description:theme_cim.field_available_jobs__image
+#: model:ir.model.fields,field_description:theme_cim.field_bids__image
+#: model:ir.model.fields,field_description:theme_cim.field_public_announcements__image
+#: model:ir.model.fields,field_description:theme_cim.field_teams_teams__image
+msgid "Photo"
+msgstr "الصورة"
+
+#. module: theme_cim
+#: model_terms:ir.ui.view,arch_db:theme_cim.available_jobs_page_ir_ui_view
 #: model_terms:ir.ui.view,arch_db:theme_cim.media_center
-#: model_terms:website.page,arch_db:theme_cim.advertisements_page
+#: model_terms:website.page,arch_db:theme_cim.available_jobs_page
 #: model_terms:website.page,arch_db:theme_cim.media_center_page
 msgid "Politics"
 msgstr "السياسة"
@@ -773,6 +1011,12 @@ msgid "Programs and projects"
 msgstr "البرامج و المشروعات"
 
 #. module: theme_cim
+#: model_terms:ir.ui.view,arch_db:theme_cim.executive_crew_page_ir_ui_view
+#: model_terms:website.page,arch_db:theme_cim.executive_crew_page
+msgid "Project management team"
+msgstr "فريق إدارة المشروعات"
+
+#. module: theme_cim
 #: model:website.menu,name:theme_cim.menu_proposals
 #: model_terms:ir.ui.view,arch_db:theme_cim.proposals_ir_ui_view
 #: model_terms:website.page,arch_db:theme_cim.proposals
@@ -790,16 +1034,25 @@ msgstr ""
 "والبريد"
 
 #. module: theme_cim
+#: model:ir.actions.act_window,name:theme_cim.public_announcements_action
+#: model:ir.model,name:theme_cim.model_public_announcements
+msgid "Public Announcements"
+msgstr "الإعلانات العامة "
+
+#. module: theme_cim
 #: model_terms:theme.ir.ui.view,arch:theme_cim.footer_custom
 #: model_terms:theme.ir.ui.view,arch:theme_cim.template_header_cim
 msgid "Public Authority for Communications and Informatics"
 msgstr "الهيئة العامة للاتصالات و المعلوماتية"
 
 #. module: theme_cim
-#: model_terms:ir.ui.view,arch_db:theme_cim.advertisements
-#: model_terms:website.page,arch_db:theme_cim.advertisements_page
+#: model:ir.ui.menu,name:theme_cim.menu_public_announcements_menu
+#: model:website.menu,name:theme_cim.menu_public_announcements
+#: model_terms:ir.ui.view,arch_db:theme_cim.public_announcements_page_ir_ui_view
+#: model_terms:ir.ui.view,arch_db:theme_cim.view_public_announcements_form
+#: model_terms:website.page,arch_db:theme_cim.public_announcements_page
 msgid "Public announcements"
-msgstr "الإعلانات العامة"
+msgstr "الإعلانات العامة "
 
 #. module: theme_cim
 #: model_terms:ir.ui.view,arch_db:theme_cim.electronic_services
@@ -853,10 +1106,10 @@ msgstr ""
 " كيو أوفيسيا ديسيريونتموليت انيم أيدي ايست لابوريومكسير سيتاشن يللأمكو لابورأس نيسي يت أليكيوب أكس أيا كوممودو كونسيكيوات ."
 
 #. module: theme_cim
-#: model_terms:ir.ui.view,arch_db:theme_cim.advertisements
-#: model_terms:website.page,arch_db:theme_cim.advertisements_page
+#: model_terms:ir.ui.view,arch_db:theme_cim.available_jobs_page_ir_ui_view
+#: model_terms:website.page,arch_db:theme_cim.available_jobs_page
 msgid "Qofficia designmolet anime hands east laboratory"
-msgstr "كيو أوفيسيا ديسيريونتموليت انيم أيدي"
+msgstr ""
 
 #. module: theme_cim
 #: model_terms:ir.ui.view,arch_db:theme_cim.whoarewe_page_ir_ui_view
@@ -868,11 +1121,22 @@ msgid ""
 msgstr "رفع جودة خدمات الإتصالات وتقنية المعلومات للمستهلك النهائي"
 
 #. module: theme_cim
-#: model_terms:ir.ui.view,arch_db:theme_cim.media_center
 #: model_terms:theme.ir.ui.view,arch:theme_cim.new_homepage
+msgid ""
+"Read\n"
+"                                                            more"
+msgstr ""
+
+#. module: theme_cim
+#: model_terms:ir.ui.view,arch_db:theme_cim.media_center
 #: model_terms:website.page,arch_db:theme_cim.media_center_page
 msgid "Read more"
 msgstr "متابعة القراءة"
+
+#. module: theme_cim
+#: model:ir.model.fields,field_description:theme_cim.field_bids__reference
+msgid "Reference Number"
+msgstr "رقم العطاء"
 
 #. module: theme_cim
 #: model_terms:theme.ir.ui.view,arch:theme_cim.template_header_cim
@@ -905,6 +1169,27 @@ msgid ""
 msgstr "تسجيل الدخول"
 
 #. module: theme_cim
+#: model:ir.ui.menu,name:theme_cim.menu_slider_news_menu
+#: model_terms:ir.ui.view,arch_db:theme_cim.view_slider_home_form
+msgid "Slider Home"
+msgstr ""
+
+#. module: theme_cim
+#: model:ir.actions.act_window,name:theme_cim.slider_home_action
+msgid "Slider Home Page"
+msgstr "المتزلج الرئيسية"
+
+#. module: theme_cim
+#: model:ir.model,name:theme_cim.model_slider_home
+msgid "Slider In Home Page"
+msgstr "المتزلج في الصفحة الرئيسية"
+
+#. module: theme_cim
+#: model_terms:ir.actions.act_window,help:theme_cim.slider_home_action
+msgid "Slider for home page."
+msgstr "المتزلج للصفحة الرئيسية."
+
+#. module: theme_cim
 #: model_terms:ir.ui.view,arch_db:theme_cim.whoarewe_page_ir_ui_view
 #: model_terms:website.page,arch_db:theme_cim.whoarewe_page
 msgid ""
@@ -918,8 +1203,10 @@ msgstr ""
 #. module: theme_cim
 #: model_terms:ir.ui.view,arch_db:theme_cim.contact_branches_ir_ui_view
 #: model_terms:ir.ui.view,arch_db:theme_cim.organizational_structure_page_ir_ui_view
+#: model_terms:ir.ui.view,arch_db:theme_cim.southern_branch_ir_ui_view
 #: model_terms:website.page,arch_db:theme_cim.contact_branches
 #: model_terms:website.page,arch_db:theme_cim.organizational_structure_page
+#: model_terms:website.page,arch_db:theme_cim.southern_branch
 msgid "Southern branch"
 msgstr "الفرع الجنوبي"
 
@@ -952,6 +1239,14 @@ msgid ""
 "Taking all legal measures against the violations committed in this\n"
 "                                                field"
 msgstr "اتخاذ كافة الإجراءات القانونية ضد المخالفات المرتكبة في هذا المجال"
+
+#. module: theme_cim
+#: model:ir.actions.act_window,name:theme_cim.teams_action
+#: model:ir.model,name:theme_cim.model_teams_teams
+#: model:ir.ui.menu,name:theme_cim.menu_teams_menu
+#: model_terms:ir.ui.view,arch_db:theme_cim.view_teams_form
+msgid "Teams"
+msgstr "الفريق"
 
 #. module: theme_cim
 #: model_terms:ir.ui.view,arch_db:theme_cim.international_relations_page_ir_ui_view
@@ -1458,6 +1753,30 @@ msgid "The tasks are the decision of the statute"
 msgstr "المهام قرار النظام الاساسي"
 
 #. module: theme_cim
+#: model:ir.actions.act_window,name:theme_cim.ticker_news_action
+#: model_terms:ir.ui.view,arch_db:theme_cim.view_ticker_news_form
+msgid "Ticker News"
+msgstr "شريط الأخبار"
+
+#. module: theme_cim
+#: model:ir.ui.menu,name:theme_cim.menu_ticker_news_menu
+msgid "Ticker news"
+msgstr "شريط الأخبار"
+
+#. module: theme_cim
+#: model_terms:ir.actions.act_window,help:theme_cim.ticker_news_action
+msgid "Ticker news for home page."
+msgstr "شريط الأخبار للصفحة الرئيسية."
+
+#. module: theme_cim
+#: model:ir.model.fields,field_description:theme_cim.field_available_jobs__name
+#: model:ir.model.fields,field_description:theme_cim.field_bids__name
+#: model:ir.model.fields,field_description:theme_cim.field_public_announcements__name
+#: model:ir.model.fields,field_description:theme_cim.field_slider_home__name
+msgid "Title"
+msgstr "العنوان"
+
+#. module: theme_cim
 #: model_terms:ir.ui.view,arch_db:theme_cim.strategy_page_ir_ui_view
 #: model_terms:website.page,arch_db:theme_cim.strategy_page
 msgid ""
@@ -1477,6 +1796,16 @@ msgid "Vision"
 msgstr "الرؤية"
 
 #. module: theme_cim
+#: model:ir.model.fields,field_description:theme_cim.field_bids__website_id
+msgid "Website"
+msgstr ""
+
+#. module: theme_cim
+#: model:ir.model,name:theme_cim.model_ticker_news
+msgid "Website Slider Home"
+msgstr ""
+
+#. module: theme_cim
 #: model_terms:ir.ui.view,arch_db:theme_cim.whoarewe_page_ir_ui_view
 #: model_terms:website.page,arch_db:theme_cim.whoarewe_page
 msgid "What we do"
@@ -1490,10 +1819,12 @@ msgid "Who are we"
 msgstr "من نحن "
 
 #. module: theme_cim
+#: model_terms:ir.ui.view,arch_db:theme_cim.bids_post_page_ir_ui_view
 #: model_terms:ir.ui.view,arch_db:theme_cim.cybersecurity_page_ir_ui_view
 #: model_terms:ir.ui.view,arch_db:theme_cim.electronic_government_page_ir_ui_view
 #: model_terms:ir.ui.view,arch_db:theme_cim.organization_of_communications_page_ir_ui_view
 #: model_terms:ir.ui.view,arch_db:theme_cim.sector_development_page_ir_ui_view
+#: model_terms:website.page,arch_db:theme_cim.bids_post_page
 #: model_terms:website.page,arch_db:theme_cim.cybersecurity_page
 #: model_terms:website.page,arch_db:theme_cim.electronic_government_page
 #: model_terms:website.page,arch_db:theme_cim.organization_of_communications_page
@@ -1505,6 +1836,14 @@ msgstr "الملفات المرتبطة بالعمل"
 #: model_terms:theme.ir.ui.view,arch:theme_cim.website_form
 msgid "Write your message here"
 msgstr "قم بكتابة رسالتك هنا"
+
+#. module: theme_cim
+#: model_terms:ir.ui.view,arch_db:theme_cim.bids_page_ir_ui_view
+#: model_terms:ir.ui.view,arch_db:theme_cim.public_announcements_page_ir_ui_view
+#: model_terms:website.page,arch_db:theme_cim.bids_page
+#: model_terms:website.page,arch_db:theme_cim.public_announcements_page
+msgid "mt40 justify-content-center"
+msgstr ""
 
 #. module: theme_cim
 #: model_terms:theme.ir.ui.view,arch:theme_cim.template_header_cim
