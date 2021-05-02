@@ -14,8 +14,8 @@ access_teams_teams_designer,teams.teams.designer,theme_cim.model_teams_teams,web
 access_public_announcements_public,public.announcements.public,theme_cim.model_public_announcements,,1,0,0,0
 access_public_announcements_designer,public.announcements.designer,theme_cim.model_public_announcements,website.group_website_designer,1,1,1,1
 
-access_available_jobs_public,available.jobs.public,theme_cim.model_available_jobs,,1,0,0,0
-access_available_jobs_designer,available.jobs.designer,theme_cim.model_available_jobs,website.group_website_designer,1,1,1,1
+access_jobs_public,jobs.public,theme_cim.model_jobs,,1,0,0,0
+access_jobs_designer,jobs.designer,theme_cim.model_jobs,website.group_website_designer,1,1,1,1
 
 access_bids_public,bids.public,theme_cim.model_bids,,1,0,0,0
 access_bids_designer,bids.designer,theme_cim.model_bids,website.group_website_designer,1,1,1,1

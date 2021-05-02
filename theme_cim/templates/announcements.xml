@@ -77,15 +77,15 @@
         </record>
 
         <!--=========available_jobs========-->
-        <record id="available_jobs_page" model="website.page">
+        <record id="jobs_page" model="website.page">
             <field name="name">List of available jobs</field>
             <field name="type">qweb</field>
-            <field name="url">/available-jobs</field>
+            <field name="url">/jobs</field>
             <field name="website_indexed" eval="False"/>
             <field name="is_published">True</field>
             <field name="key">theme_cim.available_jobs_page</field>
             <field name="arch" type="xml">
-                <t name="List of available jobs" t-name="theme_cim.available_jobs_page">
+                <t name="List of available jobs" t-name="theme_cim.jobs_page">
                     <t t-call="website.layout">
                         <div id="wrap">
                             <section class="section_announcements pt50 pb50">
@@ -124,6 +124,34 @@
                                                     <p>Qofficia designmolet anime hands east laboratory</p>
                                                 </div>
                                             </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </section>
+                            <div class="oe_structure"/>
+                        </div>
+                    </t>
+                </t>
+            </field>
+        </record>
+       <record id="jobs_post_page" model="website.page">
+            <field name="name">Post of public announcements</field>
+            <field name="type">qweb</field>
+            <field name="website_indexed" eval="False"/>
+            <field name="is_published">True</field>
+            <field name="key">theme_cim.public_announcements_post_page</field>
+            <field name="arch" type="xml">
+                <t name="Post of public announcements" t-name="theme_cim.public_announcements_post_page">
+                    <t t-call="website.layout">
+                        <div id="wrap">
+                            <section class="pt40 pb40">
+                                <div class="container">
+                                    <div class="header_cover_post mb40"
+                                         t-attf-style="background-image:url(data:image/jpg;base64,{{ record.image }})"/>
+                                    <h3 class="hr_title_horizontal mb30" t-esc="record.name"/>
+                                    <div class="row justify-content-between mb40">
+                                        <div class="col-md-10">
+                                            <div t-esc="record.description" class="mb40"/>
                                         </div>
                                     </div>
                                 </div>
@@ -289,11 +317,11 @@
             <field name="parent_id" ref="website.main_menu"/>
             <field name="sequence" type="int">51</field>
         </record>
-        <!--Available jobs-->
+        <!--jobs-->
         <record id="menu_available_jobs" model="website.menu">
             <field name="name">List of available jobs</field>
-            <field name="url">/available-jobs</field>
-            <field name="page_id" ref="theme_cim.available_jobs_page"/>
+            <field name="url">/jobs</field>
+            <field name="page_id" ref="theme_cim.jobs_page"/>
             <field name="parent_id" ref="website.main_menu"/>
             <field name="sequence" type="int">52</field>
         </record>

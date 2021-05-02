@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <!--========================Public Announcements========================-->
+        <!--Tree View-->
+        <record id="view_public_announcements_tree" model="ir.ui.view">
+            <field name="name">public.announcements.tree</field>
+            <field name="model">public.announcements</field>
+            <field name="arch" type="xml">
+                <tree>
+                    <field name="name"/>
+                    <field name="description"/>
+                </tree>
+            </field>
+        </record>
+        <!--Form View-->
+        <record id="view_public_announcements_form" model="ir.ui.view">
+            <field name="name">public.announcements.form</field>
+            <field name="model">public.announcements</field>
+            <field name="priority" eval="1"/>
+            <field name="arch" type="xml">
+                <form string="Public announcements">
+                    <sheet>
+                        <field name="image" widget='image' class="oe_avatar"/>
+                        <div class="oe_title">
+                            <h1>
+                                <field name="name"/>
+                            </h1>
+                        </div>
+                        <group>
+                            <field name="description"/>
+                        </group>
+                    </sheet>
+                </form>
+            </field>
+        </record>
+        <!--Action-->
+        <record id="public_announcements_action" model="ir.actions.act_window">
+            <field name="name">Public Announcements</field>
+            <field name="type">ir.actions.act_window</field>
+            <field name="res_model">public.announcements</field>
+            <field name="view_mode">tree,form</field>
+            <field name="help" type="html">
+                <p class="o_view_nocontent_smiling_face">
+                    Create new public announcements.
+                </p>
+            </field>
+        </record>
+    </data>
+</odoo>

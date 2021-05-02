@@ -46,11 +46,11 @@
                   sequence="1"
                   parent="menu_announcements_menu"
                   action="public_announcements_action"/>
-        <!--Available jobs-->
-        <menuitem id="menu_available_jobs_menu" name="Available jobs"
+        <!--obs-->
+        <menuitem id="menu_available_jobs_menu" name="Jobs"
                   sequence="2"
                   parent="menu_announcements_menu"
-                  action="available_jobs_action"/>
+                  action="jobs_action"/>
         <!--Bids-->
         <menuitem id="menu_bids_menu" name="Bids"
                   sequence="3"
