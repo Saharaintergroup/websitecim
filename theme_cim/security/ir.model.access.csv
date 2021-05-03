@@ -17,5 +17,8 @@ access_public_announcements_designer,public.announcements.designer,theme_cim.mod
 access_jobs_public,jobs.public,theme_cim.model_jobs,,1,0,0,0
 access_jobs_designer,jobs.designer,theme_cim.model_jobs,website.group_website_designer,1,1,1,1
 
+access_jobs_department_public,jobs.department.public,theme_cim.model_jobs_department,,1,0,0,0
+access_jobs_department_designer,jobs.department.designer,theme_cim.model_jobs_department,website.group_website_designer,1,1,1,1
+
 access_bids_public,bids.public,theme_cim.model_bids,,1,0,0,0
 access_bids_designer,bids.designer,theme_cim.model_bids,website.group_website_designer,1,1,1,1

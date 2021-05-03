@@ -331,6 +331,7 @@
         @include transition-05;
         border:2px;
         box-shadow:0 3 10 rgba(0,0,0,0.1);
+        z-index:-1;
         &:before{
             content:'';
             display:block;
@@ -359,6 +360,13 @@
             display: -webkit-box;
             -webkit-line-clamp: 3; /* number of lines to show */
             -webkit-box-orient: vertical;
+            color:white!important;
+        }
+        .short_desc{
+            color:white!important;
+            *{
+                color:white!important;
+            }
         }
     }
     &:hover{

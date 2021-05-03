@@ -9,7 +9,8 @@
             <field name="arch" type="xml">
                 <tree>
                     <field name="name"/>
-                    <field name="description"/>
+                    <field name="department_id"/>
+                    <field name="no_of_recruitment"/>
                 </tree>
             </field>
         </record>
@@ -23,13 +24,54 @@
                     <sheet>
                         <field name="image" widget='image' class="oe_avatar"/>
                         <div class="oe_title">
+                            <label class="oe_edit_only" for="name" string="Job Name"/>
                             <h1>
-                                <field name="name"/>
+                                <field name="name" placeholder="Job Name"/>
                             </h1>
                         </div>
                         <group>
-                            <field name="description"/>
+                            <group>
+                                <field name="department_id"/>
+                                <field name="no_of_recruitment"/>
+                            </group>
                         </group>
+                        <notebook>
+                            <page string="Description primary">
+                                <group>
+                                    <field name="description_primary" nolabel="1"/>
+                                </group>
+                            </page>
+                            <page string="Details">
+                                <group>
+                                    <group>
+                                        <h4>Must be available</h4>
+                                    </group>
+                                    <group>
+                                        <h4>Requirements</h4>
+                                    </group>
+                                    <group>
+                                        <field name="must_be_available" nolabel="1"/>
+                                    </group>
+                                    <group>
+                                        <field name="requirements" nolabel="1"/>
+                                    </group>
+                                </group>
+                                <group>
+                                    <group>
+                                        <h4>Responsibilities</h4>
+                                    </group>
+                                    <group/>
+                                    <group>
+                                        <field name="responsibilities" nolabel="1"/>
+                                    </group>
+                                </group>
+                            </page>
+                            <page string="Description secondary">
+                                <group>
+                                    <field name="description_secondary" nolabel="1"/>
+                                </group>
+                            </page>
+                        </notebook>
                     </sheet>
                 </form>
             </field>
@@ -46,5 +88,47 @@
                 </p>
             </field>
         </record>
-</data>
+
+        <!--=======================Department==========================-->
+        <!--Tree View-->
+        <record id="view_jobs_department_tree" model="ir.ui.view">
+            <field name="name">jobs.department.tree</field>
+            <field name="model">jobs.department</field>
+            <field name="arch" type="xml">
+                <tree>
+                    <field name="name"/>
+                </tree>
+            </field>
+        </record>
+        <!--Form View-->
+        <record id="view_jobs_department_form" model="ir.ui.view">
+            <field name="name">jobs.department.form</field>
+            <field name="model">jobs.department</field>
+            <field name="priority" eval="1"/>
+            <field name="arch" type="xml">
+                <form string="Jobs Department">
+                    <sheet>
+                        <div class="oe_title">
+                            <label class="oe_edit_only" for="name" string="Department Name"/>
+                            <h1>
+                                <field name="name" placeholder="Department Name"/>
+                            </h1>
+                        </div>
+                    </sheet>
+                </form>
+            </field>
+        </record>
+        <!--Action View-->
+        <record id="jobs_department_action" model="ir.actions.act_window">
+            <field name="name">Department</field>
+            <field name="type">ir.actions.act_window</field>
+            <field name="res_model">jobs.department</field>
+            <field name="view_mode">tree,form</field>
+            <field name="help" type="html">
+                <p class="o_view_nocontent_smiling_face">
+                    Create new department.
+                </p>
+            </field>
+        </record>
+    </data>
 </odoo>

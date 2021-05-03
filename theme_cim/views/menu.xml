@@ -3,58 +3,72 @@
     <data>
         <!-- Menu CIM Root -->
         <menuitem name="CIM"
-                  id="menu_cim_root"
+                  id="cim_menu_root"
                   sequence="9"
                   groups="base.group_user"
                   web_icon="theme_cim,static/description/icon.png"/>
 
-        <menuitem id="menu_home_menu" name="Home"
+        <menuitem id="cim_home_menu" name="Home"
                   sequence="1"
-                  parent="menu_cim_root"/>
+                  parent="cim_menu_root"/>
 
-        <menuitem id="menu_slider_news_menu" name="Slider Home"
+        <menuitem id="cim_slider_news_menu" name="Slider Home"
                   sequence="1"
-                  parent="menu_home_menu"
+                  parent="cim_home_menu"
                   action="slider_home_action"/>
 
-        <menuitem id="menu_ticker_news_menu" name="Ticker news"
+        <menuitem id="cim_ticker_news_menu" name="Ticker news"
                   sequence="2"
-                  parent="menu_home_menu"
+                  parent="cim_home_menu"
                   action="ticker_news_action"/>
 
-        <menuitem id="menu_partners_logo_menu" name="Partners Logo"
+        <menuitem id="cim_partners_logo_menu" name="Partners Logo"
                   sequence="3"
-                  parent="menu_home_menu"
+                  parent="cim_home_menu"
                   action="partners_logo_action"/>
 
-        <menuitem id="menu_aboutus_menu" name="About us"
+        <menuitem id="cim_aboutus_menu" name="About us"
                   sequence="2"
-                  parent="menu_cim_root"/>
+                  parent="cim_menu_root"/>
 
-        <menuitem id="menu_teams_menu" name="Teams"
+        <menuitem id="cim_teams_menu" name="Teams"
                   sequence="1"
-                  parent="menu_aboutus_menu"
+                  parent="cim_aboutus_menu"
                   action="teams_action"/>
 
         <!--================================-->
         <!--==Announcements==-->
-        <menuitem id="menu_announcements_menu" name="Announcements"
+        <menuitem id="cim_announcements_menu" name="Announcements"
                   sequence="3"
-                  parent="menu_cim_root"/>
+                  parent="cim_menu_root"/>
         <!--Public announcements-->
-        <menuitem id="menu_public_announcements_menu" name="Public announcements"
+        <menuitem id="cim_public_announcements_menu" name="Public announcements"
                   sequence="1"
-                  parent="menu_announcements_menu"
+                  parent="cim_announcements_menu"
                   action="public_announcements_action"/>
         <!--obs-->
-        <menuitem id="menu_available_jobs_menu" name="Jobs"
+        <menuitem id="cim_available_jobs_menu" name="Jobs"
                   sequence="2"
-                  parent="menu_announcements_menu"
+                  parent="cim_announcements_menu"
                   action="jobs_action"/>
         <!--Bids-->
-        <menuitem id="menu_bids_menu" name="Bids"
+        <menuitem id="cim_bids_menu" name="Bids"
                   sequence="3"
-                  parent="menu_announcements_menu"
+                  parent="cim_announcements_menu"
                   action="bids_action"/>
+
+        <!--================================-->
+        <!--==Setting==-->
+        <menuitem
+                id="cim_config_settings_menu"
+                name="Settings"
+                parent="cim_menu_root"
+                groups="base.group_system"
+                sequence="90"/>
+        <!--Department-->
+        <menuitem id="cim_jobs_department_menu" name="Department"
+                  sequence="1"
+                  parent="cim_config_settings_menu"
+                  action="jobs_department_action"/>
     </data>
 </odoo>

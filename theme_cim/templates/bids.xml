@@ -1,0 +1,152 @@
+<?xml version="1.0" ?>
+<odoo>
+    <data>
+        <!--=========bids========-->
+        <record id="bids_page" model="website.page">
+            <field name="name">List of bids</field>
+            <field name="type">qweb</field>
+            <field name="url">/bids</field>
+            <field name="website_indexed" eval="False"/>
+            <field name="is_published">True</field>
+            <field name="key">theme_cim.bids_page</field>
+            <field name="arch" type="xml">
+                <t name="List of bids" t-name="theme_cim.bids_page">
+                    <t t-call="website.layout">
+                        <div id="wrap">
+                            <section class="section_announcements pt50 pb50">
+                                <div class="container">
+                                    <h3 class="hr_title_horizontal mb30">List of bids</h3>
+                                    <div class="row" t-if="bids">
+                                        <div class="col-md-4" t-foreach="bids" t-as="item">
+                                            <div class="box_latest_news d-flex align-items-end mt20">
+                                                <a t-attf-href="/bids/#{item.id}">
+                                                    <div class="cover_latest_news"
+                                                         t-attf-style="background-image:url(data:image/jpg;base64,{{ item.image }})"/>
+                                                    <div class="content_latest_news">
+
+                                                        <div class="row justify-content-between align-items-center mb20">
+                                                            <div class="col-auto">
+                                                                <div class="categ_box" t-esc="item.reference"
+                                                                     t-if="item.reference"/>
+                                                            </div>
+                                                            <div class="col-auto">
+                                                                <div class="date_box" t-if="item.bid_date">
+                                                                    <i class="fa fa-clock-o"/>
+                                                                    <span t-esc="item.bid_date"/>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <h6 class="title_latest_news" t-esc="item.name"/>
+                                                        <p t-esc="item.description"/>
+
+                                                    </div>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="d-flex justify-content-center align-items-center"
+                                         style="min-height:200px;" t-else="">
+                                        <span class="text-content-empty">Sorry, there are no bids at the
+                                            moment
+                                        </span>
+                                    </div>
+                                    <t t-call="website.pager">
+                                        <t t-set="_classes">mt40 justify-content-center</t>
+                                    </t>
+                                </div>
+                            </section>
+                            <div class="oe_structure"/>
+                        </div>
+                    </t>
+                </t>
+            </field>
+        </record>
+        <record id="bids_post_page" model="website.page">
+            <field name="name">Post of bids</field>
+            <field name="type">qweb</field>
+            <field name="website_indexed" eval="False"/>
+            <field name="is_published">True</field>
+            <field name="key">theme_cim.bids_post_page</field>
+            <field name="arch" type="xml">
+                <t name="Post of bids" t-name="theme_cim.bids_post_page">
+                    <t t-call="website.layout">
+                        <div id="wrap">
+                            <section class="pt50 pb50">
+                                <div class="container">
+                                    <h3 class="hr_title_horizontal mb30" t-esc="record.name"/>
+                                    <div class="row justify-content-between mb40">
+                                        <div class="col-md-10">
+                                            <div t-esc="record.description" class="mb40"/>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="row justify-content-between align-items-center mb20">
+                                                <div class="col-auto" t-if="record.bid_date">
+                                                    <div class="date_box mb20">
+                                                        <i class="fa fa-clock-o"/>Date of submission :
+                                                        <span t-esc="record.bid_date"/>
+                                                    </div>
+                                                </div>
+                                                <div class="col-auto" t-if="record.expiration_date">
+                                                    <div class="date_box mb20">
+                                                        <i class="fa fa-clock-o"/>Expiry date :
+                                                        <span t-esc="record.expiration_date"/>
+                                                    </div>
+                                                </div>
+                                                <div class="w-100"></div>
+                                                <div class="col-auto" t-if="record.reference">
+                                                    <div class="categ_box mb20">Bid No. :
+                                                        <t t-esc="record.reference"/>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="faq-list" t-if="attachment_data">
+                                        <h3 class="hr_title_horizontal mb30">Work related files</h3>
+                                        <div class="faq" t-foreach="attachment_data" t-as="attachment">
+                                            <div class="row justify-content-between align-items-end mb30 mt30">
+                                                <div class="col-10">
+                                                    <h5 class="faq-title" t-esc="attachment.name"/>
+                                                    <div class="row">
+                                                        <div class="col-auto">
+                                                            <span t-esc="attachment.create_date.strftime('%d/%m/%Y')"/>
+                                                        </div>
+                                                        <!--                                                        <div class="col-auto">-->
+                                                        <!--                                                            <span>Broken</span>-->
+                                                        <!--                                                        </div>-->
+                                                        <!--                                                        <div class="col-auto">-->
+                                                        <!--                                                            <span>Yelmco Laboras</span>-->
+                                                        <!--                                                        </div>-->
+                                                    </div>
+                                                </div>
+                                                <div class="col-auto">
+                                                    <a t-att-href="attachment.local_url" class="download"
+                                                       t-att-download="attachment.name"><img
+                                                            src="/theme_cim/static/src/images/icon/cloud-computing.svg"/>&amp;nbsp;Download
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </section>
+                            <div class="oe_structure"/>
+                        </div>
+                    </t>
+                </t>
+            </field>
+        </record>
+
+        <!--=============MENU================-->
+        <!--Bids-->
+        <record id="menu_bids" model="website.menu">
+            <field name="name">List of bids</field>
+            <field name="url">/bids</field>
+            <field name="page_id" ref="theme_cim.bids_page"/>
+            <field name="parent_id" ref="website.main_menu"/>
+            <field name="sequence" type="int">53</field>
+        </record>
+    </data>
+</odoo>
