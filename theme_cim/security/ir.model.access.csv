@@ -20,5 +20,8 @@ access_jobs_designer,jobs.designer,theme_cim.model_jobs,website.group_website_de
 access_jobs_department_public,jobs.department.public,theme_cim.model_jobs_department,,1,0,0,0
 access_jobs_department_designer,jobs.department.designer,theme_cim.model_jobs_department,website.group_website_designer,1,1,1,1
 
+access_jobs_candidate_public,jobs.candidate.public,theme_cim.model_jobs_candidate,,1,0,0,0
+access_jobs_candidate_designer,jobs.candidate.designer,theme_cim.model_jobs_candidate,website.group_website_designer,1,1,1,1
+
 access_bids_public,bids.public,theme_cim.model_bids,,1,0,0,0
 access_bids_designer,bids.designer,theme_cim.model_bids,website.group_website_designer,1,1,1,1

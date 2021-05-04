@@ -25,7 +25,7 @@
                                                     <div class="content_latest_news">
                                                         <div class="categ_box mb20" t-esc="item.department_id.name"/>
                                                         <h6 class="title_latest_news" t-esc="item.name"/>
-                                                        <div t-field="item.description_primary" class="short_desc"/>
+                                                        <p t-field="item.description_primary" class="short_desc"/>
                                                     </div>
                                                 </a>
                                             </div>
@@ -48,6 +48,7 @@
                 </t>
             </field>
         </record>
+        <!--=========Jobs Post========-->
         <record id="jobs_post_page" model="website.page">
             <field name="name">Post of available jobs</field>
             <field name="type">qweb</field>
@@ -67,7 +68,7 @@
                                             <h3 class="hr_title_horizontal mb30" t-esc="record.name"/>
                                         </div>
                                         <div class="col-auto">
-                                            <a t-attf-href="#" class="btn btn-secondary">Apply for the job</a>
+                                            <a t-attf-href="/apply-jobs/#{record.id}" class="btn btn-secondary">Apply for the job</a>
                                         </div>
                                     </div>
                                     <div class="row justify-content-between mb40" t-if="record.description_primary">
@@ -103,7 +104,7 @@
                                     </div>
                                     <div class="row justify-content-end">
                                         <div class="col-auto">
-                                            <a t-attf-href="#" class="btn btn-secondary">Apply for the job</a>
+                                            <a t-attf-href="/apply-jobs/#{record.id}" class="btn btn-secondary">Apply for the job</a>
                                         </div>
                                     </div>
                                 </div>
@@ -114,6 +115,88 @@
                 </t>
             </field>
         </record>
+        <!--=========Apply job========-->
+        <record id="apply_job_page" model="website.page">
+            <field name="name">Apply for the jobs</field>
+            <field name="type">qweb</field>
+            <field name="url">/apply-jobs</field>
+            <field name="website_indexed" eval="False"/>
+            <field name="is_published">True</field>
+            <field name="key">theme_cim.apply_job_page</field>
+            <field name="arch" type="xml">
+                <t name="Apply for the jobs" t-name="theme_cim.apply_job_page">
+                    <t t-call="website.layout">
+                        <div id="wrap">
+                            <section class="pt40 pb40">
+                                <div class="container">
+                                    <h3 class="hr_title_horizontal mb30">Apply for the jobs</h3>
+                                    <div class="row mb40">
+                                        <div class="col-md-10">
+                                            <p>The Public Communications Authority is concerned with communications and
+                                                information technology affairs and represents the highest authority
+                                                responsible for the telecommunications sector in Libya. Its head office
+                                                is located in the city of Tripoli (the company's headquarters
+                                                General Post and Telecommunications). It was able to achieve many
+                                                achievements by linking the various regions of Libya after the
+                                                communications infrastructure was cut and vandalized during the months
+                                                of the revolution.
+                                            </p>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <form t-attf-action="/apply-jobs/#{jobs.id}" method="post" enctype="multipart/form-data"
+                                                  class="o_mark_required mt20" data-mark="*" data-model_name="jobs"
+                                                  data-success-mode="redirect">
+                                                <div class="form-group">
+                                                    <input id="input_name" type="text"
+                                                           class="form-control s_website_form_input"
+                                                           name="name" placeholder="Name" required=""/>
+                                                </div>
+                                                <div class="form-group">
+                                                    <input id="input_name" type="tel"
+                                                           class="form-control s_website_form_input"
+                                                           name="phone" placeholder="Phone" required=""/>
+                                                </div>
+                                                <div class="form-group">
+                                                    <input id="input_email" type="email"
+                                                           class="form-control s_website_form_input"
+                                                           name="email" placeholder="Email" required=""/>
+                                                </div>
+                                                <div class="form-group">
+                                                    <textarea id="input_letter"
+                                                              class="form-control s_website_form_input"
+                                                              rows="4"
+                                                              name="description"
+                                                              placeholder="Write a small introduction about yourself"
+                                                              required=""></textarea>
+                                                </div>
+                                                <div class="form-group">
+                                                    <input id="input_file" type="file"
+
+                                                           name="datas" placeholder="Place your CV" required=""/>
+                                                    <label for="input_file" class="form-control s_website_form_input">
+                                                        Choose a file
+                                                    </label>
+                                                </div>
+                                                <div class="form-group s_website_form_submit"
+                                                     data-name="Submit Button">
+                                                    <button role="button"
+                                                       class="btn btn-secondary btn-lg d-block">
+                                                        Submit
+                                                    </button>
+                                                    <span id="s_website_form_result"></span>
+                                                </div>
+                                            </form>
+                                        </div>
+                                    </div>
+                                </div>
+                            </section>
+                            <div class="oe_structure"/>
+                        </div>
+                    </t>
+                </t>
+            </field>
+        </record>
+
         <!--=============MENU================-->
         <!--jobs-->
         <record id="menu_jobs" model="website.menu">

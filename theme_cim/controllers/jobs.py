@@ -26,3 +26,12 @@ class Jobs(http.Controller):
         print('---------------test-----------------------------')
         return http.request.render('theme_cim.jobs_post_page',
                                    {'record': jobs})
+
+    @http.route([
+        '''/apply-jobs/<model("jobs"):jobs>''',
+    ], type='http', auth="public", website=True, sitemap=True,csrf=False)
+    def jobs_apply(self, jobs,enable_editor=None, **post):
+        data = {'jobs':jobs}
+        if post:
+            jobs._create_candidate(post)
+        return http.request.render('theme_cim.apply_job_page', data)

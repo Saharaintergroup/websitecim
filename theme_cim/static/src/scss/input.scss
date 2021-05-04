@@ -19,3 +19,11 @@
 :-moz-placeholder { /* Firefox 18- */
   color: #B9B9B9;
 }
+#input_file{
+	width: 0.1px;
+	height: 0.1px;
+	opacity: 0;
+	overflow: hidden;
+	position: absolute;
+	z-index: -1;
+}
