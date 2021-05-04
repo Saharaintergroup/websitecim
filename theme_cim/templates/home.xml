@@ -9,7 +9,7 @@
 
                     <section class="o_carousel_news">
                         <div id="my-carousel" class="carousel slide carousel-fade" data-ride="carousel"
-                             data-interval="4000">
+                             data-interval="4000" t-if="slider_home">
 
                             <div class="carousel-inner">
                                 <t t-set="index" t-value="true"/>
@@ -63,12 +63,15 @@
                         <div class="container">
                             <div class="acme-news-ticker-box d-flex align-items-center">
                                 <div class="acme-news-ticker-label">News</div>
-                                <ul class="my-news-ticker d-flex align-items-center">
+                                <ul class="my-news-ticker d-flex align-items-center" t-if="ticker_news">
                                     <li t-foreach="ticker_news" t-as="item">
                                         <a href="#" t-esc="item.description"/>
                                     </li>
-
                                 </ul>
+                                <div class="d-flex justify-content-center align-items-center pl20" t-else="">
+                                    <span class="text-content-empty text-14">Sorry, there are no news at the moment
+                                    </span>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -225,10 +228,14 @@
                     <section id="o_our_partners" class="bg-white pt40 pb40">
                         <div class="container">
                             <h3 class="mb30 hr_title_vertical color-blue-4">Our partners</h3>
-                            <div class="carousel-partners owl-carousel owl-theme">
-                                <div class="item" t-foreach="partners_logo" t-as="p">
-                                    <img t-att-src="image_data_uri(p.image)"  alt=""/>
+                            <div class="carousel-partners owl-carousel owl-theme" t-if="company_partners">
+                                <div class="item" t-foreach="company_partners" t-as="partner">
+                                    <img t-att-src="image_data_uri(partner.image)" alt=""/>
                                 </div>
+                            </div>
+                            <div class="d-flex justify-content-center align-items-center" t-else="">
+                                <span class="text-content-empty">Sorry, there are no partners at the moment
+                                </span>
                             </div>
                         </div>
                     </section>

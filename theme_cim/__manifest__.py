@@ -6,7 +6,7 @@
     'description': 'Cim website theme',
     'category': 'Theme',
     'sequence': 1,
-    'version': '1.5',
+    'version': '1.6',
     'depends': ['base', 'website', 'website_form'],
     'data': [
         "security/ir.model.access.csv",
@@ -30,7 +30,7 @@
 
         "views/slider_home_views.xml",
         "views/ticker_news_views.xml",
-        "views/partners_logo_views.xml",
+        "views/company_partners_views.xml",
         "views/teams_views.xml",
         "views/public_announcements_views.xml",
         "views/jobs_views.xml",

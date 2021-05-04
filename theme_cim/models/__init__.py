@@ -2,7 +2,7 @@
 
 from . import slider_home
 from . import ticker_news
-from . import partners_logo
+from . import company_partners
 from . import teams
 from . import public_announcements
 from . import jobs

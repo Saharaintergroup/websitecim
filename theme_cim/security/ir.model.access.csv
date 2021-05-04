@@ -5,8 +5,8 @@ access_slider_home_designer,slider.home.designer,theme_cim.model_slider_home,web
 access_ticker_news_public,ticker.news.public,theme_cim.model_ticker_news,,1,0,0,0
 access_ticker_news_designer,ticker.news.designer,theme_cim.model_ticker_news,website.group_website_designer,1,1,1,1
 
-access_partners_logo_public,partners.logo.public,theme_cim.model_partners_logo,,1,0,0,0
-access_partners_logo_designer,partners.logo.designer,theme_cim.model_partners_logo,website.group_website_designer,1,1,1,1
+access_company_partners_public,company.partners.public,theme_cim.model_company_partners,,1,0,0,0
+access_company_partners_designer,company.partners.designer,theme_cim.model_company_partners,website.group_website_designer,1,1,1,1
 
 access_teams_teams_public,teams.teams.public,theme_cim.model_teams_teams,,1,0,0,0
 access_teams_teams_designer,teams.teams.designer,theme_cim.model_teams_teams,website.group_website_designer,1,1,1,1

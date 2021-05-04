@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 14.0+e\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-05-01 10:41+0000\n"
-"PO-Revision-Date: 2021-05-01 10:41+0000\n"
+"POT-Creation-Date: 2021-05-01 12:57+0000\n"
+"PO-Revision-Date: 2021-05-01 12:57+0000\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -120,7 +120,8 @@ msgid ""
 "<span class=\"text-content-empty\">Sorry, there are no international "
 "indicators at the moment</span>"
 msgstr ""
-"<span class=\"text-content-empty\">عفوا لا توجد مؤشرات دولية في الوقت الحالى</span>"
+"<span class=\"text-content-empty\">عفوا لا توجد مؤشرات دولية في الوقت "
+"الحالى</span>"
 
 #. module: theme_cim
 #: model_terms:ir.ui.view,arch_db:theme_cim.local_indicators_ir_ui_view
@@ -129,7 +130,8 @@ msgid ""
 "<span class=\"text-content-empty\">Sorry, there are no local indicators at "
 "the moment</span>"
 msgstr ""
-"<span class=\"text-content-empty\">عفوا لا توجد مؤشرات محلية في الوقت الحالى</span>"
+"<span class=\"text-content-empty\">عفوا لا توجد مؤشرات محلية في الوقت "
+"الحالى</span>"
 
 #. module: theme_cim
 #: model_terms:ir.ui.view,arch_db:theme_cim.programs_and_projects_page_ir_ui_view
@@ -147,10 +149,13 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:theme_cim.public_announcements_page_ir_ui_view
 #: model_terms:website.page,arch_db:theme_cim.public_announcements_page
 msgid ""
-"<span class=\"text-content-empty\">عذرا ، لا توجد إعلانات العامة في\n"
-"                                            الوقت الحاضر\n"
+"<span class=\"text-content-empty\">Sorry, there are no public announcements at the\n"
+"                                            moment\n"
 "                                        </span>"
 msgstr ""
+"<span class=\"text-content-empty\">معذرة ، لا توجد إعلانات عامة في\n"
+"                                            الوقت الحاضر\n"
+"                                        </span>"
 
 #. module: theme_cim
 #: model_terms:ir.ui.view,arch_db:theme_cim.cybersecurity_page_ir_ui_view
@@ -249,7 +254,7 @@ msgstr "رابط زر"
 #. module: theme_cim
 #: model:ir.ui.menu,name:theme_cim.menu_cim_root
 msgid "CIM"
-msgstr ""
+msgstr "الهيئة"
 
 #. module: theme_cim
 #: model_terms:theme.ir.ui.view,arch:theme_cim.footer_snippets_option
@@ -629,7 +634,7 @@ msgstr "الرئيسيه"
 #: model:ir.model.fields,field_description:theme_cim.field_teams_teams__id
 #: model:ir.model.fields,field_description:theme_cim.field_ticker_news__id
 msgid "ID"
-msgstr ""
+msgstr "المُعرف"
 
 #. module: theme_cim
 #: model_terms:ir.ui.view,arch_db:theme_cim.whoarewe_page_ir_ui_view
@@ -841,7 +846,7 @@ msgstr "المؤشرات المحلية"
 #. module: theme_cim
 #: model:ir.model.fields,field_description:theme_cim.field_partners_logo__image
 msgid "Logo"
-msgstr ""
+msgstr "الشعار"
 
 #. module: theme_cim
 #: model:ir.model,name:theme_cim.model_partners_logo
@@ -1199,6 +1204,12 @@ msgid ""
 msgstr ""
 "حل وإصلاح الأعطال والمشاكل الآنية الخاصة بالبنية التحتية لقطاع الإتصالات "
 "وتقنية المعلومات"
+
+#. module: theme_cim
+#: code:addons/theme_cim/models/announcements.py:0
+#, python-format
+msgid "Sorry, Expiration Date Must be greater Than Bid Date..."
+msgstr ""
 
 #. module: theme_cim
 #: model_terms:ir.ui.view,arch_db:theme_cim.contact_branches_ir_ui_view
@@ -1798,7 +1809,7 @@ msgstr "الرؤية"
 #. module: theme_cim
 #: model:ir.model.fields,field_description:theme_cim.field_bids__website_id
 msgid "Website"
-msgstr ""
+msgstr "الموقع الإلكتروني"
 
 #. module: theme_cim
 #: model:ir.model,name:theme_cim.model_ticker_news

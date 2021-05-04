@@ -22,10 +22,10 @@
                   parent="cim_home_menu"
                   action="ticker_news_action"/>
 
-        <menuitem id="cim_partners_logo_menu" name="Partners Logo"
+        <menuitem id="cim_company_partners_menu" name="Partners"
                   sequence="3"
                   parent="cim_home_menu"
-                  action="partners_logo_action"/>
+                  action="company_partners_action"/>
 
         <menuitem id="cim_aboutus_menu" name="About us"
                   sequence="2"
