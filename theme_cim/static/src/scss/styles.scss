@@ -697,3 +697,20 @@
         }
     }
 }
+
+
+/*company_partners_modal*/
+.company_partners_modal{
+    .logo_partner{
+        max-width:100px;
+    }
+    .modal-body{
+        padding: 10px 40px 30px;
+    }
+    .link_partner{
+        color:$color-blue-3!important;
+    }
+    .modal-header{
+        border-bottom:0;
+    }
+}

@@ -9,7 +9,9 @@
     'version': '1.6',
     'depends': ['base', 'website', 'website_form'],
     'data': [
+        # security
         "security/ir.model.access.csv",
+        # templates
         "templates/assets.xml",
         "templates/header.xml",
         "templates/footer.xml",
@@ -27,7 +29,6 @@
         "templates/sector_development.xml",
         "templates/organization_of_communications.xml",
         # views
-
         "views/slider_home_views.xml",
         "views/ticker_news_views.xml",
         "views/company_partners_views.xml",
@@ -36,7 +37,8 @@
         "views/jobs_views.xml",
         "views/bids_views.xml",
         "views/menu.xml",
-
+        # data
+        "data/company_partners_data.xml",
     ],
     'images': [
         'static/description/cover.png',

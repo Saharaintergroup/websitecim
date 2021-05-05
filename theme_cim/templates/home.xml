@@ -230,7 +230,9 @@
                             <h3 class="mb30 hr_title_vertical color-blue-4">Our partners</h3>
                             <div class="carousel-partners owl-carousel owl-theme" t-if="company_partners">
                                 <div class="item" t-foreach="company_partners" t-as="partner">
-                                    <img t-att-src="image_data_uri(partner.image)" alt=""/>
+                                    <a data-toggle="modal" t-attf-data-target="#partnerModal{{partner.id}}">
+                                        <img t-att-src="image_data_uri(partner.image)" alt=""/>
+                                    </a>
                                 </div>
                             </div>
                             <div class="d-flex justify-content-center align-items-center" t-else="">
@@ -238,6 +240,45 @@
                                 </span>
                             </div>
                         </div>
+                        <!-- Modal-->
+                        <t t-foreach="company_partners" t-as="partner">
+                            <div class="company_partners_modal modal fade" t-attf-id="partnerModal{{partner.id}}"
+                                 tabindex="-1"
+                                 role="dialog"
+                                 t-attf-aria-labelledby="partnerModalLabel{{partner.id}}" aria-hidden="true">
+                                <div class="modal-dialog modal-dialog-centered modal-dialog-zoom modal-lg"
+                                     role="document">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <button type="button" class="close" data-dismiss="modal"
+                                                    aria-label="Close">
+                                                <span>×</span>
+                                            </button>
+                                        </div>
+                                        <div class="modal-body">
+
+                                            <div class="row align-items-center mb20">
+                                                <div class="col">
+                                                    <h5 class="hr_title_horizontal color-blue-4"
+                                                        t-esc="partner.name"/>
+                                                </div>
+                                                <div class="col-auto">
+                                                    <img t-att-src="image_data_uri(partner.image)"
+                                                         class="logo_partner"/>
+                                                </div>
+                                            </div>
+                                            <p t-field="partner.description"/>
+                                            <p>
+                                                <b>To visit the site
+                                                    <t t-esc="partner.name"/>
+                                                    <a t-att-href="partner.url" class="link_partner" target="_blank">Click here</a>
+                                                </b>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </t>
                     </section>
                 </div>
             </xpath>

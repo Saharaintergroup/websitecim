@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data noupdate="0">
+
+        <record id="quality_communications_company" model="company.partners">
+            <field name="name">Quality Communications Company</field>
+            <field name="image" type="base64"
+                   file="theme_cim/static/src/images/partners/quality_communications_company.png"/>
+            <field name="description">(A national company established in 2009 AD by Resolution No. (441) for the year
+                2009 AD, and Resolution No. (442) regarding its articles of association, and it is wholly owned by the
+                Public Authority for Communications and Informatics. It was activated at the beginning of the second
+                quarter of 2010
+                The company is specialized in establishing, implementing, operating, maintaining and managing systems
+                and centers for wired and wireless communication and information technology for emergencies and public
+                safety dictated by the needs of the state and contracting for their implementation)
+            </field>
+            <field name="url">https://www.enc.ly</field>
+        </record>
+
+        <record id="libyan_international_telecom_company" model="company.partners">
+            <field name="name">Libyan International Telecom Company</field>
+            <field name="image" type="base64"
+                   file="theme_cim/static/src/images/partners/libyan_international_telecom_company.png"/>
+            <field name="description">It is one of the subsidiaries of the Libyan Post, Telecommunications and
+                Information Technology Holding Company, and it was established in 2008 to take over Managing all
+                international communication ports in Libya and meeting the international communication needs of the
+                group of companies affiliated with the Libyan Post Company And communications and technology, whether
+                telephone communications or data services, and the establishment of the Libyan International
+                Telecommunication Company came out of faith Deep in the importance of international communication in the
+                advancement and development of the educational and work environment in any society and in response to
+                the increasing demand for services International communications and the Internet in Libya.
+            </field>
+            <field name="url">https://lptic.ly</field>
+        </record>
+
+        <record id="al_bunia_investment_and_services_company" model="company.partners">
+            <field name="name">Al Bunnia Investment and Services Company</field>
+            <field name="image" type="base64"
+                   file="theme_cim/static/src/images/partners/al_bunia_investment_and_services_company.png"/>
+            <field name="description">(Labiba Company is owned by the Libyan Holding Company for Communications and
+                Information Technology, which is a company specialized in investment and services It has 7 branches and
+                32 offices spread over all cities and regions of Libya And services, a large number of assets,
+                represented by 950 service and investment properties and nearly 600 main and subsidiary communication
+                towers spread over All parts of Libya, Al Bunia invests these assets in developing its resources and
+                developing the infrastructure)
+            </field>
+            <field name="url">https://bounya.ly</field>
+        </record>
+
+        <record id="libyan_post_communications_and_information_technology_holding_company" model="company.partners">
+            <field name="name">Libyan Post, Communications and Information Technology Holding Company</field>
+            <field name="image" type="base64"
+                   file="theme_cim/static/src/images/partners/libyan_post_communications_and_information_technology_holding_company.png"/>
+            <field name="description">The holding company was established in accordance with the Cabinet Resolution No.
+                63 of 2005 AD in order to be a holding company that owns telecommunications companies The big ones,
+                namely, Libyana, Al-Madar, and Libya for Communications and Technology, the new generation of
+                technology, international communications, and Libya's phone, as these are Companies have a major role in
+                developing telephony, mobile phones, and Internet connectivity, and they have raised the efficiency of
+                communications in Libya and enabling the largest possible number of citizens to obtain Internet service,
+                whether through mobile phone companies Such as Libyana and Al-Madar or through the main Internet service
+                provider such as the Libya Telecom and Technology Company LTT or a telephone company Libya, which
+                provides wireless and wired phone service, as well as the Internet
+                The holding company was established for the purpose of investing in the communications infrastructure in
+                the country and abroad, and the company has a group of investments inside
+                The country and abroad, some of them date back to the time of the General Post, Telecommunications and
+                Telecommunications Company, which was dissolved in 2010
+            </field>
+            <field name="url">https://lptic.ly</field>
+        </record>
+
+        <record id="new_orbit_company" model="company.partners">
+            <field name="name">New Orbit Company</field>
+            <field name="image" type="base64"
+                   file="theme_cim/static/src/images/partners/new_orbit_company.png"/>
+            <field name="description">Al-Madar Al-Jadeed Company is one of the subsidiaries of the Libyan Holding
+                Company for Communications and Information Technology, and it was established in 1996
+                The company also began providing its services to the public in 1997, classifying Al-Madar Al-Jadid as
+                the first mobile operator in the country
+                Libya
+            </field>
+            <field name="url">https://www.almadar.ly</field>
+        </record>
+
+        <record id="libya_telecom_and_technology" model="company.partners">
+            <field name="name">Libya Telecom and Technology</field>
+            <field name="image" type="base64"
+                   file="theme_cim/static/src/images/partners/libya_telecom_and_technology.png"/>
+            <field name="description">A Libyan joint stock company established in 1997 and started its work as the first
+                Internet service provider in Libya in early September 1999, and later it was annexed to the General Post
+                and Telecommunications Company. Its service was initially limited to the Internet service via dial-up,
+                then the dedicated line service, and with the years other services were added to it. For both
+                individuals and business.
+                She is the official registrar of the national domain name Ly for Libya and worked on establishing the
+                Libyana mobile phone company in 2004, which later became independent as the largest mobile network in
+                Libya.
+            </field>
+            <field name="url">https://www.ltt.ly</field>
+        </record>
+
+        <record id="libyana_mobile_phone" model="company.partners">
+            <field name="name">Libyana mobile phone</field>
+            <field name="image" type="base64"
+                   file="theme_cim/static/src/images/partners/libyana_mobile_phone.png"/>
+            <field name="description">Libyana began its work in Libya in September 2004, and during this short period,
+                Libyana made great achievements.
+                Wireless communications that support mobile phone services in various regions of Libya, and have
+                continued to upgrade services by providing Internet and messaging services
+                Multimedia and voice mail across its network, and it was the pioneer in providing third generation
+                telephone line service at the northern level
+                Africa in September 2006, and the company aspires to spread and reach every home and city. It has
+                established no less than 15 service centers in
+                Various regions, reaching more than 6,200,000 subscribers during its years of operation, or 116% of the
+                population
+            </field>
+            <field name="url">https://www.libyana.ly/Default.aspx</field>
+        </record>
+
+        <record id="new_generation_technology_company" model="company.partners">
+            <field name="name">New Generation Technology Company</field>
+            <field name="image" type="base64"
+                   file="theme_cim/static/src/images/partners/new_generation_technology_company.png"/>
+            <field name="description">The establishment of the New Generation Technology Company came to contribute to
+                improving and developing the local telecommunications market by transferring and localizing technologies
+                Modern telecommunications in a way that enables the company to compete locally and internationally, by
+                providing all services
+                Integrated communications from fixed and mobile phone services, the Internet, video broadcast services,
+                and next generation network services
+                The new generation of technology is the first integrated operator in Libya, which is pursuing a strategy
+                based on diversity and integration in providing services
+                Its goal is to win customer satisfaction
+            </field>
+            <field name="url">https://aljeel.ly</field>
+        </record>
+
+        <record id="libya_post_company" model="company.partners">
+            <field name="name">Libya Post Company</field>
+            <field name="image" type="base64"
+                   file="theme_cim/static/src/images/partners/libya_post_company.png"/>
+            <field name="description">It is a Libyan joint stock company with a legal personality and an independent
+                financial disclosure, and it is affiliated with the Libyan Post and Telecommunications Company
+                Information Technology Holding
+                It aims to establish, operate, manage and regulate all types of different postal services, including
+                postal financial services, at the domestic level
+                External marketing of services and products for the benefit of public and private entities, and any
+                complementary activity aimed at achieving their objectives
+            </field>
+            <field name="url">https://libyapost.ly</field>
+        </record>
+
+        <record id="libya_telephone_company" model="company.partners">
+            <field name="name">Libya Telephone Company</field>
+            <field name="image" type="base64"
+                   file="theme_cim/static/src/images/partners/libya_telephone_company.png"/>
+            <field name="description">Libya Phone Company is the cornerstone of the telecommunications world in Libya,
+                as the company was established by a decision of the management committee
+                The Libyan Post, Communications and Information Technology Company (Holding) No. (4) 2008
+                For the purposes of operating, maintaining and developing a national telephone network, which includes
+                the local systems represented by transit switches, sub-divisions, and media
+                Connecting within cities and providing all services to secure service for individual subscribers and
+                legal entities, and providing any complementary activity for the purpose of achieving their objectives.
+                Provided that the company seeks to contribute to building and developing the society's economy through
+                the actions it provides and maintaining the values, principles and ideals
+                the society
+            </field>
+            <field name="url">https://hlc.ly</field>
+        </record>
+
+    </data>
+</odoo>
