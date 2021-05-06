@@ -2,7 +2,7 @@
 <odoo>
     <data>
 
-        Hide Copyright
+        <!--Hide Copyright-->
         <template id="footer_no_copyright" inherit_id="website.layout" name="Footer No Copyright">
             <xpath expr="//div[hasclass('o_footer_copyright')]" position="before">
                 <t t-set="no_copyright" t-value="True"/>
@@ -34,18 +34,20 @@
                                     </div>
                                     <div class="s_share_cim text-right d-flex align-items-center justify-content-between"
                                          data-name="Social Media">
-                                        <h5 class="s_share_title mr10">Our networking sites :</h5>
+                                        <h5 class="s_share_title mr10">مواقع التواصل الخاصة بنا :</h5>
                                         <div>
-                                            <a href="/website/social/twitter" class="s_share_twitter" target="_blank">
+                                            <a href="https://twitter.com/Telecom_Libya"
+                                               class="s_share_twitter" target="_blank">
                                                 <i class="fa fa-twitter rounded-circle shadow-sm"/>
                                             </a>
-                                            <a href="/website/social/facebook" class="s_share_facebook" target="_blank">
+                                            <a href="https://www.facebook.com/cim.gov.ly"
+                                               class="s_share_facebook" target="_blank">
                                                 <i class="fa fa-facebook rounded-circle shadow-sm"/>
                                             </a>
-                                            <a href="/website/social/youtube" class="s_share_youtube" target="_blank">
+                                            <a href="https://www.youtube.com/channel/UCJDjkAMFRt-YwEQX_i7oj7A"
+                                               class="s_share_youtube" target="_blank">
                                                 <i class="fa fa-youtube rounded-circle shadow-sm"/>
                                             </a>
-
                                         </div>
                                     </div>
                                 </div>
