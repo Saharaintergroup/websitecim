@@ -60,12 +60,12 @@
                                 <div class="col-auto">
                                     <div class="menu_copyright d-flex">
                                         <a href="/dataprivacy">خصوصية البيانات</a>
-                                        <a href="/useagreement">اتفاقية الاستخدام</a>
+                                        <a href="/usage-agreement">اتفاقية الاستخدام</a>
                                     </div>
                                 </div>
 
                                 <div class="col-md-8 text-center">
-                                    All rights reserved to the Public Authority for Communications and Informatics
+                                    جميع الحقوق محفوظة للهيئة العامة للاتصالات و المعلوماتية
                                     <span t-esc="datetime.datetime.now().strftime('%Y')"/>
                                 </div>
                             </div>

@@ -30,6 +30,7 @@
         "templates/organization_of_communications.xml",
         "templates/company_partners.xml",
         "templates/dataprivacy.xml",
+        "templates/usage_agreement.xml",
         # views
         "views/slider_home_views.xml",
         "views/ticker_news_views.xml",
