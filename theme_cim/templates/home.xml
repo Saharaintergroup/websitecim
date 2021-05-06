@@ -62,24 +62,25 @@
                     <div class="acme-news-ticker">
                         <div class="container">
                             <div class="acme-news-ticker-box d-flex align-items-center">
-                                <div class="acme-news-ticker-label">News</div>
+                                <div class="acme-news-ticker-label">موجز الاخبار</div>
                                 <ul class="my-news-ticker d-flex align-items-center" t-if="ticker_news">
                                     <li t-foreach="ticker_news" t-as="item">
                                         <a href="#" t-esc="item.description"/>
                                     </li>
                                 </ul>
                                 <div class="d-flex justify-content-center align-items-center pl20" t-else="">
-                                    <span class="text-content-empty text-14">Sorry, there are no news at the moment
-                                    </span>
+                                    <span class="text-content-empty text-14">آسف ، لا توجد أخبار في الوقت الحالي
+</span>
                                 </div>
                             </div>
                         </div>
                     </div>
 
+
                     <!--== Our business ==-->
                     <section id="o_our_business" class="pt70 pb70">
                         <div class="container">
-                            <h3 class="mb30 hr_title_horizontal">Our business</h3>
+                            <h3 class="mb30 hr_title_horizontal">اعمالنا</h3>
                             <div class="row">
                                 <div class="col-12 col-sm-6 col-lg-3 mt20 mb10">
                                     <a href="/organization-of-communications"
@@ -87,10 +88,10 @@
                                         <div>
                                             <img src="/theme_cim/static/src/images/business/organization_of_communications.png"
                                                  class="mb20"/>
-                                            <h5 class="mb10">Organization of communications</h5>
-                                            <p>Le Lorem Ipsum est simplement du faux texte employé dans la composition
-                                                et la
-                                                mise en page avant impression
+                                            <h5 class="mb10">تنظيم الإتصالات</h5>
+                                            <p>كيو أوفيسيا ديسيريونتموليت انيم أيدي ايست
+                                                لابوريومكسير سيتاشن يللأمكو لابورأس نيسي يت
+                                                أليكيوب أكس أيا كوممودو كونسيكيوات . ديواس
                                             </p>
                                         </div>
                                     </a>
@@ -101,10 +102,10 @@
                                         <div>
                                             <img src="/theme_cim/static/src/images/business/electronic_government.png"
                                                  class="mb20"/>
-                                            <h5 class="mb10">Electronic government</h5>
-                                            <p>Le Lorem Ipsum est simplement du faux texte employé dans la composition
-                                                et la
-                                                mise en page avant impression
+                                            <h5 class="mb10">الحكومة الإلكترونية</h5>
+                                            <p>كيو أوفيسيا ديسيريونتموليت انيم أيدي ايست
+                                                لابوريومكسير سيتاشن يللأمكو لابورأس نيسي يت
+                                                أليكيوب أكس أيا كوممودو كونسيكيوات . ديواس
                                             </p>
                                         </div>
                                     </a>
@@ -115,10 +116,10 @@
                                         <div>
                                             <img src="/theme_cim/static/src/images/business/sector_development.png"
                                                  class="mb20"/>
-                                            <h5 class="mb10">Sector development</h5>
-                                            <p>Le Lorem Ipsum est simplement du faux texte employé dans la composition
-                                                et la
-                                                mise en page avant impression
+                                            <h5 class="mb10">تطوير القطاع</h5>
+                                            <p>كيو أوفيسيا ديسيريونتموليت انيم أيدي ايست
+                                                لابوريومكسير سيتاشن يللأمكو لابورأس نيسي يت
+                                                أليكيوب أكس أيا كوممودو كونسيكيوات . ديواس
                                             </p>
                                         </div>
                                     </a>
@@ -129,10 +130,10 @@
                                         <div>
                                             <img src="/theme_cim/static/src/images/business/cybersecurity.png"
                                                  class="mb20"/>
-                                            <h5 class="mb10">Cybersecurity</h5>
-                                            <p>Le Lorem Ipsum est simplement du faux texte employé dans la composition
-                                                et la
-                                                mise en page avant impression
+                                            <h5 class="mb10">الأمن السبرانى</h5>
+                                            <p>كيو أوفيسيا ديسيريونتموليت انيم أيدي ايست
+                                                لابوريومكسير سيتاشن يللأمكو لابورأس نيسي يت
+                                                أليكيوب أكس أيا كوممودو كونسيكيوات . ديواس
                                             </p>
                                         </div>
                                     </a>
@@ -142,115 +143,119 @@
                     </section>
 
                     <!--== Statistics ==-->
-                    <section id="o_our_business" class="bg-white pt40 pb40">
-                        <div class="container">
-                            <h3 class="mb20 hr_title_horizontal color-blue-4">Statistics</h3>
-                            <div class="row skill-part">
-                                <div class="col-md-6 col-lg-3 skill-item mt10">
-                                    <div class="first circle pl10 pr10" data-skill-level="92">
-                                        <h6></h6>
-                                        <span class="sk-name">I'm waiting</span>
-                                        <p>Csir Citation Yallamco Laboraas Nessi Yut Alekseob Xia Commodo Consecioat
-                                            Dewasuty Ariri Dollar In Reprihendereat Folyoptate Fillet Ice Essence
-                                            Killlyum Dollar
-                                        </p>
-                                    </div>
-                                </div>
-                                <div class="col-md-6 col-lg-3 skill-item mt10">
-                                    <div class="second circle pl10 pr10" data-skill-level="80">
-                                        <h6></h6>
-                                        <span class="sk-name">I'm waiting</span>
-                                        <p>Csir Citation Yallamco Laboraas Nessi Yut Alekseob Xia Commodo Consecioat
-                                            Dewasuty Ariri Dollar In Reprihendereat Folyoptate Fillet Ice Essence
-                                            Killlyum Dollar
-                                        </p>
-                                    </div>
-                                </div>
-                                <div class="col-md-6 col-lg-3 skill-item mt10">
-                                    <div class="third circle pl10 pr10" data-skill-level="70">
-                                        <h6></h6>
-                                        <span class="sk-name">I'm waiting</span>
-                                        <p>Csir Citation Yallamco Laboraas Nessi Yut Alekseob Xia Commodo Consecioat
-                                            Dewasuty Ariri Dollar In Reprihendereat Folyoptate Fillet Ice Essence
-                                            Killlyum Dollar
-                                        </p>
-                                    </div>
-                                </div>
-                                <div class="col-md-6 col-lg-3 skill-item mt10">
-                                    <div class="fourth circle pl10 pr10" data-skill-level="90">
-                                        <h6></h6>
-                                        <span class="sk-name">I'm waiting</span>
-                                        <p>Csir Citation Yallamco Laboraas Nessi Yut Alekseob Xia Commodo Consecioat
-                                            Dewasuty Ariri Dollar In Reprihendereat Folyoptate Fillet Ice Essence
-                                            Killlyum Dollar
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </section>
-
+                    <!--                    <section id="o_our_business" class="bg-white pt40 pb40">
+                                            <div class="container">
+                                                <h3 class="mb20 hr_title_horizontal color-blue-4">Statistics</h3>
+                                                <div class="row skill-part">
+                                                    <div class="col-md-6 col-lg-3 skill-item mt10">
+                                                        <div class="first circle pl10 pr10" data-skill-level="92">
+                                                            <h6></h6>
+                                                            <span class="sk-name">I'm waiting</span>
+                                                            <p>Csir Citation Yallamco Laboraas Nessi Yut Alekseob Xia Commodo Consecioat
+                                                                Dewasuty Ariri Dollar In Reprihendereat Folyoptate Fillet Ice Essence
+                                                                Killlyum Dollar
+                                                            </p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-md-6 col-lg-3 skill-item mt10">
+                                                        <div class="second circle pl10 pr10" data-skill-level="80">
+                                                            <h6></h6>
+                                                            <span class="sk-name">I'm waiting</span>
+                                                            <p>Csir Citation Yallamco Laboraas Nessi Yut Alekseob Xia Commodo Consecioat
+                                                                Dewasuty Ariri Dollar In Reprihendereat Folyoptate Fillet Ice Essence
+                                                                Killlyum Dollar
+                                                            </p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-md-6 col-lg-3 skill-item mt10">
+                                                        <div class="third circle pl10 pr10" data-skill-level="70">
+                                                            <h6></h6>
+                                                            <span class="sk-name">I'm waiting</span>
+                                                            <p>Csir Citation Yallamco Laboraas Nessi Yut Alekseob Xia Commodo Consecioat
+                                                                Dewasuty Ariri Dollar In Reprihendereat Folyoptate Fillet Ice Essence
+                                                                Killlyum Dollar
+                                                            </p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-md-6 col-lg-3 skill-item mt10">
+                                                        <div class="fourth circle pl10 pr10" data-skill-level="90">
+                                                            <h6></h6>
+                                                            <span class="sk-name">I'm waiting</span>
+                                                            <p>Csir Citation Yallamco Laboraas Nessi Yut Alekseob Xia Commodo Consecioat
+                                                                Dewasuty Ariri Dollar In Reprihendereat Folyoptate Fillet Ice Essence
+                                                                Killlyum Dollar
+                                                            </p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </section>
+                    -->
 
                     <!--== Our services ==-->
-                    <section id="o_our_services" class="pt40 pb40">
-                        <div class="container">
-                            <h3 class="mb30 hr_title_horizontal">Our services</h3>
-                            <div class="row">
-                                <div class="col-12 col-sm-6 col-lg-3 mt20 mb10 pl30 pr30">
-                                    <a href="#"
-                                       class="box_style_1 text-center d-flex align-items-center justify-content-center">
-                                        <h5 class="mb10">Pay bills</h5>
-                                    </a>
-                                </div>
-                                <div class="col-12 col-sm-6 col-lg-3 mt20 mb10 pl30 pr30">
-                                    <a href=""
-                                       class="box_style_1 text-center d-flex align-items-center justify-content-center">
-                                        <h5 class="mb10">Pay bills</h5>
-                                    </a>
-                                </div>
-                                <div class="col-12 col-sm-6 col-lg-3 mt20 mb10 pl30 pr30">
-                                    <a href=""
-                                       class="box_style_1 text-center d-flex align-items-center justify-content-center">
-                                        <h5 class="mb10">Pay bills</h5>
-                                    </a>
-                                </div>
-                                <div class="col-12 col-sm-6 col-lg-3 mt20 mb10 pl30 pr30">
-                                    <a href=""
-                                       class="box_style_1 text-center d-flex align-items-center justify-content-center">
-                                        <h5 class="mb10">Pay bills</h5>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </section>
-
+                    <!--                    <section id="o_our_services" class="pt40 pb40">
+                                            <div class="container">
+                                                <h3 class="mb30 hr_title_horizontal">Our services</h3>
+                                                <div class="row">
+                                                    <div class="col-12 col-sm-6 col-lg-3 mt20 mb10 pl30 pr30">
+                                                        <a href="#"
+                                                           class="box_style_1 text-center d-flex align-items-center justify-content-center">
+                                                            <h5 class="mb10">Pay bills</h5>
+                                                        </a>
+                                                    </div>
+                                                    <div class="col-12 col-sm-6 col-lg-3 mt20 mb10 pl30 pr30">
+                                                        <a href=""
+                                                           class="box_style_1 text-center d-flex align-items-center justify-content-center">
+                                                            <h5 class="mb10">Pay bills</h5>
+                                                        </a>
+                                                    </div>
+                                                    <div class="col-12 col-sm-6 col-lg-3 mt20 mb10 pl30 pr30">
+                                                        <a href=""
+                                                           class="box_style_1 text-center d-flex align-items-center justify-content-center">
+                                                            <h5 class="mb10">Pay bills</h5>
+                                                        </a>
+                                                    </div>
+                                                    <div class="col-12 col-sm-6 col-lg-3 mt20 mb10 pl30 pr30">
+                                                        <a href=""
+                                                           class="box_style_1 text-center d-flex align-items-center justify-content-center">
+                                                            <h5 class="mb10">Pay bills</h5>
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </section>
+                    -->
 
                     <section id="o_our_partners" class="bg-white pt40 pb40">
                         <div class="container">
-                            <h3 class="mb30 hr_title_vertical color-blue-4">Our partners</h3>
+                            <h3 class="mb30 hr_title_vertical color-blue-4">الجهات التابعة</h3>
                             <div class="carousel-partners owl-carousel owl-theme" t-if="company_partners">
                                 <div class="item" t-foreach="company_partners" t-as="partner">
                                     <!--If Popup-->
-                                    <a data-toggle="modal" t-attf-data-target="#partnerModal{{partner.id}}" t-if="partner.open_details_in == 'popup'">
+                                    <a data-toggle="modal" t-attf-data-target="#partnerModal{{partner.id}}"
+                                       t-if="partner.open_details_in == 'popup'">
                                         <img t-att-src="image_data_uri(partner.image)" alt=""/>
                                     </a>
                                     <!--If Page-->
-                                    <a t-attf-href="/company_partners/#{partner.id}" t-if="partner.open_details_in == 'page'">
+                                    <a t-attf-href="/company_partners/#{partner.id}"
+                                       t-if="partner.open_details_in == 'page'">
                                         <img t-att-src="image_data_uri(partner.image)" alt=""/>
                                     </a>
                                     <!--If External url-->
-                                    <a target="_blank" t-attf-href="#{partner.external_url}" t-if="partner.open_details_in == 'external_url'">
+                                    <a target="_blank" t-attf-href="#{partner.external_url}"
+                                       t-if="partner.open_details_in == 'external_url'">
                                         <img t-att-src="image_data_uri(partner.image)" alt=""/>
                                     </a>
                                 </div>
                             </div>
                             <div class="d-flex justify-content-center align-items-center" t-else="">
-                                <span class="text-content-empty">Sorry, there are no partners at the moment
+                                <span class="text-content-empty">عذرا ، لا يوجد شركاء في الوقت الحالي
                                 </span>
                             </div>
                         </div>
                         <!-- Modal-->
-                        <t t-foreach="company_partners.filtered(lambda partner: partner.open_details_in == 'popup')" t-as="partner">
+                        <t t-foreach="company_partners.filtered(lambda partner: partner.open_details_in == 'popup')"
+                           t-as="partner">
                             <div class="company_partners_modal modal fade" t-attf-id="partnerModal{{partner.id}}"
                                  tabindex="-1"
                                  role="dialog"
@@ -278,9 +283,11 @@
                                             </div>
                                             <p t-field="partner.description"/>
                                             <p>
-                                                <b>To visit the site
+                                                <b>لزيارة موقع
                                                     <t t-esc="partner.name"/>
-                                                    <a t-att-href="partner.url" class="link_partner" target="_blank">Click here</a>
+                                                    <a t-att-href="partner.url" class="link_partner" target="_blank">
+                                                        إضغط هنا
+                                                    </a>
                                                 </b>
                                             </p>
                                         </div>

@@ -88,13 +88,13 @@ odoo.define('theme_cim.home', function(require) {
         console.log('2 lang==>',lang);
         $('.carousel-partners').owlCarousel({
             rtl:(lang === "ar_SY") ? true : false,
-            loop: false,
+            loop: true,
             nav: false,
             dots: false,
             margin: 10,
             navText: ["<i class='fa fa-chevron-left'></i>", "<i class='fa fa-chevron-right'></i>"],
-            autoplay: 4000,
-            smartSpeed: 2000,
+            autoplay: 3000,
+            smartSpeed: 1500,
             responsive: {
                 0: {
                     items: 3,
