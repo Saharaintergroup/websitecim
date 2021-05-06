@@ -28,12 +28,20 @@
                         </div>
                         <group>
                             <group>
+                                <field name="open_details_in" widget="radio"/>
+                                <field name="external_url" attrs="{'invisible': [('open_details_in', '!=', 'external_url')]}"/>
+                            </group>
+                            <group>
                                 <field name="url"/>
                             </group>
                         </group>
-                        <group>
-                            <field name="description"/>
-                        </group>
+                        <notebook  attrs="{'invisible': [('open_details_in', '=', 'external_url')]}">
+                            <page string="Description">
+                                <group>
+                                <field name="description" nolabel="1"/>
+                                </group>
+                            </page>
+                        </notebook>
                     </sheet>
                 </form>
             </field>

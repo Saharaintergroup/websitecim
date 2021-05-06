@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 14.0+e\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-05-05 02:01+0000\n"
-"PO-Revision-Date: 2021-05-05 02:01+0000\n"
+"POT-Creation-Date: 2021-05-05 23:23+0000\n"
+"PO-Revision-Date: 2021-05-05 23:23+0000\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -35,7 +35,7 @@ msgid "&amp;nbsp;PM"
 msgstr ""
 
 #. module: theme_cim
-#: model:company.partners,description:theme_cim.quality_communications_company
+#: model_terms:company.partners,description:theme_cim.quality_communications_company
 msgid ""
 "(A national company established in 2009 AD by Resolution No. (441) for the year\n"
 "                2009 AD, and Resolution No. (442) regarding its articles of association, and it is wholly owned by the\n"
@@ -43,8 +43,7 @@ msgid ""
 "                quarter of 2010\n"
 "                The company is specialized in establishing, implementing, operating, maintaining and managing systems\n"
 "                and centers for wired and wireless communication and information technology for emergencies and public\n"
-"                safety dictated by the needs of the state and contracting for their implementation)\n"
-"            "
+"                safety dictated by the needs of the state and contracting for their implementation)"
 msgstr ""
 " (شركة وطنية أسست سنة 2009م بالقرار رقم (441) لسنة 2009م، والقرار رقم (442) بشأن نظامها الاساسي، ومملوكة"
 "بالكامل للهيئة العامة للاتصالات والمعلوماتية. وتم تفعيلها مع بداية الربع الثاني لسنة 2010م"
@@ -52,15 +51,14 @@ msgstr ""
 "والسلامة العامة التي تمليها احتياجات الدولة والتعاقد على إنجازها)"
 
 #. module: theme_cim
-#: model:company.partners,description:theme_cim.al_bunia_investment_and_services_company
+#: model_terms:company.partners,description:theme_cim.al_bunia_investment_and_services_company
 msgid ""
 "(Labiba Company is owned by the Libyan Holding Company for Communications and\n"
 "                Information Technology, which is a company specialized in investment and services It has 7 branches and\n"
 "                32 offices spread over all cities and regions of Libya And services, a large number of assets,\n"
 "                represented by 950 service and investment properties and nearly 600 main and subsidiary communication\n"
 "                towers spread over All parts of Libya, Al Bunia invests these assets in developing its resources and\n"
-"                developing the infrastructure)\n"
-"            "
+"                developing the infrastructure)"
 msgstr ""
 "  (شركة لبيبة مملوكة للشركة الليبية القابضة للاتصالات وتقنية المعلومات وهي شركة متخصصة في الإستثمار والخدمات"
 "لها 7 فروع و32 مكتب منتشرة على كافة مدن ومناطق ليبيا، تمتلك شركة البنية التحتية لقطاع الاتصالات للإستثمار "
@@ -152,7 +150,7 @@ msgid ""
 "                                        </span>"
 msgstr ""
 "<span class=\"text-content-empty\">معذرة ، لا توجد عطاءات في\n"
-"                                            الوقت الحالي\n"
+"                                            الوقت الحاضر\n"
 "                                        </span>"
 
 #. module: theme_cim
@@ -239,7 +237,7 @@ msgid "<span>Yelmco Laboras</span>"
 msgstr "<span>يللأمكو لابورأس</span>"
 
 #. module: theme_cim
-#: model:company.partners,description:theme_cim.libya_telecom_and_technology
+#: model_terms:company.partners,description:theme_cim.libya_telecom_and_technology
 msgid ""
 "A Libyan joint stock company established in 1997 and started its work as the first\n"
 "                Internet service provider in Libya in early September 1999, and later it was annexed to the General Post\n"
@@ -248,8 +246,7 @@ msgid ""
 "                individuals and business.\n"
 "                She is the official registrar of the national domain name Ly for Libya and worked on establishing the\n"
 "                Libyana mobile phone company in 2004, which later became independent as the largest mobile network in\n"
-"                Libya.\n"
-"            "
+"                Libya."
 msgstr ""
 "شركة مساهمة ليبية تأسست سنة 1997 وباشرت عملها كأول مزود خدمة إنترنت في ليبيا بمطلع سبتمبر 1999 ثم تم ضمّها فيما بعد إلى الشركة العامة للبريد والاتصالات السلكية واللاسلكية، اقتصرت خدمتها في البداية على خدمة الإنترنت عبر الاتصال الهاتفي ثم خدمة الخطوط المخصصة وأضيفت إليها مع السنوات خدمات أخرى لفئتي الأفراد والأعمال."
 "تعد المسجل الرسمي لاسم النطاق الوطني Ly  لليبيا وعملت على تأسيس شركة ليبيانا للهاتف المحمول سنة 2004, التي استقلت فيما بعد لتصبح شبكة المحمول الأوسع انتشاراً بليبيا"
@@ -277,14 +274,13 @@ msgid "Al Bunnia Investment and Services Company"
 msgstr "شركة البنية للإستثمار والخدمات"
 
 #. module: theme_cim
-#: model:company.partners,description:theme_cim.new_orbit_company
+#: model_terms:company.partners,description:theme_cim.new_orbit_company
 msgid ""
 "Al-Madar Al-Jadeed Company is one of the subsidiaries of the Libyan Holding\n"
 "                Company for Communications and Information Technology, and it was established in 1996\n"
 "                The company also began providing its services to the public in 1997, classifying Al-Madar Al-Jadid as\n"
 "                the first mobile operator in the country\n"
-"                Libya\n"
-"            "
+"                Libya"
 msgstr ""
 "شركة المدار الجديد إحدى الشركات التابعة للشركة الليبية القابضة للاتصالات وتقنية المعلومات, و تأسست سنة 1996"
 "كما بدأت الشركة في تقديم خدماتها للجمهور سنة 1997 , تصنف المدار الجديد كأول مشغل للهاتف المحمول في"
@@ -356,7 +352,7 @@ msgstr "رابط زر"
 #. module: theme_cim
 #: model:ir.ui.menu,name:theme_cim.cim_menu_root
 msgid "CIM"
-msgstr ""
+msgstr "الهيئة العامة الإتصالات و المعلوماتية"
 
 #. module: theme_cim
 #: model:ir.model.fields,field_description:theme_cim.field_jobs_candidate__datas
@@ -443,6 +439,13 @@ msgid "Contact us"
 msgstr "إتصل بنا"
 
 #. module: theme_cim
+#: model_terms:company.partners,description:theme_cim.national_information_security_and_safety_authority
+msgid ""
+"Cooperation and Teamwork: Working in a team spirit, cooperation and exchange of\n"
+"                                    views"
+msgstr ""
+
+#. module: theme_cim
 #: model_terms:ir.actions.act_window,help:theme_cim.bids_action
 msgid "Create new bids."
 msgstr "إنشاء عطاءات جديدة."
@@ -455,7 +458,7 @@ msgstr "إنشاء قسم جديد"
 #. module: theme_cim
 #: model_terms:ir.actions.act_window,help:theme_cim.jobs_action
 msgid "Create new jobs."
-msgstr "إنشاء وظائف جديدة."
+msgstr "إنشاء قسم جديد."
 
 #. module: theme_cim
 #: model_terms:ir.actions.act_window,help:theme_cim.public_announcements_action
@@ -625,6 +628,7 @@ msgstr "اسم القسم"
 #: model:ir.model.fields,field_description:theme_cim.field_slider_home__description
 #: model:ir.model.fields,field_description:theme_cim.field_teams_teams__description
 #: model:ir.model.fields,field_description:theme_cim.field_ticker_news__description
+#: model_terms:ir.ui.view,arch_db:theme_cim.view_company_partners_form
 msgid "Description"
 msgstr "الوصف"
 
@@ -686,6 +690,13 @@ msgstr "المستندات"
 #: model_terms:website.page,arch_db:theme_cim.organizational_structure_page
 msgid "Eastern branch"
 msgstr "الفرع الشرقي"
+
+#. module: theme_cim
+#: model_terms:company.partners,description:theme_cim.national_information_security_and_safety_authority
+msgid ""
+"Effectiveness and efficiency in performance: to complete the required tasks\n"
+"                                    efficiently, effectively and with high quality"
+msgstr ""
 
 #. module: theme_cim
 #: model_terms:ir.ui.view,arch_db:theme_cim.electronic_government_page_ir_ui_view
@@ -758,6 +769,13 @@ msgid ""
 msgstr "وضع المخطط الوطني للطيف الترددي وإدارة وتخصيص استعمال الترددات"
 
 #. module: theme_cim
+#: model_terms:company.partners,description:theme_cim.national_information_security_and_safety_authority
+msgid ""
+"Excellence and innovation: Promoting and rewarding initiative and creativity and\n"
+"                                    adopting the principle of continuous learning and knowledge exchange"
+msgstr ""
+
+#. module: theme_cim
 #: model:website.menu,name:theme_cim.menu_executive_crew
 #: model_terms:ir.ui.view,arch_db:theme_cim.executive_crew_page_ir_ui_view
 #: model_terms:website.page,arch_db:theme_cim.executive_crew_page
@@ -778,6 +796,16 @@ msgstr "الموظفون الجدد المتوقعون"
 #: model:ir.model.fields,field_description:theme_cim.field_bids__expiration_date
 msgid "Expiration Date"
 msgstr "تاريخ الانتهاء"
+
+#. module: theme_cim
+#: model:ir.model.fields,field_description:theme_cim.field_company_partners__external_url
+msgid "External Url"
+msgstr ""
+
+#. module: theme_cim
+#: model:ir.model.fields.selection,name:theme_cim.selection__company_partners__open_details_in__external_url
+msgid "External url"
+msgstr ""
 
 #. module: theme_cim
 #: model_terms:ir.ui.view,arch_db:theme_cim.contact_branches_ir_ui_view
@@ -805,6 +833,13 @@ msgstr "الجهات الحكومية"
 #: model:ir.ui.menu,name:theme_cim.cim_home_menu
 msgid "Home"
 msgstr "الرئيسية"
+
+#. module: theme_cim
+#: model_terms:company.partners,description:theme_cim.national_information_security_and_safety_authority
+msgid ""
+"Human resources: the basic wealth that enjoys loyalty and belonging and believes in\n"
+"                                    the concept of public service"
+msgstr ""
 
 #. module: theme_cim
 #: model:ir.model.fields,field_description:theme_cim.field_bids__id
@@ -851,6 +886,11 @@ msgid "International indicators"
 msgstr "المؤشرات الدولية"
 
 #. module: theme_cim
+#: model_terms:company.partners,description:theme_cim.national_information_security_and_safety_authority
+msgid "Introduction"
+msgstr ""
+
+#. module: theme_cim
 #: model_terms:ir.ui.view,arch_db:theme_cim.organization_of_communications_page_ir_ui_view
 #: model_terms:ir.ui.view,arch_db:theme_cim.sector_development_page_ir_ui_view
 #: model_terms:website.page,arch_db:theme_cim.organization_of_communications_page
@@ -890,7 +930,7 @@ msgid ""
 msgstr "إصدار وتحديد رسوم جميع أنواع التراخيص ومنح الموافقات المتعلقة بالنشاط"
 
 #. module: theme_cim
-#: model:company.partners,description:theme_cim.libya_post_company
+#: model_terms:company.partners,description:theme_cim.libya_post_company
 msgid ""
 "It is a Libyan joint stock company with a legal personality and an independent\n"
 "                financial disclosure, and it is affiliated with the Libyan Post and Telecommunications Company\n"
@@ -898,16 +938,11 @@ msgid ""
 "                It aims to establish, operate, manage and regulate all types of different postal services, including\n"
 "                postal financial services, at the domestic level\n"
 "                External marketing of services and products for the benefit of public and private entities, and any\n"
-"                complementary activity aimed at achieving their objectives\n"
-"            "
+"                complementary activity aimed at achieving their objectives"
 msgstr ""
-"هي شركة مساهمة ليبية و لها الشخصية الأعتبارية و الذمة المالية المستقلة و تتبع الشركة الليبية للبريد و الاتصالات و"
-"تقنية المعلومات القابضة"
-"و تهدف لإنشاء و تشغيل و إدارة و تنظيم كافة أنواع الخدمات البريدية المختلفة بما في ذلك الخدمات المالية البريدية على المستوي الداخلي و"
-"الخارجي و تسويق الخدمات و المنتجات لصالح الجهات العامة و الخاصة و أي نشاط مكمل يهدف إلى تحقيق أغراضها"
 
 #. module: theme_cim
-#: model:company.partners,description:theme_cim.libyan_international_telecom_company
+#: model_terms:company.partners,description:theme_cim.libyan_international_telecom_company
 msgid ""
 "It is one of the subsidiaries of the Libyan Post, Telecommunications and\n"
 "                Information Technology Holding Company, and it was established in 2008 to take over Managing all\n"
@@ -916,14 +951,8 @@ msgid ""
 "                telephone communications or data services, and the establishment of the Libyan International\n"
 "                Telecommunication Company came out of faith Deep in the importance of international communication in the\n"
 "                advancement and development of the educational and work environment in any society and in response to\n"
-"                the increasing demand for services International communications and the Internet in Libya.\n"
-"            "
+"                the increasing demand for services International communications and the Internet in Libya."
 msgstr ""
-"هي إحدى الشركات التابعة للشركة الليبية للبريد والاتصالات وتقنية المعلومات القابضة وقد تم تأسيسها سنة 2008 ف لتتولى"
-"إدارة جميع منافذ الاتصالات الدولية بليبيا وتلبية احتياجات الاتصالات الدولية لمجموعة الشركات التابعة للشركة الليبية للبريد"
-"والاتصالات وتقنية سواء الاتصالات الهاتفية أو خدمات البيانات، وقد جاء تأسيس شركة الاتصالات الدولية الليبية انطلاقا من الإيمان"
-"العميق بأهمية الاتصالات الدولية في رقي وتطور بيئة التعليم والعمل في أي مجتمع واستجابة للطلب المتزايد على خدمات
-"الاتصالات الدولية والانترنت في ليبيا"
 
 #. module: theme_cim
 #: model_terms:ir.ui.view,arch_db:theme_cim.view_jobs_form
@@ -1002,6 +1031,25 @@ msgstr ""
 "هو محاكاة للنص المزيف للتوظيف في التركيب والتركيب في الصفحة انطباع رائع"
 
 #. module: theme_cim
+#: model_terms:company.partners,description:theme_cim.national_information_security_and_safety_authority
+msgid ""
+"Leadership: rational leadership that adopts the model of harmonization between\n"
+"                                    results and national goals and coordination internally and externally"
+msgstr ""
+
+#. module: theme_cim
+#: model_terms:company.partners,description:theme_cim.national_information_security_and_safety_authority
+msgid ""
+"Leading Libya to provide the most effective methods and services to ensure the protection\n"
+"                                and safety of the confidentiality and integrity of information and data in information\n"
+"                                and communication technologies and infrastructure\n"
+"                                And related resources and ensuring their availability by providing high quality\n"
+"                                services. And work to position Libya in a distinguished position at all levels in the\n"
+"                                field of security and safety\n"
+"                                Regional, continental and international information."
+msgstr ""
+
+#. module: theme_cim
 #: model_terms:ir.ui.view,arch_db:theme_cim.media_center
 #: model_terms:website.page,arch_db:theme_cim.media_center_page
 msgid ""
@@ -1048,7 +1096,7 @@ msgstr ""
 "والمتابعةبالهيئة العامة للاتصالات والمعلوماتية"
 
 #. module: theme_cim
-#: model:company.partners,description:theme_cim.libya_telephone_company
+#: model_terms:company.partners,description:theme_cim.libya_telephone_company
 msgid ""
 "Libya Phone Company is the cornerstone of the telecommunications world in Libya,\n"
 "                as the company was established by a decision of the management committee\n"
@@ -1059,15 +1107,8 @@ msgid ""
 "                legal entities, and providing any complementary activity for the purpose of achieving their objectives.\n"
 "                Provided that the company seeks to contribute to building and developing the society's economy through\n"
 "                the actions it provides and maintaining the values, principles and ideals\n"
-"                the society\n"
-"            "
+"                the society"
 msgstr ""
-"تعتبر شركة هاتف ليبيا هي حجر الأساس في عالم الإتصالات بليبيا فقد تأسست الشركة بقرار من لجنة الإدارة"
-"بالشركة الليبية للبريد والاتصالات وتقنية المعلومات (القابضة) رقم (4) 2008"
-"لأغراض تشغيل وصيانة وتطوير شبكة وطنية للهاتف وتشمل المنظومات المحلية المتمثلة في مقسمات العبور والمقسمات الفرعية ووسائط"
-"الربط داخل المدن وتقديم كافة الخدمات لتأمين الخدمة للمشتركين الأفراد والجهات الإعتبارية وتقديم أي نشاط مكمل لهدف تحقيق أغراضها"
-"على أن تسعى الشركة إلى المساهمة في بناء وتنمية اقتصاد المجتمع من خلال الأعمال التي تقدمها والحفاظ على قيم ومبادئ ومثل"
-"المجتمع"
 
 #. module: theme_cim
 #: model:company.partners,name:theme_cim.libya_post_company
@@ -1106,7 +1147,7 @@ msgid "Libyan Post, Communications and Information Technology Holding Company"
 msgstr "الشركة الليبية للبريد والاتصالات وتقنية المعلومات القابضة"
 
 #. module: theme_cim
-#: model:company.partners,description:theme_cim.libyana_mobile_phone
+#: model_terms:company.partners,description:theme_cim.libyana_mobile_phone
 msgid ""
 "Libyana began its work in Libya in September 2004, and during this short period,\n"
 "                Libyana made great achievements.\n"
@@ -1117,14 +1158,8 @@ msgid ""
 "                Africa in September 2006, and the company aspires to spread and reach every home and city. It has\n"
 "                established no less than 15 service centers in\n"
 "                Various regions, reaching more than 6,200,000 subscribers during its years of operation, or 116% of the\n"
-"                population\n"
-"            "
+"                population"
 msgstr ""
-"بدأت ليبيانا عملها داخل ليبيا في سبتمبر سنة 2004، وحققت ليبيانا خلال هذه الفترة الوجيزة انجازات كبيرة، فقد قامت ببناء شبكة"
-"اتصالات لاسلكية تدعم خدمات الهاتف المحمول بمختلف مناطق ليبيا، وواصلت الارتقاء بالخدمات بتوفير خدمة الانترنت والرسائل"
-"متعددة الوسائط والبريد الصوتي عبر شبكتها، كما أنها كانت السباقة في تقديم خدمة خط هاتف الجيل الثالث على مستوى شمال"
-"إفريقيا في سبتمبر 2006, وتطمح الشركة إلى الانتشار والوصول إلى كل بيت ومدينة فأنشأت ما لا يقل عن 15 مركز خدمات في"
-"مناطق مختلفة ليصل عدد مشتركيها إلى ما يزيد عن 6,200,000 مشترك خلال سنوات عملها، أي بنسبة 116% من عدد السكان"
 
 #. module: theme_cim
 #: model:company.partners,name:theme_cim.libyana_mobile_phone
@@ -1186,6 +1221,11 @@ msgid "Media center"
 msgstr "المركز الإعلامي"
 
 #. module: theme_cim
+#: model_terms:company.partners,description:theme_cim.national_information_security_and_safety_authority
+msgid "Message"
+msgstr ""
+
+#. module: theme_cim
 #: model_terms:ir.ui.view,arch_db:theme_cim.jobs_post_page_ir_ui_view
 #: model_terms:website.page,arch_db:theme_cim.jobs_post_page
 msgid "Minimum requirements"
@@ -1217,6 +1257,11 @@ msgstr "يجب توافرها"
 #: model_terms:website.page,arch_db:theme_cim.apply_job_page
 msgid "Name"
 msgstr "الاسم"
+
+#. module: theme_cim
+#: model:company.partners,name:theme_cim.national_information_security_and_safety_authority
+msgid "National Information Security and Safety Authority"
+msgstr ""
 
 #. module: theme_cim
 #: model:company.partners,name:theme_cim.new_generation_technology_company
@@ -1254,17 +1299,22 @@ msgstr "الرقم"
 #. module: theme_cim
 #: model:ir.model.fields,field_description:theme_cim.field_bids__attachment_number
 msgid "Number of Attachments"
-msgstr "عدد الملفات"
+msgstr ""
 
 #. module: theme_cim
 #: model:ir.model.fields,field_description:theme_cim.field_jobs__candidate_number
 msgid "Number of Candidate"
-msgstr "عدد المرشحين"
+msgstr "عدد المرفقات"
 
 #. module: theme_cim
 #: model:ir.model.fields,help:theme_cim.field_jobs__no_of_recruitment
 msgid "Number of new employees you expect to recruit."
 msgstr "عدد الموظفين الجدد الذين تتوقع تعيينهم."
+
+#. module: theme_cim
+#: model:ir.model.fields,field_description:theme_cim.field_company_partners__open_details_in
+msgid "Open details in"
+msgstr ""
 
 #. module: theme_cim
 #: model_terms:ir.ui.view,arch_db:theme_cim.organization_of_communications_page_ir_ui_view
@@ -1312,6 +1362,11 @@ msgid "Overview"
 msgstr "نظرة عامة"
 
 #. module: theme_cim
+#: model:ir.model.fields.selection,name:theme_cim.selection__company_partners__open_details_in__page
+msgid "Page"
+msgstr ""
+
+#. module: theme_cim
 #: model:ir.actions.act_window,name:theme_cim.company_partners_action
 #: model:ir.ui.menu,name:theme_cim.cim_company_partners_menu
 #: model_terms:ir.ui.view,arch_db:theme_cim.view_company_partners_form
@@ -1354,6 +1409,11 @@ msgid "Politics"
 msgstr "السياسة"
 
 #. module: theme_cim
+#: model:ir.model.fields.selection,name:theme_cim.selection__company_partners__open_details_in__popup
+msgid "Popup"
+msgstr ""
+
+#. module: theme_cim
 #: model_terms:ir.ui.view,arch_db:theme_cim.strategy_page_ir_ui_view
 #: model_terms:website.page,arch_db:theme_cim.strategy_page
 msgid "Post sector reform"
@@ -1385,6 +1445,14 @@ msgstr "البرامج و المشروعات"
 #: model_terms:website.page,arch_db:theme_cim.executive_crew_page
 msgid "Project management team"
 msgstr "فريق إدارة المشروعات"
+
+#. module: theme_cim
+#: model_terms:company.partners,description:theme_cim.national_information_security_and_safety_authority
+msgid ""
+"Promote and support the safe use of ICT resources, as well as effectively prevent, detect\n"
+"                                and respond to risks\n"
+"                                Associated"
+msgstr ""
 
 #. module: theme_cim
 #: model:website.menu,name:theme_cim.menu_proposals
@@ -2119,7 +2187,24 @@ msgid ""
 msgstr "الهيئة العامة الإتصالات  تعنى بشؤون الاتصالات وتقنية المعلومات وتمثل"
 
 #. module: theme_cim
-#: model:company.partners,description:theme_cim.new_generation_technology_company
+#: model_terms:company.partners,description:theme_cim.national_information_security_and_safety_authority
+msgid ""
+"The dependence on the Internet and modern means of communication in various fields of\n"
+"                                life has become very great, most prominently important to focus on the risks that may\n"
+"                                arise.\n"
+"                                Although there are no complete guarantees to protect against risks, there are preventive\n"
+"                                steps that provide protection and safety, which necessitated the establishment of the\n"
+"                                Ministry of Communications\n"
+"                                And informatics to move quickly to create the basic building block through the\n"
+"                                Department of Information Security and Safety at the Ministry. And to the Ministry and\n"
+"                                the government keenness on the importance of the role assigned to this\n"
+"                                Administration A proposal was made to establish a National Authority for Information\n"
+"                                Security and Safety, and Resolution No. 28 was officially issued by the Council of\n"
+"                                Ministers on January 22, 2013."
+msgstr ""
+
+#. module: theme_cim
+#: model_terms:company.partners,description:theme_cim.new_generation_technology_company
 msgid ""
 "The establishment of the New Generation Technology Company came to contribute to\n"
 "                improving and developing the local telecommunications market by transferring and localizing technologies\n"
@@ -2129,14 +2214,8 @@ msgid ""
 "                and next generation network services\n"
 "                The new generation of technology is the first integrated operator in Libya, which is pursuing a strategy\n"
 "                based on diversity and integration in providing services\n"
-"                Its goal is to win customer satisfaction\n"
-"            "
+"                Its goal is to win customer satisfaction"
 msgstr ""
-"جاء تأسيس شركة الجيل الجديد للتقنية للمساهمة في تحسين وتطوير سوق الاتصالات المحلي وذلك بنقل وتوطين التقنيات"
-"الحديثة في مجال الاتصالات وبما يمّكن الشركة من المنافسة محلياً وعلى الصعيد الدولي، وذلك بتقديم كافة خدمات"
-"الاتصالات المتكاملة من خدمات الهاتف الثابت والمحمول والانترنت وخدمات البث المرئي وخدمات شبكة الجيل القادم"
-"وتعتبر الجيل الجديد للتقنية هي المشغل المتكامل الأول في ليبيا والذي ينتهج إستراتيجية تعتمد على التنوع والتكامل في تقديم الخدمات"
-"هدفها الفوز برضا الزبون"
 
 #. module: theme_cim
 #: model_terms:ir.ui.view,arch_db:theme_cim.strategy_page_ir_ui_view
@@ -2163,7 +2242,7 @@ msgstr ""
 "التقنيات في سبيل دعم التنمية الاقتصادية  والاجتماعية على اختلافمستوياتها"
 
 #. module: theme_cim
-#: model:company.partners,description:theme_cim.libyan_post_communications_and_information_technology_holding_company
+#: model_terms:company.partners,description:theme_cim.libyan_post_communications_and_information_technology_holding_company
 msgid ""
 "The holding company was established in accordance with the Cabinet Resolution No.\n"
 "                63 of 2005 AD in order to be a holding company that owns telecommunications companies The big ones,\n"
@@ -2177,17 +2256,8 @@ msgid ""
 "                The holding company was established for the purpose of investing in the communications infrastructure in\n"
 "                the country and abroad, and the company has a group of investments inside\n"
 "                The country and abroad, some of them date back to the time of the General Post, Telecommunications and\n"
-"                Telecommunications Company, which was dissolved in 2010\n"
-"            "
+"                Telecommunications Company, which was dissolved in 2010"
 msgstr ""
-"تأسست الشركة القابضة وفقا لقرار رئاسة الوزراء رقم (63) لسنة 2005 م لكي تكون شركة قابضة مالكة لشركات الاتصالات"
-"الكبيرة وهي ليبيانا و المدار وليبيا للاتصالات والتقنية الجيل الجديد للتقنية الاتصالات الدولية وهاتف ليبيا حيث ان لهذه"
-"الشركات دور كبير في تطوير الاتصالات الهاتفية والهواتف الجوالة و الاتصال بالأنترنت وقد رفعت من كفاءة الاتصالات في"
-"ليبيا وتمكين اكبر عدد ممكن من المواطنين للحصول على خدمة الانترنت سواء كانت عن طريق شركات الهواتف الجوالة"
-"مثل شركة ليبيانا و المدار او عن طريق مزود خدمة الانترنت الرئيسي كشركة ليبيا للاتصالات والتقنية LTT او شركة هاتف"
-"ليبيا التي توفر خدمة الهاتف السلكي و اللاسلكي وكذلك الانترنت"
-"قد أُسست الشركة القابضة لغرض الاستثمار في البنية التحتية للاتصالات في البلاد وخارجها، وتملك الشركة مجموعة من الاستثمارات داخل"
-"البلاد وخارجها يعود بعضها الى زمن الشركة العامة للبريد و الاتصالات السلكية واللاسلكية و التي تم حلها سنة 2010 م"
 
 #. module: theme_cim
 #: model_terms:ir.ui.view,arch_db:theme_cim.organizational_structure_page_ir_ui_view
@@ -2212,6 +2282,14 @@ msgstr "المهمة الأساسية"
 #: model_terms:website.page,arch_db:theme_cim.contactus_main
 msgid "The proposals"
 msgstr "المقترحات"
+
+#. module: theme_cim
+#: model_terms:company.partners,description:theme_cim.national_information_security_and_safety_authority
+msgid ""
+"The satisfaction of the beneficiaries: the participation and satisfaction of the\n"
+"                                    recipients of the service, the main driver for the design and development of\n"
+"                                    performance"
+msgstr ""
 
 #. module: theme_cim
 #: model_terms:ir.ui.view,arch_db:theme_cim.whoarewe_page_ir_ui_view
@@ -2249,6 +2327,13 @@ msgid "To visit the site"
 msgstr "لزيارة موقع "
 
 #. module: theme_cim
+#: model_terms:company.partners,description:theme_cim.national_information_security_and_safety_authority
+msgid ""
+"Transparency and integrity: fairness, transparency, accountability and building\n"
+"                                    trust"
+msgstr ""
+
+#. module: theme_cim
 #: model_terms:ir.ui.view,arch_db:theme_cim.strategy_page_ir_ui_view
 #: model_terms:website.page,arch_db:theme_cim.strategy_page
 msgid ""
@@ -2262,6 +2347,12 @@ msgid "Use Agreement"
 msgstr "اتفاقية الاستخدام"
 
 #. module: theme_cim
+#: model_terms:company.partners,description:theme_cim.national_information_security_and_safety_authority
+msgid "Values"
+msgstr ""
+
+#. module: theme_cim
+#: model_terms:company.partners,description:theme_cim.national_information_security_and_safety_authority
 #: model_terms:ir.ui.view,arch_db:theme_cim.whoarewe_page_ir_ui_view
 #: model_terms:website.page,arch_db:theme_cim.whoarewe_page
 msgid "Vision"

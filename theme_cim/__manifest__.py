@@ -28,6 +28,7 @@
         "templates/cybersecurity.xml",
         "templates/sector_development.xml",
         "templates/organization_of_communications.xml",
+        "templates/company_partners.xml",
         # views
         "views/slider_home_views.xml",
         "views/ticker_news_views.xml",

@@ -5,3 +5,4 @@ from . import executive_crew
 from . import public_announcements
 from . import bids
 from . import jobs
+from . import company_partners

@@ -230,7 +230,16 @@
                             <h3 class="mb30 hr_title_vertical color-blue-4">Our partners</h3>
                             <div class="carousel-partners owl-carousel owl-theme" t-if="company_partners">
                                 <div class="item" t-foreach="company_partners" t-as="partner">
-                                    <a data-toggle="modal" t-attf-data-target="#partnerModal{{partner.id}}">
+                                    <!--If Popup-->
+                                    <a data-toggle="modal" t-attf-data-target="#partnerModal{{partner.id}}" t-if="partner.open_details_in == 'popup'">
+                                        <img t-att-src="image_data_uri(partner.image)" alt=""/>
+                                    </a>
+                                    <!--If Page-->
+                                    <a t-attf-href="/company_partners/#{partner.id}" t-if="partner.open_details_in == 'page'">
+                                        <img t-att-src="image_data_uri(partner.image)" alt=""/>
+                                    </a>
+                                    <!--If External url-->
+                                    <a target="_blank" t-attf-href="#{partner.external_url}" t-if="partner.open_details_in == 'external_url'">
                                         <img t-att-src="image_data_uri(partner.image)" alt=""/>
                                     </a>
                                 </div>
@@ -241,7 +250,7 @@
                             </div>
                         </div>
                         <!-- Modal-->
-                        <t t-foreach="company_partners" t-as="partner">
+                        <t t-foreach="company_partners.filtered(lambda partner: partner.open_details_in == 'popup')" t-as="partner">
                             <div class="company_partners_modal modal fade" t-attf-id="partnerModal{{partner.id}}"
                                  tabindex="-1"
                                  role="dialog"

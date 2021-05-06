@@ -523,6 +523,22 @@
         /*p{
             color:#c8c8c8;
         }*/
+        ul{
+            list-style: none;
+           padding-left: 0;
+           li{
+            position:relative;
+            padding:5px 5px 5px 15px;
+               &:before{
+                    content:'-';
+                    display:inline-block;
+                    color:#f9b40e;
+                    position:absolute;
+                    left:0;
+                    top: 4px;
+                }
+            }
+        }
     }
 }
 

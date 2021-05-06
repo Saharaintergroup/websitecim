@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<odoo>
+    <data>
+        <template id="company_partners_post_page">
+            <t t-call="website.layout">
+                <div id="wrap">
+                    <section class="pt40 pb40">
+                        <div class="container">
+                            <div class="company_partners_details">
+                                <div t-field="partner.description"/>
+                            </div>
+                        </div>
+                    </section>
+                    <div class="oe_structure"/>
+                </div>
+            </t>
+        </template>
+    </data>
+</odoo>

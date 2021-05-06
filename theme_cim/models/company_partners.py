@@ -10,5 +10,10 @@ class CompanyPartners(models.Model):
 
     name = fields.Char(string='Name', required=True, translate=True)
     image = fields.Image("Logo")
-    description = fields.Text(string='Description', required=True, translate=True)
+    description = fields.Html(string='Description', required=True, translate=True)
     url = fields.Char('Link to website')
+    open_details_in = fields.Selection(
+        [('popup', 'Popup'), ('page', 'Page'), ('external_url', 'External url')],
+        string='Open details in',
+        default='popup')
+    external_url = fields.Char()
