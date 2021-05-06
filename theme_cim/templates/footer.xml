@@ -28,9 +28,9 @@
                                 </div>
                                 <div class="col-auto">
                                     <div class="menu_footer">
-                                        <a href="/aboutus">About us</a>
-                                        <a href="/electronic-service">Electronic service</a>
-                                        <a href="/contactus">Contact us</a>
+                                        <a href="/aboutus">عن الهيئة</a>
+                                        <a href="/electronic-services">الخدمات الإلكترونية</a>
+                                        <a href="/contactus">إتصل بنا</a>
                                     </div>
                                     <div class="s_share_cim text-right d-flex align-items-center justify-content-between"
                                          data-name="Social Media">
