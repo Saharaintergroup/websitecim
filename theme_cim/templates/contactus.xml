@@ -25,11 +25,11 @@
             </div>
             <div class="d-flex justify-content-between">
                 <label class="pl-1 pr-1">Phone</label>
-                <span class="pl-1 pr-1">+218 21 361 9811/15</span>
+                <span class="pl-1 pr-1" style="direction:ltr!important;">+218 21 361 9811/15</span>
             </div>
             <div class="d-flex justify-content-between">
                 <label class="pl-1 pr-1">Fax</label>
-                <span class="pl-1 pr-1">+218 21 362 2452</span>
+                <span class="pl-1 pr-1" style="direction:ltr!important;">+218 21 362 2452</span>
             </div>
             <div class="d-flex justify-content-between">
                 <label class="pl-1 pr-1">Our sites</label>
