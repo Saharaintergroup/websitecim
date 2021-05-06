@@ -14,113 +14,82 @@
                     <div id="wrap">
                         <section class="pt50 pb50">
                             <div class="container">
-                                <h3 class="hr_title_horizontal mb30">Who are we</h3>
+                                <h3 class="hr_title_horizontal mb30">من نحن</h3>
                                 <div class="faq-list">
                                     <div class="faq d-flex mb20 align-items-end">
                                         <div>
-                                            <h5 class="faq-title">About us</h5>
-                                            <p>The Public Communications Authority is concerned with communications and
-                                                information technology affairs and represents the highest authority
-                                                responsible for the telecommunications sector in Libya. It is
-                                                headquartered in the city of
-                                                Tripoli (the headquarters of the General Post and Telecommunications
-                                                Company) was able to achieve many achievements linking the various
-                                                regions of Libya after the infrastructure was exposed
-                                                For communications cut and sabotage during the months of the revolution,
-                                                in addition to restoring communications, post and internet services and
-                                                completing some important strategic projects in pursuit of
-                                                To contribute to the reunification and reconstruction of Libya, and this
-                                                body is chaired by a president assigned by the Prime Minister, Engineer
-                                                Sami Al-Fantazi.
+                                            <h5 class="faq-title">عن الهيئة</h5>
+                                            <p>الهيئة العامة الإتصالات تعنى بشؤون الاتصالات وتقنية المعلومات وتمثل أعلى
+                                                سلطة مسؤولة عن قطاع الاتصالات في ليبيا. يقع مقرها الرئيسي في مدينة
+                                                طرابلس (مقر الشركة العامة للبريد والاتصالات السلكية واللاسلكية).استطاعت
+                                                تحقيق العديد من الإنجازات بربط مختلف مناطق ليبيا بعدما تعرضت البنية
+                                                التحتية
+                                                للإتصالات من قطع وتخريب أثناء شهور الثورة وبالإضافة إلى إعادة خدمات
+                                                الإتصالات والبريد والإنترنت واستكمال بعض المشاريع الإستراتيجية المهمة
+                                                سعياً
+                                                للمساهمة في لم الشمل وإعمار ليبيا ويترأس هذه الهيئة رئيسا بتكليف من رئيس
+                                                الوزراء, المهندس سامي الفنطازي.
                                             </p>
                                         </div>
                                     </div>
                                     <div class="faq d-flex mb20 align-items-end">
                                         <div>
-                                            <h5 class="faq-title">Vision</h5>
-                                            <p>Competitive quality telecommunications, information technology and mail
-                                                sectors that accelerate social and economic development, improve quality
-                                                of
-                                                life and support an economy
-                                                Knowledge throughout Libya
-                                            </p>
+                                            <h5 class="faq-title">إختصاصات الهيئة</h5>
+                                            <ul>
+                                                <li>اقتراح مشروعات القوانين واللوائح المتعلقة بقطاع الاتصالات
+                                                    والمعلوماتية والبريد .
+                                                </li>
+                                                <li>تنفيذ التشريعات المتعلقة بالقطاع .</li>
+                                                <li>وضع الخطط الوطنية ومراقبة تنفيذها .</li>
+                                                <li>وضع المخطط الوطني للطيف الترددي وإدارة وتخصيص استعمال الترددات .
+                                                </li>
+                                                <li>تنظيم الربط بين شبكات الاتصالات القائمة على تقديم الخدمات .</li>
+                                                <li>إصدار وتحديد رسوم جميع أنواع التراخيص ومنح الموافقات المتعلقة
+                                                    بالنشاط .
+                                                </li>
+                                                <li>اقتراح القواعد المنظمة لمنح التراخيص .</li>
+                                                <li>وضع الضوابط الخاصة بتحديد أسعار ومقابل تقديم الخدمات .</li>
+                                                <li>تحديد الحد الأدنى للجودة ومستوى تقديم الخدمة .</li>
+                                                <li>وضع المواصفات الفنية والقياسية لمنظومات الاتصالات والمعلوماتية لكافة
+                                                    مؤسسات الدولة .
+                                                </li>
+                                                <li>تحديد معايير وضوابط خدمات الاتصالات الغير اقتصادية الخاصة بالمناطق
+                                                    النائية مع تحديد الالتزامات التي يتحملها المشغلون ومزودوا الخدمة .
+                                                </li>
+                                                <li>مراجعة وتقييم الحاجة لتعديل مستوى تنظيم أي خدمة واقتراح الحلول
+                                                    المناسبة .
+                                                </li>
+                                                <li>تشجيع الاستثمار في القطاع وتوفير البيئة المناسبة لذلك .</li>
+                                                <li>الإشراف والمتابعة والرقابة على أنشطة القطاع ومتابعة الشركات العاملة
+                                                    في هذا المجال .
+                                                </li>
+                                                <li>الإشراف على مشروعات الأقمار الصناعية وتنفيذ التشريعات المتعلقة بها
+                                                    .
+                                                </li>
+                                                <li>وضع الضوابط والمعايير المتعلقة بالأمن القومي في القطاع بالتنسيق مع
+                                                    الجهات ذات العلاقة .
+                                                </li>
+                                                <li>دراسة المعاهدات والاتفاقيات الدولية ذات العلاقة بالقطاع واقتراح
+                                                    المشاركة أو الانضمام إليها ومتابعة تنفيذها .
+                                                </li>
+                                                <li>المشاركة في المنظمات الدولية وحضور ما يعقد من مؤتمرات وندوات إقليمية
+                                                    ودوليـة وعرض قراراتها وتوصياتها للاعتماد ومتابعة تنفيذها .
+                                                </li>
+                                                <li>تمثيل الدولة الليبية في المنظمات الدولية في مجال الاتصالات
+                                                    والمعلوماتية بالتنسيق مع الجهــات ذات العلاقة .
+                                                </li>
+                                                <li>النهوض بالمنافسة في مجال تقديم الخدمات ومنع السلوك الغير تنافسي.
+                                                </li>
+                                                <li>اتخاذ كافة الإجراءات القانونية ضد المخالفات المرتكبة في هذا
+                                                    المجال.
+                                                </li>
+                                                <li>تجميع المعلومات المتعلقة بالقطــــاع وإعــــداد وإصـدار التقارير
+                                                    والمنشورات اللازمة لإرشاد المستفيدين من الخدمات ، والمساهمة بالبرامج
+                                                    الإعلاميـة لرفع الوعي العام في هذا المجال .
+                                                </li>
+                                            </ul>
                                         </div>
                                     </div>
-                                    <div class="faq d-flex mb20 align-items-end">
-                                        <div>
-                                            <h5 class="faq-title">The message</h5>
-                                            <p>Enhancing the legal, regulatory and institutional environment for a
-                                                competitive market that encourages innovation and provides services and
-                                                products
-                                                Support and enhance the capacity and competitiveness of the
-                                                telecommunications, information technology and postal sectors locally,
-                                                regionally and internationally, and to attract foreign and domestic
-                                                investment.
-                                                And enhancing the endeavor towards maximizing the utilization of
-                                                information
-                                                technology resources and enhancing their concepts and uses to contribute
-                                                to
-                                                achieving social inclusiveness and bridging the gap
-                                                Digital
-                                            </p>
-                                        </div>
-                                    </div>
-                                    <div class="faq d-flex mb20 align-items-end">
-                                        <div>
-                                            <h5 class="faq-title">The primary mission</h5>
-                                            <p>Improving the quality of services</p>
-                                            <p>Designing the strategic plan for the communications and information
-                                                technology sector
-                                            </p>
-                                            <p>Solve and fix faults and immediate problems related to the infrastructure
-                                                of
-                                                the communications and information technology sector
-                                            </p>
-                                            <p>Raise the quality of communication and information technology services
-                                                for
-                                                the final consumer
-                                            </p>
-                                            <p>Setting detailed work plans and mechanisms to develop the Libyan
-                                                communications and information technology sector
-                                            </p>
-                                        </div>
-                                    </div>
-                                    <div class="faq d-flex mb20 align-items-end">
-                                        <div>
-                                            <h5 class="faq-title">The tasks are the decision of the statute</h5>
-                                            <p>Improving the quality of services</p>
-                                            <p>Designing the strategic plan for the communications and information
-                                                technology sector
-                                            </p>
-                                        </div>
-                                    </div>
-                                    <div class="faq d-flex mb20 align-items-end">
-                                        <div>
-                                            <h5 class="faq-title">Primary law</h5>
-                                            <p>Improving the quality of services</p>
-                                            <p>Designing the strategic plan for the communications and information
-                                                technology sector
-                                            </p>
-                                        </div>
-                                    </div>
-                                    <div class="faq d-flex mb20 align-items-end">
-                                        <div>
-                                            <h5 class="faq-title">What we do</h5>
-                                            <p>Taking all legal measures against the violations committed in this
-                                                field
-                                            </p>
-                                            <p>Proposing draft laws and regulations related to the telecommunications,
-                                                informatics and post sector
-                                            </p>
-                                            <p>Establishing the national frequency spectrum plan and managing and
-                                                allocating frequency usage
-                                            </p>
-                                            <p>Issuing and determining fees for all types of licenses and granting
-                                                approvals related to the activity
-                                            </p>
-                                        </div>
-                                    </div>
-
                                 </div>
 
                             </div>
@@ -228,7 +197,8 @@
                         <section class="pt50 pb50">
                             <div class="container">
                                 <h3 class="hr_title_horizontal mb30">Executive crew</h3>
-                                <div class="box_team d-flex align-items-center mt10 mb50"  t-foreach="president" t-as="p">
+                                <div class="box_team d-flex align-items-center mt10 mb50" t-foreach="president"
+                                     t-as="p">
                                     <img t-att-src="image_data_uri(p.image)" class="photo_team" t-if="p.image"/>
                                     <div>
                                         <h4 class="mb20" t-esc="p.name"/>
@@ -239,7 +209,8 @@
                                 <div class="carousel-team owl-carousel owl-theme">
                                     <div class="item" t-foreach="teams" t-as="team">
                                         <div class="box_team d-flex align-items-center mt10 mb30">
-                                            <img t-att-src="image_data_uri(team.image)" class="photo_team"  t-if="team.image"/>
+                                            <img t-att-src="image_data_uri(team.image)" class="photo_team"
+                                                 t-if="team.image"/>
                                             <div>
                                                 <h5 class="mb20" t-esc="team.name"/>
                                                 <p class="text-12 mb0" t-esc="team.description"/>

@@ -70,7 +70,7 @@
                                 </ul>
                                 <div class="d-flex justify-content-center align-items-center pl20" t-else="">
                                     <span class="text-content-empty text-14">آسف ، لا توجد أخبار في الوقت الحالي
-</span>
+                                    </span>
                                 </div>
                             </div>
                         </div>
@@ -143,54 +143,62 @@
                     </section>
 
                     <!--== Statistics ==-->
-                    <!--                    <section id="o_our_business" class="bg-white pt40 pb40">
-                                            <div class="container">
-                                                <h3 class="mb20 hr_title_horizontal color-blue-4">Statistics</h3>
-                                                <div class="row skill-part">
-                                                    <div class="col-md-6 col-lg-3 skill-item mt10">
-                                                        <div class="first circle pl10 pr10" data-skill-level="92">
-                                                            <h6></h6>
-                                                            <span class="sk-name">I'm waiting</span>
-                                                            <p>Csir Citation Yallamco Laboraas Nessi Yut Alekseob Xia Commodo Consecioat
-                                                                Dewasuty Ariri Dollar In Reprihendereat Folyoptate Fillet Ice Essence
-                                                                Killlyum Dollar
-                                                            </p>
-                                                        </div>
-                                                    </div>
-                                                    <div class="col-md-6 col-lg-3 skill-item mt10">
-                                                        <div class="second circle pl10 pr10" data-skill-level="80">
-                                                            <h6></h6>
-                                                            <span class="sk-name">I'm waiting</span>
-                                                            <p>Csir Citation Yallamco Laboraas Nessi Yut Alekseob Xia Commodo Consecioat
-                                                                Dewasuty Ariri Dollar In Reprihendereat Folyoptate Fillet Ice Essence
-                                                                Killlyum Dollar
-                                                            </p>
-                                                        </div>
-                                                    </div>
-                                                    <div class="col-md-6 col-lg-3 skill-item mt10">
-                                                        <div class="third circle pl10 pr10" data-skill-level="70">
-                                                            <h6></h6>
-                                                            <span class="sk-name">I'm waiting</span>
-                                                            <p>Csir Citation Yallamco Laboraas Nessi Yut Alekseob Xia Commodo Consecioat
-                                                                Dewasuty Ariri Dollar In Reprihendereat Folyoptate Fillet Ice Essence
-                                                                Killlyum Dollar
-                                                            </p>
-                                                        </div>
-                                                    </div>
-                                                    <div class="col-md-6 col-lg-3 skill-item mt10">
-                                                        <div class="fourth circle pl10 pr10" data-skill-level="90">
-                                                            <h6></h6>
-                                                            <span class="sk-name">I'm waiting</span>
-                                                            <p>Csir Citation Yallamco Laboraas Nessi Yut Alekseob Xia Commodo Consecioat
-                                                                Dewasuty Ariri Dollar In Reprihendereat Folyoptate Fillet Ice Essence
-                                                                Killlyum Dollar
-                                                            </p>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </section>
-                    -->
+                    <section id="o_our_business" class="bg-white pt40 pb40">
+                        <div class="container">
+                            <h3 class="mb20 hr_title_horizontal color-blue-4">الإحصائيات</h3>
+                            <div class="row skill-part">
+                                <div class="col-md-6 col-lg-3 skill-item mt10">
+                                    <div class="first circle pl10 pr10" data-skill-level="92">
+                                        <h6></h6>
+                                        <span class="sk-name">فى الإنتظار</span>
+                                        <p>كسير سيتاشن يللأمكو لابورأس نيسي يت أليكيوب أكس أيا كوممودو كونسيكيوات .
+                                            ديواسأيوتي أريري دولار إن ريبريهينديرأيت فوليوبتاتي فيلايت أيسسي كايلليوم
+                                            دولار أيو فيجايتنيولا باراياتيور. أيكسسيبتيور ساينت أوككايكات كيوبايداتات
+                                            نون بروايدينت ,سيونت ان كيولبا
+                                            كيو أوفيسيا ديسيريونتموليت انيم أيدي ايست لابوريوم
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 col-lg-3 skill-item mt10">
+                                    <div class="second circle pl10 pr10" data-skill-level="80">
+                                        <h6></h6>
+                                        <span class="sk-name">فى الإنتظار</span>
+                                        <p>كسير سيتاشن يللأمكو لابورأس نيسي يت أليكيوب أكس أيا كوممودو كونسيكيوات .
+                                            ديواسأيوتي أريري دولار إن ريبريهينديرأيت فوليوبتاتي فيلايت أيسسي كايلليوم
+                                            دولار أيو فيجايتنيولا باراياتيور. أيكسسيبتيور ساينت أوككايكات كيوبايداتات
+                                            نون بروايدينت ,سيونت ان كيولبا
+                                            كيو أوفيسيا ديسيريونتموليت انيم أيدي ايست لابوريوم
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 col-lg-3 skill-item mt10">
+                                    <div class="third circle pl10 pr10" data-skill-level="70">
+                                        <h6></h6>
+                                        <span class="sk-name">فى الإنتظار</span>
+                                        <p>كسير سيتاشن يللأمكو لابورأس نيسي يت أليكيوب أكس أيا كوممودو كونسيكيوات .
+                                            ديواسأيوتي أريري دولار إن ريبريهينديرأيت فوليوبتاتي فيلايت أيسسي كايلليوم
+                                            دولار أيو فيجايتنيولا باراياتيور. أيكسسيبتيور ساينت أوككايكات كيوبايداتات
+                                            نون بروايدينت ,سيونت ان كيولبا
+                                            كيو أوفيسيا ديسيريونتموليت انيم أيدي ايست لابوريوم
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 col-lg-3 skill-item mt10">
+                                    <div class="fourth circle pl10 pr10" data-skill-level="90">
+                                        <h6></h6>
+                                        <span class="sk-name">فى الإنتظار</span>
+                                        <p>كسير سيتاشن يللأمكو لابورأس نيسي يت أليكيوب أكس أيا كوممودو كونسيكيوات .
+                                            ديواسأيوتي أريري دولار إن ريبريهينديرأيت فوليوبتاتي فيلايت أيسسي كايلليوم
+                                            دولار أيو فيجايتنيولا باراياتيور. أيكسسيبتيور ساينت أوككايكات كيوبايداتات
+                                            نون بروايدينت ,سيونت ان كيولبا
+                                            كيو أوفيسيا ديسيريونتموليت انيم أيدي ايست لابوريوم
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+
 
                     <!--== Our services ==-->
                     <!--                    <section id="o_our_services" class="pt40 pb40">
