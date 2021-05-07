@@ -7,7 +7,8 @@
             <field name="arch" type="xml">
                 <tree>
                     <field name="name"/>
-                    <field name="description"/>
+                    <field name="job_position"/>
+                    <field name="is_president"/>
                 </tree>
             </field>
         </record>
@@ -31,7 +32,7 @@
                             </div>
                         </div>
                         <group>
-                            <field name="description"/>
+                            <field name="job_position"/>
                         </group>
                     </sheet>
                 </form>

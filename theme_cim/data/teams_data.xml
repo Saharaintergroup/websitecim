@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data noupdate="0">
+
+
+        <record id="team_1" model="teams.teams">
+            <field name="name">المهندس سامي الفنطاز</field>
+            <field name="job_position">رئيس الهيئة العامة للإتصالات و المعلوماتية</field>
+            <field name="image" type="base64"
+                   file="theme_cim/static/src/images/teams/team_1.png"/>
+            <field name="is_president">True</field>
+        </record>
+
+        <record id="team_2" model="teams.teams">
+            <field name="name">المهندس سامي الفنطاز</field>
+            <field name="job_position">رئيس الهيئة العامة للإتصالات و المعلوماتية</field>
+            <field name="image" type="base64"
+                   file="theme_cim/static/src/images/teams/team_2.png"/>
+        </record>
+
+        <record id="team_3" model="teams.teams">
+            <field name="name">المهندس سامي الفنطاز</field>
+            <field name="job_position">رئيس الهيئة العامة للإتصالات و المعلوماتية</field>
+            <field name="image" type="base64"
+                   file="theme_cim/static/src/images/teams/team_3.png"/>
+        </record>
+
+        <record id="team_4" model="teams.teams">
+            <field name="name">المهندس سامي الفنطاز</field>
+            <field name="job_position">رئيس الهيئة العامة للإتصالات و المعلوماتية</field>
+            <field name="image" type="base64"
+                   file="theme_cim/static/src/images/teams/team_4.png"/>
+        </record>
+
+    </data>
+</odoo>

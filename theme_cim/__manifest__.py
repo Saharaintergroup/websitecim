@@ -42,6 +42,7 @@
         "views/menu.xml",
         # data
         "data/company_partners_data.xml",
+        "data/teams_data.xml",
     ],
     'images': [
         'static/description/cover.png',

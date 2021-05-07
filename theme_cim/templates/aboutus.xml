@@ -315,16 +315,16 @@
                     <div id="wrap">
                         <section class="pt50 pb50">
                             <div class="container">
-                                <h3 class="hr_title_horizontal mb40">Executive crew</h3>
+                                <h3 class="hr_title_horizontal mb40">الطاقم التنفيذي</h3>
                                 <div class="box_team d-flex align-items-center mt10 mb50" t-foreach="president"
                                      t-as="p">
                                     <img t-att-src="image_data_uri(p.image)" class="photo_team" t-if="p.image"/>
                                     <div>
                                         <h4 class="mb20" t-esc="p.name"/>
-                                        <p class="mb0" t-esc="p.description"/>
+                                        <p class="mb0" t-esc="p.job_position"/>
                                     </div>
                                 </div>
-                                <h4 class="mb20">Project management team</h4>
+                                <h4 class="mb20">فريق إدارة المشروعات</h4>
                                 <div class="carousel-team owl-carousel owl-theme">
                                     <div class="item" t-foreach="teams" t-as="team">
                                         <div class="box_team d-flex align-items-center mt10 mb30">
@@ -332,38 +332,10 @@
                                                  t-if="team.image"/>
                                             <div>
                                                 <h5 class="mb20" t-esc="team.name"/>
-                                                <p class="text-12 mb0" t-esc="team.description"/>
+                                                <p class="text-12 mb0" t-esc="team.job_position"/>
                                             </div>
                                         </div>
                                     </div>
-                                </div>
-                            </div>
-                        </section>
-                        <div class="oe_structure"/>
-                    </div>
-                </t>
-            </t>
-        </field>
-    </record>
-    <!--Programs and projects-->
-    <record id="programs_and_projects_page" model="website.page">
-        <field name="name">Programs and projects</field>
-        <field name="url">/programs-and-projects</field>
-        <field name="type">qweb</field>
-        <field name="website_indexed" eval="False"/>
-        <field name="is_published">True</field>
-        <field name="key">theme_cim.programs_and_projects_page</field>
-        <field name="arch" type="xml">
-            <t name="Programs and projects" t-name="theme_cim.programs_and_projects_page">
-                <t t-call="website.layout">
-                    <div id="wrap">
-                        <section class="pt50 pb50">
-                            <div class="container">
-                                <h3 class="hr_title_horizontal mb40">Programs and projects</h3>
-                                <div class="d-flex justify-content-center align-items-center" style="min-height:200px;">
-                                    <span class="text-content-empty">Sorry, there are no programs and projects at the
-                                        moment
-                                    </span>
                                 </div>
                             </div>
                         </section>
@@ -387,22 +359,55 @@
                     <div id="wrap">
                         <section class="pt50 pb50">
                             <div class="container">
-                                <h3 class="hr_title_horizontal mb40">International Relations</h3>
-                                <p>The International Relations Office of the Public Authority for Communications and
-                                    Informatics plays a very important role in stimulating and stimulating joint
-                                    cooperation with the parties
-                                    Concerned in this field at all national, regional and international levels. Indeed,
-                                    achieving the desired cooperation at the international level cannot be facilitated
-                                    by
-                                    Without the required cooperation between all parties entrusted with the
-                                    responsibility of making decisions, and this must also be through a wide range of
-                                    initiatives in each of the
-                                    The fields of political planning and practical application. From this standpoint,
-                                    the Communications and Informatics Public Authority seeks to adopt a constructive
-                                    method of cooperation with many
-                                    Concerned parties at all national, regional and international levels, as well as in
-                                    many countries, institutions and organizations around the world.
-                                </p>
+                                <h3 class="hr_title_horizontal mb40">العلاقات الدولية</h3>
+                                <div class="faq-list">
+                                    <div class="faq d-flex mb30 align-items-end">
+                                        <div>
+                                            <h5 class="faq-title">مكتب التعاون الدولي</h5>
+                                            <p>يقوم مكتب التعاون الدولي بالهيئة العامة الإتصالات و المعلوماتية بدور على
+                                                درجة كبيرة من الأهمية في حفز وتنشيط التعاون المشترك مع الأطراف المعنية
+                                                في هذا المجال على جميع المستويات الوطنية والإقليمية والدولية.
+                                            </p>
+                                            <p>والواقع أن تحقق التعاون المنشود على المستوى الدولي لا يمكن أن يتيسر من
+                                                دون توفر التعاون المطلوب بين كافة الجهات المنوط بها مسؤولية اتخاذ
+                                                القرار، ولابد أن يكون ذلك أيضاً عن طريق مجموعة واسعة من المبادرات في كل
+                                                من مجالي التخطيط السياسي والتطبيق العملي. ومن هذا المنطلق تسعى الهيئة
+                                                العامة الإتصالات و المعلوماتية انتهاج أسلوب التعاون البناء مع العديد من
+                                                الأطراف المعنية على كافة المستويات الوطنية والإقليمية والدولية وكذلك في
+                                                العديد من الدول والمؤسسات والمنظمات في جميع أنحاء العالم.
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="faq d-flex mb30 align-items-end">
+                                        <div>
+                                            <h5 class="faq-title">التعاون مع المنظمات</h5>
+                                            <p>تتطلب مكانة ليبيا المشاركة في الأنشطة الدولية اللائقة بهذه المكانة، وكذلك
+                                                تعزيز وتنمية وحماية مصالحها في المجتمع الدولي، ومن ذلك الاتفاقيات التي
+                                                تبرمها مع مختلف الدول والمنظمات الدولية، ومن أهم تلك الاتفاقيات أو
+                                                المنظمات والاتحادات التي تم التعاون معها في المجالات المتعلقة بقطاع
+                                                الاتصالات:
+                                            </p>
+                                            <ul>
+                                                <li>الاتحاد الدولي للاتصالات (ITU)
+                                                    <br/>
+                                                    القطاع الراديوي.
+                                                    <br/>
+                                                    قطاع المواصفات والمعايير.
+                                                    <br/>
+                                                    قطاع تنمية الاتصالات
+                                                </li>
+                                                <li>المنظمة الدولية للاتصالات الفضائية (ITSO).</li>
+                                                <li>اتحاد البريدي العالمي.</li>
+                                                <li>الاتحاد الافريقي للاتصالات (ATU).</li>
+                                                <li>المنظمة الافريقية للاتصالات (راسكوم).</li>
+                                                <li>المؤسسة العربية للاتصالات الفضائية (عربسات).</li>
+                                                <li>المنظمة العربية لتكنولوجيات الاتصال والمعلومات.</li>
+                                                <li>تجمع (س.ص) لدول الساحل والصحراء.</li>
+                                                <li>تجمع دول الكوميسا "دول جنوب وشرق افريقيا".</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </section>
                         <div class="oe_structure"/>
@@ -468,20 +473,12 @@
         <field name="parent_id" ref="website.main_menu"/>
         <field name="sequence" type="int">26</field>
     </record>
-    <!--Programs and projects-->
-    <record id="menu_programs_and_projects" model="website.menu">
-        <field name="name">البرامج و المشروعات</field>
-        <field name="url">/programs-and-projects</field>
-        <field name="page_id" ref="theme_cim.programs_and_projects_page"/>
-        <field name="parent_id" ref="website.main_menu"/>
-        <field name="sequence" type="int">27</field>
-    </record>
     <!--International Relations-->
     <record id="menu_international_relations" model="website.menu">
         <field name="name">العلاقات الدولية</field>
         <field name="url">/international-relations</field>
         <field name="page_id" ref="theme_cim.international_relations_page"/>
         <field name="parent_id" ref="website.main_menu"/>
-        <field name="sequence" type="int">28</field>
+        <field name="sequence" type="int">27</field>
     </record>
 </odoo>

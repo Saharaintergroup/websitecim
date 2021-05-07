@@ -6,9 +6,9 @@ class TeamsTeams(models.Model):
     _name = "teams.teams"
     _description = "Teams"
     name = fields.Char(string="Name", required=True, translate=True)
-    description = fields.Text(string='Description', required=True, translate=True)
+    job_position = fields.Char(string='Job Position', required=True, translate=True)
     image = fields.Image("Photo")
-    is_president = fields.Boolean("Is President")
+    is_president = fields.Boolean("Is President",default=False)
 
     def write(self, vals):
         if vals.get('is_president'):
