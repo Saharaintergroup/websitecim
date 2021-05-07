@@ -292,7 +292,12 @@
                     <div id="wrap">
                         <section class="pt50 pb50">
                             <div class="container">
-                                <h3 class="hr_title_horizontal mb40">Organizational Structure</h3>
+                                <h3 class="hr_title_horizontal mb40">الهيكل التنظيمي</h3>
+                                <div class="d-flex justify-content-center align-items-center" style="min-height:200px;">
+                                    <span class="text-content-empty">عذرا ، لا يوجد هيكل التنظيمي في
+                                        الوقت الحاضر
+                                    </span>
+                                </div>
                             </div>
                         </section>
                         <div class="oe_structure"/>
@@ -416,6 +421,34 @@
             </t>
         </field>
     </record>
+    <!--Decisions-->
+    <record id="decisions_page" model="website.page">
+        <field name="name">Decisions</field>
+        <field name="url">/decisions</field>
+        <field name="type">qweb</field>
+        <field name="website_indexed" eval="False"/>
+        <field name="is_published">True</field>
+        <field name="key">theme_cim.decisions_page</field>
+        <field name="arch" type="xml">
+            <t name="Decisions" t-name="theme_cim.decisions_page">
+                <t t-call="website.layout">
+                    <div id="wrap">
+                        <section class="pt50 pb50">
+                            <div class="container">
+                                <h3 class="hr_title_horizontal mb40">القرارات</h3>
+                                <div class="d-flex justify-content-center align-items-center" style="min-height:200px;">
+                                    <span class="text-content-empty">عذرا ، لا توجد قرارات في
+                                        الوقت الحاضر
+                                    </span>
+                                </div>
+                            </div>
+                        </section>
+                        <div class="oe_structure"/>
+                    </div>
+                </t>
+            </t>
+        </field>
+    </record>
 
     <!--=============MENU================-->
     <!--About us-->
@@ -480,5 +513,13 @@
         <field name="page_id" ref="theme_cim.international_relations_page"/>
         <field name="parent_id" ref="website.main_menu"/>
         <field name="sequence" type="int">27</field>
+    </record>
+    <!--Decisions-->
+    <record id="menu_decisions" model="website.menu">
+        <field name="name">القرارات</field>
+        <field name="url">/decisions</field>
+        <field name="page_id" ref="theme_cim.decisions_page"/>
+        <field name="parent_id" ref="website.main_menu"/>
+        <field name="sequence" type="int">28</field>
     </record>
 </odoo>
