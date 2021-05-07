@@ -262,9 +262,8 @@
                             </div>
                         </div>
                         <!-- Modal-->
-                        <t t-foreach="company_partners.filtered(lambda partner: partner.open_details_in == 'popup')"
-                           t-as="partner">
-                            <div class="company_partners_modal modal fade" t-attf-id="partnerModal{{partner.id}}"
+                        <t t-foreach="company_partners" t-as="partner">
+                            <div t-if="partner.open_details_in == 'popup'" class="company_partners_modal modal fade" t-attf-id="partnerModal{{partner.id}}"
                                  tabindex="-1"
                                  role="dialog"
                                  t-attf-aria-labelledby="partnerModalLabel{{partner.id}}" aria-hidden="true">
