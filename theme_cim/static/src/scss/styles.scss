@@ -521,16 +521,11 @@
 
 .faq-list{
     .faq{
+        padding-left:15px;
         h5{
-            padding-left:15px;
             position:relative;
+            margin-bottom: 20px;
             &:before{
-                /*content:'•';
-                display:inline-block;
-                color:#f9b40e;
-                position:absolute;
-                left:0;
-                top: 2px;*/
                 content:'';
                 display:inline-block;
                 width:6px;
@@ -538,7 +533,7 @@
                 background-color:#F9B40E;
                 border-radius:50%;
                 position:absolute;
-                left:0;
+                left:-15px;
                 top: 11px;
             }
         }
@@ -551,13 +546,13 @@
            opacity:70%;
            li{
             position:relative;
-            padding:5px 5px 5px 15px;
+            padding:5px 5px 5px 0;
                &:before{
                     content:'-';
                     display:inline-block;
                     color:#F9B40E;
                     position:absolute;
-                    left:0;
+                    left:-15px;
                     top: 4px;
                 }
             }

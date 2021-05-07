@@ -14,7 +14,7 @@
                     <div id="wrap">
                         <section class="pt50 pb50">
                             <div class="container">
-                                <h3 class="hr_title_horizontal mb30">من نحن</h3>
+                                <h3 class="hr_title_horizontal mb40">من نحن</h3>
                                 <div class="faq-list">
                                     <div class="faq d-flex mb20 align-items-end">
                                         <div>
@@ -100,6 +100,70 @@
             </t>
         </field>
     </record>
+    <!--Vision, Mission and Goals:-->
+    <record id="vision_mission_goals_page" model="website.page">
+        <field name="name">Vision, Mission and Goals</field>
+        <field name="type">qweb</field>
+        <field name="url">/vision-mission-goals</field>
+        <field name="website_indexed" eval="False"/>
+        <field name="is_published">True</field>
+        <field name="key">theme_cim.vision_mission_goals_page</field>
+        <field name="arch" type="xml">
+            <t name="Vision, Mission and Goals" t-name="theme_cim.vision_mission_goals_page">
+                <t t-call="website.layout">
+                    <div id="wrap">
+                        <section class="pt50 pb50">
+                            <div class="container">
+                                <h3 class="hr_title_horizontal mb40">الرؤية والرسالة والاهداف</h3>
+                                <div class="faq-list">
+                                    <div class="faq d-flex mb20 align-items-end">
+                                        <div>
+                                            <h5 class="faq-title">الرؤية</h5>
+                                            <p>قطاعات إتصالات وتقنية معلومات وبريد ذات جودة وتنافسية تسّرع التطور
+                                                الإجتماعي والإقتصادي وتحسن نوعية الحياة وتدعم إقتصاد المعرفة في كافة
+                                                أنحاء ليبيا.
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="faq d-flex mb20 align-items-end">
+                                        <div>
+                                            <h5 class="faq-title">الرسالة</h5>
+                                            <p>تحقيق رؤية الهيئة العامة الاتصالات و المعلوماتية من خلال:</p>
+                                            <ul>
+                                                <li>تعزيز البيئة القانونية والتنظيمية والمؤسسية لسوق منافس يشجع الابتكار
+                                                    ويقدم الخدمات والمنتجات.
+                                                </li>
+                                                <li>دعم وتعزيز قدرة وتنافسية قطاعات الاتصالات وتقنية المعلومات والبريد
+                                                    محلياً واقليمياً ودولياً واستقطاب الاستثمار الأجنبي والمحلي.
+                                                </li>
+                                                <li>السعي نحو الاستخدام الأمثل للموارد بما فيها التقنية وتعزيز السعي نحو
+                                                    تعظيم الاستفادة من موارد تقنية المعلومات وتعزيز مفاهيمها
+                                                    واستخداماتها للمساهمة في تحقيق الشمولية الاجتماعية وردم الفجوة
+                                                    الرقمية.
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="faq d-flex mb20 align-items-end">
+                                        <div>
+                                            <h5 class="faq-title">الأهداف</h5>
+                                            <ul>
+                                                <li>إعـــادة خدمــات الإتصالات: حل وإصلاح الأعطال والمشاكل الآنية الخاصة بالبنية التحتية لقطاع الإتصالات وتقنية المعلومات.</li>
+                                                <li>تطوير جودة الخدمات: رفع جودة خدمات الإتصالات وتقنية المعلومات للمستهلك النهائي.</li>
+                                                <li>تصميم الخطة الإستراتيجية لقطاع الإتصالات وتقنية المعلومات: وضع خطط وآليات عمل تفصيلية لتطويرقطاع الإتصالات وتقنية المعلومات الليبي.</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </section>
+                        <div class="oe_structure"/>
+                    </div>
+                </t>
+            </t>
+        </field>
+    </record>
     <!--Organizational Structure-->
     <record id="organizational_structure_page" model="website.page">
         <field name="name">Organizational Structure</field>
@@ -114,7 +178,7 @@
                     <div id="wrap">
                         <section class="pt50 pb50">
                             <div class="container">
-                                <h3 class="hr_title_horizontal mb30">Organizational Structure</h3>
+                                <h3 class="hr_title_horizontal mb40">Organizational Structure</h3>
                                 <div class="faq-list">
                                     <div class="faq d-flex mb30 align-items-end">
                                         <div>
@@ -196,7 +260,7 @@
                     <div id="wrap">
                         <section class="pt50 pb50">
                             <div class="container">
-                                <h3 class="hr_title_horizontal mb30">Executive crew</h3>
+                                <h3 class="hr_title_horizontal mb40">Executive crew</h3>
                                 <div class="box_team d-flex align-items-center mt10 mb50" t-foreach="president"
                                      t-as="p">
                                     <img t-att-src="image_data_uri(p.image)" class="photo_team" t-if="p.image"/>
@@ -240,7 +304,7 @@
                     <div id="wrap">
                         <section class="pt50 pb50">
                             <div class="container">
-                                <h3 class="hr_title_horizontal mb30">Strategy</h3>
+                                <h3 class="hr_title_horizontal mb40">Strategy</h3>
                                 <div class="faq-list">
                                     <div class="faq d-flex mb30 align-items-end">
                                         <div>
@@ -308,7 +372,7 @@
                     <div id="wrap">
                         <section class="pt50 pb50">
                             <div class="container">
-                                <h3 class="hr_title_horizontal mb30">Programs and projects</h3>
+                                <h3 class="hr_title_horizontal mb40">Programs and projects</h3>
                                 <div class="d-flex justify-content-center align-items-center" style="min-height:200px;">
                                     <span class="text-content-empty">Sorry, there are no programs and projects at the
                                         moment
@@ -336,7 +400,7 @@
                     <div id="wrap">
                         <section class="pt50 pb50">
                             <div class="container">
-                                <h3 class="hr_title_horizontal mb30">International Relations</h3>
+                                <h3 class="hr_title_horizontal mb40">International Relations</h3>
                                 <p>The International Relations Office of the Public Authority for Communications and
                                     Informatics plays a very important role in stimulating and stimulating joint
                                     cooperation with the parties
@@ -364,57 +428,65 @@
     <!--=============MENU================-->
     <!--About us-->
     <record id="menu_aboutus" model="website.menu">
-        <field name="name">About us</field>
+        <field name="name">عن الهيئة</field>
         <field name="url">#</field>
         <field name="parent_id" ref="website.main_menu"/>
         <field name="sequence" type="int">20</field>
     </record>
     <!--who are we-->
     <record id="menu_whoarewe" model="website.menu">
-        <field name="name">Who are we</field>
+        <field name="name">من نحن</field>
         <field name="url">/who-are-we</field>
         <field name="page_id" ref="theme_cim.whoarewe_page"/>
         <field name="parent_id" ref="website.main_menu"/>
         <field name="sequence" type="int">21</field>
     </record>
-    <!--Organizational Structure-->
-    <record id="menu_organizational_structure" model="website.menu">
-        <field name="name">Organizational Structure</field>
-        <field name="url">/organizational-structure</field>
-        <field name="page_id" ref="theme_cim.organizational_structure_page"/>
+    <!--Vision, Mission and Goals:-->
+    <record id="menu_vision_mission_goals" model="website.menu">
+        <field name="name">الرؤية والرسالة والاهداف</field>
+        <field name="url">/vision-mission-goals</field>
+        <field name="page_id" ref="theme_cim.vision_mission_goals_page"/>
         <field name="parent_id" ref="website.main_menu"/>
         <field name="sequence" type="int">22</field>
     </record>
-    <!--Executive crew-->
-    <record id="menu_executive_crew" model="website.menu">
-        <field name="name">Executive crew</field>
-        <field name="url">/executive-crew</field>
-        <field name="page_id" ref="theme_cim.executive_crew_page"/>
+    <!--Organizational Structure-->
+    <record id="menu_organizational_structure" model="website.menu">
+        <field name="name">الهيكل التنظيمي</field>
+        <field name="url">/organizational-structure</field>
+        <field name="page_id" ref="theme_cim.organizational_structure_page"/>
         <field name="parent_id" ref="website.main_menu"/>
         <field name="sequence" type="int">23</field>
     </record>
-    <!--strategy-->
-    <record id="menu_strategy" model="website.menu">
-        <field name="name">Strategy</field>
-        <field name="url">/strategy</field>
-        <field name="page_id" ref="theme_cim.strategy_page"/>
+    <!--Executive crew-->
+    <record id="menu_executive_crew" model="website.menu">
+        <field name="name">الطاقم التنفيذي</field>
+        <field name="url">/executive-crew</field>
+        <field name="page_id" ref="theme_cim.executive_crew_page"/>
         <field name="parent_id" ref="website.main_menu"/>
         <field name="sequence" type="int">24</field>
     </record>
-    <!--Programs and projects-->
-    <record id="menu_programs_and_projects" model="website.menu">
-        <field name="name">Programs and projects</field>
-        <field name="url">/programs-and-projects</field>
-        <field name="page_id" ref="theme_cim.programs_and_projects_page"/>
+    <!--strategy-->
+    <record id="menu_strategy" model="website.menu">
+        <field name="name">الإستراتيجية</field>
+        <field name="url">/strategy</field>
+        <field name="page_id" ref="theme_cim.strategy_page"/>
         <field name="parent_id" ref="website.main_menu"/>
         <field name="sequence" type="int">25</field>
     </record>
+    <!--Programs and projects-->
+    <record id="menu_programs_and_projects" model="website.menu">
+        <field name="name">البرامج و المشروعات</field>
+        <field name="url">/programs-and-projects</field>
+        <field name="page_id" ref="theme_cim.programs_and_projects_page"/>
+        <field name="parent_id" ref="website.main_menu"/>
+        <field name="sequence" type="int">26</field>
+    </record>
     <!--International Relations-->
     <record id="menu_international_relations" model="website.menu">
-        <field name="name">International Relations</field>
+        <field name="name">العلاقات الدولية</field>
         <field name="url">/international-relations</field>
         <field name="page_id" ref="theme_cim.international_relations_page"/>
         <field name="parent_id" ref="website.main_menu"/>
-        <field name="sequence" type="int">26</field>
+        <field name="sequence" type="int">27</field>
     </record>
 </odoo>
