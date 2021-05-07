@@ -230,6 +230,54 @@
             </t>
         </field>
     </record>
+    <!--Our branches-->
+    <record id="our_branches_page" model="website.page">
+        <field name="name">Our branches</field>
+        <field name="url">/our-branches</field>
+        <field name="type">qweb</field>
+        <field name="website_indexed" eval="False"/>
+        <field name="is_published">True</field>
+        <field name="key">theme_cim.our_branches_page</field>
+        <field name="arch" type="xml">
+            <t name="Our branches" t-name="theme_cim.our_branches_page">
+                <t t-call="website.layout">
+                    <div id="wrap">
+                        <section class="pt50 pb50">
+                            <div class="container">
+                                <h3 class="hr_title_horizontal mb40">فروعنا</h3>
+                                <div class="faq-list">
+                                    <div class="faq d-flex mb30 align-items-end">
+                                        <div>
+                                            <h5 class="faq-title">الفرع الرئيسي</h5>
+                                            <p>يعتبر مقرالهيئة العامة للاتصالات والمعلوماتية في مدينة طرابلس الكائن في
+                                                شارع الزاوية هو الفرع الرئيسي للهيئة والذي يتولى مسؤولية الإشراف على
+                                                قطاع الاتصالات ورقابته وحماية مصالح المستخدمين ومزودي الخدمات وتنظيم
+                                                خدمات جميع شبكات الاتصالات في الدولة بكفاءة عالية بما يحقق الأداء الأمثل
+                                                لقطاع الاتصالات ويضمن الشفافية والمساواة والمنافسة الحرة.
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="faq d-flex mb30 align-items-end">
+                                        <div>
+                                            <h5 class="faq-title">فرع المنطقة الشرقية</h5>
+                                            <p></p>
+                                        </div>
+                                    </div>
+                                    <div class="faq d-flex mb30 align-items-end">
+                                        <div>
+                                            <h5 class="faq-title">فرع المنطقة الجنوبية</h5>
+                                            <p></p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                        <div class="oe_structure"/>
+                    </div>
+                </t>
+            </t>
+        </field>
+    </record>
     <!--Organizational Structure-->
     <record id="organizational_structure_page" model="website.page">
         <field name="name">Organizational Structure</field>
@@ -455,13 +503,21 @@
         <field name="parent_id" ref="website.main_menu"/>
         <field name="sequence" type="int">23</field>
     </record>
+    <!--Our branches-->
+    <record id="menu_our_branches" model="website.menu">
+        <field name="name">فروعنا</field>
+        <field name="url">/our-branches</field>
+        <field name="page_id" ref="theme_cim.our_branches_page"/>
+        <field name="parent_id" ref="website.main_menu"/>
+        <field name="sequence" type="int">24</field>
+    </record>
     <!--Organizational Structure-->
     <record id="menu_organizational_structure" model="website.menu">
         <field name="name">الهيكل التنظيمي</field>
         <field name="url">/organizational-structure</field>
         <field name="page_id" ref="theme_cim.organizational_structure_page"/>
         <field name="parent_id" ref="website.main_menu"/>
-        <field name="sequence" type="int">24</field>
+        <field name="sequence" type="int">25</field>
     </record>
     <!--Executive crew-->
     <record id="menu_executive_crew" model="website.menu">
@@ -469,7 +525,7 @@
         <field name="url">/executive-crew</field>
         <field name="page_id" ref="theme_cim.executive_crew_page"/>
         <field name="parent_id" ref="website.main_menu"/>
-        <field name="sequence" type="int">25</field>
+        <field name="sequence" type="int">26</field>
     </record>
     <!--Programs and projects-->
     <record id="menu_programs_and_projects" model="website.menu">
@@ -477,7 +533,7 @@
         <field name="url">/programs-and-projects</field>
         <field name="page_id" ref="theme_cim.programs_and_projects_page"/>
         <field name="parent_id" ref="website.main_menu"/>
-        <field name="sequence" type="int">26</field>
+        <field name="sequence" type="int">27</field>
     </record>
     <!--International Relations-->
     <record id="menu_international_relations" model="website.menu">
@@ -485,6 +541,6 @@
         <field name="url">/international-relations</field>
         <field name="page_id" ref="theme_cim.international_relations_page"/>
         <field name="parent_id" ref="website.main_menu"/>
-        <field name="sequence" type="int">27</field>
+        <field name="sequence" type="int">28</field>
     </record>
 </odoo>
