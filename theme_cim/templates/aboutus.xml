@@ -148,14 +148,80 @@
                                         <div>
                                             <h5 class="faq-title">الأهداف</h5>
                                             <ul>
-                                                <li>إعـــادة خدمــات الإتصالات: حل وإصلاح الأعطال والمشاكل الآنية الخاصة بالبنية التحتية لقطاع الإتصالات وتقنية المعلومات.</li>
-                                                <li>تطوير جودة الخدمات: رفع جودة خدمات الإتصالات وتقنية المعلومات للمستهلك النهائي.</li>
-                                                <li>تصميم الخطة الإستراتيجية لقطاع الإتصالات وتقنية المعلومات: وضع خطط وآليات عمل تفصيلية لتطويرقطاع الإتصالات وتقنية المعلومات الليبي.</li>
+                                                <li>إعـــادة خدمــات الإتصالات: حل وإصلاح الأعطال والمشاكل الآنية الخاصة
+                                                    بالبنية التحتية لقطاع الإتصالات وتقنية المعلومات.
+                                                </li>
+                                                <li>تطوير جودة الخدمات: رفع جودة خدمات الإتصالات وتقنية المعلومات
+                                                    للمستهلك النهائي.
+                                                </li>
+                                                <li>تصميم الخطة الإستراتيجية لقطاع الإتصالات وتقنية المعلومات: وضع خطط
+                                                    وآليات عمل تفصيلية لتطويرقطاع الإتصالات وتقنية المعلومات الليبي.
+                                                </li>
                                             </ul>
                                         </div>
                                     </div>
                                 </div>
 
+                            </div>
+                        </section>
+                        <div class="oe_structure"/>
+                    </div>
+                </t>
+            </t>
+        </field>
+    </record>
+    <!--Strategy-->
+    <record id="strategy_page" model="website.page">
+        <field name="name">Strategy</field>
+        <field name="url">/strategy</field>
+        <field name="type">qweb</field>
+        <field name="website_indexed" eval="False"/>
+        <field name="is_published">True</field>
+        <field name="key">theme_cim.strategy_page</field>
+        <field name="arch" type="xml">
+            <t name="Strategy" t-name="theme_cim.strategy_page">
+                <t t-call="website.layout">
+                    <div id="wrap">
+                        <section class="pt50 pb50">
+                            <div class="container">
+                                <h3 class="hr_title_horizontal mb40">الاستراتيجية</h3>
+                                <div class="faq-list">
+                                    <div class="faq d-flex mb30 align-items-end">
+                                        <div>
+                                            <h5 class="faq-title">إقامة بنية أساسية عالية المستوى للاتصالات</h5>
+                                            <p>أظهرت الخبرات المكتسبة على الصعيد الدولي ضرورة توفير البنية الأساسية
+                                                عالية المستوى للاتصالات وتقنية المعلومات لتطوير مختلف الأنشطة الاقتصادية
+                                                بالمجتمعات الحديثة، ولا يخفى أن الأخذ بمبدأ التنافسية يضمن استمرارية
+                                                البنية الأساسية والارتقاء المستمر بالخدمات للوفاء باحتياجات الأفراد
+                                                والشركات. وفي هذا الصدد، تستشرف الوزارة المستقبل بجهودها المبذولة
+                                                للتركيز على توفير أحدث التقنيات في سبيل دعم التنمية الاقتصادية
+                                                والاجتماعية على اختلاف مستوياتها.
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="faq d-flex mb30 align-items-end">
+                                        <div>
+                                            <h5 class="faq-title">إصلاح قطاع البريد</h5>
+                                            <p>تدرك الحكومة الليبية أن الخدمة البريدية القوية ذات الأداء العالمي التي
+                                                تعمل داخل سوق بريدي تنافسي يمكنها العمل كأداة قيمة في تحقيق أهداف
+                                                التنمية الوطنية، إذ يمكن للخدمات البريدية الفعالة خفض قيمة المعاملات
+                                                المالية وغيرها من معاملات الشركات مما يعني تعزيز مبدأ التنافسية على
+                                                المستوى الوطن.
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="faq d-flex mb30 align-items-end">
+                                        <div>
+                                            <h5 class="faq-title">الارتقاء بالإطار المنظم لشبكات الاتصالات وتقنية
+                                                المعلومات وخدماتها
+                                            </h5>
+                                            <p>تدرك ليبيا أهمية التكامل مع الإطار الدولي للاتصالات وتقنية المعلومات
+                                                كوسيلة لتحقيق أهدافها المنشودة في قطاع الاتصالات وتقنية المعلومات
+                                                الليبي.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </section>
                         <div class="oe_structure"/>
@@ -290,74 +356,6 @@
             </t>
         </field>
     </record>
-    <!--Strategy-->
-    <record id="strategy_page" model="website.page">
-        <field name="name">Strategy</field>
-        <field name="url">/strategy</field>
-        <field name="type">qweb</field>
-        <field name="website_indexed" eval="False"/>
-        <field name="is_published">True</field>
-        <field name="key">theme_cim.strategy_page</field>
-        <field name="arch" type="xml">
-            <t name="Strategy" t-name="theme_cim.strategy_page">
-                <t t-call="website.layout">
-                    <div id="wrap">
-                        <section class="pt50 pb50">
-                            <div class="container">
-                                <h3 class="hr_title_horizontal mb40">Strategy</h3>
-                                <div class="faq-list">
-                                    <div class="faq d-flex mb30 align-items-end">
-                                        <div>
-                                            <h5 class="faq-title mb10">Establish a high-level communications
-                                                infrastructure
-                                            </h5>
-                                            <p>The experiences gained at the international level have shown the
-                                                necessity to provide a high-level infrastructure for communications and
-                                                information technology for the development of various economic
-                                                activities
-                                                In modern societies, it is no secret that adopting the principle of
-                                                competitiveness guarantees the continuity of the infrastructure and the
-                                                continuous improvement of services to meet the needs of individuals and
-                                                companies. And in
-                                                In this regard, the Ministry looks forward to the future with its
-                                                efforts to focus on providing the latest technologies in order to
-                                                support economic and social development of all kinds.
-                                                Their levels
-                                            </p>
-                                        </div>
-                                    </div>
-                                    <div class="faq d-flex mb30 align-items-end">
-                                        <div>
-                                            <h5 class="faq-title mb10">Post sector reform</h5>
-                                            <p>The Libyan government realizes that a strong, world-class postal service
-                                                operating within a competitive postal market can act as a valuable tool
-                                                in achieving development goals.
-                                                National, as effective postal services can reduce the value of financial
-                                                and other corporate transactions, which means enhancing the principle of
-                                                competitiveness at the national level
-                                            </p>
-                                        </div>
-                                    </div>
-                                    <div class="faq d-flex mb30 align-items-end">
-                                        <div>
-                                            <h5 class="faq-title mb10">Upgrading the regulatory framework for
-                                                communication networks
-                                            </h5>
-                                            <p>Libya recognizes the importance of integration with the International
-                                                Telecommunication and Information Technology Framework as a means to
-                                                achieve its desired goals in the Libyan ICT sector
-                                            </p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </section>
-                        <div class="oe_structure"/>
-                    </div>
-                </t>
-            </t>
-        </field>
-    </record>
     <!--Programs and projects-->
     <record id="programs_and_projects_page" model="website.page">
         <field name="name">Programs and projects</field>
@@ -449,27 +447,27 @@
         <field name="parent_id" ref="website.main_menu"/>
         <field name="sequence" type="int">22</field>
     </record>
+    <!--strategy-->
+    <record id="menu_strategy" model="website.menu">
+        <field name="name">الإستراتيجية</field>
+        <field name="url">/strategy</field>
+        <field name="page_id" ref="theme_cim.strategy_page"/>
+        <field name="parent_id" ref="website.main_menu"/>
+        <field name="sequence" type="int">23</field>
+    </record>
     <!--Organizational Structure-->
     <record id="menu_organizational_structure" model="website.menu">
         <field name="name">الهيكل التنظيمي</field>
         <field name="url">/organizational-structure</field>
         <field name="page_id" ref="theme_cim.organizational_structure_page"/>
         <field name="parent_id" ref="website.main_menu"/>
-        <field name="sequence" type="int">23</field>
+        <field name="sequence" type="int">24</field>
     </record>
     <!--Executive crew-->
     <record id="menu_executive_crew" model="website.menu">
         <field name="name">الطاقم التنفيذي</field>
         <field name="url">/executive-crew</field>
         <field name="page_id" ref="theme_cim.executive_crew_page"/>
-        <field name="parent_id" ref="website.main_menu"/>
-        <field name="sequence" type="int">24</field>
-    </record>
-    <!--strategy-->
-    <record id="menu_strategy" model="website.menu">
-        <field name="name">الإستراتيجية</field>
-        <field name="url">/strategy</field>
-        <field name="page_id" ref="theme_cim.strategy_page"/>
         <field name="parent_id" ref="website.main_menu"/>
         <field name="sequence" type="int">25</field>
     </record>
