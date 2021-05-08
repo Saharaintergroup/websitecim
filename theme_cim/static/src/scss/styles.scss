@@ -2,7 +2,7 @@
     &:after{
         content:'';
         display:block;
-        width:50px;
+        width:40px;
         border-top: 3px solid;
         margin-top:12px;
     }
@@ -557,6 +557,10 @@
                 }
             }
         }
+        a{
+            color:#ffffff;
+            opacity:1;
+        }
     }
 }
 
@@ -746,5 +750,27 @@
     }
     .modal-header{
         border-bottom:0;
+    }
+}
+
+/**/
+.box_services{
+    display:block;
+    background-color:white;
+    border-radius:10px;
+    text-align:center;
+    padding:30px 30px 50px;
+    text-decoration:none!important;
+    height:100%;
+    img{
+        padding-bottom:40px;
+    }
+    h6{
+        color:$color-blue-3;
+        position:absolute;
+        bottom:0;
+        left:0;
+        right:0;
+        padding-bottom:30px;
     }
 }

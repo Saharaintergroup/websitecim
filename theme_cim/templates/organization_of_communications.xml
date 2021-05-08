@@ -15,195 +15,93 @@
                     <div id="wrap">
                         <section class="pt50 pb50">
                             <div class="container">
-                                <h3 class="hr_title_horizontal mb30">Organization of communications</h3>
-                                <div class="row mb40">
-                                    <div class="col-md-10">
-                                        <h5 class="mb20">The Public Communications Authority is concerned with
-                                            communications and information technology affairs and represents the highest
-                                            authority
-                                        </h5>
-                                        <p>The Public Communications Authority is concerned with communications and
-                                            information technology affairs and represents the highest authority
-                                            responsible for the telecommunications sector in Libya. Its headquarters is
-                                            located in the city of Tripoli (the company's headquarters
-                                            General Post and Telecommunications). It was able to achieve many
-                                            achievements by linking the various regions of Libya after the
-                                            communications infrastructure was cut and vandalized during the months of
-                                            the revolution.
-                                            In addition to restoring communications, post and internet services, and
-                                            completing some important strategic projects in an effort to contribute to
-                                            the reunification and reconstruction of Libya, this body is chaired by the
-                                            president.
-                                            Commissioned by the President of the General Communications Authority, it
-                                            deals with communications and information technology affairs and represents
-                                            the highest authority responsible for the telecommunications sector in
-                                            Libya. It is headquartered in the city of
-                                            Tripoli (the headquarters of the General Post and Telecommunications
-                                            Company) was able to achieve many achievements by linking the various
-                                            regions of Libya after the communication infrastructure was severed.
-                                            And sabotage during the months of the revolution, in addition to restoring
-                                            communications, post and internet services, and completing some important
-                                            strategic projects in an effort to contribute to the reunification and
-                                            reconstruction of Libya.
-                                            This body is chaired by a president assigned by a president
-                                        </p>
-                                    </div>
-                                </div>
-                                <div class="row mb40">
-                                    <div class="col-md-7">
-                                        <h5 class="mb20">The Public Communications Authority is concerned with
-                                            communications and information technology affairs and represents the
-                                            highest
-                                            authority
-                                        </h5>
-                                        <p>The Public Communications Authority is concerned with communications
-                                            and
-                                            information technology affairs and represents the highest authority
-                                            responsible for the telecommunications sector in Libya. Its
-                                            headquarters is
-                                            located in the city of Tripoli (the company's headquarters
-                                            General Post and Telecommunications). It was able to achieve many
-                                            achievements by linking the various regions of Libya after the
-                                            communications infrastructure was cut and vandalized during the
-                                            months of
-                                            the revolution.
-                                            In addition to restoring communications, post and internet services,
-                                            and
-                                            completing some important strategic projects in an effort to
-                                            contribute to
-                                            the reunification and reconstruction of Libya, this body is chaired
-                                            by the
-                                            president.
-                                            Commissioned by the President of the General Communications
-                                            Authority, it
-                                            deals with communications and information technology affairs and
-                                            represents
-                                            the highest authority responsible for the telecommunications sector
-                                            in
-                                            Libya. It is headquartered in the city of
-                                            Tripoli (the headquarters of the General Post and Telecommunications
-                                            Company) was able to achieve many achievements by linking the
-                                            various
-                                            regions of Libya after the communication infrastructure was severed.
-                                            And sabotage during the months of the revolution, in addition to
-                                            restoring
-                                            communications, post and internet services, and completing some
-                                            important
-                                            strategic projects in an effort to contribute to the reunification
-                                            and
-                                            reconstruction of Libya.
-                                            This body is chaired by a president assigned by a president
-                                        </p>
-                                    </div>
-                                    <div class="col-md-5">
-                                        <div class="mb20">
-                                            <img src="/theme_cim/static/src/images/pexels-kaboompics-com-6224.png"
-                                                 class="img-fluid"/>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="row mb40">
-                                    <div class="col-md-10">
-                                        <h5 class="mb20">The Public Communications Authority is concerned with
-                                            communications and information technology affairs and represents the highest
-                                            authority
-                                        </h5>
-                                        <p>The Public Communications Authority is concerned with communications and
-                                            information technology affairs and represents the highest authority
-                                            responsible for the telecommunications sector in Libya. Its headquarters is
-                                            located in the city of Tripoli (the company's headquarters
-                                            General Post and Telecommunications). It was able to achieve many
-                                            achievements by linking the various regions of Libya after the
-                                            communications infrastructure was cut and vandalized during the months of
-                                            the revolution.
-                                            In addition to restoring communications, post and internet services, and
-                                            completing some important strategic projects in an effort to contribute to
-                                            the reunification and reconstruction of Libya, this body is chaired by the
-                                            president.
-                                            Commissioned by the President of the General Communications Authority, it
-                                            deals with communications and information technology affairs and represents
-                                            the highest authority responsible for the telecommunications sector in
-                                            Libya. It is headquartered in the city of
-                                            Tripoli (the headquarters of the General Post and Telecommunications
-                                            Company) was able to achieve many achievements by linking the various
-                                            regions of Libya after the communication infrastructure was severed.
-                                            And sabotage during the months of the revolution, in addition to restoring
-                                            communications, post and internet services, and completing some important
-                                            strategic projects in an effort to contribute to the reunification and
-                                            reconstruction of Libya.
-                                            This body is chaired by a president assigned by a president
-                                        </p>
-                                    </div>
-                                </div>
-
                                 <div class="faq-list">
-                                    <h3 class="hr_title_horizontal mb30">Work related files</h3>
                                     <div class="faq">
-                                        <div class="row justify-content-between align-items-end mb30 mt30">
-                                            <div class="col-10">
-                                                <h5 class="faq-title">The Public Communications Authority is concerned
-                                                    with the
-                                                    affairs of communications and information technology
-                                                </h5>
-                                                <p>Ioty Ariri Dollar In Reprihenderit Folyoptate Fillioptate Ace Kylium
-                                                    Dollar Aio Vegate Aioti Ariri Dollar In A ReprehinderAti FolioPatty
-                                                    Fillette Ace Killium Acei Fillium Dollar Aio Vegate
+                                        <div class="row justify-content-between  mb30 mt30">
+                                            <div class="col-md-6">
+                                                <h3 class="hr_title_horizontal mb30">تنظيم الإتصالات</h3>
+                                                <p>إدارة التنظيم هي الجهة المسئولة عن تنظيم قطاع الاتصالات في ليبيا
+                                                    وتتولى تنظيم قطاع الاتصالات وتكنولوجيا المعلومات وقطاع البريد
+                                                    والنفاذ إلى الإعلام الرقمي.
                                                 </p>
-                                                <p>Ioti Ariri Dollar in Reprihenderit Folyopatty Fillet Ice Essence
-                                                    Killlyum Dollar Io Vegite Aeasy Killium Dollar Io Vegite
+                                                <p>كما تعمل على تشجيع ودعم قطاع اتصالات مفتوح وتنافسي لضمان توفير خدمات
+                                                    اتصالات مبتكرة ومتقدمة وموثوق بها مع الالتزام الكامل بتحقيق التوازن
+                                                    بين حقوق المستهلكين وتلبية احتياجات مقدمي الخدمة، وضمان نوعية
+                                                    الخدمات بما يتطابق مع شروط الرخصة من قبل المرخصين.
                                                 </p>
                                             </div>
-                                            <div class="col-auto mb10">
-                                                <a href="#" class="download"><img
-                                                        src="/theme_cim/static/src/images/icon/cloud-computing.svg"/>&amp;nbsp;Download
-                                                </a>
+                                            <div class="col-md-4">
+                                                <img src="/theme_cim/static/src/images/organization_of_communications.png"
+                                                     class="img-fluid"/>
                                             </div>
                                         </div>
                                     </div>
-
                                     <div class="faq">
-                                        <div class="row justify-content-between align-items-end mb30 mt30">
-                                            <div class="col-10">
-                                                <h5 class="faq-title">The Public Communications Authority is concerned
-                                                    with the
-                                                    affairs of communications and information technology
+                                        <div class="row justify-content-between  mb30 mt30">
+                                            <div class="col-md-10">
+                                                <h5 class="mb20">تتولى إدارة تنظيم الاتصالات المهام والمسؤوليات التالية
+                                                    :
                                                 </h5>
-                                                <p>Ioty Ariri Dollar In Reprihenderit Folyoptate Fillioptate Ace Kylium
-                                                    Dollar Aio Vegate Aioti Ariri Dollar In A ReprehinderAti FolioPatty
-                                                    Fillette Ace Killium Acei Fillium Dollar Aio Vegate
+                                                <ul>
+                                                    <li>تنظيم خدمات الإتصالات وتكنولوجيا المعلومات في ليبيا وفقا للسياسة
+                                                        العامة المقررة لضمان تقديم خدمات الإتصالات وتكنولوجيا المعلومات
+                                                        للمستفيدين بسوية عالية وأسعار معقولة وبما يحقق الأداء الأمثل
+                                                        لقطاعي الإتصالات وتكنولوجيا المعلومات.
+                                                    </li>
+                                                    <li>حماية مصالح المستفيدين ومراقبة الأشخاص والجهات المرخص لها للتأكد
+                                                        من الالتزام بشروط الرخصة بما في ذلك مواصفات الخدمات المقدمة
+                                                        وجودتها وأسعارها واتخاذ الإجراءات اللازمة لهذه الغاية ومعاقبة من
+                                                        يخالف هذه الشروط.
+                                                    </li>
+                                                    <li>وضع واعتماد شروط ومعايير منح رخص شبكات وخدمات الإتصالات واستخدام
+                                                        الترددات الراديوية.
+                                                    </li>
+                                                    <li>إدارة طيف الترددات الراديوية وتنظيم استخدام جميع الترددات
+                                                        الأرضية والبحرية والجوية والفضائية.
+                                                    </li>
+                                                    <li>وضــع القواعد الفنية والمقاييس لربط أجهزة الإتصالات السلكية أو
+                                                        اللاسلكية ، بما في ذلك أجهزة الإتصالات الطرفية ، مع شبكات
+                                                        الإتصالات العامة .
+                                                    </li>
+                                                    <li>منح الموافقات النوعية وتنظيم إدخال واستعمال أجهزة الإتصالات
+                                                        الطرفية اللازمة للاستخدامات الفردية والخاصة أو للاستعمال في
+                                                        مناطق محددة ومراقبة ذلك الاستخدام.
+                                                    </li>
+                                                </ul>
+                                                <p>للإستفسار يرجى مراسلة البريد الإلكتروني
+                                                (<a href="mailto:reg@cim.gov.ly">reg@cim.gov.ly</a>)
                                                 </p>
-                                                <p>Ioti Ariri Dollar in Reprihenderit Folyopatty Fillet Ice Essence
-                                                    Killlyum Dollar Io Vegite Aeasy Killium Dollar Io Vegite
-                                                </p>
-                                            </div>
-                                            <div class="col-auto mb10">
-                                                <a href="#" class="download"><img
-                                                        src="/theme_cim/static/src/images/icon/cloud-computing.svg"/>&amp;nbsp;Download
-                                                </a>
                                             </div>
                                         </div>
                                     </div>
+                                </div>
 
-                                    <div class="faq">
-                                        <div class="row justify-content-between align-items-end mb30 mt30">
-                                            <div class="col-10">
-                                                <h5 class="faq-title">The Public Communications Authority is concerned
-                                                    with the
-                                                    affairs of communications and information technology
-                                                </h5>
-                                                <p>Ioty Ariri Dollar In Reprihenderit Folyoptate Fillioptate Ace Kylium
-                                                    Dollar Aio Vegate Aioti Ariri Dollar In A ReprehinderAti FolioPatty
-                                                    Fillette Ace Killium Acei Fillium Dollar Aio Vegate
-                                                </p>
-                                                <p>Ioti Ariri Dollar in Reprihenderit Folyopatty Fillet Ice Essence
-                                                    Killlyum Dollar Io Vegite Aeasy Killium Dollar Io Vegite
-                                                </p>
-                                            </div>
-                                            <div class="col-auto mb10">
-                                                <a href="#" class="download"><img
-                                                        src="/theme_cim/static/src/images/icon/cloud-computing.svg"/>&amp;nbsp;Download
-                                                </a>
-                                            </div>
+                                <div class="">
+                                    <h3 class="hr_title_horizontal mb40">الخدمات التي تقدمها إدارة التنظيم</h3>
+                                    <div class="row">
+                                        <div class="col-3">
+                                            <a href="" class="box_services">
+                                                <img src="/theme_cim/static/src/images/services/numbering_and_added_services.png" class="img-fluid"/>
+                                                <h6>الترقيم والخدمات المضافة</h6>
+                                            </a>
+                                        </div>
+                                        <div class="col-3">
+                                            <a href="" class="box_services">
+                                                <img src="/theme_cim/static/src/images/services/telecommunications_services_licenses.png" class="img-fluid"/>
+                                                <h6>تراخيص خدمات الإتصالات</h6>
+                                            </a>
+                                        </div>
+                                        <div class="col-3">
+                                            <a href="" class="box_services">
+                                                <img src="/theme_cim/static/src/images/services/qualitative_accreditation.png" class="img-fluid"/>
+                                                <h6>الإعتماد النوعي</h6>
+                                            </a>
+                                        </div>
+                                        <div class="col-3">
+                                            <a href="" class="box_services">
+                                                <img src="/theme_cim/static/src/images/services/frequency_spectrum.png" class="img-fluid"/>
+                                                <h6>الطيف الترددى</h6>
+                                            </a>
                                         </div>
                                     </div>
                                 </div>
