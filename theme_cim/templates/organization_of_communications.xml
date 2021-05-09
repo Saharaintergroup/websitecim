@@ -32,7 +32,7 @@
                                             </div>
                                             <div class="col-md-4">
                                                 <img src="/theme_cim/static/src/images/organization_of_communications.png"
-                                                     class="img-fluid"/>
+                                                     class="img-fluid img_organization_of_communications"/>
                                             </div>
                                         </div>
                                     </div>
@@ -69,37 +69,58 @@
                                                     </li>
                                                 </ul>
                                                 <p>للإستفسار يرجى مراسلة البريد الإلكتروني
-                                                (<a href="mailto:reg@cim.gov.ly">reg@cim.gov.ly</a>)
+                                                    (<a href="mailto:reg@cim.gov.ly">reg@cim.gov.ly</a>)
                                                 </p>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
 
-                                <div class="">
+                                <div>
                                     <h3 class="hr_title_horizontal mb40">الخدمات التي تقدمها إدارة التنظيم</h3>
                                     <div class="row">
-                                        <div class="col-3">
-                                            <a href="" class="box_services">
-                                                <img src="/theme_cim/static/src/images/services/numbering_and_added_services.png" class="img-fluid"/>
+                                        <div class="col-sm-6 col-lg-3">
+                                            <a href="" class="box_services" style="direction:ltr!important;">
+                                                <div class="icon">
+                                                                                                    <img src="/theme_cim/static/src/images/services/three-cubes.png"
+                                                     class="icon_service"/>
+                                                <img src="/theme_cim/static/src/images/services/ellipse.png"
+                                                     class="icon_ellipse"/>
+                                                </div>
+
                                                 <h6>الترقيم والخدمات المضافة</h6>
                                             </a>
                                         </div>
-                                        <div class="col-3">
+                                        <div class="col-sm-6 col-lg-3">
                                             <a href="" class="box_services">
-                                                <img src="/theme_cim/static/src/images/services/telecommunications_services_licenses.png" class="img-fluid"/>
+                                                <div class="icon">
+                                                <img src="/theme_cim/static/src/images/services/licensing.png"
+                                                     class="icon_service"/>
+                                                <img src="/theme_cim/static/src/images/services/ellipse.png"
+                                                     class="icon_ellipse"/>
+                                                </div>
                                                 <h6>تراخيص خدمات الإتصالات</h6>
                                             </a>
                                         </div>
-                                        <div class="col-3">
-                                            <a href="" class="box_services">
-                                                <img src="/theme_cim/static/src/images/services/qualitative_accreditation.png" class="img-fluid"/>
+                                        <div class="col-sm-6 col-lg-3">
+                                            <a href="" class="box_services card">
+                                                <div class="icon">
+                                                <img src="/theme_cim/static/src/images/services/id-card.png"
+                                                     class="icon_service"/>
+                                                <img src="/theme_cim/static/src/images/services/ellipse.png"
+                                                     class="icon_ellipse"/>
+                                                </div>
                                                 <h6>الإعتماد النوعي</h6>
                                             </a>
                                         </div>
-                                        <div class="col-3">
-                                            <a href="" class="box_services">
-                                                <img src="/theme_cim/static/src/images/services/frequency_spectrum.png" class="img-fluid"/>
+                                        <div class="col-sm-6 col-lg-3">
+                                            <a href="" class="box_services signal">
+                                                <div class="icon">
+                                                <img src="/theme_cim/static/src/images/services/signal.png"
+                                                     class="icon_service"/>
+                                                <img src="/theme_cim/static/src/images/services/ellipse.png"
+                                                     class="icon_ellipse"/>
+                                                </div>
                                                 <h6>الطيف الترددى</h6>
                                             </a>
                                         </div>

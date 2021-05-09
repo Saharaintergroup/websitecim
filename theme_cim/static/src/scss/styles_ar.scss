@@ -1,0 +1,71 @@
+/*.box_services{
+
+    .icon_ellipse{
+        right:30px;
+        left:auto;
+        top:70px;
+    }
+    .icon_service{
+        left:30px;
+        right:auto;
+        top:40px;
+    }
+    &.signal{
+        .icon_service{
+            left:45px;
+            right:auto;
+        }
+        .icon_ellipse{
+            right:45px;
+            left:auto;
+        }
+    }
+    &.card{
+        .icon_service{
+           top:60px;
+        }
+    }
+    &:hover{
+        .icon_service{
+            transform:translateX(-10px);
+        }
+        .icon_ellipse{
+            transform:translate(20px,20px) scale(0.80);
+        }
+    }
+}*/
+.box_services{
+    .icon_ellipse{
+        right:0;
+        left:auto;
+        top:70px;
+    }
+    .icon_service{
+        left:0;
+        right:auto;
+        top:40px;
+    }
+    &.signal{
+        .icon_service{
+            left:0;
+            right:auto;
+        }
+        .icon_ellipse{
+            right:0;
+            left:auto;
+        }
+    }
+    &.card{
+        .icon_service{
+           top:60px;
+        }
+    }
+    &:hover{
+        .icon_service{
+            transform:translateX(10px)!important;
+        }
+        .icon_ellipse{
+            transform:translate(-20px,20px) scale(0.80)!important;
+        }
+    }
+}
