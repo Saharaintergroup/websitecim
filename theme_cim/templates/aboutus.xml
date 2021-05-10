@@ -436,11 +436,30 @@
                         <section class="pt50 pb50">
                             <div class="container">
                                 <h3 class="hr_title_horizontal mb40">القرارات</h3>
-                                <div class="d-flex justify-content-center align-items-center" style="min-height:200px;">
-                                    <span class="text-content-empty">عذرا ، لا توجد قرارات في
-                                        الوقت الحاضر
-                                    </span>
+                                <div class="faq-list">
+                                    <div class="faq">
+                                        <div class="row justify-content-between align-items-end mb30 mt30"
+                                             t-foreach="decisions" t-as="item">
+                                            <div class="col-10">
+                                                <h5 class="faq-title" t-esc="item.name"/>
+                                                <div class="row">
+                                                    <div class="col-auto">
+                                                        <span t-esc="item.date"/>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-auto">
+                                                <a t-att-href="item.datas"
+                                                   t-att-download="item.name" class="download"><img
+                                                        src="/theme_cim/static/src/images/icon/cloud-computing.svg"/>&amp;nbsp;تحميل
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
+                                <t t-call="website.pager">
+                                    <t t-set="_classes">mt40 justify-content-center</t>
+                                </t>
                             </div>
                         </section>
                         <div class="oe_structure"/>

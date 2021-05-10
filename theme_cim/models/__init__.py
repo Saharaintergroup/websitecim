@@ -7,3 +7,4 @@ from . import teams
 from . import public_announcements
 from . import jobs
 from . import bids
+from . import decisions

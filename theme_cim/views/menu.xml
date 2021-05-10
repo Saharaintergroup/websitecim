@@ -8,51 +8,55 @@
                   groups="base.group_user"
                   web_icon="theme_cim,static/description/icon.png"/>
 
-        <menuitem id="cim_home_menu" name="Home"
+        <menuitem id="cim_home_menu" name="الرئيسية"
                   sequence="1"
                   parent="cim_menu_root"/>
 
-        <menuitem id="cim_slider_news_menu" name="Slider Home"
+        <menuitem id="cim_slider_news_menu" name="الاخبار"
                   sequence="1"
                   parent="cim_home_menu"
                   action="slider_home_action"/>
 
-        <menuitem id="cim_ticker_news_menu" name="Ticker news"
+        <menuitem id="cim_ticker_news_menu" name="موجز الاخبار"
                   sequence="2"
                   parent="cim_home_menu"
                   action="ticker_news_action"/>
 
-        <menuitem id="cim_company_partners_menu" name="Partners"
+        <menuitem id="cim_company_partners_menu" name="الجهات التابعة"
                   sequence="3"
                   parent="cim_home_menu"
                   action="company_partners_action"/>
 
-        <menuitem id="cim_aboutus_menu" name="About us"
+        <menuitem id="cim_aboutus_menu" name="عن الهيئة"
                   sequence="2"
                   parent="cim_menu_root"/>
 
-        <menuitem id="cim_teams_menu" name="Teams"
+        <menuitem id="cim_teams_menu" name="الطاقم التنفيذي"
                   sequence="1"
                   parent="cim_aboutus_menu"
                   action="teams_action"/>
 
+        <menuitem id="cim_decisions_menu" name="القرارات"
+                  sequence="1"
+                  parent="cim_aboutus_menu"
+                  action="decisions_action"/>
         <!--================================-->
         <!--==Announcements==-->
-        <menuitem id="cim_announcements_menu" name="Announcements"
+        <menuitem id="cim_announcements_menu" name="الإعلانات"
                   sequence="3"
                   parent="cim_menu_root"/>
         <!--Public announcements-->
-        <menuitem id="cim_public_announcements_menu" name="Public announcements"
+        <menuitem id="cim_public_announcements_menu" name="الإعلانات العامة"
                   sequence="1"
                   parent="cim_announcements_menu"
                   action="public_announcements_action"/>
         <!--obs-->
-        <menuitem id="cim_available_jobs_menu" name="Jobs"
+        <menuitem id="cim_available_jobs_menu" name="الوظائف المتاحة"
                   sequence="2"
                   parent="cim_announcements_menu"
                   action="jobs_action"/>
         <!--Bids-->
-        <menuitem id="cim_bids_menu" name="Bids"
+        <menuitem id="cim_bids_menu" name="العطاءات"
                   sequence="3"
                   parent="cim_announcements_menu"
                   action="bids_action"/>
@@ -61,12 +65,12 @@
         <!--==Setting==-->
         <menuitem
                 id="cim_config_settings_menu"
-                name="Settings"
+                name="الإعدادات"
                 parent="cim_menu_root"
                 groups="base.group_system"
                 sequence="90"/>
         <!--Department-->
-        <menuitem id="cim_jobs_department_menu" name="Department"
+        <menuitem id="cim_jobs_department_menu" name="القسم"
                   sequence="1"
                   parent="cim_config_settings_menu"
                   action="jobs_department_action"/>

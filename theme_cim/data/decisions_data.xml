@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data noupdate="0">
+
+        <record id="decisions_1" model="decisions">
+            <field name="name">قرار مجلس الوزراء باعتماد الهيكل التنظيمي واختصاصات وزارة الاتصالات.</field>
+            <field name="date" eval="datetime(2013, 4, 1).date()"/>
+            <field name="datas" type="base64" file="theme_cim/static/src/data/decisions/pdf_16.pdf"/>
+        </record>
+
+        <record id="decisions_2" model="decisions">
+            <field name="name">قرار إنشاء الهيئة الوطنية لأمن و سلامة المعلومات</field>
+            <field name="date" eval="datetime(2013, 1, 22).date()"/>
+            <field name="datas" type="base64" file="theme_cim/static/src/data/decisions/pdf_15.pdf"/>
+        </record>
+
+        <record id="decisions_3" model="decisions">
+            <field name="name">قرار مجلس الوزراء بتسمية الوكلاء والوكلاء المساعدين</field>
+            <field name="date" eval="datetime(2013, 1, 6).date()"/>
+            <field name="datas" type="base64" file="theme_cim/static/src/data/decisions/pdf_14.pdf"/>
+        </record>
+
+        <record id="decisions_4" model="decisions">
+            <field name="name">قرار بشأن إنشاء فروع لوزارة الاتصالات والمعلوماتية</field>
+            <field name="date" eval="datetime(2012, 3, 19).date()"/>
+            <field name="datas" type="base64" file="theme_cim/static/src/data/decisions/pdf_12.pdf"/>
+        </record>
+
+        <record id="decisions_5" model="decisions">
+            <field name="name">قرار مجلس الوزراء بتسمية وكيلين مساعدين لوزارة الاتصالات و المعلوماتية</field>
+            <field name="date" eval="datetime(2012, 3, 4).date()"/>
+            <field name="datas" type="base64" file="theme_cim/static/src/data/decisions/pdf_11.pdf"/>
+        </record>
+
+        <record id="decisions_6" model="decisions">
+            <field name="name">قرار بتشكيل مجلس إدارة شركة ليبيانا للهاتف المحمول</field>
+            <field name="date" eval="datetime(2012, 2, 22).date()"/>
+            <field name="datas" type="base64" file="theme_cim/static/src/data/decisions/pdf_3.pdf"/>
+        </record>
+
+        <record id="decisions_7" model="decisions">
+            <field name="name">قرار بتشكيل مجلس إدارة شركة البنية للاستثمار و الخدمات</field>
+            <field name="date" eval="datetime(2012, 2, 22).date()"/>
+            <field name="datas" type="base64" file="theme_cim/static/src/data/decisions/pdf_4.pdf"/>
+        </record>
+
+        <record id="decisions_8" model="decisions">
+            <field name="name">قرار بتشكيل مجلس إدارة شركة المدار الجديد</field>
+            <field name="date" eval="datetime(2012, 2, 22).date()"/>
+            <field name="datas" type="base64" file="theme_cim/static/src/data/decisions/pdf_5.pdf"/>
+        </record>
+
+        <record id="decisions_9" model="decisions">
+            <field name="name">قرار بتشكيل مجلس إدارة شركة الجيل الجديد للتقنية</field>
+            <field name="date" eval="datetime(2012, 2, 22).date()"/>
+            <field name="datas" type="base64" file="theme_cim/static/src/data/decisions/pdf_6.pdf"/>
+        </record>
+
+        <record id="decisions_10" model="decisions">
+            <field name="name">قرار بتشكيل مجلس إدارة شركة ليبيا للاتصالات و التقنية</field>
+            <field name="date" eval="datetime(2012, 2, 22).date()"/>
+            <field name="datas" type="base64" file="theme_cim/static/src/data/decisions/pdf_7.pdf"/>
+        </record>
+
+        <record id="decisions_11" model="decisions">
+            <field name="name">قرار بتشكيل مجلس إدارة شركة الاتصالات الدولية الليبية</field>
+            <field name="date" eval="datetime(2012, 2, 22).date()"/>
+            <field name="datas" type="base64" file="theme_cim/static/src/data/decisions/pdf_8.pdf"/>
+        </record>
+
+        <record id="decisions_12" model="decisions">
+            <field name="name">قرار بتشكيل مجلس إدارة شركة هاتف ليبيا</field>
+            <field name="date" eval="datetime(2012, 2, 22).date()"/>
+            <field name="datas" type="base64" file="theme_cim/static/src/data/decisions/pdf_9.pdf"/>
+        </record>
+
+        <record id="decisions_13" model="decisions">
+            <field name="name">قرار بتشكيل مجلس إدارة شركة بريد ليبيا</field>
+            <field name="date" eval="datetime(2012, 2, 22).date()"/>
+            <field name="datas" type="base64" file="theme_cim/static/src/data/decisions/pdf_10.pdf"/>
+        </record>
+
+        <record id="decisions_14" model="decisions">
+            <field name="name">قرار تكليف مدير عام للشركة الليبية للبريد والاتصالات وتقنية المعلومات</field>
+            <field name="date" eval="datetime(2012, 2, 21).date()"/>
+            <field name="datas" type="base64" file="theme_cim/static/src/data/decisions/pdf_2.pdf"/>
+        </record>
+
+        <record id="decisions_15" model="decisions">
+            <field name="name">قرار تأسيس مجلس إدارة الشركة الليبية للبريد والاتصالات وتقنية المعلومات</field>
+            <field name="date" eval="datetime(2012, 2, 1).date()"/>
+            <field name="datas" type="base64" file="theme_cim/static/src/data/decisions/pdf_1.pdf"/>
+        </record>
+
+    </data>
+</odoo>

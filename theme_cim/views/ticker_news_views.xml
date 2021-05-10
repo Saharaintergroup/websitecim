@@ -31,13 +31,13 @@
             </field>
         </record>
         <record id="ticker_news_action" model="ir.actions.act_window">
-            <field name="name">Ticker News</field>
+            <field name="name">موجز الاخبار</field>
             <field name="type">ir.actions.act_window</field>
             <field name="res_model">ticker.news</field>
             <field name="view_mode">tree,form</field>
             <field name="help" type="html">
                 <p class="o_view_nocontent_smiling_face">
-                    Ticker news for home page.
+                    صفحة الأخبار.
                 </p>
             </field>
         </record>

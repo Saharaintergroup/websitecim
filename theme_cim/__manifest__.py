@@ -39,10 +39,12 @@
         "views/public_announcements_views.xml",
         "views/jobs_views.xml",
         "views/bids_views.xml",
+        "views/decisions_views.xml",
         "views/menu.xml",
         # data
         "data/company_partners_data.xml",
         "data/teams_data.xml",
+        "data/decisions_data.xml",
     ],
     'images': [
         'static/description/cover.png',

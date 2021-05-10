@@ -121,8 +121,7 @@
                                                     </div>
                                                 </div>
                                                 <div class="col-auto">
-                                                    <a t-att-href="attachment.local_url" class="download"
-                                                       t-att-download="attachment.name"><img
+                                                    <a t-att-href="attachment.local_url" class="download" target="_blank"><img
                                                             src="/theme_cim/static/src/images/icon/cloud-computing.svg"/>&amp;nbsp;Download
                                                     </a>
                                                 </div>
@@ -142,7 +141,7 @@
         <!--=============MENU================-->
         <!--Bids-->
         <record id="menu_bids" model="website.menu">
-            <field name="name">List of bids</field>
+            <field name="name">العطاءات</field>
             <field name="url">/bids</field>
             <field name="page_id" ref="theme_cim.bids_page"/>
             <field name="parent_id" ref="website.main_menu"/>

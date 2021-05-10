@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <!--=======================Decisions==========================-->
+        <!--Tree View-->
+        <record id="view_decisions_tree" model="ir.ui.view">
+            <field name="name">decisions.tree</field>
+            <field name="model">decisions</field>
+            <field name="arch" type="xml">
+                <tree>
+                    <field name="name"/>
+                    <field name="date"/>
+                </tree>
+            </field>
+        </record>
+        <!--Form View-->
+        <record id="view_decisions_form" model="ir.ui.view">
+            <field name="name">decisions.form</field>
+            <field name="model">decisions</field>
+            <field name="priority" eval="1"/>
+            <field name="arch" type="xml">
+                <form string="Decisions">
+                    <sheet>
+                        <div class="oe_title">
+                            <label class="oe_edit_only" for="name" string="اسم القرار"/>
+                            <h1>
+                                <field name="name" placeholder="اسم القرار"/>
+                            </h1>
+                        </div>
+                        <group>
+                            <group>
+                                <field name="date"/>
+                                <field name="datas"/>
+                            </group>
+                        </group>
+                    </sheet>
+                </form>
+            </field>
+        </record>
+        <!--Form View-->
+        <record id="decisions_action" model="ir.actions.act_window">
+            <field name="name">القرارات</field>
+            <field name="type">ir.actions.act_window</field>
+            <field name="res_model">decisions</field>
+            <field name="view_mode">tree,form</field>
+            <field name="help" type="html">
+                <p class="o_view_nocontent_smiling_face">
+                    إنشاء قرارات جديدة.
+                </p>
+            </field>
+        </record>
+
+    </data>
+</odoo>

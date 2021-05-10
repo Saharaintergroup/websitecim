@@ -36,13 +36,13 @@
         </record>
         <!--Action-->
         <record id="public_announcements_action" model="ir.actions.act_window">
-            <field name="name">Public Announcements</field>
+            <field name="name">الإعلانات العامة</field>
             <field name="type">ir.actions.act_window</field>
             <field name="res_model">public.announcements</field>
             <field name="view_mode">tree,form</field>
             <field name="help" type="html">
                 <p class="o_view_nocontent_smiling_face">
-                    Create new public announcements.
+                    إنشاء إعلانات عامة جديدة.
                 </p>
             </field>
         </record>
