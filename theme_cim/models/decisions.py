@@ -9,5 +9,5 @@ class Decisions(models.Model):
     _name = "decisions"
     _description = "Decisions"
     name = fields.Char(string="الإ سم", required=True, translate=True)
-    datas = fields.Binary('الملف', attachment=True)
+    attachment_id = fields.Many2one('ir.attachment',string='الملف')
     date = fields.Date(string='تاريخ الإصدار')

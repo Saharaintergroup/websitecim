@@ -449,8 +449,7 @@
                                                 </div>
                                             </div>
                                             <div class="col-auto">
-                                                <a t-att-href="item.datas"
-                                                   t-att-download="item.name" class="download"><img
+                                                <a t-att-href="item.attachment_id.local_url" target="_blank" class="download"><img
                                                         src="/theme_cim/static/src/images/icon/cloud-computing.svg"/>&amp;nbsp;تحميل
                                                 </a>
                                             </div>
