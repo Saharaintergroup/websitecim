@@ -12,7 +12,7 @@ class Decisions(http.Controller):
             url='/decisions',
             total=total,
             page=page,
-            step=9,
+            step=10,
         )
         offset = pager['offset']
         decisions = decisions[offset: offset + 10]
