@@ -69,3 +69,11 @@
         }
     }
 }
+
+.list_box_num_title{
+    .box_num_title{
+        &::after {
+            background-image:url('../images/icon/triangle-ar.svg');
+        }
+    }
+}

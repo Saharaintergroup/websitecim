@@ -31,7 +31,7 @@
                                                 </p>
                                             </div>
                                             <div class="col-md-4">
-                                                <img src="/theme_cim/static/src/images/organization_of_communications.png"
+                                                <img src="/theme_cim/static/src/images/services/organization_of_communications.png"
                                                      class="img-fluid img_organization_of_communications"/>
                                             </div>
                                         </div>
@@ -80,12 +80,13 @@
                                     <h3 class="hr_title_horizontal mb40">الخدمات التي تقدمها إدارة التنظيم</h3>
                                     <div class="row">
                                         <div class="col-sm-6 col-lg-3">
-                                            <a href="" class="box_services" style="direction:ltr!important;">
+                                            <a href="/numbering-and-added-services" class="box_services"
+                                               style="direction:ltr!important;">
                                                 <div class="icon">
-                                                                                                    <img src="/theme_cim/static/src/images/services/three-cubes.png"
-                                                     class="icon_service"/>
-                                                <img src="/theme_cim/static/src/images/services/ellipse.png"
-                                                     class="icon_ellipse"/>
+                                                    <img src="/theme_cim/static/src/images/services/three-cubes.png"
+                                                         class="icon_service"/>
+                                                    <img src="/theme_cim/static/src/images/services/ellipse.png"
+                                                         class="icon_ellipse"/>
                                                 </div>
 
                                                 <h6>الترقيم والخدمات المضافة</h6>
@@ -94,10 +95,10 @@
                                         <div class="col-sm-6 col-lg-3">
                                             <a href="" class="box_services">
                                                 <div class="icon">
-                                                <img src="/theme_cim/static/src/images/services/licensing.png"
-                                                     class="icon_service"/>
-                                                <img src="/theme_cim/static/src/images/services/ellipse.png"
-                                                     class="icon_ellipse"/>
+                                                    <img src="/theme_cim/static/src/images/services/licensing.png"
+                                                         class="icon_service"/>
+                                                    <img src="/theme_cim/static/src/images/services/ellipse.png"
+                                                         class="icon_ellipse"/>
                                                 </div>
                                                 <h6>تراخيص خدمات الإتصالات</h6>
                                             </a>
@@ -105,10 +106,10 @@
                                         <div class="col-sm-6 col-lg-3">
                                             <a href="" class="box_services card">
                                                 <div class="icon">
-                                                <img src="/theme_cim/static/src/images/services/id-card.png"
-                                                     class="icon_service"/>
-                                                <img src="/theme_cim/static/src/images/services/ellipse.png"
-                                                     class="icon_ellipse"/>
+                                                    <img src="/theme_cim/static/src/images/services/id-card.png"
+                                                         class="icon_service"/>
+                                                    <img src="/theme_cim/static/src/images/services/ellipse.png"
+                                                         class="icon_ellipse"/>
                                                 </div>
                                                 <h6>الإعتماد النوعي</h6>
                                             </a>
@@ -116,10 +117,10 @@
                                         <div class="col-sm-6 col-lg-3">
                                             <a href="" class="box_services signal">
                                                 <div class="icon">
-                                                <img src="/theme_cim/static/src/images/services/signal.png"
-                                                     class="icon_service"/>
-                                                <img src="/theme_cim/static/src/images/services/ellipse.png"
-                                                     class="icon_ellipse"/>
+                                                    <img src="/theme_cim/static/src/images/services/signal.png"
+                                                         class="icon_service"/>
+                                                    <img src="/theme_cim/static/src/images/services/ellipse.png"
+                                                         class="icon_ellipse"/>
                                                 </div>
                                                 <h6>الطيف الترددى</h6>
                                             </a>
@@ -128,6 +129,254 @@
                                 </div>
                             </div>
                         </section>
+                        <div class="oe_structure"/>
+                    </div>
+                </t>
+            </t>
+        </field>
+    </record>
+
+    <!--Numbering and added services-->
+    <record id="numbering_and_added_services_page" model="website.page">
+        <field name="name">Numbering and added services</field>
+        <field name="url">/numbering-and-added-services</field>
+        <field name="type">qweb</field>
+        <field name="website_indexed" eval="False"/>
+        <field name="is_published">True</field>
+        <field name="key">theme_cim.numbering_and_added_services_page</field>
+        <field name="arch" type="xml">
+            <t name="Numbering and added services" t-name="theme_cim.numbering_and_added_services_page">
+                <t t-call="website.layout">
+                    <div id="wrap">
+                        <section class="pt50 pb50">
+                            <div class="container">
+                                <div class="faq-list">
+                                    <div class="faq">
+                                        <div class="row justify-content-between  mb30 mt30">
+                                            <div class="col-md-6">
+                                                <h3 class="hr_title_horizontal mb30">الترقيم والخدمات المضافة</h3>
+                                                <p>لقد قامت الهيئة العامة للاتصالات والمعلوماتية بموجب قوانينها المستمدة
+                                                    من قانون الاتصالات في ليبيا ومع ما هو متبع حول العالم عند فتح أسواق
+                                                    الاتصالات للمنافسة الحرة، من إعداد القواعد التنظيمية والإجراءات
+                                                    التنفيذية لإيجاد بيئة تنافسية تتميز بالشفافية والمساواة والفعالية،
+                                                    وذلك لتلبية الطلب المتزايد على استخدام موارد الترقيم والخدمات
+                                                    المضافة بمختلف أنواعها
+                                                </p>
+                                            </div>
+                                            <div class="col-md-4">
+                                                <img src="/theme_cim/static/src/images/services/numbering-and-added-services.png"
+                                                     class="img-fluid img_organization_of_communications"/>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="faq">
+                                        <div class="row justify-content-between  mb30 mt30">
+                                            <div class="col-md-10">
+                                                <h5 class="mb20">خدمات القسم تشمل كل من الآتي</h5>
+                                                <ul>
+                                                    <li>إدارة وتنفيذ وتطبيق وتطوير خطة الترقيم</li>
+                                                    <li>إصدار تراخيص استعمال موارد الترقيم وفق التعرفة</li>
+                                                    <li>استلام نماذج تخصيص موارد الترقيم لمشغلي شبكات الهاتف الثابت
+                                                        والمحمول، ومزودي خدمات الاتصالات بأنواعها ولمستخدميها
+                                                    </li>
+                                                    <li>المساهمة في تنظيم الربط البيني بين مشغلي شبكات الهاتف المختلفة
+                                                    </li>
+                                                    <li>مراقبة صلاحية مدة الخدمات ومتابعة الإلتزامات المالية لصالح
+                                                        الإدارة
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="faq">
+                                        <div class="row justify-content-between  mb30 mt30">
+                                            <div class="col-md-10">
+                                                <h5 class="mb20">الخطة الوطنية للترقيم</h5>
+                                                <p>تم تجهيز الخطة الوطنية للترقيم لتشتمل على رموز الاتصال ونطاقات
+                                                    الأرقام لمشغلي شبكات الاتصال ومقدمي خدماتها وأسس تخصيص الأرقام
+                                                    وإدارتها.
+                                                    حيث تضع الخطة التي تشمل الهواتف الثابتة والمحمولة والخدمات المضافة،
+                                                    الأسس التنظيمية والفنية المتعلقة بتشكيل الأرقام وتوزيعها وتخصيصها
+                                                    وأسس إدارة الترقيم وتسعيره. تشمل خطة الترقيم بيانات تفصيلية حول
+                                                    التزامات الإدارة والتزامات مشغلي ومقدمي خدمات الاتصالات. وتوضح الفرق
+                                                    بين
+                                                    مختلف أنواع الأرقام مثل الأرقام الجغرافية والغير جغرافية وأرقام
+                                                    شبكات الهواتف المحمولة وأرقام الخدمات الدولية
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+
+                        <section>
+                            <div class="container">
+                                <h3 class="hr_title_horizontal mb30">أهداف خطة الترقيم</h3>
+                            </div>
+                            <div class="list_box_num_title pt50 pb50">
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <div class="box_num_title d-flex justify-content-between align-items-center pulse">
+                                                <h6>دعم وتطوير البيئة التنافسية</h6>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="box_num_title d-flex justify-content-between align-items-center pulse">
+                                                <h6>وضع ضوابط تنظيمية لحجز وتخصيص الأرقام</h6>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="box_num_title d-flex justify-content-between align-items-center pulse">
+                                                <h6>وضع ضوابط تنظيمية لحجز وتخصيص الأرقام</h6>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="box_num_title d-flex justify-content-between align-items-center pulse">
+                                                <h6>توسيع خدمات الاتصالات المحلية والدولية</h6>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="box_num_title d-flex justify-content-between align-items-center pulse">
+                                                <h6>تمكين وتسهيل الإجراءات لمقدمي خدمات اتصالات جدد
+                                                    من دخول السوق
+                                                </h6>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="box_num_title d-flex justify-content-between align-items-center pulse">
+                                                <h6>مواكبة التطور التقني الخاص بشبكات الاتصالات وخدماتها</h6>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                        <section class="pb20 pt40">
+                            <div class="container">
+                                <h3 class="hr_title_horizontal mb30">طريقة طلب تخصيص رقم للخدمات المضافة من الهيئة</h3>
+                                <div class="list_box_steps">
+                                    <div class="row">
+                                        <div class="col-md-6 col-lg-3 mt10 mb10">
+                                            <div class="box_step rounded">
+                                                <h5 class="mb20"># الخطوة الاولي</h5>
+                                                <p>
+                                                    إحضار رسالة من الجهة طالبة الخدمة، توضح فيه الرقم المطلوب والغرض
+                                                    منه، مع
+                                                    شرح وافٍ لها
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6 col-lg-3 mt10 mb10">
+                                            <div class="box_step rounded">
+                                                <h5 class="mb20"># الخطوة الثانية</h5>
+                                                <p>تعبئة نموذج طلب التخصيص للرقم المطلوب من طرف الجهة الطالبة، واعتماده
+                                                    من
+                                                    المشغل إن كان مطلوباً، بحسب النموذج
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6 col-lg-3 mt10 mb10">
+                                            <div class="box_step rounded">
+                                                <h5 class="mb20"># الخطوة الثالثة</h5>
+                                                <p>إحضار الموافقة على تفعيل الخدمة من "الهيئة العامة للمطبوعات
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6 col-lg-3 mt10 mb10">
+                                            <div class="box_step rounded">
+                                                <h5 class="mb20"># الخطوة الرابعة</h5>
+                                                <p>تسليم النموذج المعبأ لقسم الترقيم بالهيئة مرفقاً معه صكاً مصدقاً
+                                                    بقيمة
+                                                    التعرفة السنوية للرقم / للأرقام المطلوبة
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+
+                        <section class="pt20 pb20">
+                            <div class="container">
+                                <div class="faq-list">
+                                    <div class="faq">
+                                        <div class="row justify-content-between align-items-center mb30 mt30">
+                                            <div class="col-10">
+                                                <h5 class="faq-title mb0">نموذج اتفاق التعرفة وموضوع الخدمة المضافة للرسائل القصيرة - للشركات المزودة المرخص لها فقط</h5>
+                                            </div>
+                                            <div class="col-auto">
+                                                <a href="theme_cim/static/src/data/numbering_and_added_services/43.pdf" target="_blank" class="download"><img
+                                                        src="/theme_cim/static/src/images/icon/cloud-computing.svg"/>&amp;nbsp;تحميل
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="row justify-content-between align-items-center mb30 mt30">
+                                            <div class="col-10">
+                                                <h5 class="faq-title mb0">نموذج طلب تخصيص الأرقام القصيرة المجانية (14XX)</h5>
+                                            </div>
+                                            <div class="col-auto">
+                                                <a href="/theme_cim/static/src/data/numbering_and_added_services/43.pdf" target="_blank" class="download"><img
+                                                        src="/theme_cim/static/src/images/icon/cloud-computing.svg"/>&amp;nbsp;تحميل
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="row justify-content-between align-items-center mb30 mt30">
+                                            <div class="col-10">
+                                                <h5 class="faq-title mb0">نموذج طلب تخصيص الأرقام القصيرة الغير مجانية (15XX)</h5>
+                                            </div>
+                                            <div class="col-auto">
+                                                <a href="/theme_cim/static/src/data/numbering_and_added_services/45.pdf" target="_blank" class="download"><img
+                                                        src="/theme_cim/static/src/images/icon/cloud-computing.svg"/>&amp;nbsp;تحميل
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="row justify-content-between align-items-center mb30 mt30">
+                                            <div class="col-10">
+                                                <h5 class="faq-title mb0">نموذج طلب تخصيص الأرقام المجانية (0800XXXXXXXX)</h5>
+                                            </div>
+                                            <div class="col-auto">
+                                                <a href="/theme_cim/static/src/data/numbering_and_added_services/46.pdf" target="_blank" class="download"><img
+                                                        src="/theme_cim/static/src/images/icon/cloud-computing.svg"/>&amp;nbsp;تحميل
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="row justify-content-between align-items-center mb30 mt30">
+                                            <div class="col-10">
+                                                <h5 class="faq-title mb0">نموذج طلب تخصيص الأرقام المميزة (0900XXXXXXXX)</h5>
+                                            </div>
+                                            <div class="col-auto">
+                                                <a href="/theme_cim/static/src/data/numbering_and_added_services/47.pdf" target="_blank" class="download"><img
+                                                        src="/theme_cim/static/src/images/icon/cloud-computing.svg"/>&amp;nbsp;تحميل
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="row justify-content-between align-items-center mb30 mt30">
+                                            <div class="col-10">
+                                                <h5 class="faq-title mb0">جدول 2 قيم تعرفة تخصيص أرقام خدمات القيمة المضافة والقصيرة والمجانية وذات التعرفة المميزة.</h5>
+                                            </div>
+                                            <div class="col-auto">
+                                                <a href="/theme_cim/static/src/data/numbering_and_added_services/18.pdf" target="_blank" class="download"><img
+                                                        src="/theme_cim/static/src/images/icon/cloud-computing.svg"/>&amp;nbsp;تحميل
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="row justify-content-between align-items-center mb30 mt30">
+                                            <div class="col-10">
+                                                <h5 class="faq-title mb0">جدول 3 تصنيف وبيان أرقام خدمات القيمة المضافة</h5>
+                                            </div>
+                                            <div class="col-auto">
+                                                <a href="/theme_cim/static/src/data/numbering_and_added_services/67.pdf" target="_blank" class="download"><img
+                                                        src="/theme_cim/static/src/images/icon/cloud-computing.svg"/>&amp;nbsp;تحميل
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+
                         <div class="oe_structure"/>
                     </div>
                 </t>
