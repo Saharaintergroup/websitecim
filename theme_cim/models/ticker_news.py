@@ -8,7 +8,7 @@ class TickerNews(models.Model):
     _name = "ticker.news"
     _description = "Website Slider Home"
     name = fields.Char(string="Number", readonly=True, required=True, copy=False, default='New')
-    description = fields.Text(string='Description', required=True, translate=True)
+    description = fields.Text(string='تفاصيل عن الخبر', required=True, translate=True)
 
     @api.model
     def create(self, vals):

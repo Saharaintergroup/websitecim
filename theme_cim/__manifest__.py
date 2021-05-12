@@ -6,7 +6,7 @@
     'description': 'Cim website theme',
     'category': 'Theme',
     'sequence': 1,
-    'version': '1.7.6',
+    'version': '1.7.7',
     'depends': ['base', 'website', 'website_form'],
     'data': [
         # security
@@ -40,11 +40,13 @@
         "views/jobs_views.xml",
         "views/bids_views.xml",
         "views/decisions_views.xml",
+        "views/numbering_models_views.xml",
         "views/menu.xml",
         # data
         "data/company_partners_data.xml",
         "data/teams_data.xml",
         "data/decisions_data.xml",
+        "data/numbering_models_data.xml",
     ],
     'images': [
         'static/description/cover.png',

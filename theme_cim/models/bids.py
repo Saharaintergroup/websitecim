@@ -3,8 +3,6 @@ from odoo import api, fields, models, _, tools
 from odoo.exceptions import ValidationError
 
 
-
-
 class Bids(models.Model):
     _name = "bids"
     _description = "Bids"
@@ -19,7 +17,8 @@ class Bids(models.Model):
         domain = [('company_id', '=', company_id)]
         return self.env['website'].search(domain, limit=1)
 
-    website_id = fields.Many2one('website', string="Website", ondelete='restrict', default=_default_website, domain="[('company_id', '=?', company_id)]")
+    website_id = fields.Many2one('website', string="Website", ondelete='restrict', default=_default_website,
+                                 domain="[('company_id', '=?', company_id)]")
     company_id = fields.Many2one('res.company', 'Company')
     name = fields.Char(string="Title", required=True, translate=True)
     description = fields.Text(string='Description', required=True, translate=True)
@@ -31,7 +30,8 @@ class Bids(models.Model):
     attachment_number = fields.Integer('Number of Attachments', compute='_compute_attachment_number')
 
     def _compute_attachment_number(self):
-        attachment_data = self.env['ir.attachment'].read_group([('res_model', '=', 'bids'), ('res_id', 'in', self.ids)], ['res_id'], ['res_id'])
+        attachment_data = self.env['ir.attachment'].read_group([('res_model', '=', 'bids'), ('res_id', 'in', self.ids)],
+                                                               ['res_id'], ['res_id'])
         attachment = dict((data['res_id'], data['res_id_count']) for data in attachment_data)
         for bids in self:
             bids.attachment_number = attachment.get(bids.id, 0)

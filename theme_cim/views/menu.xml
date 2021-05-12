@@ -2,7 +2,7 @@
 <odoo>
     <data>
         <!-- Menu CIM Root -->
-        <menuitem name="CIM"
+        <menuitem name="الهيئة العامة للإتصالات و المعلوماتية"
                   id="cim_menu_root"
                   sequence="9"
                   groups="base.group_user"
@@ -40,6 +40,7 @@
                   sequence="1"
                   parent="cim_aboutus_menu"
                   action="decisions_action"/>
+
         <!--================================-->
         <!--==Announcements==-->
         <menuitem id="cim_announcements_menu" name="الإعلانات"
@@ -60,6 +61,21 @@
                   sequence="3"
                   parent="cim_announcements_menu"
                   action="bids_action"/>
+
+        <!--================================-->
+        <!--==Our business==-->
+        <menuitem id="cim_our_business_menu" name="أعمالنا"
+                  sequence="4"
+                  parent="cim_menu_root"/>
+        <!--Organization of communications-->
+        <menuitem id="cim_organization_of_communications_menu" name="تنظيم الإتصالات"
+                  sequence="1"
+                  parent="cim_our_business_menu"/>
+        <!--Bids-->
+        <menuitem id="cim_numbering_and_added_services_menu" name="الترقيم والخدمات المضافة"
+                  sequence="1"
+                  parent="cim_organization_of_communications_menu"
+                  action="numbering_models_action"/>
 
         <!--================================-->
         <!--==Setting==-->

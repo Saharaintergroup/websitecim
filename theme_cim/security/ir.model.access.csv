@@ -28,3 +28,6 @@ access_bids_designer,bids.designer,theme_cim.model_bids,website.group_website_de
 
 access_decisions_public,decisions.public,theme_cim.model_decisions,,1,0,0,0
 access_decisions_designer,decisions.designer,theme_cim.model_decisions,website.group_website_designer,1,1,1,1
+
+access_numbering_models_public,numbering.models.public,theme_cim.model_numbering_models,,1,0,0,0
+access_numbering_models_designer,numbering.models.designer,theme_cim.model_numbering_models,website.group_website_designer,1,1,1,1

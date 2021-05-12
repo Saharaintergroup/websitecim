@@ -585,7 +585,7 @@
 
     <!--Contact us-->
     <record id="menu_contact_cim" model="website.menu">
-        <field name="name">Contact us</field>
+        <field name="name">إتصل بنا</field>
         <field name="url">/contact-us</field>
         <field name="page_id" ref="theme_cim.contactus_main"/>
         <field name="parent_id" ref="website.main_menu"/>
@@ -593,7 +593,7 @@
     </record>
     <!--ask president-->
     <record id="menu_ask_president" model="website.menu">
-        <field name="name">Ask the president</field>
+        <field name="name">اسأل الرئيس</field>
         <field name="url">/ask-president</field>
         <field name="page_id" ref="theme_cim.ask_president"/>
         <field name="parent_id" ref="website.main_menu"/>
@@ -601,7 +601,7 @@
     </record>
     <!--common questions-->
     <record id="menu_common_questions" model="website.menu">
-        <field name="name">Common questions</field>
+        <field name="name">الأسئلة الشائعة</field>
         <field name="url">/common-questions</field>
         <field name="page_id" ref="theme_cim.common_questions"/>
         <field name="parent_id" ref="website.main_menu"/>
@@ -609,7 +609,7 @@
     </record>
     <!--proposals-->
     <record id="menu_proposals" model="website.menu">
-        <field name="name">Proposals</field>
+        <field name="name">المقترحات</field>
         <field name="url">/proposals</field>
         <field name="page_id" ref="theme_cim.proposals"/>
         <field name="parent_id" ref="website.main_menu"/>
@@ -617,7 +617,7 @@
     </record>
     <!--Contact branches-->
     <record id="menu_contact_branches" model="website.menu">
-        <field name="name">Contact branches</field>
+        <field name="name">إتصال الفروع</field>
         <field name="url">/contact-branches</field>
         <field name="page_id" ref="theme_cim.contact_branches"/>
         <field name="parent_id" ref="website.main_menu"/>
@@ -625,7 +625,7 @@
     </record>
     <!--General complaints-->
     <record id="menu_general_complaints" model="website.menu">
-        <field name="name">General complaints</field>
+        <field name="name">الشكاوي العامة</field>
         <field name="url">/general-complaints</field>
         <field name="page_id" ref="theme_cim.general_complaints"/>
         <field name="parent_id" ref="website.main_menu"/>

@@ -52,14 +52,14 @@
         </record>
 
         <record id="menu_indications" model="website.menu">
-            <field name="name">Indications</field>
+            <field name="name">المؤشرات المحلية</field>
             <field name="url">/local-indicators</field>
             <field name="parent_id" ref="website.main_menu"/>
             <field name="sequence" type="int">40</field>
         </record>
         <!--Local indicators-->
         <record id="menu_local_indicators" model="website.menu">
-            <field name="name">Local indicators</field>
+            <field name="name">المؤشرات المحلية</field>
             <field name="url">/local-indicators</field>
             <field name="page_id" ref="theme_cim.local_indicators"/>
             <field name="parent_id" ref="website.main_menu"/>
@@ -67,7 +67,7 @@
         </record>
         <!--International indicators-->
         <record id="menu_international_indicators" model="website.menu">
-            <field name="name">International indicators</field>
+            <field name="name">المؤشرات الدولية</field>
             <field name="url">/international-indicators</field>
             <field name="page_id" ref="theme_cim.international_indicators"/>
             <field name="parent_id" ref="website.main_menu"/>

@@ -302,72 +302,12 @@
                             <div class="container">
                                 <div class="faq-list">
                                     <div class="faq">
-                                        <div class="row justify-content-between align-items-center mb30 mt30">
+                                        <div class="row justify-content-between align-items-center mb30 mt30" t-foreach="numbering_models" t-as="item">
                                             <div class="col-10">
-                                                <h5 class="faq-title mb0">نموذج اتفاق التعرفة وموضوع الخدمة المضافة للرسائل القصيرة - للشركات المزودة المرخص لها فقط</h5>
+                                                <h5 class="faq-title mb0" t-esc="item.name"/>
                                             </div>
                                             <div class="col-auto">
-                                                <a href="theme_cim/static/src/data/numbering_and_added_services/43.pdf" target="_blank" class="download"><img
-                                                        src="/theme_cim/static/src/images/icon/cloud-computing.svg"/>&amp;nbsp;تحميل
-                                                </a>
-                                            </div>
-                                        </div>
-                                        <div class="row justify-content-between align-items-center mb30 mt30">
-                                            <div class="col-10">
-                                                <h5 class="faq-title mb0">نموذج طلب تخصيص الأرقام القصيرة المجانية (14XX)</h5>
-                                            </div>
-                                            <div class="col-auto">
-                                                <a href="/theme_cim/static/src/data/numbering_and_added_services/43.pdf" target="_blank" class="download"><img
-                                                        src="/theme_cim/static/src/images/icon/cloud-computing.svg"/>&amp;nbsp;تحميل
-                                                </a>
-                                            </div>
-                                        </div>
-                                        <div class="row justify-content-between align-items-center mb30 mt30">
-                                            <div class="col-10">
-                                                <h5 class="faq-title mb0">نموذج طلب تخصيص الأرقام القصيرة الغير مجانية (15XX)</h5>
-                                            </div>
-                                            <div class="col-auto">
-                                                <a href="/theme_cim/static/src/data/numbering_and_added_services/45.pdf" target="_blank" class="download"><img
-                                                        src="/theme_cim/static/src/images/icon/cloud-computing.svg"/>&amp;nbsp;تحميل
-                                                </a>
-                                            </div>
-                                        </div>
-                                        <div class="row justify-content-between align-items-center mb30 mt30">
-                                            <div class="col-10">
-                                                <h5 class="faq-title mb0">نموذج طلب تخصيص الأرقام المجانية (0800XXXXXXXX)</h5>
-                                            </div>
-                                            <div class="col-auto">
-                                                <a href="/theme_cim/static/src/data/numbering_and_added_services/46.pdf" target="_blank" class="download"><img
-                                                        src="/theme_cim/static/src/images/icon/cloud-computing.svg"/>&amp;nbsp;تحميل
-                                                </a>
-                                            </div>
-                                        </div>
-                                        <div class="row justify-content-between align-items-center mb30 mt30">
-                                            <div class="col-10">
-                                                <h5 class="faq-title mb0">نموذج طلب تخصيص الأرقام المميزة (0900XXXXXXXX)</h5>
-                                            </div>
-                                            <div class="col-auto">
-                                                <a href="/theme_cim/static/src/data/numbering_and_added_services/47.pdf" target="_blank" class="download"><img
-                                                        src="/theme_cim/static/src/images/icon/cloud-computing.svg"/>&amp;nbsp;تحميل
-                                                </a>
-                                            </div>
-                                        </div>
-                                        <div class="row justify-content-between align-items-center mb30 mt30">
-                                            <div class="col-10">
-                                                <h5 class="faq-title mb0">جدول 2 قيم تعرفة تخصيص أرقام خدمات القيمة المضافة والقصيرة والمجانية وذات التعرفة المميزة.</h5>
-                                            </div>
-                                            <div class="col-auto">
-                                                <a href="/theme_cim/static/src/data/numbering_and_added_services/18.pdf" target="_blank" class="download"><img
-                                                        src="/theme_cim/static/src/images/icon/cloud-computing.svg"/>&amp;nbsp;تحميل
-                                                </a>
-                                            </div>
-                                        </div>
-                                        <div class="row justify-content-between align-items-center mb30 mt30">
-                                            <div class="col-10">
-                                                <h5 class="faq-title mb0">جدول 3 تصنيف وبيان أرقام خدمات القيمة المضافة</h5>
-                                            </div>
-                                            <div class="col-auto">
-                                                <a href="/theme_cim/static/src/data/numbering_and_added_services/67.pdf" target="_blank" class="download"><img
+                                                <a t-att-href="item.attachment_id.local_url" target="_blank" class="download"><img
                                                         src="/theme_cim/static/src/images/icon/cloud-computing.svg"/>&amp;nbsp;تحميل
                                                 </a>
                                             </div>

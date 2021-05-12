@@ -79,14 +79,14 @@
         <!--=============MENU================-->
         <!--Announcements-->
         <record id="menu_announcements" model="website.menu">
-            <field name="name">Announcements</field>
+            <field name="name">الإعلانات</field>
             <field name="url">#</field>
             <field name="parent_id" ref="website.main_menu"/>
             <field name="sequence" type="int">50</field>
         </record>
         <!--Public announcements-->
         <record id="menu_public_announcements" model="website.menu">
-            <field name="name">Public announcements</field>
+            <field name="name">الإعلانات العامة</field>
             <field name="url">/public-announcements</field>
             <field name="page_id" ref="theme_cim.public_announcements_page"/>
             <field name="parent_id" ref="website.main_menu"/>

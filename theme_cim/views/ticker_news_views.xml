@@ -37,14 +37,14 @@
             <field name="view_mode">tree,form</field>
             <field name="help" type="html">
                 <p class="o_view_nocontent_smiling_face">
-                    صفحة الأخبار.
+                    صفحة موجز الاخبار.
                 </p>
             </field>
         </record>
 
         <!-- Sequences for ticker.news -->
         <record id="seq_ticker_news" model="ir.sequence">
-            <field name="name">Ticker News</field>
+            <field name="name">موجز الاخبار</field>
             <field name="code">self.ticker_news</field>
             <field name="prefix">N</field>
             <field name="padding">3</field>

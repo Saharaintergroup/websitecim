@@ -5,10 +5,10 @@ from odoo import api, fields, models, _, tools
 class TeamsTeams(models.Model):
     _name = "teams.teams"
     _description = "Teams"
-    name = fields.Char(string="Name", required=True, translate=True)
-    job_position = fields.Char(string='Job Position', required=True, translate=True)
-    image = fields.Image("Photo")
-    is_president = fields.Boolean("Is President",default=False)
+    name = fields.Char(string="الإسم", required=True, translate=True)
+    job_position = fields.Char(string='الوظيفة', required=True, translate=True)
+    image = fields.Image("الصورة")
+    is_president = fields.Boolean("هو الرئيس؟", default=False)
 
     def write(self, vals):
         if vals.get('is_president'):

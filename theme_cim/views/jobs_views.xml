@@ -27,15 +27,15 @@
                                     class="oe_stat_button"
                                     icon="fa-users"
                                     type="object">
-                                <field name="candidate_number" widget="statinfo" string="Candidate"
+                                <field name="candidate_number" widget="statinfo" string="المترشحين"
                                        options="{'reload_on_button': true}"/>
                             </button>
                         </div>
                         <field name="image" widget='image' class="oe_avatar"/>
                         <div class="oe_title">
-                            <label class="oe_edit_only" for="name" string="Job Name"/>
+                            <label class="oe_edit_only" for="name" string="إسم الوظيفة"/>
                             <h1>
-                                <field name="name" placeholder="Job Name"/>
+                                <field name="name" placeholder="إسم الوظيفة"/>
                             </h1>
                         </div>
                         <group>
@@ -45,18 +45,18 @@
                             </group>
                         </group>
                         <notebook>
-                            <page string="Description primary">
+                            <page string="الوصف الأساسي">
                                 <group>
                                     <field name="description_primary" nolabel="1"/>
                                 </group>
                             </page>
-                            <page string="Details">
+                            <page string="التفاصيل">
                                 <group>
                                     <group>
-                                        <h4>Must be available</h4>
+                                        <h4>يجب توافرها</h4>
                                     </group>
                                     <group>
-                                        <h4>Requirements</h4>
+                                        <h4>الحد الأدني من المتطلبات</h4>
                                     </group>
                                     <group>
                                         <field name="must_be_available" nolabel="1"/>
@@ -67,7 +67,7 @@
                                 </group>
                                 <group>
                                     <group>
-                                        <h4>Responsibilities</h4>
+                                        <h4>المسؤوليات</h4>
                                     </group>
                                     <group/>
                                     <group>
@@ -75,7 +75,7 @@
                                     </group>
                                 </group>
                             </page>
-                            <page string="Description secondary">
+                            <page string="وصف ثانوي">
                                 <group>
                                     <field name="description_secondary" nolabel="1"/>
                                 </group>
@@ -87,13 +87,13 @@
         </record>
         <!--Form View-->
         <record id="jobs_action" model="ir.actions.act_window">
-            <field name="name">jobs</field>
+            <field name="name">الوظائف</field>
             <field name="type">ir.actions.act_window</field>
             <field name="res_model">jobs</field>
             <field name="view_mode">tree,form</field>
             <field name="help" type="html">
                 <p class="o_view_nocontent_smiling_face">
-                    Create new jobs.
+                    إنشاء وظائف جديدة.
                 </p>
             </field>
         </record>
@@ -115,12 +115,12 @@
             <field name="model">jobs.department</field>
             <field name="priority" eval="1"/>
             <field name="arch" type="xml">
-                <form string="Jobs Department">
+                <form string="قسم الوظائف">
                     <sheet>
                         <div class="oe_title">
-                            <label class="oe_edit_only" for="name" string="Department Name"/>
+                            <label class="oe_edit_only" for="name" string="إسم القسم"/>
                             <h1>
-                                <field name="name" placeholder="Department Name"/>
+                                <field name="name" placeholder="إسم القسم"/>
                             </h1>
                         </div>
                     </sheet>
@@ -129,13 +129,13 @@
         </record>
         <!--Action View-->
         <record id="jobs_department_action" model="ir.actions.act_window">
-            <field name="name">Department</field>
+            <field name="name">القسم</field>
             <field name="type">ir.actions.act_window</field>
             <field name="res_model">jobs.department</field>
             <field name="view_mode">tree,form</field>
             <field name="help" type="html">
                 <p class="o_view_nocontent_smiling_face">
-                    Create new department.
+                    إنشاء قسم جديد.
                 </p>
             </field>
         </record>
@@ -159,13 +159,12 @@
             <field name="model">jobs.candidate</field>
             <field name="priority" eval="1"/>
             <field name="arch" type="xml">
-                <form string="Jobs candidate">
+                <form string="وظائف المرشح">
                     <sheet>
-
                         <div class="oe_title">
-                            <label class="oe_edit_only" for="name" string="Name"/>
+                            <label class="oe_edit_only" for="name" string="الإسم"/>
                             <h1>
-                                <field name="name" placeholder="Name"/>
+                                <field name="name" placeholder="الإسم"/>
                             </h1>
                         </div>
                         <group>
@@ -186,13 +185,13 @@
         </record>
         <!--Action View-->
         <record id="jobs_candidate_action" model="ir.actions.act_window">
-            <field name="name">Candidate</field>
+            <field name="name">المرشح</field>
             <field name="type">ir.actions.act_window</field>
             <field name="res_model">jobs.candidate</field>
             <field name="view_mode">tree,form</field>
             <field name="help" type="html">
                 <p class="o_view_nocontent_smiling_face">
-                    No candidate.
+                    إضافة مرشح جديد.
                 </p>
             </field>
         </record>

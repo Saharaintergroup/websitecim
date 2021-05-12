@@ -200,7 +200,7 @@
         <!--=============MENU================-->
         <!--jobs-->
         <record id="menu_jobs" model="website.menu">
-            <field name="name">List of available jobs</field>
+            <field name="name">الوظائف المتاحة</field>
             <field name="url">/jobs</field>
             <field name="page_id" ref="theme_cim.jobs_page"/>
             <field name="parent_id" ref="website.main_menu"/>

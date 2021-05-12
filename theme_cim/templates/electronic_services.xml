@@ -242,7 +242,7 @@
             <field name="view_id" ref="electronic_services"/>
         </record>
         <record id="menu_electronic_services" model="website.menu">
-            <field name="name">Electronic services</field>
+            <field name="name"> الخدمات الإلكترونية</field>
             <field name="url">/electronic-services</field>
             <field name="page_id" ref="theme_cim.electronic_services_page"/>
             <field name="parent_id" ref="website.main_menu"/>
