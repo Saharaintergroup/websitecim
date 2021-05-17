@@ -7,30 +7,39 @@
             <field name="name">المهندس سامي الفنطاز</field>
             <field name="job_position">رئيس الهيئة العامة للإتصالات و المعلوماتية</field>
             <field name="image" type="base64"
-                   file="theme_cim/static/src/images/teams/team_1.png"/>
+                   file="theme_cim/static/src/images/teams/team_1.jpg"/>
             <field name="is_president">True</field>
         </record>
 
         <record id="team_2" model="teams.teams">
-            <field name="name">المهندس سامي الفنطاز</field>
-            <field name="job_position">رئيس الهيئة العامة للإتصالات و المعلوماتية</field>
-            <field name="image" type="base64"
-                   file="theme_cim/static/src/images/teams/team_2.png"/>
+            <field name="name">محمد التريكي عومر</field>
+            <field name="job_position">مدير مكتب رئيس الهيئة</field>
         </record>
 
         <record id="team_3" model="teams.teams">
-            <field name="name">المهندس سامي الفنطاز</field>
-            <field name="job_position">رئيس الهيئة العامة للإتصالات و المعلوماتية</field>
+            <field name="name">امحمد الهنشيري</field>
+            <field name="job_position">مدير عام الشؤون الادارية والمالية والخدمات</field>
             <field name="image" type="base64"
-                   file="theme_cim/static/src/images/teams/team_3.png"/>
+                   file="theme_cim/static/src/images/teams/team_3.jpg"/>
         </record>
 
         <record id="team_4" model="teams.teams">
-            <field name="name">المهندس سامي الفنطاز</field>
-            <field name="job_position">رئيس الهيئة العامة للإتصالات و المعلوماتية</field>
+            <field name="name">عبد الرحمن ابودبرة</field>
+            <field name="job_position">مدير عام الخدمات الالكترونية</field>
             <field name="image" type="base64"
-                   file="theme_cim/static/src/images/teams/team_4.png"/>
+                   file="theme_cim/static/src/images/teams/team_4.jpg"/>
         </record>
 
+        <record id="team_5" model="teams.teams">
+            <field name="name">د.عادل احميدات</field>
+            <field name="job_position">مدير عام الشؤون التنظيم</field>
+            <field name="image" type="base64"
+                   file="theme_cim/static/src/images/teams/team_5.jpg"/>
+        </record>
+
+        <record id="team_6" model="teams.teams">
+            <field name="name">د.عبدالحميد الشول</field>
+            <field name="job_position">مدير عام ادارة تطوير القطاع</field>
+        </record>
     </data>
 </odoo>
