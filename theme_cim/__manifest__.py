@@ -6,7 +6,7 @@
     'description': 'Cim website theme',
     'category': 'Theme',
     'sequence': 1,
-    'version': '1.7.7',
+    'version': '1.7.8',
     'depends': ['base', 'website', 'website_form'],
     'data': [
         # security
