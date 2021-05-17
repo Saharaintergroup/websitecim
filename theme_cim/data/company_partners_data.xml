@@ -19,7 +19,8 @@
                                         المعلومات
                                     </h3>
                                     <p>2013-01-22</p>
-                                    <img src="/theme_cim/static/src/images/partners/authority_decision/authority_decision_image.png" class="mt20"/>
+                                    <img src="/theme_cim/static/src/images/partners/authority_decision/authority_decision_image.png"
+                                         class="mt20"/>
                                     <div class="faq-list mt40">
 
                                         <div class="faq">
@@ -122,6 +123,7 @@
 
                                 </li>
                             </ul>
+
                         </div>
                     </div>
                     <div class="faq d-flex mb20 align-items-end">
@@ -156,6 +158,10 @@
                                     الغير مصرح به.
                                 </li>
                             </ul>
+                                                    <p>
+                                تواصل معنا عن طريق البريد الالكتروني
+                                <a href="mailto:info@nissa.gov.ly">info@nissa.gov.ly</a>
+                            </p>
                         </div>
                     </div>
 

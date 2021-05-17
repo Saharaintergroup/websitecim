@@ -3,7 +3,7 @@
     <template id="contactus" inherit_id="website.contactus">
         <xpath expr="//div[hasclass('oe_structure')]" position="replace">
             <div class="container">
-                <h3 class="hr_title_horizontal mt50">Contact us</h3>
+                <h3 class="hr_title_horizontal mt50">إتصل بنا</h3>
             </div>
         </xpath>
         <xpath expr="//section[hasclass('s_text_block')]" position="replace"/>
@@ -20,19 +20,19 @@
     <template id="information_contact">
         <div class="information_contact">
             <div class="d-flex justify-content-between">
-                <label class="pl-1 pr-1">Address</label>
-                <span class="pl-1 pr-1">Libya - Tripoli - Zawia Street</span>
+                <label class="pl-1 pr-1">العنوان</label>
+                <span class="pl-1 pr-1">ليبيا ـ طرابلس ـ شارع الزاوية</span>
             </div>
             <div class="d-flex justify-content-between">
-                <label class="pl-1 pr-1">Phone</label>
+                <label class="pl-1 pr-1">الهاتف</label>
                 <span class="pl-1 pr-1" style="direction:ltr!important;">+218 21 361 9811/15</span>
             </div>
             <div class="d-flex justify-content-between">
-                <label class="pl-1 pr-1">Fax</label>
+                <label class="pl-1 pr-1">الفاكس</label>
                 <span class="pl-1 pr-1" style="direction:ltr!important;">+218 21 362 2452</span>
             </div>
             <div class="d-flex justify-content-between">
-                <label class="pl-1 pr-1">Our sites</label>
+                <label class="pl-1 pr-1">مواقعنا</label>
                 <span class="s_share_cim pl-1 pr-1">
                     <a href="/website/social/twitter" class="s_share_twitter" target="_blank">
                         <i class="fa fa-twitter rounded-circle shadow-sm"/>
@@ -61,7 +61,7 @@
                                 <div class="row s_col_no_resize s_col_no_bgcolor">
                                     <div class="col-sm">
                                         <input id="contact1" type="text" class="form-control s_website_form_input"
-                                               name="Name" placeholder="Name" required=""/>
+                                               name="Name" placeholder="الإسم" required=""/>
                                     </div>
                                 </div>
                             </div>
@@ -70,7 +70,7 @@
                                 <div class="row s_col_no_resize s_col_no_bgcolor">
                                     <div class="col-sm">
                                         <input id="contact2" type="text" class="form-control s_website_form_input"
-                                               name="Address" placeholder="Address"/>
+                                               name="Address" placeholder="العنوان"/>
                                     </div>
                                 </div>
                             </div>
@@ -79,7 +79,7 @@
                                 <div class="row s_col_no_resize s_col_no_bgcolor">
                                     <div class="col-sm">
                                         <input id="contact3" type="email" class="form-control s_website_form_input"
-                                               name="email_from" placeholder="Email" required=""/>
+                                               name="email_from" placeholder="البريد الإلكترونى" required=""/>
                                     </div>
                                 </div>
                             </div>
@@ -99,7 +99,7 @@
                                 <div class="row s_col_no_resize s_col_no_bgcolor">
                                     <div class="col-sm">
                                         <textarea id="contact6" class="form-control s_website_form_input" rows="4"
-                                                  name="Description" placeholder="Write your message here"
+                                                  name="Description" placeholder="قم بكتابة رسالتك هنا"
                                                   required=""></textarea>
                                     </div>
                                 </div>
@@ -119,7 +119,7 @@
                             <div class="form-group col-12 s_website_form_submit" data-name="Submit Button">
                                 <a href="#" role="button"
                                    class="btn btn-secondary btn-lg d-block s_website_form_send">
-                                    Submit
+                                    إرسال
                                 </a>
                                 <span id="s_website_form_result"></span>
                             </div>
@@ -150,44 +150,44 @@
                     <div id="wrap">
                         <section class="pt50 pb50">
                             <div class="container">
-                                <h3 class="hr_title_horizontal mb30">Contact us</h3>
+                                <h3 class="hr_title_horizontal mb30">إتصل بنا</h3>
                                 <div class="row justify-content-center">
                                     <div class="col-12 col-sm-11 col-md-10">
                                         <div class="row row-10">
                                             <div class="col-12 col-sm-6">
                                                 <a href="/ask-president"
                                                    class="btn btn-primary btn-cim-xxxl border-radius-12 mb10 mt10">
-                                                    <h3>Ask the president</h3>
+                                                    <h3>اسأل الرئيس</h3>
                                                 </a>
                                             </div>
                                             <div class="col-12 col-sm-6">
                                                 <a href="/common-questions"
                                                    class="btn btn-primary btn-cim-xxxl border-radius-12 mb10 mt10">
-                                                    <h3>Common questions</h3>
+                                                    <h3>الأسئلة الشائعة</h3>
                                                 </a>
                                             </div>
                                             <div class="col-12 col-sm-6">
                                                 <a href="/proposals"
                                                    class="btn btn-primary btn-cim-xxxl border-radius-12 mb10 mt10">
-                                                    <h3>The proposals</h3>
+                                                    <h3>المقترحات</h3>
                                                 </a>
                                             </div>
                                             <div class="col-12 col-sm-6">
                                                 <a href="/contact-branches"
                                                    class="btn btn-primary btn-cim-xxxl border-radius-12 mb10 mt10">
-                                                    <h3>Contact branches</h3>
+                                                    <h3>إتصل بالفروع</h3>
                                                 </a>
                                             </div>
                                             <div class="col-12 col-sm-6">
                                                 <a href="/general-complaints"
                                                    class="btn btn-primary btn-cim-xxxl border-radius-12 mb10 mt10">
-                                                    <h3>General complaints</h3>
+                                                    <h3>الشكاوى العامة</h3>
                                                 </a>
                                             </div>
                                             <div class="col-12 col-sm-6">
                                                 <a href="/contactus"
                                                    class="btn btn-primary btn-cim-xxxl border-radius-12 mb10 mt10">
-                                                    <h3>Contact us</h3>
+                                                    <h3>إتصل بنا</h3>
                                                 </a>
                                             </div>
                                         </div>
@@ -216,7 +216,7 @@
                     <div id="wrap">
                         <section class="pt50 pb50">
                             <div class="container">
-                                <h3 class="hr_title_horizontal mb30">Ask the president</h3>
+                                <h3 class="hr_title_horizontal mb30">اسأل الرئيس</h3>
                                 <div class="mt-4 mb-5">
                                     <div class="row">
                                         <div class="col-lg-6 mr-lg-auto">
@@ -249,57 +249,42 @@
                     <div id="wrap">
                         <section class="common_questions lh28 pt50 pb50">
                             <div class="container">
-                                <h3 class="hr_title_horizontal mb30">Common questions</h3>
+                                <h3 class="hr_title_horizontal mb30">الاسئلة الشائعة</h3>
                                 <div class="faq-list">
                                     <div class="faq mb30">
-                                        <h4 class="faq-title">Csir Citation Yallamco Laboraas Nessi Yut Alekseob Xia
-                                            Commodo Consecioat. Diwas
-                                        </h4>
-                                        <p>Csir Citation Yallamco Laboraas Nessi Yut Alekseob Xia Commodo
-                                            Consecioat.
-                                            Diwas
+                                        <h4 class="faq-title">كسير سيتاشن يللأمكو لابورأس نيسي يت أليكيوب أكس أيا كوممودو كونسيكيوات
+</h4>
+                                        <p>كسير سيتاشن يللأمكو لابورأس نيسي يت أليكيوب أكس أيا كوممودو كونسيكيوات
+
                                             <br/>
-                                            Csir Citation Yallamco Laboraas Nessi Yut Alekseob Xia Commodo
-                                            Consecioat.
-                                            Diwas
+                                           كسير سيتاشن يللأمكو لابورأس نيسي يت أليكيوب أكس أيا كوممودو كونسيكيوات
+
+
                                         </p>
                                     </div>
                                     <div class="faq mb30">
-                                        <h4 class="faq-title">Csir Citation Yallamco Laboraas Nessi Yut Alekseob Xia
-                                            Commodo Consecioat. Diwas
-                                        </h4>
-                                        <p>Csir Citation Yallamco Laboraas Nessi Yut Alekseob Xia Commodo
-                                            Consecioat.
-                                            Diwas
-                                            <br/>
-                                            Csir Citation Yallamco Laboraas Nessi Yut Alekseob Xia Commodo
-                                            Consecioat.
-                                            Diwas
-                                            <br/>
-                                            Csir Citation Yallamco Laboraas Nessi Yut Alekseob Xia Commodo
-                                            Consecioat.
-                                            Diwas
-                                            <br/>
-                                            Csir Citation Yallamco Laboraas Nessi Yut Alekseob Xia Commodo
-                                            Consecioat.
-                                            Diwas
-                                        </p>
+                                        <h4 class="faq-title">كسير سيتاشن يللأمكو لابورأس نيسي يت أليكيوب أكس أيا كوممودو كونسيكيوات
+</h4>
+                                        <p>كسير سيتاشن يللأمكو لابورأس نيسي يت أليكيوب أكس أيا كوممودو كونسيكيوات
+<br/>
+                                          كسير سيتاشن يللأمكو لابورأس نيسي يت أليكيوب أكس أيا كوممودو كونسيكيوات
+<br/>
+                                      كسير سيتاشن يللأمكو لابورأس نيسي يت أليكيوب أكس أيا كوممودو كونسيكيوات
+<br/>
+                                           كسير سيتاشن يللأمكو لابورأس نيسي يت أليكيوب أكس أيا كوممودو كونسيكيوات
+</p>
                                     </div>
                                     <div class="faq mb30">
-                                        <h4 class="faq-title">Csir Citation Yallamco Laboraas Nessi Yut Alekseob Xia
-                                            Commodo Consecioat. Diwas
-                                        </h4>
-                                        <p>Csir Citation Yallamco Laboraas Nessi Yut Alekseob Xia Commodo
-                                            Consecioat.
-                                            Diwas
+                                        <h4 class="faq-title">كسير سيتاشن يللأمكو لابورأس نيسي يت أليكيوب أكس أيا كوممودو كونسيكيوات
+</h4>
+                                        <p>كسير سيتاشن يللأمكو لابورأس نيسي يت أليكيوب أكس أيا كوممودو كونسيكيوات
+
                                             <br/>
-                                            Csir Citation Yallamco Laboraas Nessi Yut Alekseob Xia Commodo
-                                            Consecioat.
-                                            Diwas
+                                           كسير سيتاشن يللأمكو لابورأس نيسي يت أليكيوب أكس أيا كوممودو كونسيكيوات
+
                                             <br/>
-                                            Csir Citation Yallamco Laboraas Nessi Yut Alekseob Xia Commodo
-                                            Consecioat.
-                                            Diwas
+                                      كسير سيتاشن يللأمكو لابورأس نيسي يت أليكيوب أكس أيا كوممودو كونسيكيوات
+
                                         </p>
                                     </div>
                                 </div>
@@ -310,7 +295,7 @@
                                         <li class="page-item disabled">
                                             <a data-oe-model="ir.ui.view" data-oe-id="439" data-oe-field="arch"
                                                data-oe-xpath="/t[1]/ul[1]/li[1]/a[1]" class="page-link post_link">
-                                                Prev
+                                                السابق
                                             </a>
                                         </li>
 
@@ -333,7 +318,8 @@
                                         <li class="page-item ">
                                             <a data-oe-model="ir.ui.view" data-oe-id="439" data-oe-field="arch"
                                                data-oe-xpath="/t[1]/ul[1]/li[2]/a[1]" href="#"
-                                               class="page-link post_link">Next
+                                               class="page-link post_link">التالي
+
                                             </a>
                                         </li>
                                     </ul>
@@ -362,7 +348,7 @@
                     <div id="wrap">
                         <section class="pt50 pb50">
                             <div class="container">
-                                <h3 class="hr_title_horizontal mb30">Proposals</h3>
+                                <h3 class="hr_title_horizontal mb30">المقترحات</h3>
                                 <div class="mt-4 mb-5">
                                     <div class="row">
                                         <div class="col-lg-6 mr-lg-auto">
@@ -383,7 +369,7 @@
 
     <!--Contact branches-->
     <record id="contact_branches" model="website.page">
-        <field name="name">Contact branches</field>
+        <field name="name">إتصل بالفروع</field>
         <field name="type">qweb</field>
         <field name="url">/contact-branches</field>
         <field name="website_indexed" eval="False"/>
@@ -395,56 +381,57 @@
                     <div id="wrap">
                         <section class="pt50 pb50">
                             <div class="container">
-                                <h3 class="hr_title_horizontal mb30">Contact branches</h3>
+                                <h3 class="hr_title_horizontal mb30">إتصل بالفروع
+</h3>
                                 <div class="row pl10 pr10">
                                     <div class="col-md-4">
                                         <a href="/main-branch" class="box-info-contact d-block mt20">
-                                            <h2 class="text-center">Main branch</h2>
+                                            <h2 class="text-center">الفرع الرئيسي</h2>
                                             <div class="d-flex justify-content-between mt50">
-                                                <label class="pl-1 pr-1">Address</label>
-                                                <span class="pl-1 pr-1">Libya - Tripoli - Zawia Street</span>
+                                                <label class="pl-1 pr-1">العنوان</label>
+                                                <span class="pl-1 pr-1">ليبيا ـ طرابلس ـ شارع الزاوية</span>
                                             </div>
                                             <div class="d-flex justify-content-between mt50">
-                                                <label class="pl-1 pr-1">Phone</label>
-                                                <span class="pl-1 pr-1">+218 21 361 9811/15</span>
+                                                <label class="pl-1 pr-1" >الهاتف</label>
+                                                <span class="pl-1 pr-1" style="direction:ltr!important;">+218 21 361 9811/15</span>
                                             </div>
                                             <div class="d-flex justify-content-between mt50">
-                                                <label class="pl-1 pr-1">Fax</label>
-                                                <span class="pl-1 pr-1">+218 21 362 2452</span>
+                                                <label class="pl-1 pr-1">الفاكس</label>
+                                                <span class="pl-1 pr-1" style="direction:ltr!important;">+218 21 362 2452</span>
                                             </div>
                                         </a>
                                     </div>
                                     <div class="col-md-4">
                                         <a href="/eastern-branch" class="box-info-contact d-block mt20">
-                                            <h2 class="text-center">Eastern branch</h2>
+                                            <h2 class="text-center">الفرع الشرقي</h2>
                                             <div class="d-flex justify-content-between mt50">
-                                                <label class="pl-1 pr-1">Address</label>
-                                                <span class="pl-1 pr-1">Libya - Tripoli - Zawia Street</span>
+                                                <label class="pl-1 pr-1">العنوان</label>
+                                                <span class="pl-1 pr-1">ليبيا ـ طرابلس ـ شارع الزاوية</span>
                                             </div>
                                             <div class="d-flex justify-content-between mt50">
-                                                <label class="pl-1 pr-1">Phone</label>
-                                                <span class="pl-1 pr-1">+218 21 361 9811/15</span>
+                                                <label class="pl-1 pr-1">الهاتف</label>
+                                                <span class="pl-1 pr-1" style="direction:ltr!important;">+218 21 361 9811/15</span>
                                             </div>
                                             <div class="d-flex justify-content-between mt50">
-                                                <label class="pl-1 pr-1">Fax</label>
-                                                <span class="pl-1 pr-1">+218 21 362 2452</span>
+                                                <label class="pl-1 pr-1">الفاكس</label>
+                                                <span class="pl-1 pr-1" style="direction:ltr!important;">+218 21 362 2452</span>
                                             </div>
                                         </a>
                                     </div>
                                     <div class="col-md-4">
                                         <a href="/southern-branch" class="box-info-contact d-block mt20">
-                                            <h2 class="text-center">Southern branch</h2>
+                                            <h2 class="text-center">الفرع الجنوبي</h2>
                                             <div class="d-flex justify-content-between mt50">
-                                                <label class="pl-1 pr-1">Address</label>
-                                                <span class="pl-1 pr-1">Libya - Tripoli - Zawia Street</span>
+                                                <label class="pl-1 pr-1">العنوان</label>
+                                                <span class="pl-1 pr-1">ليبيا ـ طرابلس ـ شارع الزاوية</span>
                                             </div>
                                             <div class="d-flex justify-content-between mt50">
-                                                <label class="pl-1 pr-1">Phone</label>
-                                                <span class="pl-1 pr-1">+218 21 361 9811/15</span>
+                                                <label class="pl-1 pr-1">الهاتف</label>
+                                                <span class="pl-1 pr-1" style="direction:ltr!important;">+218 21 361 9811/15</span>
                                             </div>
                                             <div class="d-flex justify-content-between mt50">
-                                                <label class="pl-1 pr-1">Fax</label>
-                                                <span class="pl-1 pr-1">+218 21 362 2452</span>
+                                                <label class="pl-1 pr-1">الفاكس</label>
+                                                <span class="pl-1 pr-1" style="direction:ltr!important;">+218 21 362 2452</span>
                                             </div>
                                         </a>
                                     </div>
@@ -564,7 +551,7 @@
                     <div id="wrap">
                         <section class="pt50 pb50">
                             <div class="container">
-                                <h3 class="hr_title_horizontal mb30">General complaints</h3>
+                                <h3 class="hr_title_horizontal mb30">الشكاوي</h3>
                                 <div class="mt-4 mb-5">
                                     <div class="row">
                                         <div class="col-lg-6 mr-lg-auto">
@@ -626,7 +613,7 @@
     </record>
     <!--General complaints-->
     <record id="menu_general_complaints" model="website.menu">
-        <field name="name">الشكاوي العامة</field>
+        <field name="name">الشكاوي</field>
         <field name="url">/general-complaints</field>
         <field name="page_id" ref="theme_cim.general_complaints"/>
         <field name="parent_id" ref="website.main_menu"/>
