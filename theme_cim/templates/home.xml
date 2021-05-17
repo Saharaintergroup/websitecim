@@ -84,7 +84,7 @@
                             <div class="row">
                                 <div class="col-12 col-sm-6 col-lg-3 mt20 mb10">
                                     <a href="/organization-of-communications"
-                                       class="box_style_1 text-center d-flex align-items-center justify-content-center">
+                                       class="box_style_1 text-center">
                                         <div>
                                             <img src="/theme_cim/static/src/images/business/organization_of_communications.png"
                                                  class="mb20"/>
@@ -98,42 +98,44 @@
                                 </div>
                                 <div class="col-12 col-sm-6 col-lg-3 mt20 mb10">
                                     <a href="/electronic-government"
-                                       class="box_style_1 text-center d-flex align-items-center justify-content-center">
+                                       class="box_style_1 text-center">
                                         <div>
                                             <img src="/theme_cim/static/src/images/business/electronic_government.png"
                                                  class="mb20"/>
                                             <h5 class="mb10">الحكومة الإلكترونية</h5>
-                                            <p>كيو أوفيسيا ديسيريونتموليت انيم أيدي ايست
-                                                لابوريومكسير سيتاشن يللأمكو لابورأس نيسي يت
-                                                أليكيوب أكس أيا كوممودو كونسيكيوات . ديواس
+                                            <p>هو نظام حديث تتبناه باستخدام الشبكة العنكبوتية العالمية الانترنت في ربط
+                                                مؤسساتها بعضها ببعض، وربط مختلف خدماتها بالمؤسسات الخاصة والجمهور
+                                                عموماً، ووضع المعلومة في متناول الافراد وذلك لخلق علاقة شفافة تتصف
+                                                بالسرعة والدقة للارتقاء بجودة الاداء
                                             </p>
                                         </div>
                                     </a>
                                 </div>
                                 <div class="col-12 col-sm-6 col-lg-3 mt20 mb10">
                                     <a href="/sector-development"
-                                       class="box_style_1 text-center d-flex align-items-center justify-content-center">
+                                       class="box_style_1 text-center">
                                         <div>
                                             <img src="/theme_cim/static/src/images/business/sector_development.png"
                                                  class="mb20"/>
                                             <h5 class="mb10">تطوير القطاع</h5>
-                                            <p>كيو أوفيسيا ديسيريونتموليت انيم أيدي ايست
-                                                لابوريومكسير سيتاشن يللأمكو لابورأس نيسي يت
-                                                أليكيوب أكس أيا كوممودو كونسيكيوات . ديواس
+                                            <p>تسليط الضوء على اهم المشاريع الحيوية والاستراتيجية التي يتم العمل عليها
+                                                والمشاريع المستهدف اطلاقها والتي تهدف بدورها الى تحسين جودة الخدمات
+                                                المقدمة للمواطنيين في كافة المدن الليبية والارتقاء بواقع الاتصالات
+                                                واحداث قفزة نوعية في كامل الخدمات التقنية لمواكبة اخر المستجدات التقنية
+                                                في العالم
                                             </p>
                                         </div>
                                     </a>
                                 </div>
                                 <div class="col-12 col-sm-6 col-lg-3 mt20 mb10">
-                                    <a href="/cybersecurity"
-                                       class="box_style_1 text-center d-flex align-items-center justify-content-center">
+                                    <a href="/company_partners/1"
+                                       class="box_style_1 text-center">
                                         <div>
                                             <img src="/theme_cim/static/src/images/business/cybersecurity.png"
                                                  class="mb20"/>
                                             <h5 class="mb10">الأمن السبرانى</h5>
-                                            <p>كيو أوفيسيا ديسيريونتموليت انيم أيدي ايست
-                                                لابوريومكسير سيتاشن يللأمكو لابورأس نيسي يت
-                                                أليكيوب أكس أيا كوممودو كونسيكيوات . ديواس
+                                            <p>هو النشاط الذي يؤمن حماية الموارد البشرية والاساليب المرتبطة بتقنيات
+                                                الاتصالات والمعلومات
                                             </p>
                                         </div>
                                     </a>
@@ -150,49 +152,30 @@
                                 <div class="col-md-6 col-lg-3 skill-item mt10">
                                     <div class="first circle pl10 pr10" data-skill-level="92">
                                         <h6></h6>
-                                        <span class="sk-name">فى الإنتظار</span>
-                                        <p>كسير سيتاشن يللأمكو لابورأس نيسي يت أليكيوب أكس أيا كوممودو كونسيكيوات .
-                                            ديواسأيوتي أريري دولار إن ريبريهينديرأيت فوليوبتاتي فيلايت أيسسي كايلليوم
-                                            دولار أيو فيجايتنيولا باراياتيور. أيكسسيبتيور ساينت أوككايكات كيوبايداتات
-                                            نون بروايدينت ,سيونت ان كيولبا
-                                            كيو أوفيسيا ديسيريونتموليت انيم أيدي ايست لابوريوم
+                                        <span class="sk-name">تراخيص خدمات الاتصالات</span>
+                                        <p>ما تم انجازه من معاملات تجديد واصدار للفئة الثانية والثالثة
                                         </p>
                                     </div>
                                 </div>
                                 <div class="col-md-6 col-lg-3 skill-item mt10">
                                     <div class="second circle pl10 pr10" data-skill-level="80">
                                         <h6></h6>
-                                        <span class="sk-name">فى الإنتظار</span>
-                                        <p>كسير سيتاشن يللأمكو لابورأس نيسي يت أليكيوب أكس أيا كوممودو كونسيكيوات .
-                                            ديواسأيوتي أريري دولار إن ريبريهينديرأيت فوليوبتاتي فيلايت أيسسي كايلليوم
-                                            دولار أيو فيجايتنيولا باراياتيور. أيكسسيبتيور ساينت أوككايكات كيوبايداتات
-                                            نون بروايدينت ,سيونت ان كيولبا
-                                            كيو أوفيسيا ديسيريونتموليت انيم أيدي ايست لابوريوم
-                                        </p>
+                                        <span class="sk-name">تراخيص الطيف 2020</span>
+                                        <p>ما تم انجازاه من معاملات تجديد واصدار لتراخيص الطيف الترددي</p>
                                     </div>
                                 </div>
                                 <div class="col-md-6 col-lg-3 skill-item mt10">
                                     <div class="third circle pl10 pr10" data-skill-level="70">
                                         <h6></h6>
-                                        <span class="sk-name">فى الإنتظار</span>
-                                        <p>كسير سيتاشن يللأمكو لابورأس نيسي يت أليكيوب أكس أيا كوممودو كونسيكيوات .
-                                            ديواسأيوتي أريري دولار إن ريبريهينديرأيت فوليوبتاتي فيلايت أيسسي كايلليوم
-                                            دولار أيو فيجايتنيولا باراياتيور. أيكسسيبتيور ساينت أوككايكات كيوبايداتات
-                                            نون بروايدينت ,سيونت ان كيولبا
-                                            كيو أوفيسيا ديسيريونتموليت انيم أيدي ايست لابوريوم
-                                        </p>
+                                        <span class="sk-name">الاتفاقيات الدولية</span>
+                                        <p>تم ابرام اتفاقيات ...</p>
                                     </div>
                                 </div>
                                 <div class="col-md-6 col-lg-3 skill-item mt10">
                                     <div class="fourth circle pl10 pr10" data-skill-level="90">
                                         <h6></h6>
-                                        <span class="sk-name">فى الإنتظار</span>
-                                        <p>كسير سيتاشن يللأمكو لابورأس نيسي يت أليكيوب أكس أيا كوممودو كونسيكيوات .
-                                            ديواسأيوتي أريري دولار إن ريبريهينديرأيت فوليوبتاتي فيلايت أيسسي كايلليوم
-                                            دولار أيو فيجايتنيولا باراياتيور. أيكسسيبتيور ساينت أوككايكات كيوبايداتات
-                                            نون بروايدينت ,سيونت ان كيولبا
-                                            كيو أوفيسيا ديسيريونتموليت انيم أيدي ايست لابوريوم
-                                        </p>
+                                        <span class="sk-name">عدد المكاتب</span>
+                                        <p></p>
                                     </div>
                                 </div>
                             </div>
@@ -263,7 +246,8 @@
                         </div>
                         <!-- Modal-->
                         <t t-foreach="company_partners" t-as="partner">
-                            <div t-if="partner.open_details_in == 'popup'" class="company_partners_modal modal fade" t-attf-id="partnerModal{{partner.id}}"
+                            <div t-if="partner.open_details_in == 'popup'" class="company_partners_modal modal fade"
+                                 t-attf-id="partnerModal{{partner.id}}"
                                  tabindex="-1"
                                  role="dialog"
                                  t-attf-aria-labelledby="partnerModalLabel{{partner.id}}" aria-hidden="true">

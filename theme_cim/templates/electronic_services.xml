@@ -157,59 +157,35 @@
                         <div id="wrap">
                             <section class="lh28 pt50 pb50">
                                 <div class="container">
-                                    <h3 class="hr_title_horizontal">Overview</h3>
-                                    <p>QOfficia Desireiontmolite Anime Hands East Laboratories Xer Station Yelamco
-                                        Laboras Nessi Youtube Xia Commodo Concepciat.
-                                        <br/>
-                                        Diwas
-                                        QOfficia Desireiontmolite Anime Hands East Laboratories Xer Station Yelamco
-                                        Laboras Nessi Youtube Xia Commodo Concepciat. Diwas
-                                    </p>
+                                    <h3 class="hr_title_horizontal">نظرة عامة</h3>
+                                    <p>من خلال هذه البوابة الالكترونية سيتم اطلاق جميع الخدمات التي تقدمها الهيئة العامة للاتصالات والمعلوماتية وذلك للوصول للمستفيدين في كافة المدن الليبي .</p>
                                     <div class="row justify-content-center">
                                         <div class="col-12 col-sm-11 col-lg-10 row">
                                             <div class="col-lg-4">
                                                 <div class="box-service mt20 text-center h-lg-100"
                                                      style="background-image: url('theme_cim/static/src/images/individuals.png');">
-                                                    <h5 class="mb30">Individuals</h5>
-                                                    <p>QOfficia Desireiontmolite Anime Hands East Laboratories Xer
-                                                        Station
-                                                        Yelamco Laboras Nessi Youtube Xia Commodo Concepciat.
-                                                        QOfficia Desireiontmolite Anim
-                                                    </p>
-                                                    <a href="#" class="btn btn-light btn-block font-weight-bold mt30">
-                                                        Sign
-                                                        in
-                                                    </a>
+                                                    <h5 class="mb30">الافراد</h5>
+                                                    <p>تشمل كل الخدمات الالكترونية التي من الممكـن أن تقـدمها الهيئة للأفراد</p>
+                                                    <p>قيد الاجراء</p>
+                                                    <a href="#" class="btn btn-light btn-block font-weight-bold mt30">تسجيل الدخول</a>
                                                 </div>
                                             </div>
                                             <div class="col-lg-4">
                                                 <div class="box-service mt20 text-center h-lg-100"
                                                      style="background-image: url('theme_cim/static/src/images/companies.png');">
-                                                    <h5 class="mb30">Companies</h5>
-                                                    <p>QOfficia Desireiontmolite Anime Hands East Laboratories Xer
-                                                        Station
-                                                        Yelamco Laboras Nessi Youtube Xia Commodo Concepciat.
-                                                        QOfficia Desireiontmolite Anime Hands East Laboratories Xer
-                                                        Station
-                                                    </p>
-                                                    <a href="#" class="btn btn-light btn-block font-weight-bold mt30">
-                                                        Sign
-                                                        in
-                                                    </a>
+                                                    <h5 class="mb30">الشركات</h5>
+                                                    <p>تشمل كل الخدمات الالكترونية التي من الممكن أن تقدمها الهيئة للشركات</p>
+                                                    <p>قيد الاجراء</p>
+                                                    <a href="#" class="btn btn-light btn-block font-weight-bold mt30">تسجيل الدخول</a>
                                                 </div>
                                             </div>
                                             <div class="col-lg-4">
                                                 <div class="box-service mt20 text-center h-lg-100"
                                                      style="background-image: url('theme_cim/static/src/images/governmental_entities.png');">
-                                                    <h5 class="mb30">Governmental entities</h5>
-                                                    <p>QOfficia Desireiontmolite Anime Hands East Laboratories Xer
-                                                        Station
-                                                        Yelamco Laboras Nessi Youtube Xia Commodo Concepciat.
-                                                    </p>
-                                                    <a href="#" class="btn btn-light btn-block font-weight-bold mt30">
-                                                        Sign
-                                                        in
-                                                    </a>
+                                                    <h5 class="mb30">الجهات الحكومية</h5>
+                                                    <p>تشمل كل الخدمات الالكترونية التي من الممكن أن تقدمها الهيئة للحكومة</p>
+                                                    <p>قيد الاجراء</p>
+                                                    <a href="#" class="btn btn-light btn-block font-weight-bold mt30">تسجيل الدخول</a>
                                                 </div>
                                             </div>
                                         </div>
@@ -242,7 +218,7 @@
             <field name="view_id" ref="electronic_services"/>
         </record>
         <record id="menu_electronic_services" model="website.menu">
-            <field name="name"> الخدمات الإلكترونية</field>
+            <field name="name">بوابة الخدمات الإلكترونية</field>
             <field name="url">/electronic-services</field>
             <field name="page_id" ref="theme_cim.electronic_services_page"/>
             <field name="parent_id" ref="website.main_menu"/>

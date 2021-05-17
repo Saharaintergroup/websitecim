@@ -534,7 +534,7 @@
     </record>
     <!--Decisions-->
     <record id="menu_decisions" model="website.menu">
-        <field name="name">القرارات</field>
+        <field name="name">القوانين - القرارات</field>
         <field name="url">/decisions</field>
         <field name="page_id" ref="theme_cim.decisions_page"/>
         <field name="parent_id" ref="website.main_menu"/>

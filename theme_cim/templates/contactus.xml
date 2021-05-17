@@ -387,7 +387,7 @@
         <field name="type">qweb</field>
         <field name="url">/contact-branches</field>
         <field name="website_indexed" eval="False"/>
-        <field name="is_published">True</field>
+        <field name="is_published">False</field>
         <field name="key">theme_cim.contact_branches</field>
         <field name="arch" type="xml">
             <t name="Contact branches" t-name="theme_cim.contact_branches">
@@ -619,6 +619,7 @@
     <record id="menu_contact_branches" model="website.menu">
         <field name="name">إتصال الفروع</field>
         <field name="url">/contact-branches</field>
+        <field name="is_visible">False</field>
         <field name="page_id" ref="theme_cim.contact_branches"/>
         <field name="parent_id" ref="website.main_menu"/>
         <field name="sequence" type="int">95</field>

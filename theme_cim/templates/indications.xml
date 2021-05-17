@@ -13,9 +13,9 @@
                         <div id="wrap">
                             <section class="pt50 pb50">
                                 <div class="container">
-                                    <h3 class="hr_title_horizontal mb30">Local indicators</h3>
+                                    <h3 class="hr_title_horizontal mb30">المؤشرات المحلية</h3>
                                     <div class="d-flex justify-content-center align-items-center" style="min-height:200px;">
-                                        <span class="text-content-empty">Sorry, there are no local indicators at the moment</span>
+                                        <span class="text-content-empty">عفوا لا توجد مؤشرات محلية في الوقت الحالى</span>
                                     </div>
                                 </div>
                             </section>
@@ -38,9 +38,9 @@
                         <div id="wrap">
                             <section class="pt50 pb50">
                                 <div class="container">
-                                    <h3 class="hr_title_horizontal mb30">International indicators</h3>
+                                    <h3 class="hr_title_horizontal mb30">المؤشرات الدولية</h3>
                                     <div class="d-flex justify-content-center align-items-center" style="min-height:200px;">
-                                        <span class="text-content-empty">Sorry, there are no international indicators at the moment</span>
+                                        <span class="text-content-empty">عفوا لا توجد مؤشرات دولية في الوقت الحالى</span>
                                     </div>
                                 </div>
                             </section>
@@ -52,8 +52,7 @@
         </record>
 
         <record id="menu_indications" model="website.menu">
-            <field name="name">المؤشرات المحلية</field>
-            <field name="url">/local-indicators</field>
+            <field name="name">المؤشرات</field>
             <field name="parent_id" ref="website.main_menu"/>
             <field name="sequence" type="int">40</field>
         </record>

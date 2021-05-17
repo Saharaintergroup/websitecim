@@ -15,7 +15,7 @@
                         <div id="wrap">
                             <section class="section_announcements pt50 pb50">
                                 <div class="container">
-                                    <h3 class="hr_title_horizontal mb30">List of available jobs</h3>
+                                    <h3 class="hr_title_horizontal mb30">قائمة الوظائف المتاحة</h3>
                                     <div class="row" t-if="jobs">
                                         <div class="col-md-4" t-foreach="jobs" t-as="item">
                                             <div class="box_latest_news d-flex align-items-end mt20">
@@ -33,9 +33,7 @@
                                     </div>
                                     <div class="d-flex justify-content-center align-items-center"
                                          style="min-height:200px;" t-else="">
-                                        <span class="text-content-empty">Sorry, there are no jobs at the
-                                            moment
-                                        </span>
+                                        <span class="text-content-empty">عذرا ، لا توجد وظائف في الوقت الحالى</span>
                                     </div>
                                     <t t-call="website.pager">
                                         <t t-set="_classes">mt40 justify-content-center</t>
@@ -68,7 +66,7 @@
                                             <h3 class="hr_title_horizontal mb30" t-esc="record.name"/>
                                         </div>
                                         <div class="col-auto">
-                                            <a t-attf-href="/apply-jobs/#{record.id}" class="btn btn-secondary">Apply for the job</a>
+                                            <a t-attf-href="/apply-jobs/#{record.id}" class="btn btn-secondary">التقديم على الوظيفة</a>
                                         </div>
                                     </div>
                                     <div class="row justify-content-between mb40" t-if="record.description_primary">

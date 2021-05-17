@@ -115,7 +115,7 @@
                                             </a>
                                         </div>
                                         <div class="col-sm-6 col-lg-3">
-                                            <a href="" class="box_services signal">
+                                            <a href="/frequency-spectrum" class="box_services signal">
                                                 <div class="icon">
                                                     <img src="/theme_cim/static/src/images/services/signal.png"
                                                          class="icon_service"/>
@@ -164,7 +164,7 @@
                                                 </p>
                                             </div>
                                             <div class="col-md-4">
-                                                <img src="/theme_cim/static/src/images/services/numbering-and-added-services.png"
+                                                <img src="/theme_cim/static/src/images/services/numbering-and-added-services-2.png"
                                                      class="img-fluid img_organization_of_communications"/>
                                             </div>
                                         </div>
@@ -302,12 +302,14 @@
                             <div class="container">
                                 <div class="faq-list">
                                     <div class="faq">
-                                        <div class="row justify-content-between align-items-center mb30 mt30" t-foreach="numbering_models" t-as="item">
+                                        <div class="row justify-content-between align-items-center mb30 mt30"
+                                             t-foreach="numbering_models" t-as="item">
                                             <div class="col-10">
                                                 <h5 class="faq-title mb0" t-esc="item.name"/>
                                             </div>
                                             <div class="col-auto">
-                                                <a t-att-href="item.attachment_id.local_url" target="_blank" class="download"><img
+                                                <a t-att-href="item.attachment_id.local_url" target="_blank"
+                                                   class="download"><img
                                                         src="/theme_cim/static/src/images/icon/cloud-computing.svg"/>&amp;nbsp;تحميل
                                                 </a>
                                             </div>
@@ -317,6 +319,159 @@
                             </div>
                         </section>
 
+                        <div class="oe_structure"/>
+                    </div>
+                </t>
+            </t>
+        </field>
+    </record>
+
+    <!--Frequency spectrum-->
+    <record id="frequency_spectrum_page" model="website.page">
+        <field name="name">Frequency spectrum</field>
+        <field name="url">/frequency-spectrum</field>
+        <field name="type">qweb</field>
+        <field name="website_indexed" eval="False"/>
+        <field name="is_published">True</field>
+        <field name="key">theme_cim.frequency_spectrum_page</field>
+        <field name="arch" type="xml">
+            <t name="Frequency spectrum" t-name="theme_cim.frequency_spectrum_page">
+                <t t-call="website.layout">
+                    <div id="wrap">
+                        <section class="pt50 pb50">
+                            <div class="container">
+                                <div class="faq-list">
+                                    <div class="faq">
+                                        <div class="row justify-content-between  mb30 mt30">
+                                            <div class="col-md-6">
+                                                <h3 class="hr_title_horizontal mb30">الطيف الترددى</h3>
+                                                <p>يقصد بالطيف الترددي المدى الترددي للموجات الكهرومغناطيسية و التي
+                                                    تنتشر
+                                                    لاسلكياً و الممتد من 3 كيلوهيرتز حتى 3000 جيجاهيرتز و التي يتم
+                                                    استخدامها في
+                                                    أغراض الاتصالات و التحكم و الملاحة الجوية و البحرية و القياسات و
+                                                    الاستشعار عن بعد و
+                                                    المراقبة و في غيرها من التطبيقات العلمية و الصناعية و الطبية الأخرى
+                                                </p>
+                                                <h5 class="faq-title mb20 mt30">إدارة الطيف الترددي</h5>
+                                                <p>هي مجموعة الإجراءات و العمليات الإدارية و القانونية و الفنية و التي
+                                                    تهدف إلى
+                                                    تنظيم استخدام الطيف الترددي بين مختلف المس:تخدمين بصورة تضمن تحقيق
+                                                    اقصى
+                                                    استفادة من الطيف لكل من المستخدم و مستهلك الخدمة، و تقلل من فرص حدوث
+                                                    أي
+                                                    تداخل ضار أو تشويش بين هولاء المستخدمين
+                                                </p>
+                                            </div>
+                                            <div class="col-md-5">
+                                                <img src="/theme_cim/static/src/images/services/light-tower-view-sunset.png"
+                                                     class="img-fluid img_organization_of_communications"/>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                        <section class="background_two_boxes pt30 pb30">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-md-6 mt10 mb10">
+                                        <div class="background_two_boxes_content text-center">
+                                            <h6>المخطط الوطني للطيف الترددي</h6>
+                                            <p>مع الطلب المتزايد على استخدام الطيف الترددي محليا ودوليا وتزايد
+                                                الصعوبات في عملية تنظيمه، فقد أصبحت كل من الدول ومنظمات
+                                                الاتصالات الدولية في حاجة ماسة إلى خطة لتنظيم الطيف الترددي بشكل
+                                                يضمن استخدام هذا المصدر الهام و المحدود بالطريقة الأمثل، ولمواجهة
+                                                هذه التحديات ولتوفير الدعم الفعال لتطوير بنية الاتصالات، فقد بدأ العمل
+                                                في تنفيذ خطة الطيف الترددي الوطنية والتي سوف تمكن ليبيا من
+                                                استخدام هذا المصدر الهام بطريقة تتماشى مع الاستخدامات المحلية
+                                                والدولية،بما يتماشى مع توصيات الإتحاد الدولي للإتصالات وبما يخدم
+                                                المصلحة الوطنية. وقد شرع في إعداد خطة الطيف الوطنية من خلال
+                                                الاستعانة بخبراء دوليين في هذا المجال. حيث تهدف خطة الطيف
+                                                الوطنية إلى توزيع النطاق الترددي من 9kHz إلى 1000GHz بطريقة
+                                                تتماشى مع لوائح الإتحاد الدولي للاتصالات مع الأخذ في الاعتبار جمع
+                                                العوامل التقنية وكذلك السياسية والاقتصادية في الدولة
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 mt10 mb10">
+                                        <div class="background_two_boxes_content text-center">
+                                            <h6>التأثير الصحي للاتصالات اللاسلكية (الإشعاعات الغير مؤينة)</h6>
+                                            <p>الإشعاع الغير مؤين يشير إلى أي نوع من الإشعاع الكهرومغناطيسي الذي
+                                                يفتقر إلى الطاقة الكافية لإزالة الكترون تماماً من الذرة أو بشكل جزئي
+                                                ومن أمثلة مصادر الإشعاع الغير مؤين (محطات الهاتف المحمول، الراديو
+                                                (am، FM)، خطوط نقل الطاقة، وصلات ميكروويف)
+                                                وتتولي الهيئة الدولية للحماية من الإشعاعات الغير المؤين ICNIRP وضع
+                                                توصيات فنية للحماية من التأثير الضار للإشعاعات، وهي هيئة متخصصة
+                                                مؤلفة من 14 عضواً من الخبراء والعلماء المستقلين، و4 لجان عملية
+                                                دائمة متخصصة تغطي علم الأوبئة والعلوم الحياتية وقياس الإشعاعات،
+                                                إضافة إلى عدد من الخبراء والمستشارين، ويتولى بيت الخبرة هذا معالجة
+                                                المسائل جراء التعرض للإشعاعات الغير مؤينة
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                        <section class="pt50 pb50">
+                            <div class="container">
+                                <div class="faq-list">
+                                    <div class="faq">
+                                        <h3 class="hr_title_horizontal mb30">مراقبة الطيف الترددي</h3>
+                                        <p>تعتبر مراقبة الطيف الترددي أداة أساسية لإدارة الطيف الترددي بالشكل الأمثل،
+                                            فهي ضرورية من الناحية العملية للتأكد من أن صاحب الترخيص يعمل
+                                            وفق المرخص له
+                                        </p>
+                                        <h5 class="faq-title mb20 mt30">ويمكن تلخيص هذه المهام في الآتي</h5>
+                                        <ul>
+                                            <li>المساعدة في حل مشاكل التداخل الكهرومغناطيسي</li>
+                                            <li>المساعدة في التأكد من كفاءة أنظمة الاذاعة المرئية والمسموعة</li>
+                                            <li>تزويد إدارة الطيف الترددي بالعديد من المعلومات مثل التردد المستخدم
+                                                واتساع القناة وقوة الموجة الكهرومغناطيسية
+                                            </li>
+                                            <li>المساهمة في تنظيم الربط البيني بين مشغلي شبكات الهاتف المختلفة</li>
+                                            <li>تحديد مكان أي ارسال غير مرخص</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                        <section class="pt50 pb50">
+                            <div class="container">
+                                <div class="faq-list">
+                                    <div class="faq">
+                                        <h3 class="hr_title_horizontal mb30">خدمات قسم مراقبة الطيف الترددي</h3>
+                                        <p>يقوم قسم مراقبة الطيف الترددي بقياس شدة الإشعاعات الغير متأينة، وهو جزء من
+                                            برنامج القياسات التي يقوم بها القسم كأعمال رئيسية مكلف
+                                            بها من قبل ادارة الطيف الترددي، كما وإن هذه القياسات مهمة لصالح الأفراد
+                                            بالمجتمع من الناحية الصحية وذلك بالتأكد من عدم تعرضهم لمستويات
+                                            اشعاعات ضارة ويتم تحديد مستوى الإشعاع الضار أو الغير ضار وفقاً لمعايير الصحة
+                                            الدولية الموصى بها عالميا حسب الهيئة الدولية للحماية من
+                                            الإشعاع الغير المتأين (ICNIRP)
+                                        </p>
+                                        <h5 class="faq-title mb20 mt30">وفيما يلي نتائج الاختبارات</h5>
+                                        <p>قنوات البث الإذاعي</p>
+                                        <table>
+                                            <thead>
+                                                <tr>
+                                                    <th>الموقع</th>
+                                                    <th>تاريخ القياس</th>
+                                                    <th>المشغل</th>
+                                                    <th>المتوسط الحسابي لشدة
+                                                        الإشعاعات V/M
+                                                    </th>
+                                                    <th>المستويات الموصى بها
+                                                        ICNIRP
+                                                        V/M
+                                                    </th>
+                                                </tr>
+                                            </thead>
+                                            <tbody></tbody>
+                                        </table>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
                         <div class="oe_structure"/>
                     </div>
                 </t>
