@@ -50,6 +50,7 @@
         "data/strategy_data.xml",
         "data/numbering_models_data.xml",
         "data/slider_home_data.xml",
+        "data/ticker_news_data.xml",
     ],
     'images': [
         'static/description/cover.png',

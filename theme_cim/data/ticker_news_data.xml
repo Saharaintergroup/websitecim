@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data noupdate="0">
+
+        <record id="ticker_news_1" model="ticker.news">
+            <field name="description">إجتماع اللجنة المشكلة بقرار رئيس الهيئة رقم ( 140) لسنة2019م</field>
+        </record>
+        <record id="ticker_news_2" model="ticker.news">
+            <field name="description">الهيئة العامة للإتصالات والمعلوماتية تحذر من خطر التصيد الإلكتروني</field>
+        </record>
+        <record id="ticker_news_3" model="ticker.news">
+            <field name="description">تواصل الإجتماعات مع الاتحاد الدولي للاتصالات لتنفيذ قرار المؤتمر الدولي رقم 83.</field>
+        </record>
+        <record id="ticker_news_4" model="ticker.news">
+            <field name="description">اجتماع موسع لمناقشة سبل تعزيز قدرات شركة بريد ليبيا</field>
+        </record>
+        <record id="ticker_news_5" model="ticker.news">
+            <field name="description">الهيئة العامة للاتصالات والمعلوماتية تشارك في ملتقى ليبيا الدولي لتكنولوجيا المعلومات</field>
+        </record>
+        <record id="ticker_news_6" model="ticker.news">
+            <field name="description">اتفاق تعاون بين الهيئة العامة للاتصالات والهيئة العامة للبحث والتعرف على المفقودين</field>
+        </record>
+        <record id="ticker_news_7" model="ticker.news">
+            <field name="description">تهنئة بمناسبة الذكرى (69) لعيد الإستقلال</field>
+        </record>
+        <record id="ticker_news_8" model="ticker.news">
+            <field name="description">الهيئة العامة للاتصالات و المعلوماتية تستضيف اتحاد الرياضات الألكترونية الليبية</field>
+        </record>
+
+
+
+    </data>
+</odoo>
