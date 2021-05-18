@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <!--=======================Strategy==========================-->
+        <!--Tree View-->
+        <record id="view_strategy_tree" model="ir.ui.view">
+            <field name="name">strategy.tree</field>
+            <field name="model">strategy</field>
+            <field name="arch" type="xml">
+                <tree>
+                    <field name="name"/>
+                </tree>
+            </field>
+        </record>
+        <!--Form View-->
+        <record id="view_strategy_form" model="ir.ui.view">
+            <field name="name">strategy.form</field>
+            <field name="model">strategy</field>
+            <field name="priority" eval="1"/>
+            <field name="arch" type="xml">
+                <form string="Strategy">
+                    <sheet>
+                        <div class="oe_title">
+                            <label class="oe_edit_only" for="name" string="إسم الاستراتيجية"/>
+                            <h1>
+                                <field name="name" placeholder="إسم الاستراتيجية"/>
+                            </h1>
+                        </div>
+                        <group>
+                            <group>
+                                <field name="attachment_id"/>
+                            </group>
+                        </group>
+                    </sheet>
+                </form>
+            </field>
+        </record>
+        <!--Form View-->
+        <record id="strategy_action" model="ir.actions.act_window">
+            <field name="name">الاستراتيجية</field>
+            <field name="type">ir.actions.act_window</field>
+            <field name="res_model">strategy</field>
+            <field name="view_mode">tree,form</field>
+            <field name="help" type="html">
+                <p class="o_view_nocontent_smiling_face">
+                    إنشاء استراتيجية جديدة.
+                </p>
+            </field>
+        </record>
+
+    </data>
+</odoo>

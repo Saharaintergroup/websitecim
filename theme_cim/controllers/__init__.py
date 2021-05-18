@@ -7,4 +7,5 @@ from . import bids
 from . import jobs
 from . import company_partners
 from . import decisions
+from . import strategy
 from . import numbering_models

@@ -27,17 +27,23 @@
                   parent="cim_home_menu"
                   action="company_partners_action"/>
 
+        <!--عن الهيئة-->
         <menuitem id="cim_aboutus_menu" name="عن الهيئة"
                   sequence="2"
                   parent="cim_menu_root"/>
 
-        <menuitem id="cim_teams_menu" name="الطاقم التنفيذي"
+        <menuitem id="cim_strategy_menu" name="الاستراتيجية"
                   sequence="1"
+                  parent="cim_aboutus_menu"
+                  action="strategy_action"/>
+
+        <menuitem id="cim_teams_menu" name="الطاقم التنفيذي"
+                  sequence="2"
                   parent="cim_aboutus_menu"
                   action="teams_action"/>
 
         <menuitem id="cim_decisions_menu" name="القرارات"
-                  sequence="1"
+                  sequence="3"
                   parent="cim_aboutus_menu"
                   action="decisions_action"/>
 

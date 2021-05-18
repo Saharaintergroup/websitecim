@@ -21,15 +21,15 @@
                                     <div class="o_logo_cim d-flex mb20">
                                         <img src="/theme_cim/static/src/images/logo.png"/>
                                         <div class="o_solgon">
-                                            <h4>Public Authority for Communications and Informatics</h4>
-                                            <h6>Digital Society - Distinguished Services - Competitive Environment</h6>
+                                            <h4>الهيئة العامة للإتصالات و المعلوماتية</h4>
+                                            <h6>مجتمع رقمي - خدمات مميزة - بيئة تنافسية</h6>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="col-auto">
                                     <div class="menu_footer">
                                         <a href="/who-are-we">عن الهيئة</a>
-                                        <a href="/electronic-services">الخدمات الإلكترونية</a>
+                                        <a href="/electronic-services">بوابة الخدمات الإلكترونية</a>
                                         <a href="/contactus">إتصل بنا</a>
                                     </div>
                                     <div class="s_share_cim text-right d-flex align-items-center justify-content-between"

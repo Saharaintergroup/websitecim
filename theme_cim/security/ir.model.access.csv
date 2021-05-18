@@ -31,3 +31,6 @@ access_decisions_designer,decisions.designer,theme_cim.model_decisions,website.g
 
 access_numbering_models_public,numbering.models.public,theme_cim.model_numbering_models,,1,0,0,0
 access_numbering_models_designer,numbering.models.designer,theme_cim.model_numbering_models,website.group_website_designer,1,1,1,1
+
+access_strategy_public,strategy.public,theme_cim.model_strategy,,1,0,0,0
+access_strategy_designer,strategy.designer,theme_cim.model_strategy,website.group_website_designer,1,1,1,1

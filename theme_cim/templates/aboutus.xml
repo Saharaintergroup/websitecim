@@ -222,6 +222,26 @@
                                         </div>
                                     </div>
                                 </div>
+                                <div class="faq-list" t-if="strategy">
+                                    <h3 class="hr_title_horizontal mb30">المرفقات</h3>
+                                    <div class="faq">
+                                        <div class="row justify-content-between align-items-end mb30 mt30"
+                                             t-foreach="strategy" t-as="item">
+                                            <div class="col-10">
+                                                <h5 class="faq-title" t-esc="item.name"/>
+                                            </div>
+                                            <div class="col-auto">
+                                                <a t-att-href="item.attachment_id.local_url" target="_blank"
+                                                   class="download"><img
+                                                        src="/theme_cim/static/src/images/icon/cloud-computing.svg"/>&amp;nbsp;تحميل
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <t t-call="website.pager">
+                                    <t t-set="_classes">mt40 justify-content-center</t>
+                                </t>
                             </div>
                         </section>
                         <div class="oe_structure"/>
@@ -449,7 +469,8 @@
                                                 </div>
                                             </div>
                                             <div class="col-auto">
-                                                <a t-att-href="item.attachment_id.local_url" target="_blank" class="download"><img
+                                                <a t-att-href="item.attachment_id.local_url" target="_blank"
+                                                   class="download"><img
                                                         src="/theme_cim/static/src/images/icon/cloud-computing.svg"/>&amp;nbsp;تحميل
                                                 </a>
                                             </div>

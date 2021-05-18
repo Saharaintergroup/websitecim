@@ -8,4 +8,5 @@ from . import public_announcements
 from . import jobs
 from . import bids
 from . import decisions
+from . import strategy
 from . import numbering_models
