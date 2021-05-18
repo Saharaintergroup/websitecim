@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data noupdate="0">
+
+        <record id="slider_home_1" model="slider.home">
+            <field name="name">إجتماع اللجنة المشكلة بقرار رئيس الهيئة رقم ( 140) لسنة2019م</field>
+            <field name="description">2021-03-23
+                عقد صباح اليوم الثلاثاء الموافق 2021/3/23م بمقر الهيئة بطرابلس إجتماع اللجنة المشكلة بقرار رئيس الهيئة
+                رقم ( 140) لسنة2019م
+            </field>
+        </record>
+
+        <record id="slider_home_2" model="slider.home">
+            <field name="name">الهيئة العامة للإتصالات والمعلوماتية تحذر من خطر التصيد الإلكتروني
+            </field>
+            <field name="description">2020-10-08
+                تحذرت من خلاله المواطنين من خطر التعامل مع الصفحات الوهمية الممولة التي ظهرت خلال الأونة الأخيرة بكثرة
+                على صفحات ومواقع التواصل الإجتماعي ، تحمل اسماء وشعارات شركات قطاع الاتصالات الوطنية المحلية .
+            </field>
+        </record>
+
+        <record id="slider_home_3" model="slider.home">
+            <field name="name">اجتماع موسع لمناقشة سبل تعزيز قدرات شركة بريد ليبيا
+
+            </field>
+            <field name="description">2020-11-19
+                عقدت اللجنة المنبثقة عن الجمعية العمومية للشركة الليبية القابضة للاتصالات ، والمعنية بمتابعة المشاكل
+                والعراقيل التي تعيق سير عمل شركة بريد ليبيا ؛ في وقت مبكر من مساء اليوم اجتماعاً موسعاً ؛ مع رئيس مجلس
+                إدارة شركة بريد ليبيا ومديرها العام ولفيف من الخبراء والمستشارين ومدراء الادارات والمشاريع بها .
+            </field>
+        </record>
+
+        <record id="slider_home_4" model="slider.home">
+            <field name="name">تهنئة بمناسبة الذكرى (69) لعيد الإستقلال
+            </field>
+            <field name="description">تهنئة بمناسبة الذكرى (69) لعيد الإستقلال
+            </field>
+            <field name="image" type="base64"
+                   file="theme_cim/static/src/data/slider_home/4.jpg"></field>
+        </record>
+
+    </data>
+</odoo>

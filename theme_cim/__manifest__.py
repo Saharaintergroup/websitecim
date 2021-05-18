@@ -6,7 +6,7 @@
     'description': 'Cim website theme',
     'category': 'Theme',
     'sequence': 1,
-    'version': '1.8.1',
+    'version': '1.8.2',
     'depends': ['base', 'website', 'website_form'],
     'data': [
         # security
@@ -49,6 +49,7 @@
         "data/decisions_data.xml",
         "data/strategy_data.xml",
         "data/numbering_models_data.xml",
+        "data/slider_home_data.xml",
     ],
     'images': [
         'static/description/cover.png',
