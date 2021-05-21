@@ -18,7 +18,7 @@ $color-blue-5:#165A7D;
 
 /* PADDING + MARGING */
 @for $i from 1 through 20 {
-    $val: 10 * $i;
+    $val: 5 * $i;
     .pt#{$val}{
         padding-top:#{$val}px!important;
     }

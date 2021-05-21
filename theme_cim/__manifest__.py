@@ -6,7 +6,7 @@
     'description': 'Cim website theme',
     'category': 'Theme',
     'sequence': 1,
-    'version': '1.8.2',
+    'version': '1.8.3',
     'depends': ['base', 'website', 'website_form'],
     'data': [
         # security
@@ -42,6 +42,7 @@
         "views/decisions_views.xml",
         "views/numbering_models_views.xml",
         "views/strategy_views.xml",
+        "views/egovernment_files_views.xml",
         "views/menu.xml",
         # data
         "data/company_partners_data.xml",
@@ -51,6 +52,7 @@
         "data/numbering_models_data.xml",
         "data/slider_home_data.xml",
         "data/ticker_news_data.xml",
+        "data/egovernment_files_data.xml",
     ],
     'images': [
         'static/description/cover.png',

@@ -9,3 +9,4 @@ from . import company_partners
 from . import decisions
 from . import strategy
 from . import numbering_models
+from . import egovernment_files

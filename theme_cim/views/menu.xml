@@ -82,7 +82,15 @@
                   sequence="1"
                   parent="cim_organization_of_communications_menu"
                   action="numbering_models_action"/>
-
+        <!--electronic government-->
+        <menuitem id="cim_electronic_government_menu" name="الحكومة الالكترونية"
+                  sequence="2"
+                  parent="cim_our_business_menu"/>
+        <!--Bids-->
+        <menuitem id="cim_egovernment_files_menu" name="ملفات الحكومة الالكترونية"
+                  sequence="1"
+                  parent="cim_electronic_government_menu"
+                  action="egovernment_files_action"/>
         <!--================================-->
         <!--==Setting==-->
         <menuitem

@@ -15,20 +15,183 @@
                     <div id="wrap">
                         <section class="pt50 pb50">
                             <div class="container">
-                                <h3 class="hr_title_horizontal mb30">الحكومة الالكترونية</h3>
-                                <div class="faq">
-                                    <div class="row justify-content-between align-items-end mb30 mt30">
-                                        <div class="col-10">
-                                            <h5 class="faq-title" t-esc="item.name"/>
-                                        </div>
-                                        <div class="col-auto">
-                                            <a t-att-href="item.attachment_id.local_url" target="_blank"
-                                               class="download"><img
-                                                    src="/theme_cim/static/src/images/icon/cloud-computing.svg"/>&amp;nbsp;تحميل
-                                            </a>
+                                <div class="faq-list">
+                                    <div class="faq">
+                                        <div class="row justify-content-between  mb30 mt30">
+                                            <div class="col-md-6">
+                                                <h3 class="hr_title_horizontal mb30">الحكومة الالكترونية</h3>
+                                                <h5 class="faq-title mb20 mt30">نبذة تاريخية</h5>
+                                                <p>بـمبادرة من وزارة الاتصالات و المعلوماتية سنة قدمت رسميا اوائل سنة
+                                                    2012 (
+                                                    مبادرة ليبيا الإلكترونية... المزيد) تبنت الحكومة وضع الأسس العلمية و
+                                                    العملية
+                                                    لتنفيذ المبادرة. حيث و افق مجلس الوزراء على المبادرة و أنشأ ادارة
+                                                    الخدمات
+                                                    الإلكترونية بقرار مجلس الوزراء (31-2012) و من ثم الإدارة العامة
+                                                    للخدمات
+                                                    الإلكترونية لاحقا لتعمل الإدارة على تطوير المبادرة الى برنامج عملي
+                                                    تنفيذي
+                                                </p>
+                                                <p>قرر مجلس الوزراء إنشاء برنامج وطني حكومي يسعى لتنفيذ الحكومة
+                                                    الإلكترونية
+                                                    <a href="">(.... المزيد )</a>
+                                                    و أطلق عليه إسم (برنامج الخدمات الإلكترونية) أواخر سنة 2012 و اطلقه
+                                                    رسميا
+                                                    خلال الربع الأول
+                                                    لسنة 2013
+                                                </p>
+                                            </div>
+                                            <div class="col-md-5">
+                                                <img src="/theme_cim/static/src/images/services/Composant 44 – 2.png"
+                                                     class="img-fluid img_organization_of_communications"/>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
+                                <div class="faq-list">
+                                    <div class="faq">
+                                        <h5 class="faq-title mb20 mt30">برنامج الخدمات الإلكترونية</h5>
+                                        <p>الإسم الرسمي لبرنامج الحكومة الإلكترونية ، أنشأه مجلس الورزاء بموجب القرار (
+                                            99 لسنة 2013 ) ، و تشرف عليه لجنة عليا برئاسة نائب رئيس
+                                            الوزراء للشؤون الفنية، و عضوية كل من وزير الاتصالات و المعلوماتية ، وزير
+                                            المالية. ، وزير التخطيط. وزير العمل و التأهيل ، وزير الاقتصاد، وزير
+                                            الحكم المحلي، وزير الداخلية، منسق عام مكتب دعم القرار بمجلس الوزراء
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="faq-list">
+                                    <div class="faq">
+                                        <div class="row justify-content-between  mb30 mt30">
+                                            <div class="col-md-6">
+                                                <h5 class="faq-title mb20 mt30">يهدف البرنامج الى</h5>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="bg_cover text-center pt50 pb50"
+                                     style="background-image:url(theme_cim/static/src/images/bg-1.png)">
+                                    <div class="row justify-content-center">
+                                        <div class="col-10">
+                                            <h4 class="mb30">مادة رقم (3)</h4>
+                                            <p>يهدف برنامج الخدمات الإلكترونية إلي تطوير ورفع مستوى جودة في ليبيا عن
+                                                طريق استخدام تكنولوجيا الإتصالات والمعلومات وذلك بالتحول الشامل إلي
+                                                التعاملات الإلكترونية وربط جميع الإجهزة الحكومية لتبسيط الاجراءات
+                                                والتعاملات الحكومية المقدمة للمواطنين والمقيمين وأصحاب الأعمال والتقليل
+                                                من إزدواجية نظم البرمجيات وتعزيز مبدأ الشفافية واللامركزية
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="faq-list">
+                                    <div class="faq">
+                                        <div class="row justify-content-between  mb30 mt30">
+                                            <div class="col-11">
+                                                <p>كلف مجلس الوزراء وزارة الإتصالات و المعلوماتية بإعداد خطة إستراتيجية
+                                                    تنفيذية للبرنامج بالإستعانة بأحد بيوت الخبرة الدولية المختصة
+                                                    تعاقدت وزراة الإتصالات و المعلوماتية مع شركة PwC العالمية لتطوير
+                                                    الإستراتيجية المستهدفة تحت اشراف الإدارة العامة للخدمات الإلكترونية
+                                                    بالتعاون مع المعنيين في كافة القطاعات و الجهات الحكومية ضمن مشروع
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="faq-list">
+                                    <div class="faq">
+                                        <div class="mb30 mt30">
+                                            <h5 class="faq-title mb20 mt30">مشروع تطوير استراتيجية ليبيا الإلكترونية
+                                                ( استراتيجية الحكومة الإلكترونية)
+                                            </h5>
+                                        </div>
+                                    </div>
+                                    <div class="row justify-content-center">
+                                        <div class="col-xl-8 col-lg-9 col-md-10">
+                                            <div class="row">
+                                                <div class="col-md-4 mt15 mb15">
+                                                    <div class="box_white_title rounded d-flex align-items-center">
+                                                        <h5>إنشاء وتعريف البرنامج</h5>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-4 mt15 mb15">
+                                                    <div class="box_white_title rounded d-flex align-items-center">
+                                                        <h5>التخطيط والتجهيز</h5>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-4 mt15 mb15">
+                                                    <div class="box_white_title rounded d-flex align-items-center">
+                                                        <h5>التنفيذ</h5>
+                                                    </div>
+                                                </div>
+                                                <div class="col-12 mt15 mb15">
+                                                    <div class="box_white_title rounded d-flex align-items-center">
+                                                        <h5>التحسين والتطوير</h5>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="faq">
+                                        <div class="mb30 mt30">
+                                            <h5 class="faq-title mb20 mt30">أهم مخرجات الإستراتيجية</h5>
+                                            <ul>
+                                                <li>الرؤية الوطنية للحكومة الإلكترونية</li>
+                                                <li>نظام الحوكمة و التشريعات المنظمة</li>
+                                                <li>البنية التحتية و التطبيقات و الخدمات المستهدفة</li>
+                                                <li>آلية التمويل و الإنفاق</li>
+                                                <li>خارطة الطريق</li>
+                                            </ul>
+                                        </div>
+                                        <div class="mb30 mt30">
+                                            <h5 class="faq-title mb20 mt30">إنجازاتنا</h5>
+                                            <ul>
+                                                <li>تصميم و تطوير و تنفيذ و تشغيل موقع التسجيل الإلكتروني للحملة الوطنية
+                                                    للتطعيم ضد فيروس كورونا المستجد بالتعاون مع وزارة الصحة و المركز
+                                                    الوطني لمكافحة الأمراض
+                                                </li>
+                                                <li>تصميم و تطوير و تنفيذ و تشغيل بوابة الرسائل النصية للخدمات
+                                                    الإلكترونية (11234)
+                                                </li>
+                                                <li>الربط التقني و التبادل البيني للبيانات مع مصلحة الأحوال المدنية</li>
+                                                <li>استضافة المواقع و التطبيقات الحكومية بمركز بيانات الهيئة بالتعاون مع
+                                                    مكتب شبكات المعلومات
+                                                </li>
+                                                <li>دعم تنفيذ النظام المتكامل لإدارة و تتبع القضايا الجنائية بالتعاون مع
+                                                    وزراة الداخلية
+                                                </li>
+                                                <li>تمكين وسائل و آليات الدفع الإلكتروني ضمن القطاع الحكومي و الخاص</li>
+                                                <li>تنفيذ بوابة الخدمات الإلكترونية للهيئة بالتعاون مع الإدارة العامة
+                                                    لشؤون التنظيم
+                                                </li>
+                                                <li>تنفيذ نظام ادراة الموارد المؤسسية بالهيئة بالتعاون مع مكتب شبكات
+                                                    المعلومات
+                                                </li>
+                                                <li>توثيق و تجهيز دليل الإجراءات بالهيئة كخطوة أولى نحو التحول الرقمي
+                                                    بالهيئة
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="faq-list mt60">
+                                    <div class="faq">
+                                        <div class="row justify-content-between align-items-center mb30 mt30"
+                                             t-foreach="egovernment_files" t-as="item">
+                                            <div class="col-10">
+                                                <h5 class="faq-title mb0" t-esc="item.name"/>
+                                            </div>
+                                            <div class="col-auto">
+                                                <a t-att-href="item.attachment_id.local_url" target="_blank"
+                                                   class="download"><img
+                                                        src="/theme_cim/static/src/images/icon/cloud-computing.svg"/>&amp;nbsp;تحميل
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <t t-call="website.pager">
+                                    <t t-set="_classes">mt40 justify-content-center</t>
+                                </t>
                             </div>
                         </section>
                         <div class="oe_structure"/>

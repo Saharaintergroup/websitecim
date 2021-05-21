@@ -34,3 +34,6 @@ access_numbering_models_designer,numbering.models.designer,theme_cim.model_numbe
 
 access_strategy_public,strategy.public,theme_cim.model_strategy,,1,0,0,0
 access_strategy_designer,strategy.designer,theme_cim.model_strategy,website.group_website_designer,1,1,1,1
+
+access_egovernment_files_public,egovernment.files.public,theme_cim.model_egovernment_files,,1,0,0,0
+access_egovernment_files_designer,egovernment.files.designer,theme_cim.model_egovernment_files,website.group_website_designer,1,1,1,1

@@ -522,10 +522,10 @@
 
 .faq-list{
     .faq{
-        padding-left:15px;
         h5{
             position:relative;
             margin-bottom: 20px;
+             margin-left:15px;
             &:before{
                 content:'';
                 display:inline-block;
@@ -545,6 +545,7 @@
             list-style: none;
            padding-left: 0;
            opacity:70%;
+            margin-left:15px;
            li{
             position:relative;
             padding:5px 5px 5px 0;
@@ -932,4 +933,12 @@
             }
         }
     }
+}
+/*box_white_title*/
+.box_white_title{
+    background-color:white;
+    color:$color-blue-3;
+    height:160px;
+    text-align:center;
+    justify-content: center;
 }
