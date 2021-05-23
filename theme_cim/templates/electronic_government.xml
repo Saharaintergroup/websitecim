@@ -37,7 +37,7 @@
                                                 </p>
                                                 <p>قرر مجلس الوزراء إنشاء برنامج وطني حكومي يسعى لتنفيذ الحكومة
                                                     الإلكترونية
-                                                    <a href="">(.... المزيد )</a>
+                                                    <a href="/egovernment-link">(.... المزيد )</a>
                                                     و أطلق عليه إسم (برنامج الخدمات الإلكترونية) أواخر سنة 2012 و اطلقه
                                                     رسميا
                                                     خلال الربع الأول
@@ -420,7 +420,161 @@
                             <div class="container">
                                 <div class="row align-items-center">
                                     <div class="col-2">
-                                        <a href="/electronic-government" class="btn_return pulse"><i class="fa fa-angle-left" ></i></a>
+                                        <a href="/electronic-government" class="btn_return pulse">
+                                            <i class="fa fa-angle-left"></i>
+                                        </a>
+                                    </div>
+                                    <div class="col-8 text-center">
+                                        <h3>العودة لصحفة الحكومة الألكترونية</h3>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                        <div class="oe_structure"/>
+                    </div>
+                </t>
+            </t>
+        </field>
+    </record>
+
+
+    <!--E-government link-->
+    <record id="egovernment_link_page" model="website.page">
+        <field name="name">E-government link</field>
+        <field name="url">/egovernment-link</field>
+        <field name="type">qweb</field>
+        <field name="website_indexed" eval="False"/>
+        <field name="is_published">True</field>
+        <field name="key">theme_cim.egovernment_link_page</field>
+        <field name="arch" type="xml">
+            <t name="E-government link" t-name="theme_cim.egovernment_link_page">
+                <t t-call="website.layout">
+                    <div id="wrap">
+                        <section class="pt50 pb50">
+                            <div class="container">
+
+                                <div class="faq-list">
+                                    <div class="faq">
+                                        <div class="row justify-content-between  mb30 mt30">
+                                            <div class="col-md-6">
+                                                <h3 class="hr_title_horizontal mb30">رابط الحكومه الالكترونية</h3>
+                                                <p>الاستخدام التكاملي الفعال لجميع تقنيات المعلومات والاتصالات، لتسهيل
+                                                    وتسريع
+                                                    التعاملات بدقة عالية داخل الجهات الحكومية (حكومة- حكومة) G-G))
+                                                    وبينها
+                                                    وبين تلك التي تربطها بالأفراد (حكومة-فرد) (G-C)، وقطاعات الأعمال
+                                                    (حكومة-
+                                                    أعمال( (G-B)
+                                                </p>
+                                                <p>قرر مجلس الوزراء إنشاء برنامج وطني حكومي يسعى لتنفيذ الحكومة
+                                                    الإلكترونية
+                                                    <a href="/electronic-government">(.... المزيد )</a>
+                                                    و أطلق عليه إسم (برنامج الخدمات الإلكترونية) أواخر سنة 2012 و اطلقه
+                                                    رسميا خلال الربع الأول
+                                                    لسنة 2013
+                                                    <br/>
+                                                    <a href="/electronic-libya-initiative">مبادرة ليبيا الإلكترونية...
+                                                        المزيد
+                                                    </a>
+                                                </p>
+                                            </div>
+                                            <div class="col-md-5">
+                                                <img src="/theme_cim/static/src/images/services/egovernment_link.png"
+                                                     class="img-fluid img_organization_of_communications"/>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="faq-list">
+                                    <div class="faq">
+                                        <h5 class="faq-title mb20 mt30">أهم ما تهدف اليه الحكومة الإلكترونية</h5>
+                                        <ul>
+                                            <li>تحسبن أداء و فعالية الإدارة الحكومية</li>
+                                            <li>تقديم الخدمات الى المستفدين الكترونيا</li>
+                                            <li>تخفيض الإنفاق الحكومي</li>
+                                        </ul>
+
+                                        <h5 class="faq-title mb20 mt30">مؤشر الأمم المتحدة للحكومة الإلكترونية</h5>
+                                        <table class="table table-bordered table-responsive text-center text-light">
+                                            <thead>
+                                                <th width="20%">الدولة</th>
+                                                <th>2010</th>
+                                                <th>2012</th>
+                                                <th>2014</th>
+                                                <th>2016</th>
+                                                <th>2018</th>
+                                                <th>2020</th>
+                                            </thead>
+                                            <tbody>
+                                                <tr>
+                                                    <td>الدنمارك</td>
+                                                    <td>7</td>
+                                                    <td>4</td>
+                                                    <td>16</td>
+                                                    <td>9 </td>
+                                                    <td>1</td>
+                                                    <td>1</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>كوريا الجنوبية</td>
+                                                    <td>1</td>
+                                                    <td>1</td>
+                                                    <td>1</td>
+                                                    <td>3</td>
+                                                    <td>3</td>
+                                                    <td>2</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>الممكلة المتحدة</td>
+                                                    <td>4</td>
+                                                    <td>3</td>
+                                                    <td>8</td>
+                                                    <td>1</td>
+                                                    <td>4</td>
+                                                    <td>7</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>تونس</td>
+                                                    <td>66</td>
+                                                    <td>103</td>
+                                                    <td>75</td>
+                                                    <td>72</td>
+                                                    <td>80</td>
+                                                    <td>91</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>ليبيا</td>
+                                                    <td>114</td>
+                                                    <td>191</td>
+                                                    <td>121</td>
+                                                    <td>118</td>
+                                                    <td>140</td>
+                                                    <td>162</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>الترتيب الأخير</td>
+                                                    <td>184</td>
+                                                    <td>191</td>
+                                                    <td>193</td>
+                                                    <td>193</td>
+                                                    <td>193</td>
+                                                    <td>193</td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                        <section class="section_return_page pt60 pb60">
+                            <div class="container">
+                                <div class="row align-items-center">
+                                    <div class="col-2">
+                                        <a href="/electronic-government" class="btn_return pulse">
+                                            <i class="fa fa-angle-left"></i>
+                                        </a>
                                     </div>
                                     <div class="col-8 text-center">
                                         <h3>العودة لصحفة الحكومة الألكترونية</h3>

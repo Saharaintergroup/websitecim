@@ -565,6 +565,12 @@
             color:#ffffff;
             opacity:1;
         }
+        .table{
+            tr,td{
+                opacity:70%;
+                vertical-align: middle;
+            }
+        }
     }
 }
 
@@ -947,7 +953,7 @@
 
 /*section_return_page***/
 .section_return_page{
-    background-image:url('../images/bg_section_return_page.png');
+    background-image:url('../images/services/bg_section_return_page.png');
     background-size:cover;
     background-position:center;
     position:relative;
@@ -980,5 +986,10 @@
         width:100%;
         height:100%;
          background-image: linear-gradient(to bottom, rgba(0,0,0,0.26), rgba(0,0,0,1));
+    }
+}
+.table{
+    thead{
+        background-color:rgba(255,255,255,.2)
     }
 }
