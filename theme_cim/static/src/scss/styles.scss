@@ -845,7 +845,7 @@
     &::before{
         content:'';
         display:block;
-        background-color:rgba(0,0,0,0.5);
+        background-color:rgba(0,0,0,0.8);
         position:absolute;
         top:0;
         left:0;
@@ -860,8 +860,9 @@
         h6{
             font-weight:600;
             margin:0;
+            padding:10px;
         }
-        &::after {
+        &::before {
             counter-increment: section;
             content: counter(section);
             background-image:url('../images/icon/triangle-fr.svg');
