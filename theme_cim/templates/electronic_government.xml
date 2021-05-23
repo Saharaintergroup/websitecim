@@ -496,7 +496,7 @@
                                         </ul>
 
                                         <h5 class="faq-title mb20 mt30">مؤشر الأمم المتحدة للحكومة الإلكترونية</h5>
-                                        <table class="table table-bordered table-responsive text-center text-light">
+                                        <table class="table table-bordered table-responsive-sm text-center text-light">
                                             <thead>
                                                 <th width="20%">الدولة</th>
                                                 <th>2010</th>
