@@ -6,6 +6,7 @@
             <field name="name">الخطة_التشغيلية_2021.pdf</field>
             <field name="datas" type="base64" file="theme_cim/static/src/data/strategy/الخطة_التشغيلية_2021.pdf"></field>
             <field name="mimetype">application/pdf;base64</field>
+            <field name="public">True</field>
         </record>
         <record id="strategy_1" model="strategy">
             <field name="name">الخطة التشغلية 2021</field>
@@ -16,6 +17,7 @@
             <field name="name">ملخص_للخطة_الاستراتيجية_لقطاع_الاتصالات.pdf</field>
             <field name="datas" type="base64" file="theme_cim/static/src/data/strategy/ملخص_للخطة_الاستراتيجية_لقطاع_الاتصالات.pdf"></field>
             <field name="mimetype">application/pdf;base64</field>
+            <field name="public">True</field>
         </record>
         <record id="strategy_2" model="strategy">
             <field name="name">ملخص الخطة الاستراتجية لقطاع الاتصالات</field>
@@ -26,6 +28,7 @@
             <field name="name">التقرير_السنوي_2020.pdf</field>
             <field name="datas" type="base64" file="theme_cim/static/src/data/strategy/التقرير_السنوي_2020.pdf"></field>
             <field name="mimetype">application/pdf;base64</field>
+            <field name="public">True</field>
         </record>
         <record id="strategy_3" model="strategy">
             <field name="name">التقرير السنوي 2020</field>

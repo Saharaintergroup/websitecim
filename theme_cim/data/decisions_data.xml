@@ -6,6 +6,7 @@
             <field name="name">pdf_16.pdf</field>
             <field name="datas" type="base64" file="theme_cim/static/src/data/decisions/pdf_16.pdf"></field>
             <field name="mimetype">application/pdf;base64</field>
+            <field name="public">True</field>
         </record>
         <record id="decisions_1" model="decisions">
             <field name="name">قرار مجلس الوزراء باعتماد الهيكل التنظيمي واختصاصات وزارة الاتصالات.</field>
@@ -18,6 +19,7 @@
             <field name="name">pdf_15.pdf</field>
             <field name="datas" type="base64" file="theme_cim/static/src/data/decisions/pdf_15.pdf"></field>
             <field name="mimetype">application/pdf;base64</field>
+                        <field name="public">True</field>
         </record>
         <record id="decisions_2" model="decisions">
             <field name="name">قرار إنشاء الهيئة الوطنية لأمن و سلامة المعلومات</field>
@@ -30,6 +32,7 @@
             <field name="name">pdf_14.pdf</field>
             <field name="datas" type="base64" file="theme_cim/static/src/data/decisions/pdf_14.pdf"></field>
             <field name="mimetype">application/pdf;base64</field>
+                        <field name="public">True</field>
         </record>
         <record id="decisions_3" model="decisions">
             <field name="name">قرار مجلس الوزراء بتسمية الوكلاء والوكلاء المساعدين</field>
@@ -42,6 +45,7 @@
             <field name="name">pdf_12.pdf</field>
             <field name="datas" type="base64" file="theme_cim/static/src/data/decisions/pdf_12.pdf"></field>
             <field name="mimetype">application/pdf;base64</field>
+                        <field name="public">True</field>
         </record>
         <record id="decisions_4" model="decisions">
             <field name="name">قرار بشأن إنشاء فروع لوزارة الاتصالات والمعلوماتية</field>
@@ -54,6 +58,7 @@
             <field name="name">pdf_11.pdf</field>
             <field name="datas" type="base64" file="theme_cim/static/src/data/decisions/pdf_11.pdf"></field>
             <field name="mimetype">application/pdf;base64</field>
+                        <field name="public">True</field>
         </record>
         <record id="decisions_5" model="decisions">
             <field name="name">قرار مجلس الوزراء بتسمية وكيلين مساعدين لوزارة الاتصالات و المعلوماتية</field>
@@ -66,6 +71,7 @@
             <field name="name">pdf_3.pdf</field>
             <field name="datas" type="base64" file="theme_cim/static/src/data/decisions/pdf_3.pdf"></field>
             <field name="mimetype">application/pdf;base64</field>
+                        <field name="public">True</field>
         </record>
         <record id="decisions_6" model="decisions">
             <field name="name">قرار بتشكيل مجلس إدارة شركة ليبيانا للهاتف المحمول</field>
@@ -78,6 +84,7 @@
             <field name="name">pdf_4.pdf</field>
             <field name="datas" type="base64" file="theme_cim/static/src/data/decisions/pdf_4.pdf"></field>
             <field name="mimetype">application/pdf;base64</field>
+                        <field name="public">True</field>
         </record>
         <record id="decisions_7" model="decisions">
             <field name="name">قرار بتشكيل مجلس إدارة شركة البنية للاستثمار و الخدمات</field>
@@ -90,6 +97,7 @@
             <field name="name">pdf_5.pdf</field>
             <field name="datas" type="base64" file="theme_cim/static/src/data/decisions/pdf_5.pdf"></field>
             <field name="mimetype">application/pdf;base64</field>
+                        <field name="public">True</field>
         </record>
         <record id="decisions_8" model="decisions">
             <field name="name">قرار بتشكيل مجلس إدارة شركة المدار الجديد</field>
@@ -102,6 +110,7 @@
             <field name="name">pdf_6.pdf</field>
             <field name="datas" type="base64" file="theme_cim/static/src/data/decisions/pdf_6.pdf"></field>
             <field name="mimetype">application/pdf;base64</field>
+                        <field name="public">True</field>
         </record>
         <record id="decisions_9" model="decisions">
             <field name="name">قرار بتشكيل مجلس إدارة شركة الجيل الجديد للتقنية</field>
@@ -114,6 +123,7 @@
             <field name="name">pdf_7.pdf</field>
             <field name="datas" type="base64" file="theme_cim/static/src/data/decisions/pdf_7.pdf"></field>
             <field name="mimetype">application/pdf;base64</field>
+                        <field name="public">True</field>
         </record>
         <record id="decisions_10" model="decisions">
             <field name="name">قرار بتشكيل مجلس إدارة شركة ليبيا للاتصالات و التقنية</field>
@@ -126,6 +136,7 @@
             <field name="name">pdf_8.pdf</field>
             <field name="datas" type="base64" file="theme_cim/static/src/data/decisions/pdf_8.pdf"></field>
             <field name="mimetype">application/pdf;base64</field>
+                        <field name="public">True</field>
         </record>
         <record id="decisions_11" model="decisions">
             <field name="name">قرار بتشكيل مجلس إدارة شركة الاتصالات الدولية الليبية</field>
@@ -138,6 +149,7 @@
             <field name="name">pdf_9.pdf</field>
             <field name="datas" type="base64" file="theme_cim/static/src/data/decisions/pdf_9.pdf"></field>
             <field name="mimetype">application/pdf;base64</field>
+                        <field name="public">True</field>
         </record>
         <record id="decisions_12" model="decisions">
             <field name="name">قرار بتشكيل مجلس إدارة شركة هاتف ليبيا</field>
@@ -150,6 +162,7 @@
             <field name="name">pdf_10.pdf</field>
             <field name="datas" type="base64" file="theme_cim/static/src/data/decisions/pdf_10.pdf"></field>
             <field name="mimetype">application/pdf;base64</field>
+                        <field name="public">True</field>
         </record>
         <record id="decisions_13" model="decisions">
             <field name="name">قرار بتشكيل مجلس إدارة شركة بريد ليبيا</field>
@@ -162,6 +175,7 @@
             <field name="name">pdf_2.pdf</field>
             <field name="datas" type="base64" file="theme_cim/static/src/data/decisions/pdf_2.pdf"></field>
             <field name="mimetype">application/pdf;base64</field>
+                        <field name="public">True</field>
         </record>
         <record id="decisions_14" model="decisions">
             <field name="name">قرار تكليف مدير عام للشركة الليبية للبريد والاتصالات وتقنية المعلومات</field>
@@ -174,6 +188,7 @@
             <field name="name">pdf_1.pdf</field>
             <field name="datas" type="base64" file="theme_cim/static/src/data/decisions/pdf_1.pdf"></field>
             <field name="mimetype">application/pdf;base64</field>
+                        <field name="public">True</field>
         </record>
         <record id="decisions_15" model="decisions">
             <field name="name">قرار تأسيس مجلس إدارة الشركة الليبية للبريد والاتصالات وتقنية المعلومات</field>

@@ -19,6 +19,7 @@
             <field name="datas" type="base64"
                    file="theme_cim/static/src/data/egovernment_files/newsletter_3_ar.pdf"></field>
             <field name="mimetype">application/pdf;base64</field>
+            <field name="public">True</field>
         </record>
         <record id="newsletter_issue_one_ar" model="egovernment.files">
             <field name="name">النشرة الإخبارية العدد الأول ـ النسخة العربية</field>
@@ -30,6 +31,7 @@
             <field name="datas" type="base64"
                    file="theme_cim/static/src/data/egovernment_files/newsletter_3_en.pdf"></field>
             <field name="mimetype">application/pdf;base64</field>
+            <field name="public">True</field>
         </record>
         <record id="newsletter_issue_one_en" model="egovernment.files">
             <field name="name">Newsletter Issue One - English Ver</field>
@@ -43,6 +45,7 @@
             <field name="datas" type="base64"
                    file="theme_cim/static/src/data/egovernment_files/newsletter_7_ar.pdf"></field>
             <field name="mimetype">application/pdf;base64</field>
+            <field name="public">True</field>
         </record>
         <record id="newsletter_issue_two_ar" model="egovernment.files">
             <field name="name">النشرة الإخبارية العدد الثاني ـ النسخة العربية</field>
@@ -54,6 +57,7 @@
             <field name="datas" type="base64"
                    file="theme_cim/static/src/data/egovernment_files/newsletter_7_en.pdf"></field>
             <field name="mimetype">application/pdf;base64</field>
+            <field name="public">True</field>
         </record>
         <record id="newsletter_issue_two_en" model="egovernment.files">
             <field name="name">Newsletter Issue Two - English Ver</field>
@@ -67,6 +71,7 @@
             <field name="datas" type="base64"
                    file="theme_cim/static/src/data/egovernment_files/newsletter_5_ar.pdf"></field>
             <field name="mimetype">application/pdf;base64</field>
+            <field name="public">True</field>
         </record>
         <record id="newsletter_issue_three_ar" model="egovernment.files">
             <field name="name">النشرة الإخبارية العدد الثاني ـ النسخة العربية</field>
@@ -78,6 +83,7 @@
             <field name="datas" type="base64"
                    file="theme_cim/static/src/data/egovernment_files/newsletter_5_en.pdf"></field>
             <field name="mimetype">application/pdf;base64</field>
+            <field name="public">True</field>
         </record>
         <record id="newsletter_issue_three_en" model="egovernment.files">
             <field name="name">Newsletter Issue Three - English Ver</field>

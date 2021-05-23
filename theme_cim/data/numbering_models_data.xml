@@ -6,6 +6,7 @@
             <field name="name">44.pdf</field>
             <field name="datas" type="base64" file="theme_cim/static/src/data/numbering_models/44.pdf"></field>
             <field name="mimetype">application/pdf;base64</field>
+            <field name="public">True</field>
         </record>
         <record id="numbering_models_1" model="numbering.models">
             <field name="name">نموذج اتفاق التعرفة وموضوع الخدمة المضافة للرسائل القصيرة - للشركات المزودة المرخص لها فقط</field>
@@ -17,6 +18,7 @@
             <field name="name">43.pdf</field>
             <field name="datas" type="base64" file="theme_cim/static/src/data/numbering_models/43.pdf"></field>
             <field name="mimetype">application/pdf;base64</field>
+            <field name="public">True</field>
         </record>
         <record id="numbering_models_2" model="numbering.models">
             <field name="name">نموذج طلب تخصيص الأرقام القصيرة المجانية (14XX)</field>
@@ -28,6 +30,7 @@
             <field name="name">45.pdf</field>
             <field name="datas" type="base64" file="theme_cim/static/src/data/numbering_models/45.pdf"></field>
             <field name="mimetype">application/pdf;base64</field>
+            <field name="public">True</field>
         </record>
         <record id="numbering_models_3" model="numbering.models">
             <field name="name">نموذج طلب تخصيص الأرقام القصيرة الغير مجانية (15XX)</field>
@@ -39,6 +42,7 @@
             <field name="name">46.pdf</field>
             <field name="datas" type="base64" file="theme_cim/static/src/data/numbering_models/46.pdf"></field>
             <field name="mimetype">application/pdf;base64</field>
+            <field name="public">True</field>
         </record>
         <record id="numbering_models_4" model="numbering.models">
             <field name="name">نموذج طلب تخصيص الأرقام المجانية (0800XXXXXXXX)</field>
@@ -50,6 +54,7 @@
             <field name="name">47.pdf</field>
             <field name="datas" type="base64" file="theme_cim/static/src/data/numbering_models/47.pdf"></field>
             <field name="mimetype">application/pdf;base64</field>
+            <field name="public">True</field>
         </record>
         <record id="numbering_models_5" model="numbering.models">
             <field name="name">نموذج طلب تخصيص الأرقام المميزة (0900XXXXXXXX)</field>
@@ -61,6 +66,7 @@
             <field name="name">18.pdf</field>
             <field name="datas" type="base64" file="theme_cim/static/src/data/numbering_models/18.pdf"></field>
             <field name="mimetype">application/pdf;base64</field>
+            <field name="public">True</field>
         </record>
         <record id="numbering_models_6" model="numbering.models">
             <field name="name">جدول 2 قيم تعرفة تخصيص أرقام خدمات القيمة المضافة والقصيرة والمجانية وذات التعرفة المميزة.</field>
@@ -72,6 +78,7 @@
             <field name="name">67.pdf</field>
             <field name="datas" type="base64" file="theme_cim/static/src/data/numbering_models/67.pdf"></field>
             <field name="mimetype">application/pdf;base64</field>
+            <field name="public">True</field>
         </record>
         <record id="numbering_models_7" model="numbering.models">
             <field name="name">جدول 3 تصنيف وبيان أرقام خدمات القيمة المضافة</field>
