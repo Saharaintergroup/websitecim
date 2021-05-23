@@ -367,8 +367,8 @@
         </field>
     </record>
 
-    <!--Contact branches-->
-    <record id="contact_branches" model="website.page">
+    <!--Contact branches--> <!-- not delete this page إتصل بالفروع-->
+   <!-- <record id="contact_branches" model="website.page">
         <field name="name">إتصل بالفروع</field>
         <field name="type">qweb</field>
         <field name="url">/contact-branches</field>
@@ -442,7 +442,7 @@
                 </t>
             </t>
         </field>
-    </record>
+    </record>-->
     <record id="southern_branch" model="website.page">
         <field name="name">Southern branch</field>
         <field name="type">qweb</field>
@@ -603,14 +603,14 @@
         <field name="sequence" type="int">94</field>
     </record>
     <!--Contact branches-->
-    <record id="menu_contact_branches" model="website.menu">
+    <!--<record id="menu_contact_branches" model="website.menu">
         <field name="name">إتصال الفروع</field>
         <field name="url">/contact-branches</field>
         <field name="is_visible">False</field>
         <field name="page_id" ref="theme_cim.contact_branches"/>
         <field name="parent_id" ref="website.main_menu"/>
         <field name="sequence" type="int">95</field>
-    </record>
+    </record>-->
     <!--General complaints-->
     <record id="menu_general_complaints" model="website.menu">
         <field name="name">الشكاوي</field>
