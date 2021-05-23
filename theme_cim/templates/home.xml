@@ -22,9 +22,7 @@
                                                     <div class="col-xl-7 col-lg-8 col-md-9 col-sm-10 col-11">
                                                         <h1 class="mb20 slideOutUp" t-esc="item.name"/>
                                                         <p t-esc="item.description"/>
-                                                        <a t-att-href="item.url" class="btn btn-primary mt10">Read
-                                                            more
-                                                        </a>
+                                                        <a t-att-href="item.url" class="btn btn-primary mt10">قراءة المزيد</a>
                                                     </div>
                                                 </div>
                                             </div>
@@ -38,9 +36,7 @@
                                                     <div class="col-xl-7 col-lg-8 col-md-9 col-sm-10 col-11">
                                                         <h1 class="mb20 slideOutUp" t-esc="item.name"/>
                                                         <p t-esc="item.description"/>
-                                                        <a t-att-href="item.url" class="btn btn-primary mt10">Read
-                                                            more
-                                                        </a>
+                                                        <a t-att-href="item.url" class="btn btn-primary mt10">قراءة المزيد</a>
                                                     </div>
                                                 </div>
                                             </div>
