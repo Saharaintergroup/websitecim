@@ -34,13 +34,13 @@
             <div class="d-flex justify-content-between">
                 <label class="pl-1 pr-1">مواقعنا</label>
                 <span class="s_share_cim pl-1 pr-1">
-                    <a href="/website/social/twitter" class="s_share_twitter" target="_blank">
+                    <a href="https://twitter.com/telecom_libya?lang=ar" class="s_share_twitter" target="_blank">
                         <i class="fa fa-twitter rounded-circle shadow-sm"/>
                     </a>
-                    <a href="/website/social/facebook" class="s_share_facebook" target="_blank">
+                    <a href="https://ar-ar.facebook.com/pg/cim.gov.ly" class="s_share_facebook" target="_blank">
                         <i class="fa fa-facebook rounded-circle shadow-sm"/>
                     </a>
-                    <a href="/website/social/youtube" class="s_share_youtube" target="_blank">
+                    <a href="https://www.youtube.com/channel/UCLvqlS4hM77M0_oKuXhK-NA" class="s_share_youtube" target="_blank">
                         <i class="fa fa-youtube rounded-circle shadow-sm"/>
                     </a>
                 </span>
