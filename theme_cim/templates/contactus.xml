@@ -40,7 +40,8 @@
                     <a href="https://ar-ar.facebook.com/pg/cim.gov.ly" class="s_share_facebook" target="_blank">
                         <i class="fa fa-facebook rounded-circle shadow-sm"/>
                     </a>
-                    <a href="https://www.youtube.com/channel/UCLvqlS4hM77M0_oKuXhK-NA" class="s_share_youtube" target="_blank">
+                    <a href="https://www.youtube.com/channel/UCLvqlS4hM77M0_oKuXhK-NA" class="s_share_youtube"
+                       target="_blank">
                         <i class="fa fa-youtube rounded-circle shadow-sm"/>
                     </a>
                 </span>
@@ -252,43 +253,27 @@
                                 <h3 class="hr_title_horizontal mb30">الاسئلة الشائعة</h3>
                                 <div class="faq-list">
                                     <div class="faq mb30">
-                                        <h4 class="faq-title">كسير سيتاشن يللأمكو لابورأس نيسي يت أليكيوب أكس أيا كوممودو كونسيكيوات
-</h4>
-                                        <p>كسير سيتاشن يللأمكو لابورأس نيسي يت أليكيوب أكس أيا كوممودو كونسيكيوات
-
-                                            <br/>
-                                           كسير سيتاشن يللأمكو لابورأس نيسي يت أليكيوب أكس أيا كوممودو كونسيكيوات
-
-
-                                        </p>
-                                    </div>
-                                    <div class="faq mb30">
-                                        <h4 class="faq-title">كسير سيتاشن يللأمكو لابورأس نيسي يت أليكيوب أكس أيا كوممودو كونسيكيوات
-</h4>
-                                        <p>كسير سيتاشن يللأمكو لابورأس نيسي يت أليكيوب أكس أيا كوممودو كونسيكيوات
-<br/>
-                                          كسير سيتاشن يللأمكو لابورأس نيسي يت أليكيوب أكس أيا كوممودو كونسيكيوات
-<br/>
-                                      كسير سيتاشن يللأمكو لابورأس نيسي يت أليكيوب أكس أيا كوممودو كونسيكيوات
-<br/>
-                                           كسير سيتاشن يللأمكو لابورأس نيسي يت أليكيوب أكس أيا كوممودو كونسيكيوات
-</p>
-                                    </div>
-                                    <div class="faq mb30">
-                                        <h4 class="faq-title">كسير سيتاشن يللأمكو لابورأس نيسي يت أليكيوب أكس أيا كوممودو كونسيكيوات
-</h4>
-                                        <p>كسير سيتاشن يللأمكو لابورأس نيسي يت أليكيوب أكس أيا كوممودو كونسيكيوات
-
-                                            <br/>
-                                           كسير سيتاشن يللأمكو لابورأس نيسي يت أليكيوب أكس أيا كوممودو كونسيكيوات
-
-                                            <br/>
-                                      كسير سيتاشن يللأمكو لابورأس نيسي يت أليكيوب أكس أيا كوممودو كونسيكيوات
-
-                                        </p>
+                                        <div class="row">
+                                            <div class="col-2">
+                                                <h4 class="faq-title color-yellow">سؤال 12 :</h4>
+                                            </div>
+                                            <div class="col-10">
+                                                <h4 class="faq-title">رفض طلبي فيكف سوف يتم ارجاع الصك لحسابي؟</h4>
+                                            </div>
+                                            <div class="w-100"></div>
+                                            <div class="col-2">
+                                                جواب
+                                            </div>
+                                            <div class="col-10">
+                                                <p>في حالة رفض الطلب سوف تبلغ عن طريق الهاتف وبعدها يتم ارسال صكك المصدق
+                                                    الذي ارسلته مع الطلب مختوم وموقع عليه من الهيئة للترجيع القيمة
+                                                    لحسابك الى نفس مكتب البريد الذي قدمت فيه الطلب ومن هناك يمكنك استلام
+                                                    الصك واسترجاع قمته
+                                                </p>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
-
 
                                 <div class="mt40">
                                     <ul class="justify-content-center pagination m-0 ">
@@ -368,81 +353,81 @@
     </record>
 
     <!--Contact branches--> <!-- not delete this page إتصل بالفروع-->
-   <!-- <record id="contact_branches" model="website.page">
-        <field name="name">إتصل بالفروع</field>
-        <field name="type">qweb</field>
-        <field name="url">/contact-branches</field>
-        <field name="website_indexed" eval="False"/>
-        <field name="is_published">False</field>
-        <field name="key">theme_cim.contact_branches</field>
-        <field name="arch" type="xml">
-            <t name="Contact branches" t-name="theme_cim.contact_branches">
-                <t t-call="website.layout">
-                    <div id="wrap">
-                        <section class="pt50 pb50">
-                            <div class="container">
-                                <h3 class="hr_title_horizontal mb30">إتصل بالفروع
-</h3>
-                                <div class="row pl10 pr10">
-                                    <div class="col-md-4">
-                                        <a href="/main-branch" class="box-info-contact d-block mt20">
-                                            <h2 class="text-center">الفرع الرئيسي</h2>
-                                            <div class="d-flex justify-content-between mt50">
-                                                <label class="pl-1 pr-1">العنوان</label>
-                                                <span class="pl-1 pr-1">ليبيا ـ طرابلس ـ شارع الزاوية</span>
-                                            </div>
-                                            <div class="d-flex justify-content-between mt50">
-                                                <label class="pl-1 pr-1" >الهاتف</label>
-                                                <span class="pl-1 pr-1" style="direction:ltr!important;">+218 21 361 9811/15</span>
-                                            </div>
-                                            <div class="d-flex justify-content-between mt50">
-                                                <label class="pl-1 pr-1">الفاكس</label>
-                                                <span class="pl-1 pr-1" style="direction:ltr!important;">+218 21 362 2452</span>
-                                            </div>
-                                        </a>
-                                    </div>
-                                    <div class="col-md-4">
-                                        <a href="/eastern-branch" class="box-info-contact d-block mt20">
-                                            <h2 class="text-center">الفرع الشرقي</h2>
-                                            <div class="d-flex justify-content-between mt50">
-                                                <label class="pl-1 pr-1">العنوان</label>
-                                                <span class="pl-1 pr-1">ليبيا ـ طرابلس ـ شارع الزاوية</span>
-                                            </div>
-                                            <div class="d-flex justify-content-between mt50">
-                                                <label class="pl-1 pr-1">الهاتف</label>
-                                                <span class="pl-1 pr-1" style="direction:ltr!important;">+218 21 361 9811/15</span>
-                                            </div>
-                                            <div class="d-flex justify-content-between mt50">
-                                                <label class="pl-1 pr-1">الفاكس</label>
-                                                <span class="pl-1 pr-1" style="direction:ltr!important;">+218 21 362 2452</span>
-                                            </div>
-                                        </a>
-                                    </div>
-                                    <div class="col-md-4">
-                                        <a href="/southern-branch" class="box-info-contact d-block mt20">
-                                            <h2 class="text-center">الفرع الجنوبي</h2>
-                                            <div class="d-flex justify-content-between mt50">
-                                                <label class="pl-1 pr-1">العنوان</label>
-                                                <span class="pl-1 pr-1">ليبيا ـ طرابلس ـ شارع الزاوية</span>
-                                            </div>
-                                            <div class="d-flex justify-content-between mt50">
-                                                <label class="pl-1 pr-1">الهاتف</label>
-                                                <span class="pl-1 pr-1" style="direction:ltr!important;">+218 21 361 9811/15</span>
-                                            </div>
-                                            <div class="d-flex justify-content-between mt50">
-                                                <label class="pl-1 pr-1">الفاكس</label>
-                                                <span class="pl-1 pr-1" style="direction:ltr!important;">+218 21 362 2452</span>
-                                            </div>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                        </section>
-                    </div>
-                </t>
-            </t>
-        </field>
-    </record>-->
+    <!-- <record id="contact_branches" model="website.page">
+         <field name="name">إتصل بالفروع</field>
+         <field name="type">qweb</field>
+         <field name="url">/contact-branches</field>
+         <field name="website_indexed" eval="False"/>
+         <field name="is_published">False</field>
+         <field name="key">theme_cim.contact_branches</field>
+         <field name="arch" type="xml">
+             <t name="Contact branches" t-name="theme_cim.contact_branches">
+                 <t t-call="website.layout">
+                     <div id="wrap">
+                         <section class="pt50 pb50">
+                             <div class="container">
+                                 <h3 class="hr_title_horizontal mb30">إتصل بالفروع
+ </h3>
+                                 <div class="row pl10 pr10">
+                                     <div class="col-md-4">
+                                         <a href="/main-branch" class="box-info-contact d-block mt20">
+                                             <h2 class="text-center">الفرع الرئيسي</h2>
+                                             <div class="d-flex justify-content-between mt50">
+                                                 <label class="pl-1 pr-1">العنوان</label>
+                                                 <span class="pl-1 pr-1">ليبيا ـ طرابلس ـ شارع الزاوية</span>
+                                             </div>
+                                             <div class="d-flex justify-content-between mt50">
+                                                 <label class="pl-1 pr-1" >الهاتف</label>
+                                                 <span class="pl-1 pr-1" style="direction:ltr!important;">+218 21 361 9811/15</span>
+                                             </div>
+                                             <div class="d-flex justify-content-between mt50">
+                                                 <label class="pl-1 pr-1">الفاكس</label>
+                                                 <span class="pl-1 pr-1" style="direction:ltr!important;">+218 21 362 2452</span>
+                                             </div>
+                                         </a>
+                                     </div>
+                                     <div class="col-md-4">
+                                         <a href="/eastern-branch" class="box-info-contact d-block mt20">
+                                             <h2 class="text-center">الفرع الشرقي</h2>
+                                             <div class="d-flex justify-content-between mt50">
+                                                 <label class="pl-1 pr-1">العنوان</label>
+                                                 <span class="pl-1 pr-1">ليبيا ـ طرابلس ـ شارع الزاوية</span>
+                                             </div>
+                                             <div class="d-flex justify-content-between mt50">
+                                                 <label class="pl-1 pr-1">الهاتف</label>
+                                                 <span class="pl-1 pr-1" style="direction:ltr!important;">+218 21 361 9811/15</span>
+                                             </div>
+                                             <div class="d-flex justify-content-between mt50">
+                                                 <label class="pl-1 pr-1">الفاكس</label>
+                                                 <span class="pl-1 pr-1" style="direction:ltr!important;">+218 21 362 2452</span>
+                                             </div>
+                                         </a>
+                                     </div>
+                                     <div class="col-md-4">
+                                         <a href="/southern-branch" class="box-info-contact d-block mt20">
+                                             <h2 class="text-center">الفرع الجنوبي</h2>
+                                             <div class="d-flex justify-content-between mt50">
+                                                 <label class="pl-1 pr-1">العنوان</label>
+                                                 <span class="pl-1 pr-1">ليبيا ـ طرابلس ـ شارع الزاوية</span>
+                                             </div>
+                                             <div class="d-flex justify-content-between mt50">
+                                                 <label class="pl-1 pr-1">الهاتف</label>
+                                                 <span class="pl-1 pr-1" style="direction:ltr!important;">+218 21 361 9811/15</span>
+                                             </div>
+                                             <div class="d-flex justify-content-between mt50">
+                                                 <label class="pl-1 pr-1">الفاكس</label>
+                                                 <span class="pl-1 pr-1" style="direction:ltr!important;">+218 21 362 2452</span>
+                                             </div>
+                                         </a>
+                                     </div>
+                                 </div>
+                             </div>
+                         </section>
+                     </div>
+                 </t>
+             </t>
+         </field>
+     </record>-->
     <record id="southern_branch" model="website.page">
         <field name="name">Southern branch</field>
         <field name="type">qweb</field>
