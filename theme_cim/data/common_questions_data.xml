@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <!--    <data>-->
+    <!--        <record id="sequence_common_questions" model="ir.sequence">-->
+    <!--            <field name="name">Common Questions</field>-->
+    <!--            <field name="code">common.questions</field>-->
+    <!--            <field name="active">TRUE</field>-->
+    <!--            <field name="prefix"></field>-->
+    <!--            <field name="padding">1</field>-->
+    <!--            <field name="number_next">1</field>-->
+    <!--            <field name="number_increment">1</field>-->
+    <!--        </record>-->
+    <!--    </data>-->
+    <data noupdate="0">
+        <!--common_questions_1-->
+        <record id="common_questions_1" model="common.questions">
+            <field name="number">1</field>
+            <field name="question">ما هو الترقيم؟</field>
+            <field name="answer" type="html">
+                <p>هو نسق من الأرقام تحدد نقطة نهاية مقصودة في شبكة الاتصالات العامة، ويتضمن المعلومات الضرورية لتوجيه
+                    الاتصالات إلى
+                    هذه النقطة النهائية. ومثال على ذلك أرقام الهاتف الثابت، والمحمول والدولية...الخ
+                </p>
+            </field>
+        </record>
+        <!--common_questions_2-->
+        <record id="common_questions_2" model="common.questions">
+            <field name="number">2</field>
+            <field name="question">من المسئول عن الترقيم في ليبيا؟</field>
+            <field name="answer" type="html">
+                <p>وفقاً لقانون الاتصالات الصادر لسنة 2010، تضع إدارة التنظيم بالهيئة العامة للاتصالات والمعلوماتبة
+                    الخطة الوطنية للترقيم، وتكون مسؤولة عن هيكلتها وإدارتها بما يضمن تلبية متطلبات المشغلين والمستخدمين،
+                    وفقاً للإجراءات التي تحددها اللائحة
+                </p>
+            </field>
+        </record>
+        <!--common_questions_3-->
+        <record id="common_questions_3" model="common.questions">
+            <field name="number">3</field>
+            <field name="question">ما مسؤوليات الإدارة في عملية الترقيم؟</field>
+            <field name="answer" type="html">
+                <p>تتلخص مسؤوليات الإدارة في عملية الترقيم في الآتي</p>
+                <ul>
+                    <li>إعداد الخطة الوطنية للترقيم، وإدارتها بحيث تلبي متطلبات مقدمي خدمات الاتصالات ومتطلبات المشتركين
+                    </li>
+                    <li>التأكد من توفر حيز الأرقام المناسب لكل خدمات الاتصالات في جميع أنحاء ليبيا
+                    </li>
+                    <li>التأكد من تحقيق العدالة والشفافية في عملية تخصيص الأرقام
+                    </li>
+                    <li>تطوير وتحديث الخطة الوطنية للترقيم متى ما دعت الحاجة لذلك</li>
+                </ul>
+            </field>
+        </record>
+        <!--common_questions_4-->
+        <record id="common_questions_4" model="common.questions">
+            <field name="number">4</field>
+            <field name="question">ما هي الخطة الوطنية للترقيم؟</field>
+            <field name="answer" type="html">
+                <p>هي الخطة التي تعدها الإدارة لتحديد نطاق الأرقام المستخدمة في مختلف خدمات الاتصالات وهي عبارة عن خطة
+                    تحتوي على الأحكام والإرشادات الخاصة بالترقيم وهيكلة الأرقام المستخدمة لكل أنواع خدمات الاتصالات في
+                    ليبيا، وسعة النطاقات الخاصة بها ، ومسؤوليات مقدمي الخدمات ، وأسس حجز وتخصيص الأرقام ، وغيرها من
+                    الأمور المهمة التي تنظم استخدام الأرقام لخدمات الاتصالات مثل خدمات شبكة الهاتف الثابت الجغرافية
+                    والغير جغرافية ، وخدمات شبكة الهاتف المحمول
+                </p>
+            </field>
+        </record>
+        <!--common_questions_5-->
+        <record id="common_questions_5" model="common.questions">
+            <field name="number">5</field>
+            <field name="question">ما أهم أهداف الخطة الوطنية للترقيم؟</field>
+            <field name="answer" type="html">
+                <p>تم إعداد الخطة الوطنية للترقيم لتحقيق الأهداف التالية :</p>
+                <ul>
+                    <li>ضمان توفر العدد الكافي من الأرقام</li>
+                    <li>الحد من أية عوائق تعترض الاستخدام الأمثل للأرقام التي تم تخصيصها للمستخدمين</li>
+                    <li>تمكين المستخدمين من معرفة الأرقام التي يمكن استخدامها لكل خدمة</li>
+                    <li>إعداد القواعد المنظمة لتخصيص وحجز الأرقام بشكل فعال يراعي مصلحة المستخدمين على المدى البعيد
+                        ويسهم في
+                        الإسراع بتوفير الخدمات لهم عند الطلب
+                    </li>
+                    <li>العمل على الحد من الآثار السلبية التي تحدث للمستخدمين النهائيين في حالة تغيير الأرقام</li>
+                    <li>الاستيعاب التام، والاستفادة القصوى من مقدرات تقنيات الاتصالات المختلفة وخدماتها</li>
+                </ul>
+            </field>
+        </record>
+        <!--common_questions_6-->
+        <record id="common_questions_6" model="common.questions">
+            <field name="number">6</field>
+            <field name="question">هل يمكن تقديم الطلب مباشرة الى الهيئة؟</field>
+            <field name="answer" type="html">
+                <p>نعم يمكن تقديم الطلب مباشرة إلى الهيئة ويسلم لوحدة خدمات الزبائن بالإدارة العامة لشؤون التنظيم
+                    بالطابق الرابع
+                </p>
+            </field>
+        </record>
+        <!--common_questions_7-->
+        <record id="common_questions_7" model="common.questions">
+            <field name="number">7</field>
+            <field name="question">هل يمكن لشركة التقديم بطلب الحصول على أكثر من ترخيص؟</field>
+            <field name="answer" type="html">
+                <p>نعم يمكن ذلك ولكن على ان يقدم كل طلب على حده وتعبئة النموذج الخاص بكل ترخيص مرفق بصك
+                    بقيمة كل ترخيص
+                </p>
+            </field>
+        </record>
+        <!--common_questions_8-->
+        <record id="common_questions_8" model="common.questions">
+            <field name="number">8</field>
+            <field name="question">أنا شركة اجنبية هل يمكن لي ان اتقدم بطلب الحصول على ترخيص؟</field>
+            <field name="answer" type="html">
+                <p>من متطلبات الترخيص ان تحصل الشركة المتقدمة على ترخيص مزاولة النشاط من الهيئة العامة للاتصالات
+                    والمعلوماتية بليبيا
+                    وسجل تجاري وعقد تأسيس لذلك اذا استوفى المتقدم للشروط فنحن لا نمانع في منحه الترخيص لذلك على الشركات
+                    الاجنبية
+                    الراغبة في الدخول الى السوق الليبي الاتصال بوزارة الاقتصاد أو مكتب قانوني للاستفسار
+                </p>
+            </field>
+        </record>
+        <!--common_questions_9-->
+        <record id="common_questions_9" model="common.questions">
+            <field name="number">9</field>
+            <field name="question">كيف تتم عملية سداد قيمة الترخيص؟</field>
+            <field name="answer" type="html">
+                <p>: يتم السداد عن طريق صك مصدق فقط باسم الهيئة العامة للاتصالات والمعلوماتية ويتم ارسال الصك المصدق مع
+                    الطلب عن طريق احد مكاتب البريد
+                </p>
+            </field>
+        </record>
+        <!--common_questions_10-->
+        <record id="common_questions_10" model="common.questions">
+            <field name="number">10</field>
+            <field name="question">: متى سوف يتم ابلاغي بالموافقة من عدمها؟</field>
+            <field name="answer" type="html">
+                <p>خلال 30 يوم من تاريخ تقديم الطلب سوف تقوم الهيئة بالاتصال بك لإعلامك بقبول الطلب من عدمه</p>
+            </field>
+        </record>
+        <!--common_questions_11-->
+        <record id="common_questions_11" model="common.questions">
+            <field name="number">11</field>
+            <field name="question">هل التقدم بطلب يعني الحصول على الموافقة والترخيص؟</field>
+            <field name="answer" type="html">
+                <p>لا بل سوف يخضع الطلب للدراسة من قبل الهيئة وسوف تبلغ عن طريق الهاتف بقبول الطلب من عدمه</p>
+            </field>
+        </record>
+        <!--common_questions_12-->
+        <record id="common_questions_12" model="common.questions">
+            <field name="number">12</field>
+            <field name="question">رفض طلبي فيكف سوف يتم ارجاع الصك لحسابي؟</field>
+            <field name="answer" type="html">
+                <p>في حالة رفض الطلب سوف تبلغ عن طريق الهاتف وبعدها يتم ارسال صكك المصدق الذي ارسلته مع الطلب مختوم
+                    وموقع عليه من الهيئة للترجيع القيمة لحسابك الى نفس مكتب البريد الذي قدمت فيه الطلب ومن هناك يمكنك
+                    استلام الصك واسترجاع قمته
+                </p>
+            </field>
+        </record>
+        <!--common_questions_13-->
+        <record id="common_questions_13" model="common.questions">
+            <field name="number">13</field>
+            <field name="question">: قبل طلبي فيكيف يمكنني ان استلم الترخيص؟</field>
+            <field name="answer" type="html">
+                <p>في حالة قبول الطلب فان الترخيص سوف يرسل الى نفس مكتب البريد الذي قدمت فيه المعاملة ومن هناك يمكنك
+                    استلامه بعد احضار رقم الارسالية الذي سلمت اياه في مكتب البريد عند تقديم الطلب
+                </p>
+            </field>
+        </record>
+        <!--common_questions_14-->
+        <record id="common_questions_14" model="common.questions">
+            <field name="number">14</field>
+            <field name="question">لدي بعض الاستفسارات كيف يمكنني الحصول على اجابة؟</field>
+            <field name="answer" type="html">
+                <p>من الممكن الاتصال بالهيئة عن طريق البريد الالكتروني Info.License@Cim.Gov.Ly أو عن طريق الفاكس
+                    3604102-21-00218
+                </p>
+            </field>
+        </record>
+        <!--common_questions_15-->
+        <record id="common_questions_15" model="common.questions">
+            <field name="number">15</field>
+            <field name="question">هل التراخيص قابلة للتجديد؟</field>
+            <field name="answer" type="html">
+                <p>: الهيئة بصدد اصدار اللوائح والإجراءات الخاصة بالتراخيص فالإجابة هنا نعم الترخيص سوف يكون قابل
+                    للتجديد طبقا للوائح السارية وقت التجديد
+                </p>
+            </field>
+        </record>
+
+    </data>
+</odoo>

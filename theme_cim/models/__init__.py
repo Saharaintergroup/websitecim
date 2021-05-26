@@ -11,3 +11,4 @@ from . import decisions
 from . import strategy
 from . import numbering_models
 from . import egovernment_files
+from . import common_questions

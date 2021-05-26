@@ -91,6 +91,18 @@
                   sequence="1"
                   parent="cim_electronic_government_menu"
                   action="egovernment_files_action"/>
+
+
+        <!--================================-->
+        <!--==Our business==-->
+        <menuitem id="cim_contact_menu" name="إتصل بنا"
+                  sequence="5"
+                  parent="cim_menu_root"/>
+        <menuitem id="cim_common_questions_menu" name="الأسئلة الشائعة"
+                  sequence="1"
+                  parent="cim_contact_menu"
+                  action="common_questions_action"/>
+
         <!--================================-->
         <!--==Setting==-->
         <menuitem

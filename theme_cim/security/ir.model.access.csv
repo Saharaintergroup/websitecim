@@ -37,3 +37,6 @@ access_strategy_designer,strategy.designer,theme_cim.model_strategy,website.grou
 
 access_egovernment_files_public,egovernment.files.public,theme_cim.model_egovernment_files,,1,0,0,0
 access_egovernment_files_designer,egovernment.files.designer,theme_cim.model_egovernment_files,website.group_website_designer,1,1,1,1
+
+access_common_questions_public,common.questions.public,theme_cim.model_common_questions,,1,0,0,0
+access_common_questions_designer,common.questions.designer,theme_cim.model_common_questions,website.group_website_designer,1,1,1,1

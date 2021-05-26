@@ -43,6 +43,7 @@
         "views/numbering_models_views.xml",
         "views/strategy_views.xml",
         "views/egovernment_files_views.xml",
+        "views/common_questions_views.xml",
         "views/menu.xml",
         # data
         "data/company_partners_data.xml",
@@ -53,6 +54,7 @@
         "data/slider_home_data.xml",
         "data/ticker_news_data.xml",
         "data/egovernment_files_data.xml",
+        "data/common_questions_data.xml",
     ],
     'images': [
         'static/description/cover.png',
