@@ -1,7 +1,7 @@
 <?xml version="1.0" ?>
 <odoo>
 
-    <!--Organization of communications-->
+    <!--تنظيم الإتصالات-->
     <record id="organization_of_communications_page" model="website.page">
         <field name="name">Organization of communications</field>
         <field name="url">/organization-of-communications</field>
@@ -93,7 +93,7 @@
                                             </a>
                                         </div>
                                         <div class="col-sm-6 col-lg-3">
-                                            <a href="" class="box_services">
+                                            <a href="/electronic-services-licenses" class="box_services">
                                                 <div class="icon">
                                                     <img src="/theme_cim/static/src/images/services/licensing.png"
                                                          class="icon_service"/>
@@ -104,7 +104,7 @@
                                             </a>
                                         </div>
                                         <div class="col-sm-6 col-lg-3">
-                                            <a href="" class="box_services card">
+                                            <a href="/specific-accreditation" class="box_services card">
                                                 <div class="icon">
                                                     <img src="/theme_cim/static/src/images/services/id-card.png"
                                                          class="icon_service"/>
@@ -136,7 +136,7 @@
         </field>
     </record>
 
-    <!--Numbering and added services-->
+    <!--الترقيم والخدمات المضافة-->
     <record id="numbering_and_added_services_page" model="website.page">
         <field name="name">Numbering and added services</field>
         <field name="url">/numbering-and-added-services</field>
@@ -326,7 +326,546 @@
         </field>
     </record>
 
-    <!--Frequency spectrum-->
+    <!--الاعتماد النوعي-->
+    <record id="specific_accreditation_page" model="website.page">
+        <field name="name">Specific Accreditation</field>
+        <field name="type">qweb</field>
+        <field name="url">/specific-accreditation</field>
+        <field name="is_published">True</field>
+        <field name="key">theme_cim.specific_accreditation_page</field>
+        <field name="arch" type="xml">
+            <t name="Specific Accreditation" t-name="theme_cim.specific_accreditation_page">
+                <t t-call="website.layout">
+                    <div id="wrap">
+                        <section class="pt50 pb50">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-md-7">
+                                        <h3 class="hr_title_horizontal mb20">الاعتماد النوعي</h3>
+                                        <p>الاعتماد النوعي للأجهزة</p>
+                                        <p class="text_color_gray">بناء على قانون الاتصالات لسنة 2010 وقرار وزير
+                                            الاتصالات رقم 145 بشأن اعتماد لائحة
+                                            الاعتماد النوعي بشأن الاعتماد النوعي لأجهزة الاتصالات، باشرت إدارة التنظيم
+                                            في اصدار
+                                            شهادات الاعتماد النوعي لأجهزة الاتصالات بهدف ضمان استخدام الأجهزة وفق خطة
+                                            الهيئة العامة للإتصالات والمعلوماتية بشأن الطيف الترددي والتأثيرات
+                                            الكهرومغناطيسية بالإضافة إلى ضرورة الترويج للجودة والتكلفة المناسبة للأجهزة
+                                            المتوفرة للمستخدمين وتجنب بيع أجهزة تضر بالمصلحة العامة في السوق المحلى
+                                        </p>
+                                        <p class="text_color_gray mt60">الاعتماد النوعي هو جملة الإجراءات التي يتم من
+                                            خلالها التحقق من مطابقة أجهزة و
+                                            معدات الاتصالات للمواصفات والمعايير الجاري العمل بها من قبل الهيئة و إعطاء
+                                            شهادة بذلك.
+                                        </p>
+
+                                    </div>
+                                    <div class="col-md-5">
+                                        <img src="/theme_cim/static/src/images/specific_accreditation_img.png"
+                                             class="img-fluid p-4"/>
+                                    </div>
+                                </div>
+                                <div class="row mt20">
+                                    <div class="col-md-12">
+                                        <h5 class="specific_accreditation_subtitle">الأجهزة التي يتعين استخراج شهادة
+                                            الاعتماد النوعي لها
+                                        </h5>
+                                    </div>
+                                    <div class="col-md-7">
+                                        <p class="text_color_gray">.يشمل الاعتماد كل انواع أجهزة و معدات الاتصالات قبل
+                                            توريدها أو استخدامها
+                                            في ليبيا
+                                        </p>
+                                    </div>
+                                    <div class="col-md-5">
+                                        <p class="text_color_gray">يستثنى جهاز الاستعمال الشخصي للمسافرين على ان تكون
+                                            مطابقة للمواصفات الفنية المعتمدة داخل ليبي.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+
+                        <section class="pt10 pb50">
+                            <div class="container">
+                                <h5 class="hr_title_horizontal mb20">المستندات المطلوبة لاستصدار شهادة الاعتماد النوعي
+                                </h5>
+                                <p class="text_color_gray list_circle_color">تعبئة نموذج طلب شهادة اعتماد النوعية</p>
+                                <p class="text_color_gray list_circle_color">المواصفات الفنية للأجهزة الاتصالات</p>
+                                <p class="text_color_gray list_circle_color">نسخة من إعلان المطابقة من الجهة المصنعة</p>
+                                <p class="text_color_gray list_circle_color">تقارير اختبار (SAR,SAFETY,EMC) من أحد
+                                    المعامل المعتمدة من الهيئة
+                                    العامة للاتصالات والمعلوماتية أو معتمدة من قبل أحد أعضاء المنظمة
+                                    الدولية لإعتماد المختبرات )
+                                </p>
+                                <p class="text_color_gray list_circle_color">نسخة طبق الأصل من السجل التجاري</p>
+                                <p class="text_color_gray list_circle_color">نسخة طبق الأصل من ترخيص أو أذن المزاولة
+                                    النشاط
+                                </p>
+                                <p class="text_color_gray list_circle_color">صك مصدق بقيمة 500 دينار موجه الى الهيئة
+                                    العامة للاتصالات والمعلوماتية
+                                    مقابل اصدار الشهادة
+                                </p>
+                                <p>
+                                    <i class="fa fa-check list_check_color"></i>
+                                    ملاحظة: في حالة تقديم أكثر من طلب فيكتفى بنسخة واحدة طبق الأصل من المستندات المطلوبة
+                                    في رقم 6،5 كذلك في حالة التقدم بطلب في السابق
+                                </p>
+                            </div>
+                        </section>
+                        <section class="pt10 pb50">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <h5 class="hr_title_horizontal mb20">الجهات المسموح لها بالتقدم للحصول على شهادة
+                                            الاعتماد النوعي
+                                        </h5>
+                                        <p class="text_color_gray">يتم التقدم بطلب الحصول على شهائد الاعتماد النوعي
+                                            لأجهزة الاتصالات من قبل الجهات التالية
+                                        </p>
+                                    </div>
+                                    <div class="col-md-4 text-center">
+                                        <p class="specific_accreditation_num">1</p>
+                                        <p>وكالات أو شركات استصدار شهادات الاعتماد النوعي (المسجلة محليا) معتمدة من قبل
+                                            الهيئة
+                                        </p>
+                                    </div>
+                                    <div class="col-md-4 text-center">
+                                        <p class="specific_accreditation_num">2</p>
+                                        <p>الوكلاء المحليين للشركات المصنعة</p>
+                                    </div>
+                                    <div class="col-md-4 text-center">
+                                        <p class="specific_accreditation_num">3</p>
+                                        <p>الشركات الموردة لمعدات الاتصالات وتقنية المعلومات</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                        <section class="presentation_mechanism_section">
+                            <div class="container">
+                                <div class="row faq-list">
+                                    <div class="col-md-12">
+                                        <h5 class="hr_title_horizontal mb20">آلية التقديم</h5>
+                                        <p class="text_color_gray">يمكن تقديم طلب الحصول على شهادة الاعتماد النوعي
+                                            مباشرةً إلى الهيئة العامة للاتصالات والمعلوماتية أو عن طريق إحدى مكاتب
+                                            البريد التالية
+                                        </p>
+                                    </div>
+                                    <div class="faq">
+                                        <ul>
+                                            <li>مكتب بريد المركزي - الخدمات البريدية طرابلس</li>
+                                            <li>مكتب البريد العام ميدان الجزائر - الخدمات البريدية طرابلس</li>
+                                            <li>مكتب بريد زواره - الخدمات البريدية زواره</li>
+                                            <li>مكتب بريد غريان المركزي - الخدمات البريدية الجبل الغربي</li>
+                                            <li>مكتب بريد سبها المركزي - الخدمات البريدية سبها</li>
+                                            <li>مكتب بريد مصراته المركزي - الخدمات البريدية الخليج</li>
+                                            <li>مكتب بريد السلماني - الخدمات البريدية بنغازي</li>
+                                            <li>مكتب بريد بنغازي المركزي - الخدمات البريدية بنغازي</li>
+                                            <li>مكتب بريد البيضاء - الخدمات البريدية الجبل الاخضر</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                        <section class="pt10 pb50">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <h5 class="specific_accreditation_subtitle">شركات خدمات الاعتماد النوعي المعتمدة
+                                            لدى الهيئة العامة للاتصالات والمعلوماتية
+                                        </h5>
+                                    </div>
+                                </div>
+                               <table class="table table-bordered table-responsive-sm text-center text-light">
+                                    <thead>
+                                        <tr>
+                                            <th scope="col">الموقع</th>
+                                            <th scope="col">البريد الالكتروني</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <th scope="row">شركة نظم المدي للنظم والاستشارات</th>
+                                            <td>info@al-mada.net</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">شركة نظم المدي للنظم والاستشارات</th>
+                                            <td>sales@tiamaltd.com</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">شركة عالم الاتصالات الحديثة</th>
+                                            <td>modernworld@mwc.ly</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">شركة التقنية للإتصالات والبيانات</th>
+                                            <td>mohammed.tmtam@altaqnya.com.ly</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </section>
+                        <section>
+                            <div class="container">
+                                <div class="row faq-list">
+                                    <div class="col-md-12">
+                                        <h5 class="hr_title_horizontal mb20">المعايير المتبعة لاعتماد أجهزة الاتصالات
+                                        </h5>
+                                        <p class="text_color_gray">عند اعتماد معدات وأجهزة الاتصالات نوعياً , تشترط
+                                            الهيئة العامة للإتصالات والمعلوماتية ضرورة مطابقة هذه الأجهزة والمعدات
+                                            للمعايير والمواصفات القياسية
+                                            الصادرة عن المعهد الأوروبي لمعايير الاتصالات والمعايير القياسية الصادرة عن
+                                            الهيئة الدولية الكهــروتقنيــة للمعدات الكهربائية والإلكترونية
+                                        </p>
+                                    </div>
+                                    <div class="faq">
+                                        <p class="specific_accreditation_information_site">لمزيد من المعلومات قم بزيارة
+                                            المواقع التالية
+                                        </p>
+                                        <ul>
+                                            <li>المعهد الأوروبي لمعايير الاتصالات (ETSI)</li>
+                                            <li>الهيئة الدولية الكهروتقنية (IEC)</li>
+                                            <li>لجنة الاتصالات الاتحادية (FCC)</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="faq-list" t-if="accreditation_devices">
+                                    <div class="faq">
+                                        <div class="row justify-content-between align-items-end mb30 mt30"
+                                             t-foreach="accreditation_devices" t-as="device">
+                                            <div class="col-10">
+                                                <h5 class="specific_accreditation_subtitle" t-esc="device.name"/>
+                                            </div>
+                                            <div class="col-auto">
+                                                <a t-att-href="device.attachment_id.local_url" target="_blank"
+                                                   class="download"><img
+                                                        src="/theme_cim/static/src/images/icon/cloud-computing.svg"/>&amp;nbsp;تحميل
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </section>
+                    </div>
+                </t>
+            </t>
+        </field>
+    </record>
+
+    <!--تراخيص خدمات الاتصالات -->
+    <record id="electronic_services_licenses_page" model="website.page">
+        <field name="name">Electronic services licenses</field>
+        <field name="type">qweb</field>
+        <field name="url">/electronic-services-licenses</field>
+        <field name="is_published">True</field>
+        <field name="key">theme_cim.electronic_services_licenses_page</field>
+        <field name="arch" type="xml">
+            <t name="Electronic services licenses" t-name="theme_cim.electronic_services_licenses_page">
+                <t t-call="website.layout">
+                    <div id="wrap">
+                        <section class="pt50 pb50">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <h3 class="hr_title_horizontal mb20">تراخيص خدمات الاتصالات</h3>
+                                        <img src="/theme_cim/static/src/images/electronic_services_licenses.png"
+                                             class="img-fluid p-4 mb-4"/>
+                                    </div>
+                                    <div class="col-md-4 text-center">
+                                        <div class="licence_card_container">
+                                            <h5 class="card_title_licence">تراخيص الفئة الأولى</h5>
+                                            <div class="card_licence_content">
+                                                <p class="">يعتبر إنشاء أو تشغيل شبكة اتصالات عامة أو
+                                                    بنية اتصالات دولية أو تقديم خدمات الاتصالات
+                                                    العامة أو خدمات توفير بنية النفاذ الدولية والتي
+                                                    تقتضي استغلال مورد من الموارد الطبيعية
+                                                    للدولة ( الطيف الترددي) من ضمن تراخيص الفئة
+                                                    الأولى وتشمل هذه الفئة على سبيل المثال لا
+                                                    الحصر
+                                                </p>
+                                                <div class="faq-list">
+                                                    <div class="faq">
+                                                        <ul class="text-left">
+                                                            <li>شبكات الهاتف الثابت (السلكي واللاسلكي).</li>
+                                                            <li>شبكات الهاتف المحمول</li>
+                                                            <li>الاتصالات الدولية</li>
+                                                            <li>شبكات التراسل</li>
+                                                        </ul>
+                                                    </div>
+                                                    <p>أي أنواع أخرى من خدمات أو شبكات الاتصالات التي
+                                                        تقرر الهيئة أنها تتطلب ترخيصاً من الفئة الأولى
+                                                    </p>
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 text-center">
+                                        <div class="licence_card_container">
+                                            <h5 class="card_title_licence">تراخيص الفئة الثانية</h5>
+                                            <div class="card_licence_content">
+                                                <p class="">يعتبر إنشاء أو تشغيل شبكة اتصالات عامة أويعتبر من ضمن تراخيص
+                                                    الفئة الثانية كل نشاط يعنى بتقديم خدمات الاتصالات العامة والتي تعتمد
+                                                    على استغلال سعة لشبكة اتصالات عامة من الفئة الأولى أو تقديم خدمات
+                                                    الاتصالات العامة الإضافية والتي تقتضي استغلال الموارد الوطنية
+                                                    كالترقيم و غيرها دون أن تقتضي استغلال مورد من الموارد الطبيعية
+                                                    للدولة، وتشمل هذه الفئة على سبيل المثال لا الحصر
+                                                </p>
+                                                <div class="faq-list">
+                                                    <div class="faq">
+                                                        <ul class="text-left">
+                                                            <li>إعادة بيع خدمات الاتصالات</li>
+                                                            <li>شبكات تزويد خدمات الإنترنت (ISP)</li>
+                                                            <li>خدمات اتصالات الفضاء عبر الأقمار الصناعية</li>
+                                                            <li>خدمات القيمة المضافة</li>
+                                                        </ul>
+                                                    </div>
+                                                    <p>أي أنواع أخرى من خدمات أو شبكات الاتصالات التي
+                                                        تقرر الهيئة أنها تتطلب ترخيص من الفئة الثانية
+                                                    </p>
+                                                </div>
+
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <div class="col-md-4 text-center">
+                                        <div class="licence_card_container">
+                                            <h5 class="card_title_licence">تراخيص الفئة الثالثة</h5>
+                                            <div class="card_licence_content">
+                                                <p class="">يعتبر من ضمن تراخيص من الفئة الثالثة كل نشاط يعنى بإنشاء أو
+                                                    تشغيل شبكة اتصالات خاصة أو تقديم خدمات الاتصالات الخاصة سواء بواسطة
+                                                    إنشاء أو تشغيل بنية تحتية لشبكة اتصالات خاصة، غير متصلة بالشبكة
+                                                    العامة، أو بواسطة استغلال سعة من شبكة اتصالات، وتشمل هذه الفئة على
+                                                    سبيل المثال لا الحصر
+                                                </p>
+                                                <div class="faq-list">
+                                                    <div class="faq">
+                                                        <ul class="text-left">
+                                                            <li>استيراد وبيع معدات الاتصالات الراديوية (AVL)</li>
+                                                            <li>استيراد وبيع معدات الاتصالات الراديوية</li>
+                                                            <li>خدمات الاتصالات الشخصية المتنقلة عبر
+                                                                الأقمار الاصطناعية
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                    <p>أية أنواع أخرى من خدمات أو شبكات الاتصالات التي
+                                                        تقرر الهيئة أنها تتطلب ترخيص من الفئة الثالثة
+                                                    </p>
+                                                </div>
+
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <div class="mt-5">
+                                    <h5 class="specific_accreditation_subtitle">
+                                        اصدار تراخيص خدمات الأتصالات
+                                    </h5>
+                                    <p>في اطار سعي الهيئة العامة للاتصالات و المعلوماتية لتنظيم قطاع الاتصالات و توفير
+                                        خدمات الاتصالات لكافة المواطنين في ليبيا و حرصاً منها على دعم القطاع الخاص لما
+                                        له من دور فعال في تطوير هذا القطاع، عليه تعتزم الهيئة اصدار تراخيص * للقطاع
+                                        الخاص لتوفير خدمات الاتصالات التالية من الفئتين الثانية والثالثة
+                                    </p>
+                                    <div class="faq-list">
+                                        <div class="faq">
+                                            <ul>
+                                                <li>تقديم خدمات الانترنت من الفئة الثانية (مزودي الخدمة)ISP</li>
+                                                <li>تقديم خدمات الاتصالات عن طريق تقنية الفيسات VSAT</li>
+                                                <li>تقديم خدمات القيمة المضافة مثل الرسائل النصية Value Added Services
+                                                </li>
+                                                <li>استيراد و بيع معدات الاتصالات الراديوية Retail</li>
+                                                <li>تقديم خدمة تتبع و ادارة المركبات و الآليات AVL</li>
+                                                <li>تقديم خدمات مركز الاتصال</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <h5 class="hr_title_horizontal mb20 mt40">المستندات المطلوبة</h5>
+                                <p class="text_color_gray list_circle_color">تعبئة نموذج طلب الترخيص حسب نوع الخدمة
+                                    المطلوبة معتمداً(موقعاً و مختوماً) و موضحا فيه الخدمــات المقترحة والمنطقة الجغرافية
+                                    التى تغطيـها ونــوع التـقنـيــة المستعملة، مرفق بوصف فني محدد للشبكة وأنظمة الإرسال
+                                    التي يرغب في إنشائها وتشغيلها
+                                </p>
+                                <p class="text_color_gray list_circle_color">تسديد المقابل المالي المحدد للترخيص وفق
+                                    جدول المرفق بصك مصدق لصالح الهيئة العامة للاتصالات والمعلوماتية لكل ترخيص ولا يقبل
+                                    صك مصدق واحد لأكثر من ترخيص
+                                </p>
+                                <p class="text_color_gray list_circle_color">صورة من التخويل وإثبات الهوية للمخول له
+                                    بالتوقيع
+                                </p>
+                                <p class="text_color_gray list_circle_color">صورة طبق الأصل من السجل التجاري ساري
+                                    المفعول وخالي من القيود مع إحضار الأصل للمطابقة، على أن يتضمن نشاطاً خاصاً
+                                    بالاتصالات أو
+                                    تقنية المعلومات
+                                </p>
+                                <p class="text_color_gray list_circle_color">صورة طبق الأصل من ترخيص أو اذن المزاولة</p>
+                                <p class="text_color_gray list_circle_color">صورة طبق الأصل من عقد التأسيس</p>
+                                <p class="text_color_gray list_circle_color">صورة طبق الأصل من شهادة اثبات القيد بالغرفة
+                                    التجارية
+                                </p>
+                                <p><i class="fa fa-check list_check_color"></i>ملاحظة: في حالة تقديم أكثر من طلب فيكتفى
+                                    بنسخة واحدة طبق الأصل من المستندات المطلوبة
+                                </p>
+
+
+                                        <h5 class="specific_accreditation_subtitle mb20 mt40">أسعار التراخيص:-</h5>
+
+                                <table class="table table-bordered table-responsive-sm text-center text-light">
+                                    <thead>
+                                        <tr>
+                                            <th style="line-height: 5;" scope="col" colspan="1" rowspan="2">#</th>
+                                            <th style="line-height: 5;" scope="col" colspan="2" rowspan="2">نوع
+                                                الترخيص
+                                            </th>
+                                            <th scope="col" colspan="4">المقابل المالي بالدينار الليبي</th>
+                                        </tr>
+                                        <tr>
+                                            <th scope="col" colspan="2">اصدار الترخيص</th>
+                                            <th scope="col" colspan="2">القيمةالسنوية</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <th colspan="1" scope="row">1</th>
+                                            <td colspan="2">تقديم خدمات الانترنت</td>
+                                            <td colspan="2">15,000</td>
+                                            <td colspan="2">1 % من الدخل السنوي</td>
+                                        </tr>
+                                        <tr>
+                                            <th colspan="1" scope="row">2</th>
+                                            <td colspan="2">تقديم خدمات الاتصالات – VSAT</td>
+                                            <td colspan="2">10,000</td>
+                                            <td colspan="2">1 % من الدخل السنوي</td>
+                                        </tr>
+                                        <tr>
+                                            <th colspan="1" scope="row">3</th>
+                                            <td colspan="2">تقديم خدمة تتبع الآليات و المركبات</td>
+                                            <td colspan="2">5000</td>
+                                            <td colspan="2">1 % من الدخل السنوي</td>
+                                        </tr>
+                                        <tr>
+                                            <th colspan="1" scope="row">4</th>
+                                            <td colspan="2">تقديم خدمة القيمة المضافة</td>
+                                            <td colspan="2">5000</td>
+                                            <td colspan="2">1 % من الدخل السنوي</td>
+                                        </tr>
+                                        <tr>
+                                            <th colspan="1" scope="row">5</th>
+                                            <td colspan="2">تقديم خدمات مركز الاتصال</td>
+                                            <td colspan="2">5000</td>
+                                            <td colspan="2">1 % من الدخل السنوي</td>
+                                        </tr>
+                                        <tr>
+                                            <th colspan="1" scope="row">6</th>
+                                            <td colspan="2">استيراد و بيع معدات الاتصالات الراديوية</td>
+                                            <td colspan="2">1000</td>
+                                            <td colspan="2"></td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+
+                                <div class="row faq-list">
+                                    <div class="col-md-12">
+                                        <h5 class="hr_title_horizontal mb20 mt40">تجديد تراخيص خدمات الأتصالات</h5>
+                                        <p class="text_color_gray">وفقا للائحة تنظيم تراخيص الفئتين الثانية والثالثة رقم
+                                            (002) الصادرة بتاريخ 02/12/2013 يتم منح تراخيص خدمات الاتصالات من الفئتين
+                                            الثانية والثالثة
+                                            لمدة ثلاث سنوات ، ويتم تجديده مدة مماثلة مالم يتم مخالفة الشروط الواردة في
+                                            اللائحة المذكورة والقوانين واللوائح المعمول بها في الهيئة
+                                        </p>
+                                    </div>
+                                    <div class="faq">
+                                        <p class="specific_accreditation_information_site">لتجديد الترخيص يجب إحضار
+                                            المستندات الاتية
+                                        </p>
+                                        <ul>
+                                            <li>رسالة رسمية موجهة للادارة العامة لشؤون التنظيم بالهيئة العامة للاتصالات
+                                                والمعلوماتية مشار فيها لطلب تجديد الترخيص
+                                                الممنوح ورقمه وتاريخ إصداره ومشار فيها للمرفقات التالي ذكرها
+                                            </li>
+                                            <li>جدول يختصر قيمة الفواتير المتحصل عليها من تقديم خدمات الاتصالات المرخصة،
+                                                وناتج القيمة المستحقة للرسوم السنوية
+                                                والمقدرة بـ 1% من اجمالي الدخل
+                                            </li>
+                                            <li>صور من الفواتير المتحصل عليها من تقديم خدمات الاتصالات المرخصة مختومة من
+                                                مصلحة الضرائب
+                                            </li>
+                                            <li>إعادة تعبئة نموذج طلب الحصول على الترخيص الخاص بتقديم الخدمة المراد
+                                                تجديده
+                                            </li>
+                                            <li>صك مصدق بأسم الهيئة بالقيمة السنوية المستحقة والمقدرة بـ 1% من إجمالي
+                                                الدخل من تاريخ إصدار الترخيص
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+
+                                <div class="row faq-list">
+                                    <div class="col-md-12">
+                                        <h5 class="hr_title_horizontal mb20 mt40">الضوابط والشروط الواجب التقيّد بها قبل ربط
+                                            طرفيات الاتصالات بشبكة الواي ماكس
+                                        </h5>
+                                        <p class="text_color_gray">حرصاً من الهيئة العامة للاتصالات والمعلوماتية على
+                                            الرفع من مستوى وجودة خدمات الاتصالات المقدمة لليبيين، وفي إطار سعيها لتشجيع
+                                            القطاع
+                                            الخاص، قررت الوزارة فتح المجال لشركات القطاع الخاص لتوريد وبيع طرفيات
+                                            الاتصالات على شبكة الواي ماكس على أن يتم التقيد بالضوابط الآتية
+                                        </p>
+                                    </div>
+                                    <div class="faq">
+                                        <ul>
+                                            <li>الحصول على ترخيص إستيراد وبيع أجهزة الاتصالات اللاسلكية من الهيئة العامة
+                                                للاتصالات والمعلوماتية
+                                            </li>
+                                            <li>إعتماد الأجهزة الطرفية نوعياً من قبل الإدارة العامة لشؤون التنظيم قبل
+                                                ربطها مع شبكة ليبيا ماكس
+                                            </li>
+                                            <li>تقدم الشركة الموردة للأجهزة الطرفية، دون غيرها، الدعم الفني اللازم
+                                                للمستخدمين من خلال عقد بين الطرفين
+                                            </li>
+                                            <li>إعادة تعبئة نموذج طلب الحصول على الترخيص الخاص بتقديم الخدمة المراد
+                                                تجديده
+                                            </li>
+                                            <li>عدم تأثير الأجهزة الطرفية سلبياً على أداء شبكة ليبيا ماكس. وفي حال ثبوت
+                                                ذلك، تقوم الإدارة العامة لشؤون التنظيم بإتخاذ الإجراءات
+                                                اللازمة لمنع ربط هذه الأجهزة على الشبكة.
+                                            </li>
+                                        </ul>
+                                        <p><i class="fa fa-check list_check_color"></i>ملاحظة: يتم تقديم الطلبات بمكاتب
+                                            البريد التابعة لشركة بريد ليبيا للاطلاع على مكاتب البريد
+                                            <a href="https://libyapost.ly/offices/" target="blank">أضغط هنا</a>
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="faq-list" t-if="call_center">
+                                    <div class="faq">
+                                        <div class="row justify-content-between align-items-end mb30 mt30"
+                                             t-foreach="call_center" t-as="license">
+                                            <div class="col-10">
+                                                <h5 class="specific_accreditation_subtitle" t-esc="license.name"/>
+                                            </div>
+                                            <div class="col-auto">
+                                                <a t-att-href="license.attachment_id.local_url" target="_blank"
+                                                   class="download"><img
+                                                        src="/theme_cim/static/src/images/icon/cloud-computing.svg"/>&amp;nbsp;تحميل
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </section>
+                    </div>
+                </t>
+            </t>
+        </field>
+    </record>
+
+    <!--الطيف الترددى-->
     <record id="frequency_spectrum_page" model="website.page">
         <field name="name">Frequency spectrum</field>
         <field name="url">/frequency-spectrum</field>

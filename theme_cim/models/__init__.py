@@ -12,3 +12,5 @@ from . import strategy
 from . import numbering_models
 from . import egovernment_files
 from . import common_questions
+from . import accreditation_devices
+from . import call_center

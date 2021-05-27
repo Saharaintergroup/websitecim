@@ -82,6 +82,17 @@
                   sequence="1"
                   parent="cim_organization_of_communications_menu"
                   action="numbering_models_action"/>
+
+        <menuitem id="cim_call_center_menu" name="تراخيص خدمات الاتصالات"
+                  sequence="2"
+                  parent="cim_organization_of_communications_menu"
+                  action="call_center_action"/>
+
+        <menuitem id="cim_accreditation_devices_menu" name="الاعتماد النوعي"
+                  sequence="3"
+                  parent="cim_organization_of_communications_menu"
+                  action="accreditation_devices_action"/>
+
         <!--electronic government-->
         <menuitem id="cim_electronic_government_menu" name="الحكومة الالكترونية"
                   sequence="2"

@@ -44,6 +44,8 @@
         "views/strategy_views.xml",
         "views/egovernment_files_views.xml",
         "views/common_questions_views.xml",
+        'views/accreditation_devices_views.xml',
+        'views/call_center_views.xml',
         "views/menu.xml",
         # data
         "data/company_partners_data.xml",
@@ -55,6 +57,8 @@
         "data/ticker_news_data.xml",
         "data/egovernment_files_data.xml",
         "data/common_questions_data.xml",
+        'data/accreditation_devices_data.xml',
+        'data/call_center_data.xml',
     ],
     'images': [
         'static/description/cover.png',

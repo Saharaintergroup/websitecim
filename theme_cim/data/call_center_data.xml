@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data noupdate="0">
+        <!--license_1-->
+        <record id="pdf_license_1" model="ir.attachment">
+            <field name="name">شروط ترخيص خدمة مراكز الإتصال.pdf</field>
+            <field name="datas" type="base64" file="theme_cim/static/src/data/call_center_license/شروط ترخيص خدمة مراكز الإتصال.pdf"></field>
+            <field name="mimetype">application/pdf;base64</field>
+        </record>
+        <record id="license_1" model="call.center">
+            <field name="name">شروط ترخيص خدمة مراكز الإتصال</field>
+            <field name="attachment_id" ref="theme_cim.pdf_license_1"/>
+        </record>
+<!--        license_2 -->
+        <record id="pdf_license_2" model="ir.attachment">
+            <field name="name">تراخيص خدمات الاتصالات من الفئتين الثانية والثالثة.pdf</field>
+            <field name="datas" type="base64" file="theme_cim/static/src/data/call_center_license/تراخيص خدمات الاتصالات من الفئتين الثانية والثالثة.pdf"></field>
+            <field name="mimetype">application/pdf;base64</field>
+        </record>
+        <record id="license_2" model="call.center">
+            <field name="name">اللائحة التنظيمية لتراخيص خدمات الاتصالات من الفئتين الثانية والثالثة</field>
+            <field name="attachment_id" ref="theme_cim.pdf_license_2"/>
+        </record>
+        <!--license_3-->
+        <record id="pdf_license_3" model="ir.attachment">
+            <field name="name">باستلام المعاملة.pdf</field>
+            <field name="datas" type="base64" file="theme_cim/static/src/data/call_center_license/باستلام المعاملة.pdf"></field>
+            <field name="mimetype">application/pdf;base64</field>
+        </record>
+        <record id="license_3" model="call.center">
+            <field name="name">النموذج الخاص باستلام المعاملة</field>
+            <field name="attachment_id" ref="theme_cim.pdf_license_3"/>
+        </record>
+        <!--license_4-->
+        <record id="pdf_license_4" model="ir.attachment">
+            <field name="name">خدمات القيمة المضافة.pdf</field>
+            <field name="datas" type="base64" file="theme_cim/static/src/data/call_center_license/خدمات القيمة المضافة.pdf"></field>
+            <field name="mimetype">application/pdf;base64</field>
+        </record>
+        <record id="license_4" model="call.center">
+            <field name="name">النموذج الخاص بتراخيص تقديم خدمات القيمة المضافة</field>
+            <field name="attachment_id" ref="theme_cim.pdf_license_4"/>
+        </record>
+        <!--license_5-->
+        <record id="pdf_license_5" model="ir.attachment">
+            <field name="name">بيع معدات الاتصالات الراديوية.pdf</field>
+            <field name="datas" type="base64" file="theme_cim/static/src/data/call_center_license/بيع معدات الاتصالات الراديوية.pdf"></field>
+            <field name="mimetype">application/pdf;base64</field>
+        </record>
+        <record id="license_5" model="call.center">
+            <field name="name"> النموذج الخاص بترخيص استيراد و بيع معدات الاتصالات الراديوية</field>
+            <field name="attachment_id" ref="theme_cim.pdf_license_5"/>
+        </record>
+     <!--license_6-->
+        <record id="pdf_license_6" model="ir.attachment">
+            <field name="name">ادارة المركبات و الآليات.pdf</field>
+            <field name="datas" type="base64" file="theme_cim/static/src/data/call_center_license/ادارة المركبات و الآليات.pdf"></field>
+            <field name="mimetype">application/pdf;base64</field>
+        </record>
+        <record id="license_6" model="call.center">
+            <field name="name">النموذج الخاص بترخيص تتبع و ادارة المركبات و الآليات</field>
+            <field name="attachment_id" ref="theme_cim.pdf_license_6"/>
+        </record>
+     <!--license_7-->
+        <record id="pdf_license_7" model="ir.attachment">
+            <field name="name">خدمات الانترنت من الفئة الثانية.pdf</field>
+            <field name="datas" type="base64" file="theme_cim/static/src/data/call_center_license/خدمات الانترنت من الفئة الثانية.pdf"></field>
+            <field name="mimetype">application/pdf;base64</field>
+        </record>
+        <record id="license_7" model="call.center">
+            <field name="name">النموذج الخاص بترخيص تقديم خدمات الانترنت من الفئة الثانية</field>
+            <field name="attachment_id" ref="theme_cim.pdf_license_7"/>
+        </record>
+         <!--license_8-->
+        <record id="pdf_license_8" model="ir.attachment">
+            <field name="name">تقنية الفيسات.pdf</field>
+            <field name="datas" type="base64" file="theme_cim/static/src/data/call_center_license/تقنية الفيسات.pdf"></field>
+            <field name="mimetype">application/pdf;base64</field>
+        </record>
+        <record id="license_8" model="call.center">
+            <field name="name">النموذج الخاص بترخيص تقديم خدمات الاتصالات عن طريق تقنية الفيسات</field>
+            <field name="attachment_id" ref="theme_cim.pdf_license_8"/>
+        </record>
+<!-- license_9-->
+        <record id="pdf_license_9" model="ir.attachment">
+            <field name="name">الشركا ت المرخص لها من الفئة الثانية والثالثة.pdf</field>
+            <field name="datas" type="base64" file="theme_cim/static/src/data/call_center_license/الشركا ت المرخص لها من الفئة الثانية والثالثة.pdf"></field>
+            <field name="mimetype">application/pdf;base64</field>
+        </record>
+        <record id="license_9" model="call.center">
+            <field name="name">قائمة بالشركا ت المرخص لها من الفئة الثانية والثالثة</field>
+            <field name="attachment_id" ref="theme_cim.pdf_license_9"/>
+        </record>
+        <!-- license_10-->
+        <record id="pdf_license_10" model="ir.attachment">
+            <field name="name">pdf.النموذج الخاص بترخيص تقديم خدمات مركز الاتصال</field>
+            <field name="datas" type="base64" file="theme_cim/static/src/data/call_center_license/النموذج الخاص بترخيص تقديم خدمات مركز الاتصال.pdf"></field>
+            <field name="mimetype">application/pdf;base64</field>
+        </record>
+        <record id="license_10" model="call.center">
+            <field name="name">النموذج الخاص بترخيص تقديم خدمات مركز الاتصال</field>
+            <field name="attachment_id" ref="theme_cim.pdf_license_10"/>
+        </record>
+
+    </data>
+</odoo>

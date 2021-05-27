@@ -40,3 +40,9 @@ access_egovernment_files_designer,egovernment.files.designer,theme_cim.model_ego
 
 access_common_questions_public,common.questions.public,theme_cim.model_common_questions,,1,0,0,0
 access_common_questions_designer,common.questions.designer,theme_cim.model_common_questions,website.group_website_designer,1,1,1,1
+
+access_accreditation_devices_public,accreditation.devices.public,theme_cim.model_accreditation_devices,,1,0,0,0
+access_accreditation_devices_designer,accreditation.devices.designer,theme_cim.model_accreditation_devices,website.group_website_designer,1,1,1,1
+
+access_call_center_public,call.center.public,theme_cim.model_call_center,,1,0,0,0
+access_call_center_designer,call.center.designer,theme_cim.model_call_center,website.group_website_designer,1,1,1,1

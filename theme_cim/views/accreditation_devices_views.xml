@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <!--=======================Accreditation Devices==========================-->
+        <!--Tree View-->
+        <record id="view_accreditation_devices_tree" model="ir.ui.view">
+            <field name="name">accreditation.devices.tree</field>
+            <field name="model">accreditation.devices</field>
+            <field name="arch" type="xml">
+                <tree>
+                    <field name="name"/>
+                </tree>
+            </field>
+        </record>
+        <!--Form View-->
+        <record id="view_accreditation_devices_form" model="ir.ui.view">
+            <field name="name">accreditation.devices.form</field>
+            <field name="model">accreditation.devices</field>
+            <field name="priority" eval="1"/>
+            <field name="arch" type="xml">
+                <form string="Accreditation Devices">
+                    <sheet>
+                        <div class="oe_title">
+                            <label class="oe_edit_only" for="name" string="إسم جهاز الاعتماد النوعي "/>
+                            <h1>
+                                <field name="name" placeholder="إسم جهاز الاعتماد النوعي "/>
+                            </h1>
+                        </div>
+                        <group>
+                            <group>
+                                <field name="attachment_id"/>
+                            </group>
+                        </group>
+                    </sheet>
+                </form>
+            </field>
+        </record>
+        <!--Form View-->
+        <record id="accreditation_devices_action" model="ir.actions.act_window">
+            <field name="name">الاعتماد النوعي</field>
+            <field name="type">ir.actions.act_window</field>
+            <field name="res_model">accreditation.devices</field>
+            <field name="view_mode">tree,form</field>
+            <field name="help" type="html">
+                <p class="o_view_nocontent_smiling_face">
+                    إنشاءاجهزه الاعتماد النوعي جديدة.
+                </p>
+            </field>
+        </record>
+
+    </data>
+</odoo>
