@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data noupdate="0">
+        <!--frequency_spectrum_1-->
+        <record id="docx_frequency_spectrum_1" model="ir.attachment">
+            <field name="name">49.docx</field>
+            <field name="datas" type="base64" file="theme_cim/static/src/data/frequency_spectrum/49.docx"></field>
+            <field name="mimetype">application/doc;base64</field>
+            <field name="public">True</field>
+        </record>
+        <record id="frequency_spectrum_1" model="frequency.spectrum">
+            <field name="name">نموذج شكوى بخصوص تداخل ضارا</field>
+            <field name="attachment_id" ref="theme_cim.docx_frequency_spectrum_1"/>
+        </record>
+        <!--frequency_spectrum_2-->
+        <record id="docx_frequency_spectrum_2" model="ir.attachment">
+            <field name="name">Bridging_Link_Form.docx</field>
+            <field name="datas" type="base64"
+                   file="theme_cim/static/src/data/frequency_spectrum/Bridging_Link_Form.docx"></field>
+            <field name="mimetype">application/doc;base64</field>
+            <field name="public">True</field>
+        </record>
+        <record id="frequency_spectrum_2" model="frequency.spectrum">
+            <field name="name">نموذج طلب تخصيص تردد لوصلة تجسير</field>
+            <field name="attachment_id" ref="theme_cim.docx_frequency_spectrum_2"/>
+        </record>
+        <!--frequency_spectrum_3-->
+        <record id="docx_frequency_spectrum_3" model="ir.attachment">
+            <field name="name">Broadcasting_Station_Form.docx</field>
+            <field name="datas" type="base64"
+                   file="theme_cim/static/src/data/frequency_spectrum/Broadcasting_Station_Form.docx"></field>
+            <field name="mimetype">application/doc;base64</field>
+            <field name="public">True</field>
+        </record>
+        <record id="frequency_spectrum_3" model="frequency.spectrum">
+            <field name="name">نموذج طلب تخصيص تردد لمحطة بث إذاعي</field>
+            <field name="attachment_id" ref="theme_cim.docx_frequency_spectrum_3"/>
+        </record>
+        <!--frequency_spectrum_4-->
+        <record id="docx_frequency_spectrum_4" model="ir.attachment">
+            <field name="name">Fixed_Wireless_Form.docx</field>
+            <field name="datas" type="base64"
+                   file="theme_cim/static/src/data/frequency_spectrum/Fixed_Wireless_Form.docx"></field>
+            <field name="mimetype">application/doc;base64</field>
+            <field name="public">True</field>
+        </record>
+        <record id="frequency_spectrum_4" model="frequency.spectrum">
+            <field name="name">نموذج طلب تخصيص تردد لوصلة لاسلكية ثابتة</field>
+            <field name="attachment_id" ref="theme_cim.docx_frequency_spectrum_4"/>
+        </record>
+        <!--frequency_spectrum_5-->
+        <record id="docx_frequency_spectrum_5" model="ir.attachment">
+            <field name="name">Radio_Station_Form.docx</field>
+            <field name="datas" type="base64"
+                   file="theme_cim/static/src/data/frequency_spectrum/Radio_Station_Form.docx"></field>
+            <field name="mimetype">application/doc;base64</field>
+            <field name="public">True</field>
+        </record>
+        <record id="frequency_spectrum_5" model="frequency.spectrum">
+            <field name="name">نموذج طلب تخصيص تردد لمحطة لاسلكية</field>
+            <field name="attachment_id" ref="theme_cim.docx_frequency_spectrum_5"/>
+        </record>
+
+    </data>
+</odoo>

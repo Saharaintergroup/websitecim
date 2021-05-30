@@ -46,3 +46,6 @@ access_accreditation_devices_designer,accreditation.devices.designer,theme_cim.m
 
 access_call_center_public,call.center.public,theme_cim.model_call_center,,1,0,0,0
 access_call_center_designer,call.center.designer,theme_cim.model_call_center,website.group_website_designer,1,1,1,1
+
+access_frequency_spectrum_public,frequency.spectrum.public,theme_cim.model_frequency_spectrum,,1,0,0,0
+access_frequency_spectrum_designer,frequency.spectrum.designer,theme_cim.model_frequency_spectrum,website.group_website_designer,1,1,1,1

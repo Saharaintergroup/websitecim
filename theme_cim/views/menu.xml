@@ -93,6 +93,11 @@
                   parent="cim_organization_of_communications_menu"
                   action="accreditation_devices_action"/>
 
+        <menuitem id="cim_frequency_spectrum_menu" name="الطيف الترددي"
+                  sequence="4"
+                  parent="cim_organization_of_communications_menu"
+                  action="frequency_spectrum_action"/>
+
         <!--electronic government-->
         <menuitem id="cim_electronic_government_menu" name="الحكومة الالكترونية"
                   sequence="2"

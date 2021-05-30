@@ -6,7 +6,7 @@
     'description': 'Cim website theme',
     'category': 'Theme',
     'sequence': 1,
-    'version': '1.8.4',
+    'version': '1.8.5',
     'depends': ['base', 'website', 'website_form'],
     'data': [
         # security
@@ -46,6 +46,7 @@
         "views/common_questions_views.xml",
         'views/accreditation_devices_views.xml',
         'views/call_center_views.xml',
+        'views/frequency_spectrum_views.xml',
         "views/menu.xml",
         # data
         "data/company_partners_data.xml",
@@ -59,6 +60,7 @@
         "data/common_questions_data.xml",
         'data/accreditation_devices_data.xml',
         'data/call_center_data.xml',
+        'data/frequency_spectrum_data.xml',
     ],
     'images': [
         'static/description/cover.png',

@@ -994,7 +994,61 @@
         background-color:rgba(255,255,255,.2)
     }
 }
-
+/*card_step*/
+.card_step{
+    border:1px solid #ffffff;
+    border-radius:8px;
+    height:100%;
+    .card_step_title{
+        background-color:rgba(255,255,255,0.22);
+        text-align:center;
+        padding:10px;
+    }
+    .card_step_content{
+        padding:15px 10px;
+        line-height:32px;
+        ul{
+            list-style-type: none;
+            padding: 0  0 0 15px;
+            line-height:32px;
+            > li{
+                position:relative;
+                margin:15px 0 ;
+                &:before{
+                    content: '';
+                    display: inline-block;
+                    width: 6px;
+                    height: 6px;
+                    background-color: #F9B40E;
+                    border-radius: 50%;
+                    position: absolute;
+                    left: -15px;
+                    top: 11px;
+                }
+            }
+            ul{
+                list-style-type: none;
+                > li {
+                    opacity: 70%;
+                    &:before{
+                        content: '';
+                        display: inline-block;
+                        background-color: #F9B40E;
+                        position: absolute;
+                        left: -15px;
+                        top: 20px;
+                        width: 8px;
+                        height: 2px;
+                    }
+                }
+            }
+        }
+    }
+    h1,h2,h3,h4,h5,h6{
+        text-align:center;
+        line-height:32px;
+    }
+}
 
 
 /*-------------------------------------------------*/
