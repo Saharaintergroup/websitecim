@@ -1,21 +1,5 @@
 <?xml version="1.0" ?>
 <odoo>
-    <template id="contactus" inherit_id="website.contactus">
-        <xpath expr="//div[hasclass('oe_structure')]" position="replace">
-            <div class="container">
-                <h3 class="hr_title_horizontal mt50">إتصل بنا</h3>
-            </div>
-        </xpath>
-        <xpath expr="//section[hasclass('s_text_block')]" position="replace"/>
-        <xpath expr="//div[@class='col-lg-7 col-xl-6 mr-lg-auto']" position="attributes">
-            <attribute name="class">col-lg-6 mr-lg-auto</attribute>
-        </xpath>
-        <xpath expr="//div[@class='col-lg-4 mt-4 mt-lg-0']" position="replace">
-            <div class="col-lg-5 mt-4 mt-lg-0">
-                <t t-call="theme_cim.information_contact"/>
-            </div>
-        </xpath>
-    </template>
 
     <template id="information_contact">
         <div class="information_contact">
@@ -47,6 +31,70 @@
                 </span>
             </div>
         </div>
+    </template>
+    <record id="website_form.contactus_thanks" model="website.page">
+        <field name="name">Thanks (Contact us)</field>
+        <field name="type">qweb</field>
+        <field name="url">/contactus-thank-you</field>
+        <field name="website_indexed" eval="False"/>
+        <field name="is_published">True</field>
+        <field name="key">website_form.contactus_thanks</field>
+        <field name="arch" type="xml">
+            <t name="Thanks (Contact us)" t-name="website_form.contactus_thanks">
+                <t t-call="website.layout">
+                    <div id="wrap">
+                        <div class="oe_structure" id="oe_structure_website_form_contact_us_thanks_1"/>
+                        <section class="pt50 pb50">
+                            <div class="container mt-4">
+                                <div class="row">
+                                    <div class="col-lg-7 col-xl-6 mr-lg-auto oe_structure">
+                                        <section class="pt30 s_text_block pb30 o_colored_level o_cc"
+                                                 data-snippet="s_text_block" data-name="Text">
+                                            <div class="container">
+                                                <span class="d-block fa fa-4x fa-thumbs-up mx-auto rounded-circle bg-secondary"/>
+                                                <br/>
+                                                <h1 class="text-center">شكرا لك!</h1>
+                                                <div class="pb16 pt16 s_hr" data-snippet="s_hr" data-name="Separator">
+                                                    <hr class="mx-auto border-top w-50 border-dark text-center"/>
+                                                </div>
+                                                <h5 class="text-center">
+                                                    <span class="fa fa-check-circle"/>
+                                                    <span>تم ارسال رسالتك
+                                                        <b>بنجاح</b>
+                                                    </span>
+                                                </h5>
+                                                <p class="text-center">سوف نعاود الاتصال بك قريبا</p>
+                                            </div>
+                                        </section>
+                                    </div>
+                                    <div class="col-lg-5">
+                                        <t t-call="theme_cim.information_contact"/>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="oe_structure" id="oe_structure_website_form_contact_us_thanks_2"/>
+                        </section>
+                    </div>
+                </t>
+            </t>
+        </field>
+    </record>
+
+    <template id="contactus" inherit_id="website.contactus">
+        <xpath expr="//div[hasclass('oe_structure')]" position="replace">
+            <div class="container">
+                <h3 class="hr_title_horizontal mt50">إتصل بنا</h3>
+            </div>
+        </xpath>
+        <xpath expr="//section[hasclass('s_text_block')]" position="replace"/>
+        <xpath expr="//div[@class='col-lg-7 col-xl-6 mr-lg-auto']" position="attributes">
+            <attribute name="class">col-lg-6 mr-lg-auto</attribute>
+        </xpath>
+        <xpath expr="//div[@class='col-lg-4 mt-4 mt-lg-0']" position="replace">
+            <div class="col-lg-5 mt-4 mt-lg-0">
+                <t t-call="theme_cim.information_contact"/>
+            </div>
+        </xpath>
     </template>
 
     <template id="website_form">
@@ -253,9 +301,12 @@
                                 <h3 class="hr_title_horizontal mb60">الاسئلة الشائعة</h3>
                                 <div class="faq-list" t-if="common_questions">
                                     <div class="faq mt30 mb30" t-foreach="common_questions" t-as="item">
-                                        <div class="row" >
+                                        <div class="row">
                                             <div class="col-2">
-                                                <h4 class="faq-title color-yellow">سؤال <t t-esc="item.number"/> :</h4>
+                                                <h4 class="faq-title color-yellow">سؤال
+                                                    <t t-esc="item.number"/>
+                                                    :
+                                                </h4>
                                             </div>
                                             <div class="col-10">
                                                 <h4 class="faq-title" t-esc="item.question"/>

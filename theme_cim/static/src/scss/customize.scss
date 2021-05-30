@@ -21,7 +21,9 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6{
 .color-yellow{
     color:#F9B40E!important;
 }
-
+.bg-secondary{
+    background-color:$color-secondary!important;
+}
 .fa.rounded-circle, .fa.rounded-empty-circle, .fa.rounded, .fa.rounded-0, .fa.rounded-leaf, .fa.img-thumbnail, .fa.shadow {
     width: 26px;
     height: 26px;
