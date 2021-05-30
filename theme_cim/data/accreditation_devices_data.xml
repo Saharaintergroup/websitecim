@@ -6,6 +6,7 @@
             <field name="name">قائمة_بالأجهزة_المعتمدة.pdf</field>
             <field name="datas" type="base64" file="theme_cim/static/src/data/قائمة_بالأجهزة_المعتمدة.pdf"></field>
             <field name="mimetype">application/pdf;base64</field>
+            <field name="public">True</field>
         </record>
         <record id="devices_1" model="accreditation.devices">
             <field name="name">قائمة بالأجهزة المعتمدة نوعيا و المسموح بتوريدها و إستخدامها في ليبيا</field>
@@ -16,6 +17,7 @@
             <field name="name">المعامل_المعتمدة_الهيئة.pdf</field>
             <field name="datas" type="base64" file="theme_cim/static/src/data/المعامل_المعتمدة_الهيئة.pdf"></field>
             <field name="mimetype">application/pdf;base64</field>
+            <field name="public">True</field>
         </record>
         <record id="devices_2" model="accreditation.devices">
             <field name="name">المعامل المعتمدة من الهيئة أو معتمدة من قبل أحد أعضاء المنظمة الدولية لإعتماد المختبرات</field>
@@ -26,6 +28,7 @@
             <field name="name">شهادة_إعتماد_النوعية.pdf</field>
             <field name="datas" type="base64" file="theme_cim/static/src/data/شهادة_إعتماد_النوعية.pdf"></field>
             <field name="mimetype">application/pdf;base64</field>
+            <field name="public">True</field>
         </record>
         <record id="devices_3" model="accreditation.devices">
             <field name="name">نموذج طلب شهادة إعتماد النوعية</field>
