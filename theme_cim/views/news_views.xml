@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <!--=======================Jobs==========================-->
+        <!--Tree View-->
+        <record id="view_news_tree" model="ir.ui.view">
+            <field name="name">news.tree</field>
+            <field name="model">news</field>
+            <field name="arch" type="xml">
+                <tree>
+                    <field name="name"/>
+                    <field name="in_slider"/>
+                    <field name="is_important"/>
+                    <field name="is_most_traded"/>
+                    <field name="category_id"/>
+                    <field name="short_description"/>
+                </tree>
+            </field>
+        </record>
+        <!--Form View-->
+        <record id="view_news_form" model="ir.ui.view">
+            <field name="name">news.form</field>
+            <field name="model">news</field>
+            <field name="priority" eval="1"/>
+            <field name="arch" type="xml">
+                <form string="News">
+                    <sheet>
+                        <field name="image" widget='image' class="oe_avatar"/>
+                        <div class="oe_title">
+                            <label class="oe_edit_only" for="name" string="عنوان الخبر"/>
+                            <h1>
+                                <field name="name" placeholder="عنوان الخبر"/>
+                            </h1>
+                        </div>
+                        <group>
+                            <group>
+                                <field name="in_slider"/>
+                                <field name="is_important"/>
+                                <field name="is_most_traded"/>
+                            </group>
+                            <group>
+                                <field name="category_id"/>
+                            </group>
+                        </group>
+                        <group>
+                            <field name="short_description"/>
+                            <field name="description"/>
+                        </group>
+                    </sheet>
+                </form>
+            </field>
+        </record>
+        <record id="news_action" model="ir.actions.act_window">
+            <field name="name">الاخبار</field>
+            <field name="type">ir.actions.act_window</field>
+            <field name="res_model">news</field>
+            <field name="view_mode">tree,form</field>
+            <field name="help" type="html">
+                <p class="o_view_nocontent_smiling_face">
+                    إضافة اخبار جديد.
+                </p>
+            </field>
+        </record>
+
+    </data>
+</odoo>

@@ -1,7 +1,6 @@
 # -*- coding: utf-8 -*-
 
-from . import slider_home
-from . import ticker_news
+from . import news
 from . import company_partners
 from . import teams
 from . import public_announcements

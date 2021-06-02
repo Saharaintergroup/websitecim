@@ -21,8 +21,8 @@
                                                 <div class="container">
                                                     <div class="col-xl-7 col-lg-8 col-md-9 col-sm-10 col-11">
                                                         <h1 class="mb20 slideOutUp" t-esc="item.name"/>
-                                                        <p t-esc="item.description"/>
-                                                        <a t-att-href="item.url" class="btn btn-primary mt10">قراءة المزيد</a>
+                                                        <div t-field="item.short_description"/>
+                                                        <a href="#" class="btn btn-primary mt10">قراءة المزيد</a>
                                                     </div>
                                                 </div>
                                             </div>
@@ -35,8 +35,8 @@
                                                 <div class="container">
                                                     <div class="col-xl-7 col-lg-8 col-md-9 col-sm-10 col-11">
                                                         <h1 class="mb20 slideOutUp" t-esc="item.name"/>
-                                                        <p t-esc="item.description"/>
-                                                        <a t-att-href="item.url" class="btn btn-primary mt10">قراءة المزيد</a>
+                                                        <div t-field="item.short_description"/>
+                                                        <a href="#" class="btn btn-primary mt10">قراءة المزيد</a>
                                                     </div>
                                                 </div>
                                             </div>
@@ -61,7 +61,7 @@
                                 <div class="acme-news-ticker-label">موجز الاخبار</div>
                                 <ul class="my-news-ticker d-flex align-items-center" t-if="ticker_news">
                                     <li t-foreach="ticker_news" t-as="item">
-                                        <a href="#" t-esc="item.description"/>
+                                        <a href="#" t-esc="item.name"/>
                                     </li>
                                 </ul>
                                 <div class="d-flex justify-content-center align-items-center pl20" t-else="">

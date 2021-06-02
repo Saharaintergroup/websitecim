@@ -1137,3 +1137,110 @@ h5.card_title_licence {
 .card_licence_content p, .card_licence_content li {
     font-size: 14px;
 }
+p.project_management_txt {
+    background: white;
+    color: #3184af;
+    margin: auto;
+    text-align: center;
+    padding: 7px;
+    border-radius: 6px;
+    position: relative;
+}
+.project_management_txt:before{
+    content: '';
+    display: inline-block;
+    width: 210px;
+    height: 2px;
+    background-color: rgba(255,255,255,0.57);
+    position: absolute;
+    left: -207px;
+    top: 43%;
+}
+.project_management_txt:after{
+    content: '';
+    display: inline-block;
+    width: 210px;
+    height: 2px;
+    background-color: rgba(255,255,255,0.57);
+    position: absolute;
+    right: -205px;
+    top: 43%;
+}
+.border_top_after_middle:after{
+    height: 50px !important;
+    top: -109% !important;
+}
+.border_top_after{
+    position:relative;
+}
+.border_top_after:after{
+    content: '';
+    display: inline-block;
+    width: 2px;
+    height: 71px;
+    background-color: rgba(255, 255 ,255 ,0.57);
+    position: absolute;
+    right: 50%;
+    top: -157%;
+}
+p.project_sections {
+    background: rgba(255,255,255 , 0.20);
+    margin-top: 3rem;
+    text-align: center;
+    padding: 7px;
+    border-radius: 6px;
+}
+@media (max-width: 2000px){
+
+}
+@media (max-width: 1250px){
+
+}
+@media (max-width: 1199px){
+    .project_management_txt:before{
+        left: -177px;
+    }
+    .project_management_txt:after{
+        right: -175px;
+    }
+}
+@media (max-width: 991px){
+    .project_management_txt:before{
+        left: -137px;
+        width: 160px;
+    }
+    .project_management_txt:after{
+        right: -135px;
+        width: 160px;
+    }
+}
+
+@media (max-width: 767px){
+    .project_management_txt:before{
+        width: 0px;
+    }
+    .project_management_txt:after{
+        width: 0px;
+    }
+    .border_top_after:after{
+        width: 0;
+    }
+    .project_management_desc{
+        width: 100% !important;
+    }
+}
+
+@media (max-width: 600px)
+{
+
+}
+
+@media(max-width: 500px){
+
+}
+@media(max-width: 450px){
+
+}
+@media(max-width: 400px){
+
+}

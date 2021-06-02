@@ -12,18 +12,8 @@
                   sequence="1"
                   parent="cim_menu_root"/>
 
-        <menuitem id="cim_slider_news_menu" name="الاخبار"
-                  sequence="1"
-                  parent="cim_home_menu"
-                  action="slider_home_action"/>
-
-        <menuitem id="cim_ticker_news_menu" name="موجز الاخبار"
-                  sequence="2"
-                  parent="cim_home_menu"
-                  action="ticker_news_action"/>
-
         <menuitem id="cim_company_partners_menu" name="الجهات التابعة"
-                  sequence="3"
+                  sequence="1"
                   parent="cim_home_menu"
                   action="company_partners_action"/>
 
@@ -110,9 +100,16 @@
 
 
         <!--================================-->
+        <!--==المركز الإعلامي==-->
+        <menuitem id="cim_news_menu" name="المركز الإعلامي"
+                  sequence="5"
+                  parent="cim_menu_root"
+                  action="news_action"/>
+
+        <!--================================-->
         <!--==Our business==-->
         <menuitem id="cim_contact_menu" name="إتصل بنا"
-                  sequence="5"
+                  sequence="6"
                   parent="cim_menu_root"/>
         <menuitem id="cim_common_questions_menu" name="الأسئلة الشائعة"
                   sequence="1"

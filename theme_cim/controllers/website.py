@@ -8,7 +8,7 @@ class Website(Website):
     def index(self, **kw):
         """function home page"""
         super(Website, self).index(**kw)
-        data = {'slider_home': request.env['slider.home'].sudo().search([]),
-                'ticker_news': request.env['ticker.news'].sudo().search([]),
+        data = {'slider_home': request.env['news'].sudo().search([('in_slider','=',True)]),
+                'ticker_news': request.env['news'].sudo().search([]),
                 'company_partners': request.env['company.partners'].sudo().search([])}
         return http.request.render('theme_cim.new_homepage', data)

@@ -1,9 +1,10 @@
 id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
-access_slider_home_public,slider.home.public,theme_cim.model_slider_home,,1,0,0,0
-access_slider_home_designer,slider.home.designer,theme_cim.model_slider_home,website.group_website_designer,1,1,1,1
 
-access_ticker_news_public,ticker.news.public,theme_cim.model_ticker_news,,1,0,0,0
-access_ticker_news_designer,ticker.news.designer,theme_cim.model_ticker_news,website.group_website_designer,1,1,1,1
+access_news_public,news.public,theme_cim.model_news,,1,0,0,0
+access_news_designer,news.designer,theme_cim.model_news,website.group_website_designer,1,1,1,1
+
+access_news_category_public,news.category.public,theme_cim.model_news_category,,1,0,0,0
+access_news_category_designer,news.category.designer,theme_cim.model_news_category,website.group_website_designer,1,1,1,1
 
 access_company_partners_public,company.partners.public,theme_cim.model_company_partners,,1,0,0,0
 access_company_partners_designer,company.partners.designer,theme_cim.model_company_partners,website.group_website_designer,1,1,1,1
