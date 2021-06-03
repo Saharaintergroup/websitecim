@@ -92,6 +92,7 @@ header{
         }
         .dropdown-item.active, .dropdown-item:active,.dropdown-item:hover{
             background-color:$color-blue-5;
+            color:#ffffff!important;
         }
         &:before{
             content:'';
