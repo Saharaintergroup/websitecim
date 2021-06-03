@@ -186,3 +186,7 @@ body:not(.o_connected_user){
         font-size:14px;
     }
 }
+
+.o_cc .dropdown-menu .dropdown-item:hover, .o_cc .dropdown-menu .dropdown-item:focus, .o_cc .dropdown-menu .dropdown-item h6:hover, .o_cc .dropdown-menu .dropdown-item h6:focus, .o_colored_level .o_cc .dropdown-menu .dropdown-item:hover, .o_colored_level .o_cc .dropdown-menu .dropdown-item:focus, .o_colored_level .o_cc .dropdown-menu .dropdown-item h6:hover, .o_colored_level .o_cc .dropdown-menu .dropdown-item h6:focus{
+    color:#ffffff!important;
+}
