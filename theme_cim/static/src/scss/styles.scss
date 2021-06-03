@@ -1051,6 +1051,29 @@
 }
 
 
+
+/*cover_details_news*/
+.cover_details_news{
+    height:350px;
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+}
+
+/*title_details_news*/
+.title_details_news{
+    background-color:$color-blue-3;
+    padding:15px;
+    > *{
+        margin:0;
+    }
+}
+
+
+
+
+
+
 /*-------------------------------------------------*/
 /************************STYLE AYA******************/
 .text_color_gray{

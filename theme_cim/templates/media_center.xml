@@ -11,299 +11,87 @@
                         <div id="wrap">
                             <section id="o_latest_news" class="o_latest_news pt50 pb50">
                                 <div class="container">
-                                    <h3 class="mb30 hr_title_horizontal">Latest news</h3>
-                                    <div class="row">
+                                    <h3 class="mb30 hr_title_horizontal">أهم الأخبار</h3>
+                                    <div class="row" t-if="len(top_news)>0">
+                                        <t t-set="first_item" t-value="top_news[0]"/>
                                         <div class="col-lg-6">
                                             <div class="box_latest_news d-flex align-items-end">
-                                                <div class="cover_latest_news"
-                                                     style="background-image: url('/theme_cim/static/src/images/news/news-1.png');"/>
-                                                <div class="content_latest_news">
-                                                    <h6 class="title_latest_news">Libya News Newspaper interviews Mr.
-                                                        Amjad
-                                                    </h6>
-                                                    <p>Libya News Newspaper interviews Mr. Amjad
-                                                        Al-Cherabee, Director of Projects Administration, and Mr. Najmi
-                                                        Tate, Director of Strategy, Planning and Follow-up Department
-                                                        In the Public Authority for Communications and Informatics
-                                                    </p>
-                                                    <div class="categ_box mb10">Politics</div>
-                                                </div>
+                                                <a t-attf-href="/media-center/#{first_item.id}">
+                                                    <div class="cover_latest_news"
+                                                         t-attf-style="background-image:url(data:image/jpg;base64,{{ first_item.image }})"/>
+                                                    <div class="content_latest_news">
+                                                        <h6 class="title_latest_news" t-esc="first_item.name"/>
+                                                        <p t-esc="first_item.short_description"/>
+                                                        <div class="categ_box mb10"
+                                                             t-esc="first_item.category_id.name"/>
+                                                    </div>
+                                                </a>
                                             </div>
                                         </div>
                                         <div class="col-lg-6">
                                             <div class="row">
-                                                <div class="col-sm-6">
-                                                    <div class="box_latest_news d-flex align-items-end">
-                                                        <div class="cover_latest_news"
-                                                             style="background-image: url('/theme_cim/static/src/images/news/news-2.png');"/>
-                                                        <div class="content_latest_news">
-                                                            <h6 class="title_latest_news">Libya News Newspaper
-                                                                interviews Mr. Amjad
-                                                            </h6>
-                                                            <p>Libya News Newspaper interviews Mr. Amjad
-                                                                Al-Cherabee, Director of Projects Administration, and
-                                                                Mr.
-                                                                Najmi
-                                                                Tate, Director of Strategy, Planning and Follow-up
-                                                                Department
-                                                                In the Public Authority for Communications and
-                                                                Informatics
-                                                            </p>
-                                                            <div class="categ_box mb10">Politics</div>
+                                                <div class="col-sm-6" t-foreach="top_news[1:len(top_news)]" t-as="item">
+                                                    <a t-attf-href="/media-center/#{item.id}">
+                                                        <div class="box_latest_news d-flex align-items-end">
+                                                            <div class="cover_latest_news"
+                                                                 t-attf-style="background-image:url(data:image/jpg;base64,{{ item.image }})"/>
+                                                            <div class="content_latest_news">
+                                                                <h6 class="title_latest_news" t-esc="item.name"/>
+                                                                <p t-esc="item.short_description"/>
+                                                                <div class="categ_box mb10"
+                                                                     t-esc="item.category_id.name"/>
+                                                            </div>
                                                         </div>
-                                                    </div>
-                                                </div>
-                                                <div class="col-sm-6">
-                                                    <div class="box_latest_news d-flex align-items-end">
-                                                        <div class="cover_latest_news"
-                                                             style="background-image: url('/theme_cim/static/src/images/news/news-3.png');"/>
-                                                        <div class="content_latest_news">
-                                                            <h6 class="title_latest_news">Libya News Newspaper
-                                                                interviews Mr. Amjad
-                                                            </h6>
-                                                            <p>Libya News Newspaper interviews Mr. Amjad
-                                                                Al-Cherabee, Director of Projects Administration, and
-                                                                Mr.
-                                                                Najmi
-                                                                Tate, Director of Strategy, Planning and Follow-up
-                                                                Department
-                                                                In the Public Authority for Communications and
-                                                                Informatics
-                                                            </p>
-                                                            <div class="categ_box mb10">Politics</div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="col-sm-6">
-                                                    <div class="box_latest_news d-flex align-items-end">
-                                                        <div class="cover_latest_news"
-                                                             style="background-image: url('/theme_cim/static/src/images/news/news-4.png');"/>
-                                                        <div class="content_latest_news">
-                                                            <h6 class="title_latest_news">Libya News Newspaper
-                                                                interviews Mr. Amjad
-                                                            </h6>
-                                                            <p>Libya News Newspaper interviews Mr. Amjad
-                                                                Al-Cherabee, Director of Projects Administration, and
-                                                                Mr.
-                                                                Najmi
-                                                                Tate, Director of Strategy, Planning and Follow-up
-                                                                Department
-                                                                In the Public Authority for Communications and
-                                                                Informatics
-                                                            </p>
-                                                            <div class="categ_box mb10">Politics</div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="col-sm-6">
-                                                    <div class="box_latest_news d-flex align-items-end">
-                                                        <div class="cover_latest_news"
-                                                             style="background-image: url('/theme_cim/static/src/images/news/news-5.png');"/>
-                                                        <div class="content_latest_news">
-                                                            <h6 class="title_latest_news">Libya News Newspaper
-                                                                interviews Mr. Amjad
-                                                            </h6>
-                                                            <p>Libya News Newspaper interviews Mr. Amjad
-                                                                Al-Cherabee, Director of Projects Administration, and
-                                                                Mr.
-                                                                Najmi
-                                                                Tate, Director of Strategy, Planning and Follow-up
-                                                                Department
-                                                                In the Public Authority for Communications and
-                                                                Informatics
-                                                            </p>
-                                                            <div class="categ_box mb10">Politics</div>
-                                                        </div>
-                                                    </div>
+                                                    </a>
                                                 </div>
                                             </div>
                                         </div>
+                                    </div>
+                                    <div class="d-flex justify-content-center align-items-center"
+                                         style="min-height:200px;" t-else="">
+                                        <span class="text-content-empty">عفوا ، لا توجد اخبار مهمة في الوقت الحالي
+                                        </span>
                                     </div>
                                 </div>
                             </section>
 
                             <section id="o_most_discussed" class="o_most_discussed pt50 pb50">
                                 <div class="container">
-                                    <h3 class="mb40 hr_title_horizontal">Most discussed</h3>
-                                    <div class="card card-cim mt10 mb20">
-                                        <div class="row">
-                                            <div class="col-md-5">
-                                                <div class="card-img"
-                                                     style="background-image: url('/theme_cim/static/src/images/colleagues.png');"/>
-                                            </div>
-                                            <div class="col-md-7">
-                                                <div class="card-body clearfix">
-                                                    <h5 class="card-title mb-1">Csir Citation Yallamco Laboras Nessi
-                                                        Yut
-                                                    </h5>
-                                                    <p class="card-text">
-                                                        <small class="text-muted">Last updated 3 mins ago</small>
-                                                    </p>
-                                                    <p class="card-text tree-line">Csir Citation Yallamco Laboras Nessi
-                                                        Yut Aleicube X Aia Commodo Consecioat.
-                                                        Ioty Ariri Dollar In Reprihenderit Folyopatty Fillet Ice Ace
-                                                        Killium Dollar Io Vegate
-                                                        Yola Parriatore. Examination Scientist
-                                                    </p>
-                                                    <a href="" class="wishlist_most_discussed">
-                                                        <i class="fa fa-heart-o"/>
-                                                    </a>
-                                                    <a href="" class="float-right">Read more</a>
-
+                                    <h3 class="mb40 hr_title_horizontal">الموضوعات الأكثر تداولاً</h3>
+                                    <t t-if="len(most_popular)>0">
+                                        <div class="card card-cim mt10 mb20" t-foreach="most_popular" t-as="item">
+                                            <div class="row">
+                                                <div class="col-md-5">
+                                                    <div class="card-img"
+                                                         t-attf-style="background-image:url(data:image/jpg;base64,{{ item.image }})"/>
+                                                </div>
+                                                <div class="col-md-7">
+                                                    <div class="card-body clearfix">
+                                                        <h5 class="card-title mb-1" t-esc="item.name"/>
+                                                        <p class="card-text">
+                                                            <small class="text-muted" t-esc="item.write_date"/>
+                                                        </p>
+                                                        <p class="card-text tree-line" t-esc="item.short_description"/>
+                                                        <!--                                                    <a href="" class="wishlist_most_discussed">-->
+                                                        <!--                                                        <i class="fa fa-heart-o"/>-->
+                                                        <!--                                                    </a>-->
+                                                        <a t-attf-href="/media-center/#{item.id}" class="float-right">
+                                                            متابعة القراءة
+                                                        </a>
+                                                    </div>
                                                 </div>
                                             </div>
                                         </div>
+                                    </t>
+
+                                    <div class="d-flex justify-content-center align-items-center"
+                                         style="min-height:200px;" t-else="">
+                                        <span class="text-content-empty">عفوا ، لا توجد اخبار في الوقت الحالي
+                                        </span>
                                     </div>
-                                    <div class="card card-cim mt10 mb20">
-                                        <div class="row">
-                                            <div class="col-md-5">
-                                                <div class="card-img"
-                                                     style="background-image: url('/theme_cim/static/src/images/colleagues.png');"/>
-                                            </div>
-                                            <div class="col-md-7">
-                                                <div class="card-body clearfix">
-                                                    <h5 class="card-title mb-1">Csir Citation Yallamco Laboras Nessi
-                                                        Yut
-                                                    </h5>
-                                                    <p class="card-text">
-                                                        <small class="text-muted">Last updated 3 mins ago</small>
-                                                    </p>
-                                                    <p class="card-text tree-line">Csir Citation Yallamco Laboras Nessi
-                                                        Yut Aleicube X Aia Commodo Consecioat.
-                                                        Ioty Ariri Dollar In Reprihenderit Folyopatty Fillet Ice Ace
-                                                        Killium Dollar Io Vegate
-                                                        Yola Parriatore. Examination Scientist
-                                                    </p>
-                                                    <a href="" class="wishlist_most_discussed">
-                                                        <i class="fa fa-heart-o"/>
-                                                    </a>
-                                                    <a href="" class="float-right">Read more</a>
-
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="card card-cim mt10 mb20">
-                                        <div class="row">
-                                            <div class="col-md-5">
-                                                <div class="card-img"
-                                                     style="background-image: url('/theme_cim/static/src/images/colleagues.png');"/>
-                                            </div>
-                                            <div class="col-md-7">
-                                                <div class="card-body clearfix">
-                                                    <h5 class="card-title mb-1">Csir Citation Yallamco Laboras Nessi
-                                                        Yut
-                                                    </h5>
-                                                    <p class="card-text">
-                                                        <small class="text-muted">Last updated 3 mins ago</small>
-                                                    </p>
-                                                    <p class="card-text tree-line">Csir Citation Yallamco Laboras Nessi
-                                                        Yut Aleicube X Aia Commodo Consecioat.
-                                                        Ioty Ariri Dollar In Reprihenderit Folyopatty Fillet Ice Ace
-                                                        Killium Dollar Io Vegate
-                                                        Yola Parriatore. Examination Scientist
-                                                    </p>
-                                                    <a href="" class="wishlist_most_discussed">
-                                                        <i class="fa fa-heart-o"/>
-                                                    </a>
-                                                    <a href="" class="float-right">Read more</a>
-
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="card card-cim mt10 mb20">
-                                        <div class="row">
-                                            <div class="col-md-5">
-                                                <div class="card-img"
-                                                     style="background-image: url('/theme_cim/static/src/images/colleagues.png');"/>
-                                            </div>
-                                            <div class="col-md-7">
-                                                <div class="card-body clearfix">
-                                                    <h5 class="card-title mb-1">Csir Citation Yallamco Laboras Nessi
-                                                        Yut
-                                                    </h5>
-                                                    <p class="card-text">
-                                                        <small class="text-muted">Last updated 3 mins ago</small>
-                                                    </p>
-                                                    <p class="card-text tree-line">Csir Citation Yallamco Laboras Nessi
-                                                        Yut Aleicube X Aia Commodo Consecioat.
-                                                        Ioty Ariri Dollar In Reprihenderit Folyopatty Fillet Ice Ace
-                                                        Killium Dollar Io Vegate
-                                                        Yola Parriatore. Examination Scientist
-                                                    </p>
-                                                    <a href="" class="wishlist_most_discussed">
-                                                        <i class="fa fa-heart-o"/>
-                                                    </a>
-                                                    <a href="" class="float-right">Read more</a>
-
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="card card-cim mt10 mb20">
-                                        <div class="row">
-                                            <div class="col-md-5">
-                                                <div class="card-img"
-                                                     style="background-image: url('/theme_cim/static/src/images/colleagues.png');"/>
-                                            </div>
-                                            <div class="col-md-7">
-                                                <div class="card-body clearfix">
-                                                    <h5 class="card-title mb-1">Csir Citation Yallamco Laboras Nessi
-                                                        Yut
-                                                    </h5>
-                                                    <p class="card-text">
-                                                        <small class="text-muted">Last updated 3 mins ago</small>
-                                                    </p>
-                                                    <p class="card-text tree-line">Csir Citation Yallamco Laboras Nessi
-                                                        Yut Aleicube X Aia Commodo Consecioat.
-                                                        Ioty Ariri Dollar In Reprihenderit Folyopatty Fillet Ice Ace
-                                                        Killium Dollar Io Vegate
-                                                        Yola Parriatore. Examination Scientist
-                                                    </p>
-                                                    <a href="" class="wishlist_most_discussed">
-                                                        <i class="fa fa-heart-o"/>
-                                                    </a>
-                                                    <a href="" class="float-right">Read more</a>
-
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                    <div class="mt40">
-                                        <ul class="justify-content-center pagination m-0 ">
-                                            <li class="page-item disabled">
-                                                <a data-oe-model="ir.ui.view" data-oe-id="439" data-oe-field="arch"
-                                                   data-oe-xpath="/t[1]/ul[1]/li[1]/a[1]" class="page-link post_link">
-                                                    Prev
-                                                </a>
-                                            </li>
-
-                                            <li class="page-item active">
-                                                <a href="#" class="page-link post_link">1</a>
-                                            </li>
-
-                                            <li class="page-item ">
-                                                <a href="#" class="page-link post_link">2</a>
-                                            </li>
-
-                                            <li class="page-item ">
-                                                <a href="#" class="page-link post_link">3</a>
-                                            </li>
-
-                                            <li class="page-item ">
-                                                <a href="#" class="page-link post_link">4</a>
-                                            </li>
-
-                                            <li class="page-item ">
-                                                <a data-oe-model="ir.ui.view" data-oe-id="439" data-oe-field="arch"
-                                                   data-oe-xpath="/t[1]/ul[1]/li[2]/a[1]" href="#"
-                                                   class="page-link post_link">Next
-                                                </a>
-                                            </li>
-                                        </ul>
-                                    </div>
+                                    <t t-call="website.pager">
+                                        <t t-set="_classes">mt40 justify-content-center</t>
+                                    </t>
                                 </div>
                             </section>
                             <div class="oe_structure"/>
@@ -312,6 +100,38 @@
                 </t>
             </field>
         </record>
+
+        <record id="media_center_post_page" model="website.page">
+            <field name="name">Post of news</field>
+            <field name="type">qweb</field>
+            <field name="website_indexed" eval="False"/>
+            <field name="is_published">True</field>
+            <field name="key">theme_cim.media_center_post_page</field>
+            <field name="arch" type="xml">
+                <t name="Post of bids" t-name="theme_cim.media_center_post_page">
+                    <t t-call="website.layout">
+                        <div id="wrap">
+                            <section class="pt50 pb50">
+                                <div class="container">
+                                    <div class="cover_details_news" t-if="record.image"
+                                         t-attf-style="background-image:url(data:image/jpg;base64,{{ record.image }})"/>
+                                    <div class="title_details_news">
+                                        <h3 t-esc="record.name"/>
+                                    </div>
+                                    <h4 class="mt30" t-esc="record.short_description"/>
+                                    <div class="mt40 mb40" t-field="record.description"/>
+                                </div>
+
+
+                            </section>
+                            <div class="oe_structure"/>
+                        </div>
+                    </t>
+                </t>
+            </field>
+        </record>
+
+
         <record id="media_center_page" model="website.page">
             <field name="url">/media-center</field>
             <field name="website_published">True</field>
