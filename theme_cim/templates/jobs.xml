@@ -15,7 +15,7 @@
                         <div id="wrap">
                             <section class="section_announcements pt50 pb50">
                                 <div class="container">
-                                    <h3 class="hr_title_horizontal mb30">قائمة الوظائف المتاحة</h3>
+                                    <h3 class="hr_title_horizontal mb30">الوظائف المتاحة</h3>
                                     <div class="row" t-if="jobs">
                                         <div class="col-md-4" t-foreach="jobs" t-as="item">
                                             <div class="box_latest_news d-flex align-items-end mt20">

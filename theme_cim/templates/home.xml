@@ -22,7 +22,9 @@
                                                     <div class="col-xl-7 col-lg-8 col-md-9 col-sm-10 col-11">
                                                         <h1 class="mb20 slideOutUp" t-esc="item.name"/>
                                                         <div t-field="item.short_description"/>
-                                                        <a t-attf-href="/media-center/#{item.id}" class="btn btn-primary mt10">قراءة المزيد</a>
+                                                        <a t-attf-href="/media-center/#{item.id}"
+                                                           class="btn btn-primary mt10">قراءة المزيد
+                                                        </a>
                                                     </div>
                                                 </div>
                                             </div>
@@ -36,7 +38,9 @@
                                                     <div class="col-xl-7 col-lg-8 col-md-9 col-sm-10 col-11">
                                                         <h1 class="mb20 slideOutUp" t-esc="item.name"/>
                                                         <div t-field="item.short_description"/>
-                                                        <a t-attf-href="/media-center/#{item.id}" class="btn btn-primary mt10">قراءة المزيد</a>
+                                                        <a t-attf-href="/media-center/#{item.id}"
+                                                           class="btn btn-primary mt10">قراءة المزيد
+                                                        </a>
                                                     </div>
                                                 </div>
                                             </div>
@@ -143,34 +147,39 @@
                     <!--== Statistics ==-->
                     <section id="o_our_business" class="bg-white pt40 pb40">
                         <div class="container">
-                            <h3 class="mb20 hr_title_horizontal color-blue-4">الإحصائيات</h3>
+                            <h3 class="mb20 hr_title_horizontal color-blue-4">مجالات استخدام شبكة المعلومات
+                            </h3>
                             <div class="row skill-part">
                                 <div class="col-md-6 col-lg-3 skill-item mt10">
-                                    <div class="first circle pl10 pr10" data-skill-level="92">
+                                    <div class="first circle pl10 pr10" data-skill-level="23">
                                         <h6></h6>
-                                        <span class="sk-name">تراخيص خدمات الاتصالات</span>
-                                        <p>ما تم انجازه من معاملات تجديد واصدار للفئة الثانية والثالثة
-                                        </p>
+                                        <span class="sk-name">البريد الالكتروني - الاتصالات
+</span>
+<!--                                        <p>ما تم انجازه من معاملات تجديد واصدار للفئة الثانية والثالثة-->
+<!--                                        </p>-->
                                     </div>
                                 </div>
                                 <div class="col-md-6 col-lg-3 skill-item mt10">
-                                    <div class="second circle pl10 pr10" data-skill-level="80">
+                                    <div class="second circle pl10 pr10" data-skill-level="34">
                                         <h6></h6>
-                                        <span class="sk-name">تراخيص الطيف 2020</span>
-                                        <p>ما تم انجازاه من معاملات تجديد واصدار لتراخيص الطيف الترددي</p>
+                                        <span class="sk-name">المعلومات الدراسة - الصحف الالكترونية
+</span>
+<!--                                        <p>ما تم انجازاه من معاملات تجديد واصدار لتراخيص الطيف الترددي</p>-->
                                     </div>
                                 </div>
                                 <div class="col-md-6 col-lg-3 skill-item mt10">
-                                    <div class="third circle pl10 pr10" data-skill-level="70">
+                                    <div class="third circle pl10 pr10" data-skill-level="7">
                                         <h6></h6>
-                                        <span class="sk-name">الاتفاقيات الدولية</span>
-                                        <p>تم ابرام اتفاقيات ...</p>
+                                        <span class="sk-name">المنتديات - التسوق
+</span>
+<!--                                        <p>تم ابرام اتفاقيات ...</p>-->
                                     </div>
                                 </div>
                                 <div class="col-md-6 col-lg-3 skill-item mt10">
-                                    <div class="fourth circle pl10 pr10" data-skill-level="90">
+                                    <div class="fourth circle pl10 pr10" data-skill-level="36">
                                         <h6></h6>
-                                        <span class="sk-name">عدد المكاتب</span>
+                                        <span class="sk-name">التواصل الاجتماعي - التشغيل والتنزيلات
+</span>
                                         <p></p>
                                     </div>
                                 </div>

@@ -36,8 +36,9 @@
 
                                     <!-- Language Selector -->
                                     <div class="d-flex align-items-center">
-                                        <span class="ml-auto time"><t
-                                                t-esc="datetime.datetime.now().strftime('%H:%M')"/>&amp;nbsp;PM
+                                        <span class="ml-auto time">
+                                            <t
+                                                t-esc="current_time"/>&amp;nbsp;PM
                                         </span>
                                         <t t-call="website.placeholder_header_language_selector">
                                             <t t-set="_div_classes" t-value="'ml-auto d-flex'"/>
@@ -76,13 +77,13 @@
                                 </t>
 
                             </t>
-                            <form class="nav-search form-inline my-2 my-lg-0">
-                                <input class="form-control" type="search" placeholder="what are you looking for ?"
-                                       aria-label="Search"/>
-                                <button class="btn" type="submit">
-                                    <i class="fa fa-search"/>
-                                </button>
-                            </form>
+<!--                            <form class="nav-search form-inline my-2 my-lg-0">-->
+<!--                                <input class="form-control" type="search" placeholder="what are you looking for ?"-->
+<!--                                       aria-label="Search"/>-->
+<!--                                <button class="btn" type="submit">-->
+<!--                                    <i class="fa fa-search"/>-->
+<!--                                </button>-->
+<!--                            </form>-->
                         </div>
 
                         <!-- Navbar Toggler -->
