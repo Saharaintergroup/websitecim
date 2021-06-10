@@ -3,7 +3,7 @@
     <data>
 
         <!-- === Home Page === -->
-        <template id="theme_cim.new_homepage" inherit_id="website.homepage">
+        <template id="theme_cim.new_homepage" inherit_id="website.homepage" name="Home">
             <xpath expr="//div[@id='wrap']" position="replace">
                 <div id="wrap" class="oe_structure">
 
