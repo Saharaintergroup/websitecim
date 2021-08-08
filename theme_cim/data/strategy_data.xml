@@ -24,15 +24,15 @@
             <field name="attachment_id" ref="theme_cim.pdf_strategy_2"/>
         </record>
         <!--decisions_3-->
-        <record id="pdf_strategy_3" model="ir.attachment">
+        <record id="pdf_report_3" model="ir.attachment">
             <field name="name">التقرير_السنوي_2020.pdf</field>
             <field name="datas" type="base64" file="theme_cim/static/src/data/strategy/التقرير_السنوي_2020.pdf"></field>
             <field name="mimetype">application/pdf;base64</field>
             <field name="public">True</field>
         </record>
-        <record id="strategy_3" model="strategy">
+        <record id="report_3" model="reports">
             <field name="name">التقرير السنوي 2020</field>
-            <field name="attachment_id" ref="theme_cim.pdf_strategy_3"/>
+            <field name="attachment_id" ref="theme_cim.pdf_report_3"/>
         </record>
 
     </data>

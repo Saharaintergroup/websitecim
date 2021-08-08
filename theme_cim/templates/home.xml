@@ -3,7 +3,7 @@
     <data>
 
         <!-- === Home Page === -->
-        <template id="theme_cim.new_homepage" inherit_id="website.homepage">
+        <template id="theme_cim.new_homepage" inherit_id="website.homepage" name="Home">
             <xpath expr="//div[@id='wrap']" position="replace">
                 <div id="wrap" class="oe_structure">
 
@@ -93,6 +93,7 @@
                                                 بيئة تنافسية عادلة وحرة، وهي الجهة القانونية المسؤولة عن إصدار التراخيص
                                                 أو الإعفاء منها بموجب قانون الاتصالات
                                             </p>
+                                            <p class="read_more_link_btn" href="/organization-of-communications">للمزيد اضغط هنا</p>
                                         </div>
                                     </a>
                                 </div>
@@ -108,6 +109,7 @@
                                                 الخاصة والجمهور عموما، ووضع المعلومة في متناول الأفراد وذلك لخلق علاقة
                                                 شفافة تتصف بالسرعة والدقة تهدف للارتقاء بجودة الأداء
                                             </p>
+                                            <p class="read_more_link_btn" href="/electronic-government">للمزيد اضغط هنا</p>
                                         </div>
                                     </a>
                                 </div>
@@ -124,6 +126,7 @@
                                                 قفزة نوعية في كامل الخدمات التقنية لمواكبة آخر المستجدات التكنولوجية
                                                 والتقنية في العالم
                                             </p>
+                                            <p class="read_more_link_btn" href="/sector-development">للمزيد اضغط هنا</p>
                                         </div>
                                     </a>
                                 </div>
@@ -137,6 +140,7 @@
                                             <p>هو النشاط الذي يؤمن حماية الموارد البشرية والاساليب المرتبطة بتقنيات
                                                 الاتصالات والمعلومات
                                             </p>
+                                            <p class="read_more_link_btn" href="/company_partners/1">للمزيد اضغط هنا</p>
                                         </div>
                                     </a>
                                 </div>
@@ -147,7 +151,7 @@
                     <!--== Statistics ==-->
                     <section id="o_our_business" class="bg-white pt40 pb40">
                         <div class="container">
-                            <h3 class="mb20 hr_title_horizontal color-blue-4">مجالات استخدام شبكة المعلومات
+                            <h3 class="mb20 hr_title_horizontal color-blue-4">احصائيات استخدام شبكة المعلومات حسب الانشطة
                             </h3>
                             <div class="row skill-part">
                                 <div class="col-md-6 col-lg-3 skill-item mt10">

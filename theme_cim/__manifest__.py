@@ -41,6 +41,7 @@
         "views/decisions_views.xml",
         "views/numbering_models_views.xml",
         "views/strategy_views.xml",
+        "views/reports_views.xml",
         "views/egovernment_files_views.xml",
         "views/common_questions_views.xml",
         'views/accreditation_devices_views.xml',

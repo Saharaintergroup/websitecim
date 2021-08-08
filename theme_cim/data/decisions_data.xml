@@ -1,6 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <odoo>
-    <data noupdate="0">
+    <data noupdate="1">
+        <record id="systems_category" model="decisions.category">
+            <field name="name">الأنظمة</field>
+        </record>
+        <record id="laws_category" model="decisions.category">
+            <field name="name">القوانين</field>
+        </record>
+        <record id="regulations_category" model="decisions.category">
+            <field name="name">اللوائح</field>
+        </record>
+        <record id="controls_instructions_category" model="decisions.category">
+            <field name="name">الضوابط والتعليمات</field>
+        </record>
+        <record id="resolutions_publications_category" model="decisions.category">
+            <field name="name">القرارات والمنشورات</field>
+        </record>
+    </data>
+
+    <data noupdate="1">
         <!--decisions_1-->
         <record id="pdf_decisions_1" model="ir.attachment">
             <field name="name">pdf_16.pdf</field>

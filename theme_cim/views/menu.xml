@@ -27,6 +27,11 @@
                   parent="cim_aboutus_menu"
                   action="strategy_action"/>
 
+        <menuitem id="cim_reports_menu" name="التقارير"
+                  sequence="1"
+                  parent="cim_aboutus_menu"
+                  action="reports_action"/>
+
         <menuitem id="cim_teams_menu" name="الطاقم التنفيذي"
                   sequence="2"
                   parent="cim_aboutus_menu"
@@ -129,5 +134,10 @@
                   sequence="1"
                   parent="cim_config_settings_menu"
                   action="jobs_department_action"/>
+        <!--Decisions category-->
+        <menuitem id="cim_decisions_category_menu" name="تصنيفات الإطار القانوني"
+                  sequence="2"
+                  parent="cim_config_settings_menu"
+                  action="decisions_category_action"/>
     </data>
 </odoo>

@@ -30,11 +30,17 @@ access_bids_designer,bids.designer,theme_cim.model_bids,website.group_website_de
 access_decisions_public,decisions.public,theme_cim.model_decisions,,1,0,0,0
 access_decisions_designer,decisions.designer,theme_cim.model_decisions,website.group_website_designer,1,1,1,1
 
+access_decisions_category_public,decisions.category.public,theme_cim.model_decisions_category,,1,0,0,0
+access_decisions_category_designer,decisions.category.designer,theme_cim.model_decisions_category,website.group_website_designer,1,1,1,1
+
 access_numbering_models_public,numbering.models.public,theme_cim.model_numbering_models,,1,0,0,0
 access_numbering_models_designer,numbering.models.designer,theme_cim.model_numbering_models,website.group_website_designer,1,1,1,1
 
 access_strategy_public,strategy.public,theme_cim.model_strategy,,1,0,0,0
 access_strategy_designer,strategy.designer,theme_cim.model_strategy,website.group_website_designer,1,1,1,1
+
+access_reports_public,reports.public,theme_cim.model_reports,,1,0,0,0
+access_reports_designer,reports.designer,theme_cim.model_reports,website.group_website_designer,1,1,1,1
 
 access_egovernment_files_public,egovernment.files.public,theme_cim.model_egovernment_files,,1,0,0,0
 access_egovernment_files_designer,egovernment.files.designer,theme_cim.model_egovernment_files,website.group_website_designer,1,1,1,1

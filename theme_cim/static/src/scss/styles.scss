@@ -552,6 +552,7 @@
            li{
             position:relative;
             padding:5px 5px 5px 0;
+            text-align: justify;
                &:before{
                     content:'';
                     display:inline-block;
@@ -1216,6 +1217,47 @@ p.project_sections {
     padding: 7px;
     border-radius: 6px;
 }
+.organizational_structure_info_container{
+    background: #fff;
+    border-radius: 30px;
+    padding-top: 5px;
+    padding: 7px 10px 3px;
+}
+p.organizational_structure_info_title {
+    text-align: center;
+    background: rgba(49, 132, 175, .14);
+    padding: .1rem;
+    border-radius: 30px;
+    margin-bottom: 5px;
+    color: #3184af;
+    font-size: 14px;
+    font-weight: 600;
+}
+.organizational_structure_info_img_container {
+    text-align: center;
+    background: #fff;
+    padding: 20px 10px;
+    border-radius: 25px;
+    height: 175px;
+}
+.organizational_structure_info_img_text{
+    color: #3184af;
+    font-size: 11px;
+    font-weight: 900;
+    margin-top: 12px;
+}
+img.img-fluid.organizational_structure_info_img {
+    background: #e2eef4;
+    padding: 11px;
+    border-radius: 11px;
+    width: 60px;
+}
+/************** Updates  *******************/
+.read_more_link_btn{
+    font-weight: bolder;
+    text-decoration: underline !important;
+    cursor: pointer;
+}
 @media (max-width: 2000px){
 
 }
@@ -1229,6 +1271,9 @@ p.project_sections {
     .project_management_txt:after{
         right: -175px;
     }
+    .organizational_structure_info_img_container{
+        height: 200px;
+    }
 }
 @media (max-width: 991px){
     .project_management_txt:before{
@@ -1238,6 +1283,16 @@ p.project_sections {
     .project_management_txt:after{
         right: -135px;
         width: 160px;
+    }
+    img.img-fluid.organizational_structure_info_img{
+        width: 45px;
+    }
+    .organizational_structure_info_img_text {
+        color: #3184af;
+        font-size: 9px;
+    }
+    .organizational_structure_info_img_container {
+        height: 175px;
     }
 }
 
@@ -1253,6 +1308,16 @@ p.project_sections {
     }
     .project_management_desc{
         width: 100% !important;
+    }
+    .organizational_structure_info_img_container{
+        margin-bottom: 20px;
+    }
+    img.img-fluid.organizational_structure_info_img {
+        width: 75px;
+    }
+    .organizational_structure_info_img_text {
+        color: #3184af;
+        font-size: 12px;
     }
 }
 

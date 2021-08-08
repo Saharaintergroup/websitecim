@@ -223,7 +223,7 @@
                                     </div>
                                 </div>
                                 <div class="faq-list" t-if="strategy">
-                                    <h3 class="hr_title_horizontal mb30">المرفقات</h3>
+                                    <h3 class="hr_title_horizontal mb30">الخطة الاستراتيجية - التقرير السنوي لأوجه النشاط</h3>
                                     <div class="faq">
                                         <div class="row justify-content-between align-items-end mb30 mt30"
                                              t-foreach="strategy" t-as="item">
@@ -232,6 +232,23 @@
                                             </div>
                                             <div class="col-auto">
                                                 <a t-att-href="item.attachment_id.local_url" target="_blank"
+                                                   class="download"><img
+                                                        src="/theme_cim/static/src/images/icon/cloud-computing.svg"/>&amp;nbsp;تحميل
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="faq-list" t-if="reports">
+                                    <h3 class="hr_title_horizontal mb30"> التقرير السنوي لأوجه النشاط</h3>
+                                    <div class="faq">
+                                        <div class="row justify-content-between align-items-end mb30 mt30"
+                                             t-foreach="reports" t-as="report">
+                                            <div class="col-10">
+                                                <h5 class="faq-title" t-esc="report.name"/>
+                                            </div>
+                                            <div class="col-auto">
+                                                <a t-att-href="report.attachment_id.local_url" target="_blank"
                                                    class="download"><img
                                                         src="/theme_cim/static/src/images/icon/cloud-computing.svg"/>&amp;nbsp;تحميل
                                                 </a>
@@ -313,10 +330,48 @@
                         <section class="pt50 pb50">
                             <div class="container">
                                 <h3 class="hr_title_horizontal mb40">الهيكل التنظيمي</h3>
-                                <div class="d-flex justify-content-center align-items-center" style="min-height:200px;">
-                                    <span class="text-content-empty">عذرا ، لا يوجد هيكل تنظيمي في
-                                        الوقت الحاضر
-                                    </span>
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <div class="organizational_structure_info_container">
+                                            <p class="organizational_structure_info_title">رئيس الهيئة العامة للإتصالات والمعوماتية</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row mt-5">
+                                    <div class="offset-md-1 col-md-2">
+                                        <div class="organizational_structure_info_img_container">
+                                            <img class="img-fluid organizational_structure_info_img" src="theme_cim/static/src/images/organization_structure/mangement.png" />
+                                            <p class="organizational_structure_info_img_text">الإدارة العامة للشؤون
+                                                الإدراية والمالية والخدمات</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-2">
+                                        <div class="organizational_structure_info_img_container">
+                                            <img class="img-fluid organizational_structure_info_img" src="theme_cim/static/src/images/organization_structure/notes.png" />
+                                            <p class="organizational_structure_info_img_text">الإدارة العامة لشؤون التنظيم</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-2">
+                                        <div class="organizational_structure_info_img_container">
+                                            <img class="img-fluid organizational_structure_info_img" src="theme_cim/static/src/images/organization_structure/folder.png" />
+                                            <p class="organizational_structure_info_img_text">الإدارة العامة للخدمات
+                                                الإلكترونية</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-2">
+                                        <div class="organizational_structure_info_img_container">
+                                            <img class="img-fluid organizational_structure_info_img" src="theme_cim/static/src/images/organization_structure/development.png" />
+                                            <p class="organizational_structure_info_img_text">الإدارة العامة لتطوير
+                                                القطاع</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-2">
+                                        <div class="organizational_structure_info_img_container">
+                                            <img class="img-fluid organizational_structure_info_img" src="theme_cim/static/src/images/organization_structure/data-security.png" />
+                                            <p class="organizational_structure_info_img_text">الهيئة الوطنية لأمن
+                                                وسلامة المعلومات</p>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </section>
@@ -340,7 +395,7 @@
                     <div id="wrap">
                         <section class="pt50 pb50">
                             <div class="container">
-                                <h3 class="hr_title_horizontal mb40">الطاقم التنفيذي</h3>
+                                <h3 class="hr_title_horizontal mb40">رئيس الهيئة</h3>
                                 <div class="box_team d-flex align-items-center mt10 mb50" t-foreach="president"
                                      t-as="p">
                                     <img t-att-src="image_data_uri(p.image)" class="photo_team" t-if="p.image"/>
@@ -349,7 +404,7 @@
                                         <p class="mb0" t-esc="p.job_position"/>
                                     </div>
                                 </div>
-                                <h4 class="mb20">فريق إدارة المشروعات</h4>
+                                <h4 class="mb20">الطاقم التنفيذي</h4>
                                 <div class="carousel-team owl-carousel owl-theme">
                                     <div class="item" t-foreach="teams" t-as="team">
                                         <div class="box_team d-flex align-items-center mt10 mb30">
@@ -410,7 +465,7 @@
                                         </ul>
                                     </div>
                                 </div>
-                                <h5 class="specific_accreditation_subtitle">مكتب التعاون الدولي</h5>
+                                <h5 class="specific_accreditation_subtitle">المنظمات الدولية</h5>
                                 <p class="text_color_gray">وتعتبر الدولة الليبية عضو في الاتحادات والمنظمات الدولية التي
                                     تعني بقطاع الاتصالات والمعلوماتية وهي
                                 </p>
@@ -426,26 +481,24 @@
                                             <li>المنظمة الدولية للاتصالات الفضائية (ITSO)</li>
                                             <li>المنظمة العالمية للاتصالات البحرية (IMSO)</li>
                                         </ul>
-                                        <p style="opacity: 1;">وبالتالي تلتزم الدولة الليبية بدفع مساهمات سنوية نتيجة
+                                        <p style="text-align: justify;">وبالتالي تلتزم الدولة الليبية بدفع مساهمات سنوية نتيجة
                                             عضويتها في هذه الاتحادات والمنظمات الدولية لاتواجه المكتب أي صعوبات في
                                             الاتصال والمتابعة
-                                            في تنفيذ أعماله سوء على المستوى الداخلي أو على الصعيد العالمي مع الاتحادات
+                                            في تنفيذ أعماله سواء على المستوى الداخلي أو على الصعيد العالمي مع الاتحادات
                                             والمنظمات الدولية ويحاول بقدر الإمكان أن يواكب جميع المحافل
                                             والتطورات المتلاحقه في قطاع الإتصالات وتكنولوجيا المعلومات وذلك من خلال
                                             متابعة النشرات ونتائج المؤتمرات وورش العمل
                                         </p>
-                                        <ul style="opacity: 1;">
-                                            <li>في سنة (2020م)
-                                                ونظراً لتهديد القائم المتمثل في جائحة كورونا فقد أعتمدت دول العالم
+                                        <p style="text-align: justify;">
+                                                ونظراً للتهديد القائم المتمثل في جائحة كورونا فقد أعتمدت دول العالم
                                                 والمنظمات والإتحادات الاجتماعات عن بعد الأمر الذي خلق فرص كبيرة
-                                                للإستفاجة من
-                                                دور تكنولوجيا المعلومات والاتصالات في التواصل مع الدول العالم والمشاركة
+                                                للإستفادة من
+                                                دور تكنولوجيا المعلومات والاتصالات في التواصل مع دول العالم والمشاركة
                                                 في جميع الإجتماعات وورش العمل ذات الأهمية التي عقدت عن بعد من قبل
                                                 مختصين بالهيئة العامة للإتصالات والمعلوماتية وبالتالي فإن نشاط المكتب
                                                 خلال هذه السنة اقتصر على متابعة الأنشطة وللاجتماعات ذات الإهمية والدولية
                                                 والدورية التي عقدت عن بعد
-                                            </li>
-                                        </ul>
+                                        </p>
 
                                     </div>
                                 </div>
@@ -520,104 +573,33 @@
                             <div class="container">
                                 <div class="faq-list">
                                     <h3 class="hr_title_horizontal mb30">إدارة المشروعات</h3>
-                                    <p class="text_color_gray project_management_desc" style="width: 65%;">إدارة
-                                        المشروعات لا غنى عنها سواء في مجال الهندسة أو مجالات أخرى فهي التي تتيح للشركات
-                                        والمؤسسات
-                                        الاستخدام الأمثل للموارد للوصول إلى الأهداف كما أنها الوسيلة الأساسية لضمان نجاح
-                                        المشروعات وتجعل
-                                        الهيئة قادرة على ترتيب أولوياتها للمشروعات المختلفة فيما يتفق مع الرؤية
-                                        الاستراتيجية للهيئة. الغرض
-                                        والهدف الأساسي لإدارة المشروعات هو التأكد من تسليم المشروع في الموعد المحدد،
-                                        وضمن الميزانية مع
-                                        توافقه لمعايير الجودة ومتطلبات العميل
+                                    <p class="text_color_gray project_management_desc" style="width: 65%;">
+                                        تتولى الهيئة الإشراف على و متابعة عدد من  البرامج و المشروعات على المستوى الوطني و على مستوى القطاع
                                     </p>
-                                    <h5 class="list_circle_color">الأهداف الاستراتيجية للإدارة</h5>
+                                    <h5 class="list_circle_color">البرامج و المشروعات الإستراتيجية :</h5>
                                     <div class="faq">
                                         <ul class="mb-5">
-                                            <li>الحصول على شهادة عالمية في إدارة المشروعات</li>
-                                            <li>التأثير الايجابي في المنظومة الإدارية العامة بالهيئة</li>
-                                            <li>المساهمة في وضع مواصفات و معايير المشروعات</li>
-                                            <li>التطوير المستمر لكوادرالادارة والدفع بتطوير تقنيات إدارة المشروعات</li>
-                                            <li>وضع الخطط والسياسات التي تمهد لتنفيذ المشروعات.</li>
-                                            <li>الاشراف على مسار الاستراتيجية في أعمال القطاع والهيئة.</li>
+                                            <li>برنامج الخدمات الإلكترونية ( الحكومة الإلكترونية)</li>
+                                            <li>مشروع المدينة الذكية (Smart City)</li>
                                         </ul>
                                     </div>
-                                    <h5 class="specific_accreditation_subtitle" style="line-height: 2.2;">تفخر الهيئة
-                                        بوجود فريق لإدارة المشروعات يتمتع بخبرة واسعة ومتأصلة في جميع المجالات الهندسية
-                                        والصناعات. يقدم هذا الفريق
-                                        خدمات إدارة مشروعات شاملة باستخدام أحدث تقنيات الإدارة ومنهاجياتها، حيث تنقسم
-                                        إدارة المشروعات إلى عدة أقسام بطريقة تضمن
-                                        انسيابية المعلومة و سلاسة الاجراء وسهولة التحقق من البيانات كالتالي
-                                    </h5>
-                                </div>
-                                <div>
-                                    <div class="row">
-                                        <div class="offset-md-4 col-md-4">
-                                            <p class="project_management_txt">إدارة المشروعات</p>
-                                        </div>
-                                        <div class="col-md-4"/>
-                                        <div class="col-md-4">
-                                            <p class="project_sections border_top_after">قسم المعايير والتوثيق</p>
-                                        </div>
-                                        <div class="col-md-4">
-                                            <p class="project_sections border_top_after border_top_after_middle">قسم
-                                                مشروعات الهيئة
-                                            </p>
-                                        </div>
-                                        <div class="col-md-4">
-                                            <p class="project_sections border_top_after">قسم مشروعات القطاع</p>
-                                        </div>
-                                    </div>
-                                </div>
-
-                            </div>
-                        </section>
-                        <section class="section_announcements pt50 pb50">
-                            <div class="container">
-                                <div class="faq-list">
-                                    <h3 class="hr_title_horizontal mb30">مهام كل قسم في إدارة المشروعات</h3>
-                                    <h5 class="list_circle_color">قسم المعايير والتوثيق</h5>
+                                    <h5 class="list_circle_color">مشروعات القطاع</h5>
                                     <div class="faq">
                                         <ul class="mb-5">
-                                            <li>تقييم وتحديد احتياجات المشروعات</li>
-                                            <li>مراجعة ومصادقة خطط المشروعات والخطط الزمنية للمشروعات</li>
-                                            <li>اعداد ميثاق ودليل المشروعات</li>
-                                            <li>تقييم الاحتياجات التدريبية للادارة</li>
-                                            <li>المشاركة في ورش العمل والمساهمة في تنظيمها</li>
-                                            <li>اقتراح فرق عمل المشروعات</li>
-                                            <li>ارشفة المشروعات</li>
-                                            <li>المساهمة في وضع الخطط الاستراتيجية</li>
-                                            <li>مراقبة أداء المشروعات</li>
+                                            <li>مشروع تطوير الإستراتيجية الوطنية للقطاع بالتعاوع مع الإتحاد الدولي لللإتصالات</li>
                                         </ul>
                                     </div>
-                                    <h5 class="list_circle_color">قسم مشروعات الهيئة</h5>
+                                    <h5 class="list_circle_color"> مشروعات الهيئة</h5>
                                     <div class="faq">
                                         <ul class="mb-5">
-                                            <li>الاشراف على تنفيذ المشروعات</li>
-                                            <li>متابعة وتقييم المشروعات واعداد التقارير الدورية وتقارير الحالة</li>
-                                            <li>المشاركة في اعداد كراسات المواصفات</li>
-                                            <li>اعداد سجل الموردين</li>
-                                            <li>متابعة تمويل المشروعات</li>
-                                            <li>متابعة التسليمات المرحلية وسداد المستخلصات</li>
-                                        </ul>
-                                    </div>
-                                    <h5 class="list_circle_color">قسم مشروعات القطاع</h5>
-                                    <div class="faq">
-                                        <ul class="mb-5">
-                                            <li>المساهمة في اعداد خطط المشروعات الوطنية</li>
-                                            <li>الاشراف على المشروعات الوطنية للقطاع</li>
-                                            <li>متابعة وتقييم المشروعات واعداد التقارير الدورية وتقارير الحالة</li>
-                                            <li>توثيق كافة الإجراءات والتقارير الخاصة بالمشاريع وانشاء للمشروعات</li>
-                                            <li>المشاركة في ورش العمل والمساهمة في تنظيمها</li>
-                                            <li>تسجيل المشروعات المتعاقد عليها بما يضمن عدم تضاربها</li>
-                                            <li>متابعة مشروعات القطاع من خلال منظومة مراقبة</li>
-                                            <li>تقديم الدعم اللوجستي المتاح</li>
+                                            <li>مشرع تطوير المنظومة الإدارية للهيئة</li>
+                                            <li>مشروع البوابة الإلكترونية</li>
+                                            <li>مشاريع تنظيم الإتصالات</li>
                                         </ul>
                                     </div>
                                 </div>
                             </div>
                         </section>
-
                         <div class="oe_structure"/>
                     </div>
                 </t>
@@ -689,7 +671,7 @@
         <field name="parent_id" ref="website.main_menu"/>
         <field name="sequence" type="int">27</field>
     </record>
-        <!--إدارة المشروعات-->
+    <!--إدارة المشروعات-->
     <record id="menu_projects_management" model="website.menu">
         <field name="name">البرامج و المشروعات</field>
         <field name="url">/projects-management</field>

@@ -7,6 +7,7 @@ class Strategy(http.Controller):
                 website=True)
     def strategy_page(self, page=0, **kw):
         strategy = request.env['strategy'].sudo().search([])
+        reports = request.env['reports'].sudo().search([])
         total = strategy.sudo().search_count([])
         pager = request.website.pager(
             url='/strategy',
@@ -16,5 +17,5 @@ class Strategy(http.Controller):
         )
         offset = pager['offset']
         strategy = strategy[offset: offset + 10]
-        data = {'strategy': strategy, 'pager': pager}
+        data = {'strategy': strategy, 'reports': reports, 'pager': pager}
         return http.request.render('theme_cim.strategy_page', data)

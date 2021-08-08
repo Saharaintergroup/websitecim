@@ -105,6 +105,11 @@
                           class="o_mark_required" data-mark="*" data-model_name="mail.mail"
                           data-success-mode="redirect" data-success-page="/contactus-thank-you">
                         <div class="s_website_form_rows row s_col_no_bgcolor">
+                            <div class="form-group form-field d-none">
+                                <label class="col-form-label" for="email_to"/>
+                                <input type="text" class="form-control o_website_form_input" name="email_to" value="contactus@cim.gov.ly"/>
+                            </div>
+
                             <div class="form-group col-12 s_website_form_field s_website_form_custom s_website_form_required"
                                  data-type="char" data-name="Field">
                                 <div class="row s_col_no_resize s_col_no_bgcolor">
@@ -153,18 +158,18 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="form-group col-12 s_website_form_field s_website_form_dnone">
-                                <div class="row s_col_no_resize s_col_no_bgcolor">
-                                    <label class="col-form-label col-sm-auto s_website_form_label"
-                                           style="width: 200px" for="contact7">
-                                        <span class="s_website_form_label_content">Email To</span>
-                                    </label>
-                                    <div class="col-sm">
-                                        <input id="contact7" type="hidden" class="form-control s_website_form_input"
-                                               name="email_to"/>
-                                    </div>
-                                </div>
-                            </div>
+<!--                            <div class="form-group col-12 s_website_form_field s_website_form_dnone">-->
+<!--                                <div class="row s_col_no_resize s_col_no_bgcolor">-->
+<!--                                    <label class="col-form-label col-sm-auto s_website_form_label"-->
+<!--                                           style="width: 200px" for="contact7">-->
+<!--                                        <span class="s_website_form_label_content">Email To</span>-->
+<!--                                    </label>-->
+<!--                                    <div class="col-sm">-->
+<!--                                        <input id="contact7" type="hidden" class="form-control s_website_form_input"-->
+<!--                                               name="email_to"/>-->
+<!--                                    </div>-->
+<!--                                </div>-->
+<!--                            </div>-->
                             <div class="form-group col-12 s_website_form_submit" data-name="Submit Button">
                                 <a href="#" role="button"
                                    class="btn btn-secondary btn-lg d-block s_website_form_send">
@@ -269,7 +274,90 @@
                                 <div class="mt-4 mb-5">
                                     <div class="row">
                                         <div class="col-lg-6 mr-lg-auto">
-                                            <t t-call="theme_cim.website_form"/>
+                                            <section class="s_website_form" data-vcss="001" data-snippet="s_website_form">
+                                                <div class="container">
+                                                    <form id="contactus_form" action="/website_form/" method="post" enctype="multipart/form-data"
+                                                          class="o_mark_required" data-mark="*" data-model_name="mail.mail"
+                                                          data-success-mode="redirect" data-success-page="/contactus-thank-you">
+                                                        <div class="s_website_form_rows row s_col_no_bgcolor">
+                                                            <div class="form-group form-field d-none">
+                                                                <label class="col-form-label" for="email_to"/>
+                                                                <input type="text" class="form-control o_website_form_input" name="email_to" value="askchairman@cim.gov.ly"/>
+                                                            </div>
+
+                                                            <div class="form-group col-12 s_website_form_field s_website_form_custom s_website_form_required"
+                                                                 data-type="char" data-name="Field">
+                                                                <div class="row s_col_no_resize s_col_no_bgcolor">
+                                                                    <div class="col-sm">
+                                                                        <input id="contact1" type="text" class="form-control s_website_form_input"
+                                                                               name="Name" placeholder="الإسم" required=""/>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="form-group col-12 s_website_form_field s_website_form_custom"
+                                                                 data-type="char" data-name="Field">
+                                                                <div class="row s_col_no_resize s_col_no_bgcolor">
+                                                                    <div class="col-sm">
+                                                                        <input id="contact2" type="text" class="form-control s_website_form_input"
+                                                                               name="Address" placeholder="العنوان"/>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="form-group col-12 s_website_form_field s_website_form_required"
+                                                                 data-type="email" data-name="Field">
+                                                                <div class="row s_col_no_resize s_col_no_bgcolor">
+                                                                    <div class="col-sm">
+                                                                        <input id="contact3" type="email" class="form-control s_website_form_input"
+                                                                               name="email_from" placeholder="البريد الإلكترونى" required=""/>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+
+                                                            <div class="form-group col-12 s_website_form_field s_website_form_required d-none"
+                                                                 data-type="char" data-name="Field">
+                                                                <div class="row s_col_no_resize s_col_no_bgcolor">
+                                                                    <div class="col-sm">
+                                                                        <input id="contact5" type="text" class="form-control s_website_form_input"
+                                                                               name="subject" placeholder="Subject" required=""
+                                                                               value="Contact website"/>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="form-group col-12 s_website_form_field s_website_form_custom s_website_form_required"
+                                                                 data-type="text" data-name="Field">
+                                                                <div class="row s_col_no_resize s_col_no_bgcolor">
+                                                                    <div class="col-sm">
+                                                                        <textarea id="contact6" class="form-control s_website_form_input" rows="4"
+                                                                                  name="Description" placeholder="قم بكتابة رسالتك هنا"
+                                                                                  required=""></textarea>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <!--                                                            <div class="form-group col-12 s_website_form_field s_website_form_dnone">-->
+                                                            <!--                                                                <div class="row s_col_no_resize s_col_no_bgcolor">-->
+                                                            <!--                                                                    <label class="col-form-label col-sm-auto s_website_form_label"-->
+                                                            <!--                                                                           style="width: 200px" for="contact7">-->
+                                                            <!--                                                                        <span class="s_website_form_label_content">Email To</span>-->
+                                                            <!--                                                                    </label>-->
+                                                            <!--                                                                    <div class="col-sm">-->
+                                                            <!--                                                                        <input id="contact7" type="hidden" class="form-control s_website_form_input"-->
+                                                            <!--                                                                               name="email_to"/>-->
+                                                            <!--                                                                    </div>-->
+                                                            <!--                                                                </div>-->
+                                                            <!--                                                            </div>-->
+                                                            <div class="form-group col-12 s_website_form_submit" data-name="Submit Button">
+                                                                <a href="#" role="button"
+                                                                   class="btn btn-secondary btn-lg d-block s_website_form_send">
+                                                                    إرسال
+                                                                </a>
+                                                                <span id="s_website_form_result"></span>
+                                                            </div>
+                                                        </div>
+                                                    </form>
+                                                </div>
+                                            </section>
+
+                                            <!--                                            <t t-call="theme_cim.website_form"/>-->
                                         </div>
                                         <div class="col-lg-5 mt-4 mt-lg-0">
                                             <t t-call="theme_cim.information_contact"/>
@@ -358,7 +446,90 @@
                                 <div class="mt-4 mb-5">
                                     <div class="row">
                                         <div class="col-lg-6 mr-lg-auto">
-                                            <t t-call="theme_cim.website_form"/>
+                                            <section class="s_website_form" data-vcss="001" data-snippet="s_website_form">
+                                                <div class="container">
+                                                    <form id="contactus_form" action="/website_form/" method="post" enctype="multipart/form-data"
+                                                          class="o_mark_required" data-mark="*" data-model_name="mail.mail"
+                                                          data-success-mode="redirect" data-success-page="/contactus-thank-you">
+                                                        <div class="s_website_form_rows row s_col_no_bgcolor">
+                                                            <div class="form-group form-field d-none">
+                                                                <label class="col-form-label" for="email_to"/>
+                                                                <input type="text" class="form-control o_website_form_input" name="email_to" value="suggestions@cim.gov.ly"/>
+                                                            </div>
+
+                                                            <div class="form-group col-12 s_website_form_field s_website_form_custom s_website_form_required"
+                                                                 data-type="char" data-name="Field">
+                                                                <div class="row s_col_no_resize s_col_no_bgcolor">
+                                                                    <div class="col-sm">
+                                                                        <input id="contact1" type="text" class="form-control s_website_form_input"
+                                                                               name="Name" placeholder="الإسم" required=""/>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="form-group col-12 s_website_form_field s_website_form_custom"
+                                                                 data-type="char" data-name="Field">
+                                                                <div class="row s_col_no_resize s_col_no_bgcolor">
+                                                                    <div class="col-sm">
+                                                                        <input id="contact2" type="text" class="form-control s_website_form_input"
+                                                                               name="Address" placeholder="العنوان"/>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="form-group col-12 s_website_form_field s_website_form_required"
+                                                                 data-type="email" data-name="Field">
+                                                                <div class="row s_col_no_resize s_col_no_bgcolor">
+                                                                    <div class="col-sm">
+                                                                        <input id="contact3" type="email" class="form-control s_website_form_input"
+                                                                               name="email_from" placeholder="البريد الإلكترونى" required=""/>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+
+                                                            <div class="form-group col-12 s_website_form_field s_website_form_required d-none"
+                                                                 data-type="char" data-name="Field">
+                                                                <div class="row s_col_no_resize s_col_no_bgcolor">
+                                                                    <div class="col-sm">
+                                                                        <input id="contact5" type="text" class="form-control s_website_form_input"
+                                                                               name="subject" placeholder="Subject" required=""
+                                                                               value="Contact website"/>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="form-group col-12 s_website_form_field s_website_form_custom s_website_form_required"
+                                                                 data-type="text" data-name="Field">
+                                                                <div class="row s_col_no_resize s_col_no_bgcolor">
+                                                                    <div class="col-sm">
+                                                                        <textarea id="contact6" class="form-control s_website_form_input" rows="4"
+                                                                                  name="Description" placeholder="قم بكتابة رسالتك هنا"
+                                                                                  required=""></textarea>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <!--                                                            <div class="form-group col-12 s_website_form_field s_website_form_dnone">-->
+                                                            <!--                                                                <div class="row s_col_no_resize s_col_no_bgcolor">-->
+                                                            <!--                                                                    <label class="col-form-label col-sm-auto s_website_form_label"-->
+                                                            <!--                                                                           style="width: 200px" for="contact7">-->
+                                                            <!--                                                                        <span class="s_website_form_label_content">Email To</span>-->
+                                                            <!--                                                                    </label>-->
+                                                            <!--                                                                    <div class="col-sm">-->
+                                                            <!--                                                                        <input id="contact7" type="hidden" class="form-control s_website_form_input"-->
+                                                            <!--                                                                               name="email_to"/>-->
+                                                            <!--                                                                    </div>-->
+                                                            <!--                                                                </div>-->
+                                                            <!--                                                            </div>-->
+                                                            <div class="form-group col-12 s_website_form_submit" data-name="Submit Button">
+                                                                <a href="#" role="button"
+                                                                   class="btn btn-secondary btn-lg d-block s_website_form_send">
+                                                                    إرسال
+                                                                </a>
+                                                                <span id="s_website_form_result"></span>
+                                                            </div>
+                                                        </div>
+                                                    </form>
+                                                </div>
+                                            </section>
+
+                                            <!--                                            <t t-call="theme_cim.website_form"/>-->
                                         </div>
                                         <div class="col-lg-5 mt-4 mt-lg-0">
                                             <t t-call="theme_cim.information_contact"/>
@@ -561,7 +732,90 @@
                                 <div class="mt-4 mb-5">
                                     <div class="row">
                                         <div class="col-lg-6 mr-lg-auto">
-                                            <t t-call="theme_cim.website_form"/>
+                                            <!--                                            <t t-call="theme_cim.website_form"/>-->
+                                            <section class="s_website_form" data-vcss="001" data-snippet="s_website_form">
+                                                <div class="container">
+                                                    <form id="contactus_form" action="/website_form/" method="post" enctype="multipart/form-data"
+                                                          class="o_mark_required" data-mark="*" data-model_name="mail.mail"
+                                                          data-success-mode="redirect" data-success-page="/contactus-thank-you">
+                                                        <div class="s_website_form_rows row s_col_no_bgcolor">
+                                                            <div class="form-group form-field d-none">
+                                                                <label class="col-form-label" for="email_to"/>
+                                                                <input type="text" class="form-control o_website_form_input" name="email_to" value="complain@cim.gov.ly"/>
+                                                            </div>
+
+                                                            <div class="form-group col-12 s_website_form_field s_website_form_custom s_website_form_required"
+                                                                 data-type="char" data-name="Field">
+                                                                <div class="row s_col_no_resize s_col_no_bgcolor">
+                                                                    <div class="col-sm">
+                                                                        <input id="contact1" type="text" class="form-control s_website_form_input"
+                                                                               name="Name" placeholder="الإسم" required=""/>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="form-group col-12 s_website_form_field s_website_form_custom"
+                                                                 data-type="char" data-name="Field">
+                                                                <div class="row s_col_no_resize s_col_no_bgcolor">
+                                                                    <div class="col-sm">
+                                                                        <input id="contact2" type="text" class="form-control s_website_form_input"
+                                                                               name="Address" placeholder="العنوان"/>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="form-group col-12 s_website_form_field s_website_form_required"
+                                                                 data-type="email" data-name="Field">
+                                                                <div class="row s_col_no_resize s_col_no_bgcolor">
+                                                                    <div class="col-sm">
+                                                                        <input id="contact3" type="email" class="form-control s_website_form_input"
+                                                                               name="email_from" placeholder="البريد الإلكترونى" required=""/>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+
+                                                            <div class="form-group col-12 s_website_form_field s_website_form_required d-none"
+                                                                 data-type="char" data-name="Field">
+                                                                <div class="row s_col_no_resize s_col_no_bgcolor">
+                                                                    <div class="col-sm">
+                                                                        <input id="contact5" type="text" class="form-control s_website_form_input"
+                                                                               name="subject" placeholder="Subject" required=""
+                                                                               value="Contact website"/>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="form-group col-12 s_website_form_field s_website_form_custom s_website_form_required"
+                                                                 data-type="text" data-name="Field">
+                                                                <div class="row s_col_no_resize s_col_no_bgcolor">
+                                                                    <div class="col-sm">
+                                                                        <textarea id="contact6" class="form-control s_website_form_input" rows="4"
+                                                                                  name="Description" placeholder="قم بكتابة رسالتك هنا"
+                                                                                  required=""></textarea>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <!--                                                            <div class="form-group col-12 s_website_form_field s_website_form_dnone">-->
+                                                            <!--                                                                <div class="row s_col_no_resize s_col_no_bgcolor">-->
+                                                            <!--                                                                    <label class="col-form-label col-sm-auto s_website_form_label"-->
+                                                            <!--                                                                           style="width: 200px" for="contact7">-->
+                                                            <!--                                                                        <span class="s_website_form_label_content">Email To</span>-->
+                                                            <!--                                                                    </label>-->
+                                                            <!--                                                                    <div class="col-sm">-->
+                                                            <!--                                                                        <input id="contact7" type="hidden" class="form-control s_website_form_input"-->
+                                                            <!--                                                                               name="email_to"/>-->
+                                                            <!--                                                                    </div>-->
+                                                            <!--                                                                </div>-->
+                                                            <!--                                                            </div>-->
+                                                            <div class="form-group col-12 s_website_form_submit" data-name="Submit Button">
+                                                                <a href="#" role="button"
+                                                                   class="btn btn-secondary btn-lg d-block s_website_form_send">
+                                                                    إرسال
+                                                                </a>
+                                                                <span id="s_website_form_result"></span>
+                                                            </div>
+                                                        </div>
+                                                    </form>
+                                                </div>
+                                            </section>
+
                                         </div>
                                         <div class="col-lg-5 mt-4 mt-lg-0">
                                             <t t-call="theme_cim.information_contact"/>

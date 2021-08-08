@@ -8,6 +8,7 @@ from . import jobs
 from . import bids
 from . import decisions
 from . import strategy
+from . import reports
 from . import numbering_models
 from . import egovernment_files
 from . import common_questions
