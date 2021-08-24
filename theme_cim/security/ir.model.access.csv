@@ -33,6 +33,9 @@ access_decisions_designer,decisions.designer,theme_cim.model_decisions,website.g
 access_decisions_category_public,decisions.category.public,theme_cim.model_decisions_category,,1,0,0,0
 access_decisions_category_designer,decisions.category.designer,theme_cim.model_decisions_category,website.group_website_designer,1,1,1,1
 
+access_statistics_public,statistics.public,theme_cim.model_statistics,,1,0,0,0
+access_statistics_designer,statistics.designer,theme_cim.model_statistics,website.group_website_designer,1,1,1,1
+
 access_numbering_models_public,numbering.models.public,theme_cim.model_numbering_models,,1,0,0,0
 access_numbering_models_designer,numbering.models.designer,theme_cim.model_numbering_models,website.group_website_designer,1,1,1,1
 

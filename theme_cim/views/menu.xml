@@ -139,5 +139,11 @@
                   sequence="2"
                   parent="cim_config_settings_menu"
                   action="decisions_category_action"/>
+
+        <!--Statistics category-->
+        <menuitem id="Statistics_category_menu" name="الإحصائيات"
+                  sequence="3"
+                  parent="cim_config_settings_menu"
+                  action="statistics_action"/>
     </data>
 </odoo>

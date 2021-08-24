@@ -10,5 +10,6 @@ class Website(Website):
         super(Website, self).index(**kw)
         data = {'current_time':(datetime.now() + timedelta(hours=2)).strftime('%H:%M'),'slider_home': request.env['news'].sudo().search([('in_slider','=',True)]),
                 'ticker_news': request.env['news'].sudo().search([]),
+                'statistics': request.env['statistics'].sudo().search([]),
                 'company_partners': request.env['company.partners'].sudo().search([])}
         return http.request.render('theme_cim.new_homepage', data)

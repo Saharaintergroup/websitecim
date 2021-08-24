@@ -3,10 +3,10 @@ from odoo.http import request
 
 
 class Decisions(http.Controller):
-    @http.route(['/decisions', '/decisions/page/<int:page>'], type='http', auth="public",
+    @http.route(['/decisions/<int:decision_type_id>', '/decisions/<int:decision_type_id>/page/<int:page>'], type='http', auth="public",
                 website=True)
-    def decisions_page(self, page=0, **kw):
-        decisions = request.env['decisions'].sudo().search([])
+    def decisions_page(self, decision_type_id=False, page=0, **kw):
+        decisions = request.env['decisions'].sudo().search([('category_id','=',decision_type_id)])
         total = decisions.sudo().search_count([])
         pager = request.website.pager(
             url='/decisions',

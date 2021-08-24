@@ -15,3 +15,4 @@ from . import common_questions
 from . import accreditation_devices
 from . import call_center
 from . import frequency_spectrum
+from . import statistics

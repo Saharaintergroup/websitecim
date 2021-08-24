@@ -47,6 +47,7 @@
         'views/accreditation_devices_views.xml',
         'views/call_center_views.xml',
         'views/frequency_spectrum_views.xml',
+        'views/statistics.xml',
         "views/menu.xml",
         # data
         "data/company_partners_data.xml",
