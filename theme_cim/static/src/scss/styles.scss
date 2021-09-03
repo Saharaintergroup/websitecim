@@ -1252,6 +1252,33 @@ img.img-fluid.organizational_structure_info_img {
     border-radius: 11px;
     width: 60px;
 }
+.skill_container {
+    background: #b2bdc8;
+    padding: 1.7rem;
+    border-radius: 50%;
+    width: 100px;
+    margin: auto;
+    position: relative;
+    height: 100px;
+    overflow: hidden;
+}
+.skill_container span{
+    background: #ffffff;
+    border-radius: 50%;
+    margin: auto;
+    position: absolute;
+    padding: 24px 22px 24px 38px;
+    top: 10px;
+    left: 11px;
+    font-weight: 600;
+}
+.skill-part .skill-item p{
+    position: absolute;
+    top: 33px;
+    z-index: 9;
+    font-weight: 600;
+    right: 55px;
+}
 /************** Updates  *******************/
 .read_more_link_btn{
     font-weight: bolder;

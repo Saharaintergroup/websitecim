@@ -282,7 +282,7 @@
                                                         <div class="s_website_form_rows row s_col_no_bgcolor">
                                                             <div class="form-group form-field d-none">
                                                                 <label class="col-form-label" for="email_to"/>
-                                                                <input type="text" class="form-control o_website_form_input" name="email_to" value="askchairman@cim.gov.ly"/>
+                                                                <input type="text" class="form-control o_website_form_input" name="email_to" value="request.env['teams.teams'].sudo().search([('is_president', '=', True)]).email"/>
                                                             </div>
 
                                                             <div class="form-group col-12 s_website_form_field s_website_form_custom s_website_form_required"

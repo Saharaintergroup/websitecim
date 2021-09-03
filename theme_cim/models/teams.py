@@ -9,6 +9,7 @@ class TeamsTeams(models.Model):
     job_position = fields.Char(string='الوظيفة', required=True, translate=True)
     image = fields.Image("الصورة")
     is_president = fields.Boolean("هو الرئيس؟", default=False)
+    email = fields.Char("البريد الإلكتروني")
 
     def write(self, vals):
         if vals.get('is_president'):

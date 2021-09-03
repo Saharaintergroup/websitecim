@@ -154,40 +154,49 @@
                             <h3 class="mb20 hr_title_horizontal color-blue-4">احصائيات استخدام شبكة المعلومات حسب الانشطة
                             </h3>
                             <div class="row skill-part">
-                                <div class="col-md-6 col-lg-3 skill-item mt10">
-                                    <div class="first circle pl10 pr10" data-skill-level="23">
-                                        <h6></h6>
-                                        <span class="sk-name">البريد الالكتروني - الاتصالات
-</span>
-<!--                                        <p>ما تم انجازه من معاملات تجديد واصدار للفئة الثانية والثالثة-->
-<!--                                        </p>-->
+                                <t t-foreach="statistics" t-as="sta">
+                                    <div class="col-md-6 col-lg-3 skill-item mt10">
+                                        <t t-if="(sta.value >= 0 and sta.value &lt; 25)">
+                                            <div class="skill_container">
+                                                <div style="position: absolute;top: 50%; left: 50%; width: 100vw; height: 100vw; background: #43c0fd; transform: rotate(180deg) skew(230deg);transform-origin: 0 0;"></div>
+                                                <p>%</p>
+                                                <span class="sk-value" t-esc="sta.value"/>
+                                            </div>
+                                        </t>
+                                        <t t-if="(sta.value >= 25 and sta.value &lt; 50)">
+                                            <div class="skill_container">
+                                                <div style="position: absolute;top: 50%; left: 50%; width: 100vw; height: 100vw; background: #f8b421; transform: rotate(228deg) skew(0deg);transform-origin: 0 0;"></div>
+                                                <div style="position: absolute;top: 50%; left: 50%; width: 100vw; height: 100vw; background: #f8b421; transform: rotate(181deg) skew(0deg);transform-origin: 0 0;"></div>
+                                                <p>%</p>
+                                                <span class="sk-value" t-esc="sta.value"/>
+                                            </div>
+                                        </t>
+                                        <t t-if="(sta.value >= 50 and sta.value &lt; 75)">
+                                            <div class="skill_container">
+                                                <div style="position: absolute;top: 50%; left: 50%; width: 100vw; height: 100vw; background: #c683ff; transform: rotate(180deg) skew(0deg);transform-origin: 0 0;"></div>
+                                                <div style="position: absolute;top: 50%; left: 50%; width: 100vw; height: 100vw; background: #c683ff; transform: rotate(260deg) skew(0deg);transform-origin: 0 0;"></div>
+                                                <div style="position: absolute;top: 50%; left: 50%; width: 100vw; height: 100vw; background: #c683ff; transform: rotate(325deg) skew(0deg);transform-origin: 0 0;"></div>
+                                                <p>%</p>
+                                                <span class="sk-value" t-esc="sta.value"/>
+                                            </div>
+                                        </t>
+                                        <t t-if="(sta.value >= 75 and sta.value &lt; 100)">
+                                            <div class="skill_container">
+                                                <div style="position: absolute;top: 50%; left: 50%; width: 100vw; height: 100vw; background: #ef4832; transform: rotate(180deg) skew(0deg);transform-origin: 0 0;"></div>
+                                                <div style="position: absolute;top: 50%; left: 50%; width: 100vw; height: 100vw; background: #ef4832; transform: rotate(260deg) skew(0deg);transform-origin: 0 0;"></div>
+                                                <div style="position: absolute;top: 50%; left: 50%; width: 100vw; height: 100vw; background: #ef4832; transform: rotate(345deg) skew(0deg);transform-origin: 0 0;"></div>
+                                                <div style="position: absolute;top: 50%; left: 50%; width: 100vw; height: 100vw; background: #ef4832; transform: rotate(430deg) skew(0deg);transform-origin: 0 0;"></div>
+                                                <p>%</p>
+                                                <span class="sk-value" t-esc="sta.value"/>
+                                            </div>
+                                        </t>
+                                        <span class="sk-name" t-esc="sta.name"/>
                                     </div>
-                                </div>
-                                <div class="col-md-6 col-lg-3 skill-item mt10">
-                                    <div class="second circle pl10 pr10" data-skill-level="34">
-                                        <h6></h6>
-                                        <span class="sk-name">المعلومات الدراسة - الصحف الالكترونية
-</span>
-<!--                                        <p>ما تم انجازاه من معاملات تجديد واصدار لتراخيص الطيف الترددي</p>-->
-                                    </div>
-                                </div>
-                                <div class="col-md-6 col-lg-3 skill-item mt10">
-                                    <div class="third circle pl10 pr10" data-skill-level="7">
-                                        <h6></h6>
-                                        <span class="sk-name">المنتديات - التسوق
-</span>
-<!--                                        <p>تم ابرام اتفاقيات ...</p>-->
-                                    </div>
-                                </div>
-                                <div class="col-md-6 col-lg-3 skill-item mt10">
-                                    <div class="fourth circle pl10 pr10" data-skill-level="36">
-                                        <h6></h6>
-                                        <span class="sk-name">التواصل الاجتماعي - التشغيل والتنزيلات
-</span>
-                                        <p></p>
-                                    </div>
-                                </div>
+
+                                </t>
+
                             </div>
+
                         </div>
                     </section>
 
